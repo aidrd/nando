@@ -1,0 +1,1245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<style type="text/css">
+                                  .Class {padding:0.4em; width:99%; border-width: 1px; border-style: dashed; position:relative;
+					margin-top: 1.5em; border-style:solid; background:#e0e0e0}
+                                  .cp-type {font-weight: normal; font-size:90%; color:
+					maroon;} .nice-content td { width:50% }
+				  #header {
+                                        padding-top: 2px;
+                                        padding-left: 1px;
+                                        padding-right: 1px;
+					background-color: #333333;
+					
+					color: #ffffff;
+				  }
+				  #header a {
+                                        color: #ffffff;
+                                  }
+				  #header #logo {
+                                     padding-left: 20px;
+				  }
+				  #header #trail {
+                                     text-align: left;
+				  }
+				  #header #menu {
+                                     text-align: right;
+                                     padding-right: 20px;
+				  }
+				  body {
+                                    margin:0;
+                                    padding:0;
+                                    font-family: trebuchet ms,sans-serif!important;
+				  }
+				  table {
+                                    width:100%;
+                                    border-collapse: collapse;
+				  }
+				  #search {
+                                      margin-top:1em;
+                                      margin-left: 0.5em;
+                                      padding-left: 1px;
+                                      padding-right: 1px;
+                                      background-color: #F5F5F5;
+				  }
+				  h2, h3 {
+                                    border-bottom: 2px solid #ACBCD0;
+                                    color: #426490;
+                                    font-size: medium;
+                                    font-weight: bold;
+                                    margin-bottom: 0.5em;
+                                    margin-top: 1em;
+                                    padding: 0.25em 0;
+                                  }
+                                  .subsection {
+                                    margin-top: 0.5em;
+                                  }
+                                  th {
+                                     text-align: left;
+                                  }
+                                  .nice {
+                                    color: #000000;
+                                  }
+                                  .nice th, .nice td {
+                                      padding: 0.2em 0.3em;
+                                      vertical-align: top;
+                                  }
+                                  .nice tr td {
+                                    border-left: 1px solid #DEDEDE;
+                                  }
+                                  .nice tr td:first-child  {
+                                    border-left: 0px solid #DEDEDE;
+                                  }
+                                  .nice tr {
+                                    border-top: 1px solid #DEDEDE;
+                                  }
+                                  .nice tr:first-child {
+                                    border-top: 0px solid #DEDEDE;
+                                  }
+                                  #content {
+                                    margin-left:0.5em;
+                                    margin-right:0.5em;
+                                  }
+                                  .indent {
+                                    margin-left:2em;
+                                  }
+                                  #footer {
+                                    margin-top:1em;
+                                    padding-left:1px;
+                                    padding-right:1px;
+                                    background-color: #F5F5F5;
+                                    margin-bottom:0em;
+                                  }
+                                  #footer ul {
+                                     list-style: none outside none;
+                                  }
+				</style>
+</head>
+<body>
+<table id="header"><tr>
+<td id="logo"><a href="/" accesskey="1"><img src="http://www.biohackathon.org/bh-favicon.png" alt="" width="37px"></a></td>
+<td id="trail">
+					NANDO: Nanbyo Disease Ontology
+				</td>
+<td id="menu">
+<a href="http://biohackathon.org/resource/faldo.ttl">Turtle</a>
+					· <a href="http://biohackathon.org/resource/faldo.rdf">RDF/XML</a>
+                                        · <a href="https://groups.google.com/forum/#!forum/faldo" accesskey="9">Contact/Help</a>
+					· <a href="https://github.com/OBF/FALDO" rel="help">Documentation</a>
+</td>
+</tr></table>
+<table id="search">
+<tr><td style="width:20em;"><a href="#OntologyDescription">Ontology description</a></td></tr>
+<tr>
+<td><a href="#Classes">
+                                    Classes (
+                                    21
+                                    )
+                            </a></td>
+<td><select onChange="window.location.hash = document.getElementById('naviClass').value" id="naviClass"><option value="0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</option>
+<option value="0000002">http://nanbyodata.jp/ontology/nanbyo#0000002</option>
+<option value="0000003">http://nanbyodata.jp/ontology/nanbyo#0000003</option>
+<option value="0000004">http://nanbyodata.jp/ontology/nanbyo#0000004</option>
+<option value="0000005">http://nanbyodata.jp/ontology/nanbyo#0000005</option>
+<option value="0000006">http://nanbyodata.jp/ontology/nanbyo#0000006</option>
+<option value="0000007">http://nanbyodata.jp/ontology/nanbyo#0000007</option>
+<option value="0000008">http://nanbyodata.jp/ontology/nanbyo#0000008</option>
+<option value="0000009">http://nanbyodata.jp/ontology/nanbyo#0000009</option>
+<option value="0000010">http://nanbyodata.jp/ontology/nanbyo#0000010</option>
+<option value="0000011">http://nanbyodata.jp/ontology/nanbyo#0000011</option>
+<option value="0000012">http://nanbyodata.jp/ontology/nanbyo#0000012</option>
+<option value="0000013">http://nanbyodata.jp/ontology/nanbyo#0000013</option>
+<option value="0000014">http://nanbyodata.jp/ontology/nanbyo#0000014</option>
+<option value="0000015">http://nanbyodata.jp/ontology/nanbyo#0000015</option>
+<option value="0000016">http://nanbyodata.jp/ontology/nanbyo#0000016</option>
+<option value="0000017">http://nanbyodata.jp/ontology/nanbyo#0000017</option>
+<option value="0000018">http://nanbyodata.jp/ontology/nanbyo#0000018</option>
+<option value="0000019">http://nanbyodata.jp/ontology/nanbyo#0000019</option>
+<option value="0000020">http://nanbyodata.jp/ontology/nanbyo#0000020</option>
+<option value="0000021">http://nanbyodata.jp/ontology/nanbyo#0000021</option></select></td>
+</tr>
+<tr><td><a href="#Properties">
+                                    Properties (
+                                    2
+                                    )
+                            </a></td></tr>
+<tr>
+<td><a style="objectPropertySearch" href="#ObjectProperties">
+                                    Object properties (
+                                    2
+                                    )
+                            </a></td>
+<td><select onChange="window.location.hash = document.getElementById('navi3').value" id="navi3"><option value="classifiedWith">http://nanbyodata.jp/ontology/nanbyo#classifiedWith</option>
+<option value="has_notification_number">http://nanbyodata.jp/ontology/nanbyo#has_notification_number</option></select></td>
+</tr>
+<tr>
+<td><a style="datatypePropertySearch" href="#DatatypeProperties">
+                                    Datatype properties (
+                                    0
+                                    )
+                            </a></td>
+<td><select onChange="window.location.hash = window.location.hash = document.getElementById('navi4').value" id="navi4"></select></td>
+</tr>
+<tr>
+<td><a href="#InstanceData">
+                                    Instance data (
+                                    0
+                                    )
+                            </a></td>
+<td><select onChange="window.location.hash = window.location.hash = document.getElementById('navi5').value" id="navi5"></select></td>
+</tr>
+</table>
+<div id="content">
+<div id="sections">
+<div class="nice" id="section_OntologyDescription" style="position: relative;">
+<h2>
+						Ontology description
+					</h2>
+<div class="nice-content" id="OntologyDescription"><table>
+<tr><th colspan="2">
+<a></a><span class="cp-type">
+						(rdf:type
+						<a href="http://www.w3.org/2002/07/owl#Ontology">
+					owl:Ontology</a>
+						)
+					</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Hiroshi Masuya"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Kohta Ninomiya"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Orion Buske"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Ryota Yamada"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Shuichi Kawashima"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Soichi Ogishima"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Toshiaki Katayama"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Toyofumi Fujiwara"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/elements/1.1/creator">
+					dc:creator</a></td>
+<td>
+						"Yasunori Yamamoto"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/created">
+                                        dcterms:created</a></td>
+<td>
+						"2019-10-29T16:00:00"
+						<sup><a href=".">
+				xsd:dateTime</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/license">
+                                        dcterms:license</a></td>
+<td><a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/modified">
+                                        dcterms:modified</a></td>
+<td>
+						"2019-10-29T16:00:00"
+						<sup><a href=".">
+				xsd:dateTime</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2002/07/owl#versionIRI">
+					owl:versionIRI</a></td>
+<td><a href="http://nanbyodata.jp/version0.1">http://nanbyodata.jp/version0.1</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2002/07/owl#versionInfo">
+					owl:versionInfo</a></td>
+<td>
+						"0.1"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+</table></div>
+</div>
+<div class="nice" id="section_Classes" style="position: relative;">
+<h2>
+						Classes
+					</h2>
+<div class="nice-content" id="Classes">
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000001"></a><tbody>
+<tr><th id="0000001">http://nanbyodata.jp/ontology/nanbyo#0000001<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000001"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"疾患分類"
+						@ja</td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000002"></a><tbody>
+<tr><th id="0000002">http://nanbyodata.jp/ontology/nanbyo#0000002<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000002"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"神経・筋疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000003"></a><tbody>
+<tr><th id="0000003">http://nanbyodata.jp/ontology/nanbyo#0000003<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000003"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"代謝系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000004"></a><tbody>
+<tr><th id="0000004">http://nanbyodata.jp/ontology/nanbyo#0000004<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000004"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"皮膚・結合組織疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000005"></a><tbody>
+<tr><th id="0000005">http://nanbyodata.jp/ontology/nanbyo#0000005<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000005"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"免疫系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000006"></a><tbody>
+<tr><th id="0000006">http://nanbyodata.jp/ontology/nanbyo#0000006<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000006"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"循環器系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000007"></a><tbody>
+<tr><th id="0000007">http://nanbyodata.jp/ontology/nanbyo#0000007<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000007"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"血液系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000008"></a><tbody>
+<tr><th id="0000008">http://nanbyodata.jp/ontology/nanbyo#0000008<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000008"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"腎・泌尿器系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000009"></a><tbody>
+<tr><th id="0000009">http://nanbyodata.jp/ontology/nanbyo#0000009<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000009"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"骨・関節系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000010"></a><tbody>
+<tr><th id="0000010">http://nanbyodata.jp/ontology/nanbyo#0000010<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000010"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"内分泌系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000011"></a><tbody>
+<tr><th id="0000011">http://nanbyodata.jp/ontology/nanbyo#0000011<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000011"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"呼吸器系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000012"></a><tbody>
+<tr><th id="0000012">http://nanbyodata.jp/ontology/nanbyo#0000012<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000012"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"視覚系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000013"></a><tbody>
+<tr><th id="0000013">http://nanbyodata.jp/ontology/nanbyo#0000013<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000013"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"聴覚・平衡機能系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000014"></a><tbody>
+<tr><th id="0000014">http://nanbyodata.jp/ontology/nanbyo#0000014<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000014"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"消化器系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000015"></a><tbody>
+<tr><th id="0000015">http://nanbyodata.jp/ontology/nanbyo#0000015<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000015"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"染色体または遺伝子に変化を伴う症候群"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000016"></a><tbody>
+<tr><th id="0000016">http://nanbyodata.jp/ontology/nanbyo#0000016<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000016"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"耳鼻科系疾患"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000001">http://nanbyodata.jp/ontology/nanbyo#0000001</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000017"></a><tbody>
+<tr><th id="0000017">http://nanbyodata.jp/ontology/nanbyo#0000017<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#classifiedWith">classifiedWith</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000002">http://nanbyodata.jp/ontology/nanbyo#0000002</a></td>
+</tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#has_notification_number">has_notification_number</a></td>
+<td>
+						"1"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000017"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+					rdfs:isDefinedBy</a></td>
+<td><a href="http://www.nanbyou.or.jp/upload_files/File/001-201704-kojin.pdf">http://www.nanbyou.or.jp/upload_files/File/001-201704-kojin.pdf</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"Spinal and bulbar muscular atrophy"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"球脊髄性筋萎縮症"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+					rdfs:seeAlso</a></td>
+<td>http://www.nanbyou.or.jp/entry/73</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#MONDO_0000001">http://purl.obolibrary.org/obo/mondo.owl#MONDO_0000001</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+					skos:exactMatch</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#0010735">http://purl.obolibrary.org/obo/mondo.owl#0010735</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000018"></a><tbody>
+<tr><th id="0000018">http://nanbyodata.jp/ontology/nanbyo#0000018<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#classifiedWith">classifiedWith</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000002">http://nanbyodata.jp/ontology/nanbyo#0000002</a></td>
+</tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#has_notification_number">has_notification_number</a></td>
+<td>
+						"2"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000018"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+					rdfs:isDefinedBy</a></td>
+<td><a href="http://www.nanbyou.or.jp/upload_files/File/002-201704-kojin.pdf">http://www.nanbyou.or.jp/upload_files/File/002-201704-kojin.pdf</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"Amyotrophic lateral sclerosis"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"筋萎縮性側索硬化症"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+					rdfs:seeAlso</a></td>
+<td>http://www.nanbyou.or.jp/entry/52</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#MONDO_0000001">http://purl.obolibrary.org/obo/mondo.owl#MONDO_0000001</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+					skos:exactMatch</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#0004976">http://purl.obolibrary.org/obo/mondo.owl#0004976</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000019"></a><tbody>
+<tr><th id="0000019">http://nanbyodata.jp/ontology/nanbyo#0000019<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#classifiedWith">classifiedWith</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000002">http://nanbyodata.jp/ontology/nanbyo#0000002</a></td>
+</tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#has_notification_number">has_notification_number</a></td>
+<td>
+						"3"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000019"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+					rdfs:isDefinedBy</a></td>
+<td><a href="http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf">http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"Spinal muscular atrophy"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"脊髄性筋萎縮症"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+					rdfs:seeAlso</a></td>
+<td>http://www.nanbyou.or.jp/entry/135</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#MONDO_0000001">http://purl.obolibrary.org/obo/mondo.owl#MONDO_0000001</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+					skos:exactMatch</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#0001516">http://purl.obolibrary.org/obo/mondo.owl#0001516</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000020"></a><tbody>
+<tr><th id="0000020">http://nanbyodata.jp/ontology/nanbyo#0000020<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#classifiedWith">classifiedWith</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000002">http://nanbyodata.jp/ontology/nanbyo#0000002</a></td>
+</tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#has_notification_number">has_notification_number</a></td>
+<td>
+						"3"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000020"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">hasExactSynonym</a></td>
+<td>
+						"Spinal muscular atrophy type1"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">hasExactSynonym</a></td>
+<td>
+						"Werdnig-Hoffmann disease"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">hasExactSynonym</a></td>
+<td>
+						"ウェルドニッヒ・ホフマン病"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+					rdfs:isDefinedBy</a></td>
+<td><a href="http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf">http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"脊髄性筋萎縮症 I 型"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+					rdfs:seeAlso</a></td>
+<td>http://www.nanbyou.or.jp/entry/135</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000019">http://nanbyodata.jp/ontology/nanbyo#0000019</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+					skos:exactMatch</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#0009669">http://purl.obolibrary.org/obo/mondo.owl#0009669</a></td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#0000021"></a><tbody>
+<tr><th id="0000021">http://nanbyodata.jp/ontology/nanbyo#0000021<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#Class">
+					owl:Class</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#classifiedWith">classifiedWith</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000002">http://nanbyodata.jp/ontology/nanbyo#0000002</a></td>
+</tr>
+<tr>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#has_notification_number">has_notification_number</a></td>
+<td>
+						"3"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://purl.org/dc/terms/identifier">
+                                        dcterms:identifier</a></td>
+<td>
+						"0000021"
+						<sup><a href=".">
+				xsd:string</a></sup>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">hasExactSynonym</a></td>
+<td>
+						"Dubowitz disease"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">hasExactSynonym</a></td>
+<td>
+						"Spinal muscular atrophy type2"
+						@en</td>
+</tr>
+<tr>
+<td><a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">hasExactSynonym</a></td>
+<td>
+						"デュボビッツ病"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+					rdfs:isDefinedBy</a></td>
+<td><a href="http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf">http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"脊髄性筋萎縮症 II 型"
+						@ja</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+					rdfs:seeAlso</a></td>
+<td>http://www.nanbyou.or.jp/entry/135</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+					rdfs:subClassOf</a></td>
+<td><a href="http://nanbyodata.jp/ontology/nanbyo#0000019">http://nanbyodata.jp/ontology/nanbyo#0000019</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+					skos:exactMatch</a></td>
+<td><a href="http://purl.obolibrary.org/obo/mondo.owl#0009673">http://purl.obolibrary.org/obo/mondo.owl#0009673</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="nice" id="section_Properties" style="position: relative;">
+<h2>
+						Properties
+					</h2>
+<div class="nice-content" id="Properties">
+<h3 id="ObjectProperties">Object properties</h3>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#classifiedWith"></a><tbody>
+<tr><th id="classifiedWith">http://nanbyodata.jp/ontology/nanbyo#classifiedWith<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#ObjectProperty">
+					owl:ObjectProperty</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"classified with"
+						@en</td>
+</tr>
+</tbody>
+</table>
+<table class="subsection">
+<a name="http://nanbyodata.jp/ontology/nanbyo#has_notification_number"></a><tbody>
+<tr><th id="has_notification_number">http://nanbyodata.jp/ontology/nanbyo#has_notification_number<span class="cp-type">
+								(rdf:type
+								<a href="http://www.w3.org/2002/07/owl#ObjectProperty">
+					owl:ObjectProperty</a>
+								)
+							</span>
+</th></tr>
+<tr>
+<td><a href="http://www.w3.org/2000/01/rdf-schema#label">
+					rdfs:label</a></td>
+<td>
+						"has notification number"
+						@en</td>
+</tr>
+</tbody>
+</table>
+<h3 id="DatatypeProperties">Datatype properties</h3>
+</div>
+</div>
+<div class="nice" id="section_InstanceData" style="position: relative;"><div class="nice-content" id="InstanceData"></div></div>
+</div>
+<script type="text/javascript"> <!-- UniProt.visibility.initSections('owl'); 
+			</script>
+</div>
+<div id="footer">
+<p>We would like to especially thank the organisers and funders of the <a href="http://www.biohackaton.org">BioHackathon</a> series of meetings for hosting the original discussions leading to FALDO</p>
+<p>FALDO is addittionaly supported by:</p>
+<ul>
+<li>
+<a href="http://biosciencedbc.jp/en/">National Bioscience Database Center (NBDC)</a> of <a href="http://www.jst.go.jp/">Japan Science and Technology Agency (JST)</a>
+</li>
+<li><a href="http://dbcls.rois.ac.jp/en/">Database Center for Life Science (DBCLS)</a></li>
+<li><a href="http://www.rois.ac.jp/">Research Organization of Information and Systems (ROIS)</a></li>
+<li>
+<a href="http://www.isb-sib.ch/groups/geneva/sp-xenarios.html">Swiss-Prot part of the SIB Swiss Institute of Bioinformatics</a> and supported by the <a href="http://www.sbfi.admin.ch/?lang=en">Swiss Federal Government through the The State Secretariat for Education, Research and Innovation SERI</a>.</li>
+<li><a href="http://www.nih.gov/">NIH under R24OD011883</a></li>
+<li>
+<a href="http://science.energy.gov/bes/">Director, Office of Science, Office of Basic Energy Sciences</a>, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</li>
+<li><a href="http://www.scotland.gov.uk/Topics/Research/About/EBAR">Scottish Government Rural and Environmental Research and Analysis Directorate</a></li>
+<li><a href="http://www.ddbj.nig.ac.jp">DNA Databank of Japan (DDBJ)</a></li>
+</ul>
+</div>
+</body>
+</html>
