@@ -4,7 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix mondo: <http://purl.obolibrary.org/obo/mondo.owl#> .
+@prefix mondo: <http://purl.obolibrary.org/obo/> .
 @prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 # @base <http://nanbyodata.jp/ontology/nanbyo.owl> .
@@ -177,7 +177,7 @@
     :classifiedWith :0000002 ;
     rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/001-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/73" ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:0010735 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010735 .
 
 ### 指定難病2
 :0000018
@@ -190,7 +190,7 @@
     :classifiedWith :0000002 ;
     rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/002-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/52" ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:0004976 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0004976 .
 
 ### 指定難病3
 :0000019
@@ -203,7 +203,7 @@
     :classifiedWith :0000002 ;
     rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/135" ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:0001516 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0001516 .
 
 ### 指定難病3-1
 :0000020
@@ -218,7 +218,7 @@
     :classifiedWith :0000002 ;
     rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/135" ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:0009669 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009669 .
 
 ### 指定難病3-2
 :0000021
@@ -233,4 +233,4 @@
     :classifiedWith :0000002 ;
     rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/135" ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:0009673 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009673 .
