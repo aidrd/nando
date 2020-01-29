@@ -175,7 +175,7 @@
     terms:identifier "0000017"^^xsd:string ;
     :has_notification_number "1"^^xsd:string ;
     :classifiedWith :0000002 ;
-    rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/001-201704-kojin.pdf> ;
+    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/001-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/73" ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010735 .
 
@@ -188,7 +188,7 @@
     terms:identifier "0000018"^^xsd:string ;
     :has_notification_number "2"^^xsd:string ;
     :classifiedWith :0000002 ;
-    rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/002-201704-kojin.pdf> ;
+    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/002-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/52" ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0004976 .
 
@@ -201,7 +201,7 @@
     terms:identifier "0000019"^^xsd:string ;
     :has_notification_number "3"^^xsd:string ;
     :classifiedWith :0000002 ;
-    rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf> ;
+    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/135" ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0001516 .
 
@@ -216,7 +216,7 @@
     terms:identifier "0000020"^^xsd:string ;
     :has_notification_number "3"^^xsd:string ;
     :classifiedWith :0000002 ;
-    rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf> ;
+    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/135" ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009669 .
 
@@ -231,6 +231,6 @@
     terms:identifier "0000021"^^xsd:string ;
     :has_notification_number "3"^^xsd:string ;
     :classifiedWith :0000002 ;
-    rdfs:isDefinedBy <http://www.nanbyou.or.jp/upload_files/File/003-201704-kojin.pdf> ;
+    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
     rdfs:seeAlso "http://www.nanbyou.or.jp/entry/135" ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009673 .
