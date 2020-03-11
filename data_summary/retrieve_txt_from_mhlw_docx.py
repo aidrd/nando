@@ -16,13 +16,8 @@ for par in doc.paragraphs:
     elif re.match(r'[２|2][．|.]\s?原因|^原因\s|^原因|＜疾患分類＞', par.text) is not None:
         break
 
-    #print(par.text)
-
     if re.match(r'○\u3000概要|概要', par.text) is not None:
-    #if re.match(r'概要', par.text) is not None:
         count_summary = count_summary + 1
-        #print(count_summary)
-        #print(par.text)
 
     if (flg==1 or count_summary>1) and re.match(r'[１|1][．|.]\s?概要|総論|概念', par.text) is None:
         txt.append((par.text).replace('\n',''))
