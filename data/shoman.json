@@ -15,7 +15,7 @@
       "class_id": "1-1",
       "notification_no": "80",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "2",
@@ -33,7 +33,7 @@
       "class_id": "1-1",
       "notification_no": "77",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "3",
@@ -51,7 +51,7 @@
       "class_id": "1-1",
       "notification_no": "81",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "4",
@@ -69,7 +69,7 @@
       "class_id": "1-1",
       "notification_no": "71",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "5",
@@ -87,7 +87,7 @@
       "class_id": "1-1",
       "notification_no": "79",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "6",
@@ -105,7 +105,7 @@
       "class_id": "1-1",
       "notification_no": "78",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "7",
@@ -123,7 +123,7 @@
       "class_id": "1-1",
       "notification_no": "74",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "8",
@@ -141,7 +141,7 @@
       "class_id": "1-1",
       "notification_no": "72",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "9",
@@ -159,7 +159,7 @@
       "class_id": "1-1",
       "notification_no": "75",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "10",
@@ -177,7 +177,7 @@
       "class_id": "1-1",
       "notification_no": "73",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "11",
@@ -195,7 +195,7 @@
       "class_id": "1-1",
       "notification_no": "70",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "12",
@@ -215,7 +215,7 @@
       "class_id": "1-1",
       "notification_no": "82",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "13",
@@ -235,7 +235,7 @@
       "class_id": "1-1",
       "notification_no": "83",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "14",
@@ -253,7 +253,7 @@
       "class_id": "1-1",
       "notification_no": "84",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "15",
@@ -271,7 +271,7 @@
       "class_id": "1-1",
       "notification_no": "76",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "16",
@@ -289,7 +289,7 @@
       "class_id": "1-1",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "16-1",
@@ -311,7 +311,7 @@
       "class_id": "1-1",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "16-2",
@@ -331,7 +331,7 @@
       "class_id": "1-1",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "17",
@@ -349,7 +349,7 @@
       "class_id": "1-2",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "18",
@@ -367,7 +367,7 @@
       "class_id": "1-3",
       "notification_no": "86",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "19",
@@ -385,7 +385,7 @@
       "class_id": "1-3",
       "notification_no": "90",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "20",
@@ -403,7 +403,7 @@
       "class_id": "1-3",
       "notification_no": "88",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "21",
@@ -421,7 +421,7 @@
       "class_id": "1-3",
       "notification_no": "87",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "22",
@@ -443,7 +443,7 @@
       "class_id": "1-3",
       "notification_no": "89",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "23",
@@ -461,7 +461,7 @@
       "class_id": "1-3",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "23-1",
@@ -479,7 +479,7 @@
       "class_id": "1-3",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "23-2",
@@ -497,7 +497,7 @@
       "class_id": "1-3",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "23-3",
@@ -515,7 +515,7 @@
       "class_id": "1-3",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "23-4",
@@ -533,7 +533,7 @@
       "class_id": "1-3",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "23-5",
@@ -551,7 +551,7 @@
       "class_id": "1-3",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "24",
@@ -573,7 +573,7 @@
       "class_id": "1-4",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "25",
@@ -593,7 +593,7 @@
       "class_id": "1-4",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26",
@@ -611,7 +611,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26-1",
@@ -629,7 +629,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26-2",
@@ -647,7 +647,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26-3",
@@ -665,7 +665,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26-4",
@@ -683,7 +683,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26-5",
@@ -701,7 +701,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "26-6",
@@ -724,7 +724,7 @@
       "class_id": "1-4",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "27",
@@ -742,7 +742,7 @@
       "class_id": "1-5",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "28",
@@ -760,7 +760,7 @@
       "class_id": "1-5",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "29",
@@ -778,7 +778,7 @@
       "class_id": "1-5",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "30",
@@ -801,7 +801,7 @@
       "class_id": "1-5",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "31",
@@ -819,7 +819,7 @@
       "class_id": "1-5",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "32",
@@ -837,7 +837,7 @@
       "class_id": "1-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "33",
@@ -855,7 +855,7 @@
       "class_id": "1-5",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "34",
@@ -873,7 +873,7 @@
       "class_id": "1-5",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "35",
@@ -891,7 +891,7 @@
       "class_id": "1-5",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "36",
@@ -909,7 +909,7 @@
       "class_id": "1-5",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "37",
@@ -927,7 +927,7 @@
       "class_id": "1-5",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "38",
@@ -945,7 +945,7 @@
       "class_id": "1-5",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "39",
@@ -963,7 +963,7 @@
       "class_id": "1-5",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "40",
@@ -983,7 +983,7 @@
       "class_id": "1-5",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "41",
@@ -1001,7 +1001,7 @@
       "class_id": "1-5",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "41-1",
@@ -1019,7 +1019,7 @@
       "class_id": "1-5",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "42",
@@ -1037,7 +1037,7 @@
       "class_id": "1-5",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "43",
@@ -1055,7 +1055,7 @@
       "class_id": "1-5",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "44",
@@ -1073,7 +1073,7 @@
       "class_id": "1-5",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "45",
@@ -1091,7 +1091,7 @@
       "class_id": "1-5",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "46",
@@ -1109,7 +1109,7 @@
       "class_id": "1-5",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "47",
@@ -1127,7 +1127,7 @@
       "class_id": "1-5",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "48",
@@ -1145,7 +1145,7 @@
       "class_id": "1-5",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "49",
@@ -1163,7 +1163,7 @@
       "class_id": "1-5",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "50",
@@ -1181,7 +1181,7 @@
       "class_id": "1-5",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "51",
@@ -1199,7 +1199,7 @@
       "class_id": "1-5",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "52",
@@ -1217,7 +1217,7 @@
       "class_id": "1-5",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "53",
@@ -1235,7 +1235,7 @@
       "class_id": "1-5",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "54",
@@ -1253,7 +1253,7 @@
       "class_id": "1-5",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "55",
@@ -1273,7 +1273,7 @@
       "class_id": "1-5",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "56",
@@ -1291,7 +1291,7 @@
       "class_id": "1-5",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "57",
@@ -1309,7 +1309,7 @@
       "class_id": "1-5",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "58",
@@ -1327,7 +1327,7 @@
       "class_id": "1-5",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "59",
@@ -1345,7 +1345,7 @@
       "class_id": "1-5",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "60",
@@ -1363,7 +1363,7 @@
       "class_id": "1-5",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "61",
@@ -1381,7 +1381,7 @@
       "class_id": "1-5",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "62",
@@ -1399,7 +1399,7 @@
       "class_id": "1-5",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "63",
@@ -1417,7 +1417,7 @@
       "class_id": "1-5",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "64",
@@ -1435,7 +1435,7 @@
       "class_id": "1-5",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "65",
@@ -1453,7 +1453,7 @@
       "class_id": "1-5",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "66",
@@ -1471,7 +1471,7 @@
       "class_id": "1-5",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "67",
@@ -1489,7 +1489,7 @@
       "class_id": "1-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "68",
@@ -1507,7 +1507,7 @@
       "class_id": "1-5",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "69",
@@ -1525,7 +1525,7 @@
       "class_id": "1-5",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "70",
@@ -1543,7 +1543,7 @@
       "class_id": "1-6",
       "notification_no": "68",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "71",
@@ -1561,7 +1561,7 @@
       "class_id": "1-6",
       "notification_no": "64",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "72",
@@ -1579,7 +1579,7 @@
       "class_id": "1-6",
       "notification_no": "63",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "73",
@@ -1597,7 +1597,7 @@
       "class_id": "1-6",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "74",
@@ -1615,7 +1615,7 @@
       "class_id": "1-6",
       "notification_no": "53",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "75",
@@ -1635,7 +1635,7 @@
       "class_id": "1-6",
       "notification_no": "65",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "76",
@@ -1653,7 +1653,7 @@
       "class_id": "1-6",
       "notification_no": "58",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "77",
@@ -1671,7 +1671,7 @@
       "class_id": "1-6",
       "notification_no": "60",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "78",
@@ -1689,7 +1689,7 @@
       "class_id": "1-6",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "79",
@@ -1707,7 +1707,7 @@
       "class_id": "1-6",
       "notification_no": "67",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "80",
@@ -1725,7 +1725,7 @@
       "class_id": "1-6",
       "notification_no": "59",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "81",
@@ -1743,7 +1743,7 @@
       "class_id": "1-6",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "82",
@@ -1761,7 +1761,7 @@
       "class_id": "1-6",
       "notification_no": "56",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "83",
@@ -1781,7 +1781,7 @@
       "class_id": "1-6",
       "notification_no": "57",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "84",
@@ -1799,7 +1799,7 @@
       "class_id": "1-6",
       "notification_no": "62",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "85",
@@ -1817,7 +1817,7 @@
       "class_id": "1-6",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "85-1",
@@ -1835,7 +1835,7 @@
       "class_id": "1-6",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "86",
@@ -1857,7 +1857,7 @@
       "class_id": "1-6",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "87",
@@ -1877,7 +1877,7 @@
       "class_id": "1-6",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "88",
@@ -1895,7 +1895,7 @@
       "class_id": "1-6",
       "notification_no": "55",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "89",
@@ -1913,7 +1913,7 @@
       "class_id": "1-6",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "89-1",
@@ -1931,7 +1931,7 @@
       "class_id": "1-6",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "89-2",
@@ -1949,7 +1949,7 @@
       "class_id": "1-6",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "89-3",
@@ -1967,7 +1967,7 @@
       "class_id": "1-6",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "90",
@@ -1985,7 +1985,7 @@
       "class_id": "1-6",
       "notification_no": "61",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "91",
@@ -2003,7 +2003,7 @@
       "class_id": "1-6",
       "notification_no": "69",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "92",
@@ -2023,7 +2023,7 @@
       "class_id": "2-1",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "93",
@@ -2043,7 +2043,7 @@
       "class_id": "2-1",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "94",
@@ -2063,7 +2063,7 @@
       "class_id": "2-1",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "95",
@@ -2083,7 +2083,7 @@
       "class_id": "2-1",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "96",
@@ -2101,7 +2101,7 @@
       "class_id": "2-1",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "97",
@@ -2119,7 +2119,7 @@
       "class_id": "2-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "97-1",
@@ -2137,7 +2137,7 @@
       "class_id": "2-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "97-2",
@@ -2155,7 +2155,7 @@
       "class_id": "2-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "97-3",
@@ -2173,7 +2173,7 @@
       "class_id": "2-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "97-4",
@@ -2191,7 +2191,7 @@
       "class_id": "2-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "97-5",
@@ -2209,7 +2209,7 @@
       "class_id": "2-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "98",
@@ -2227,7 +2227,7 @@
       "class_id": "2-2",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "99",
@@ -2247,7 +2247,7 @@
       "class_id": "2-2",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "100",
@@ -2267,7 +2267,7 @@
       "class_id": "2-2",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "101",
@@ -2287,7 +2287,7 @@
       "class_id": "2-2",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "102",
@@ -2307,7 +2307,7 @@
       "class_id": "2-2",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "103",
@@ -2325,7 +2325,7 @@
       "class_id": "2-2",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "104",
@@ -2347,7 +2347,7 @@
       "class_id": "2-2",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "105",
@@ -2367,7 +2367,7 @@
       "class_id": "2-2",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "106",
@@ -2387,7 +2387,7 @@
       "class_id": "2-2",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "107",
@@ -2407,7 +2407,7 @@
       "class_id": "2-2",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "108",
@@ -2427,7 +2427,7 @@
       "class_id": "2-2",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "109",
@@ -2449,7 +2449,7 @@
       "class_id": "2-2",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "110",
@@ -2467,7 +2467,7 @@
       "class_id": "2-2",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "111",
@@ -2485,7 +2485,7 @@
       "class_id": "2-2",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "112",
@@ -2503,7 +2503,7 @@
       "class_id": "2-2",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "113",
@@ -2523,7 +2523,7 @@
       "class_id": "2-3",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "114",
@@ -2541,7 +2541,7 @@
       "class_id": "2-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "115",
@@ -2559,7 +2559,7 @@
       "class_id": "2-5",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "116",
@@ -2579,7 +2579,7 @@
       "class_id": "2-6",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "117",
@@ -2600,7 +2600,7 @@
       "class_id": "2-7",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "118",
@@ -2618,7 +2618,7 @@
       "class_id": "2-8",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "119",
@@ -2638,7 +2638,7 @@
       "class_id": "2-9",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "120",
@@ -2656,7 +2656,7 @@
       "class_id": "2-10",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "121",
@@ -2676,7 +2676,7 @@
       "class_id": "2-11",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "122",
@@ -2696,7 +2696,7 @@
       "class_id": "2-12",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "123",
@@ -2716,7 +2716,7 @@
       "class_id": "2-13",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "124",
@@ -2734,7 +2734,7 @@
       "class_id": "2-14",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "125",
@@ -2752,7 +2752,7 @@
       "class_id": "2-15",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "126",
@@ -2770,7 +2770,7 @@
       "class_id": "2-15",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "126-1",
@@ -2788,7 +2788,7 @@
       "class_id": "2-15",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "126-2",
@@ -2806,7 +2806,7 @@
       "class_id": "2-15",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "127",
@@ -2826,7 +2826,7 @@
       "class_id": "2-16",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "127-1",
@@ -2846,7 +2846,7 @@
       "class_id": "2-16",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "127-2",
@@ -2866,7 +2866,7 @@
       "class_id": "2-16",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "128",
@@ -2884,7 +2884,7 @@
       "class_id": "2-16",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "129",
@@ -2902,7 +2902,7 @@
       "class_id": "2-16",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "130",
@@ -2924,7 +2924,7 @@
       "class_id": "2-16",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "131",
@@ -2944,7 +2944,7 @@
       "class_id": "2-16",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "132",
@@ -2962,7 +2962,7 @@
       "class_id": "2-16",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133",
@@ -2980,7 +2980,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-1",
@@ -2998,7 +2998,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-2",
@@ -3016,7 +3016,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-3",
@@ -3036,7 +3036,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-4",
@@ -3056,7 +3056,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-5",
@@ -3076,7 +3076,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-6",
@@ -3094,7 +3094,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-7",
@@ -3112,7 +3112,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-8",
@@ -3130,7 +3130,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-9",
@@ -3148,7 +3148,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-10",
@@ -3168,7 +3168,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-11",
@@ -3186,7 +3186,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-12",
@@ -3204,7 +3204,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-13",
@@ -3222,7 +3222,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-14",
@@ -3242,7 +3242,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-15",
@@ -3260,7 +3260,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-16",
@@ -3278,7 +3278,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "133-17",
@@ -3296,7 +3296,7 @@
       "class_id": "2-16",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "134",
@@ -3314,7 +3314,7 @@
       "class_id": "2-17",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "135",
@@ -3334,7 +3334,7 @@
       "class_id": "2-17",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "136",
@@ -3354,7 +3354,7 @@
       "class_id": "2-17",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "136-1",
@@ -3372,7 +3372,7 @@
       "class_id": "2-17",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "136-2",
@@ -3390,7 +3390,7 @@
       "class_id": "2-17",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "136-3",
@@ -3408,7 +3408,7 @@
       "class_id": "2-17",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "136-4",
@@ -3426,7 +3426,7 @@
       "class_id": "2-17",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "137",
@@ -3444,7 +3444,7 @@
       "class_id": "2-18",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "138",
@@ -3464,7 +3464,7 @@
       "class_id": "2-19",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "139",
@@ -3486,7 +3486,7 @@
       "class_id": "2-20",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "140",
@@ -3504,7 +3504,7 @@
       "class_id": "3-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "140-1",
@@ -3522,7 +3522,7 @@
       "class_id": "3-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "140-2",
@@ -3540,7 +3540,7 @@
       "class_id": "3-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "140-3",
@@ -3558,7 +3558,7 @@
       "class_id": "3-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "140-4",
@@ -3576,7 +3576,7 @@
       "class_id": "3-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "140-5",
@@ -3594,7 +3594,7 @@
       "class_id": "3-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "141",
@@ -3612,7 +3612,7 @@
       "class_id": "3-2",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "142",
@@ -3632,7 +3632,7 @@
       "class_id": "3-3",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "143",
@@ -3650,7 +3650,7 @@
       "class_id": "3-4",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "144",
@@ -3668,7 +3668,7 @@
       "class_id": "3-4",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "144-1",
@@ -3688,7 +3688,7 @@
       "class_id": "3-4",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "145",
@@ -3708,7 +3708,7 @@
       "class_id": "3-4",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "146",
@@ -3726,7 +3726,7 @@
       "class_id": "3-5",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "146-1",
@@ -3744,7 +3744,7 @@
       "class_id": "3-5",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "147",
@@ -3764,7 +3764,7 @@
       "class_id": "3-6",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "148",
@@ -3782,7 +3782,7 @@
       "class_id": "3-7",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "149",
@@ -3800,7 +3800,7 @@
       "class_id": "3-8",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "150",
@@ -3820,7 +3820,7 @@
       "class_id": "3-9",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "151",
@@ -3838,7 +3838,7 @@
       "class_id": "3-10",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "152",
@@ -3856,7 +3856,7 @@
       "class_id": "3-11",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "153",
@@ -3874,7 +3874,7 @@
       "class_id": "3-12",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "154",
@@ -3892,7 +3892,7 @@
       "class_id": "4-1",
       "notification_no": "72",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "155",
@@ -3912,7 +3912,7 @@
       "class_id": "4-2",
       "notification_no": "95",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "156",
@@ -3930,7 +3930,7 @@
       "class_id": "4-3",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "157",
@@ -3948,7 +3948,7 @@
       "class_id": "4-4",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "158",
@@ -3966,7 +3966,7 @@
       "class_id": "4-5",
       "notification_no": "67",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "159",
@@ -3984,7 +3984,7 @@
       "class_id": "4-6",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "160",
@@ -4002,7 +4002,7 @@
       "class_id": "4-6",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "161",
@@ -4020,7 +4020,7 @@
       "class_id": "4-6",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "162",
@@ -4038,7 +4038,7 @@
       "class_id": "4-7",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "163",
@@ -4058,7 +4058,7 @@
       "class_id": "4-7",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "164",
@@ -4076,7 +4076,7 @@
       "class_id": "4-7",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "164-1",
@@ -4094,7 +4094,7 @@
       "class_id": "4-7",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "164-2",
@@ -4112,7 +4112,7 @@
       "class_id": "4-7",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "166",
@@ -4130,7 +4130,7 @@
       "class_id": "4-8",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "167",
@@ -4148,7 +4148,7 @@
       "class_id": "4-9",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "168",
@@ -4166,7 +4166,7 @@
       "class_id": "4-10",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "169",
@@ -4186,7 +4186,7 @@
       "class_id": "4-11",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "170",
@@ -4204,7 +4204,7 @@
       "class_id": "4-12",
       "notification_no": "88",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "171",
@@ -4222,7 +4222,7 @@
       "class_id": "4-13",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "172",
@@ -4240,7 +4240,7 @@
       "class_id": "4-14",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "173",
@@ -4258,7 +4258,7 @@
       "class_id": "4-15",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "174",
@@ -4276,7 +4276,7 @@
       "class_id": "4-16",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "175",
@@ -4296,7 +4296,7 @@
       "class_id": "4-17",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "176",
@@ -4314,7 +4314,7 @@
       "class_id": "4-18",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "177",
@@ -4332,7 +4332,7 @@
       "class_id": "4-19",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "178",
@@ -4350,7 +4350,7 @@
       "class_id": "4-20",
       "notification_no": "92",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "179",
@@ -4368,7 +4368,7 @@
       "class_id": "4-21",
       "notification_no": "93",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "180",
@@ -4386,7 +4386,7 @@
       "class_id": "4-22",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "181",
@@ -4404,7 +4404,7 @@
       "class_id": "4-23",
       "notification_no": "53",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "182",
@@ -4422,7 +4422,7 @@
       "class_id": "4-24",
       "notification_no": "76",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "183",
@@ -4440,7 +4440,7 @@
       "class_id": "4-25",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "184",
@@ -4458,7 +4458,7 @@
       "class_id": "4-25",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "185",
@@ -4476,7 +4476,7 @@
       "class_id": "4-25",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "186",
@@ -4494,7 +4494,7 @@
       "class_id": "4-26",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "187",
@@ -4512,7 +4512,7 @@
       "class_id": "4-27",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "188",
@@ -4530,7 +4530,7 @@
       "class_id": "4-28",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "189",
@@ -4548,7 +4548,7 @@
       "class_id": "4-28",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "190",
@@ -4566,7 +4566,7 @@
       "class_id": "4-29",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "191",
@@ -4584,7 +4584,7 @@
       "class_id": "4-30",
       "notification_no": "68",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "192",
@@ -4602,7 +4602,7 @@
       "class_id": "4-31",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "193",
@@ -4620,7 +4620,7 @@
       "class_id": "4-32",
       "notification_no": "84",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "194",
@@ -4638,7 +4638,7 @@
       "class_id": "4-32",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "195",
@@ -4658,7 +4658,7 @@
       "class_id": "4-33",
       "notification_no": "89",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "196",
@@ -4678,7 +4678,7 @@
       "class_id": "4-34",
       "notification_no": "96",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "197",
@@ -4696,7 +4696,7 @@
       "class_id": "4-34",
       "notification_no": "97",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "198",
@@ -4714,7 +4714,7 @@
       "class_id": "4-35",
       "notification_no": "98",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "199",
@@ -4734,7 +4734,7 @@
       "class_id": "4-36",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "200",
@@ -4752,7 +4752,7 @@
       "class_id": "4-37",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "201",
@@ -4772,7 +4772,7 @@
       "class_id": "4-38",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "202",
@@ -4790,7 +4790,7 @@
       "class_id": "4-39",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "203",
@@ -4808,7 +4808,7 @@
       "class_id": "4-40",
       "notification_no": "63",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "204",
@@ -4826,7 +4826,7 @@
       "class_id": "4-41",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "205",
@@ -4844,7 +4844,7 @@
       "class_id": "4-42",
       "notification_no": "73",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "206",
@@ -4862,7 +4862,7 @@
       "class_id": "4-43",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "207",
@@ -4880,7 +4880,7 @@
       "class_id": "4-43",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "208",
@@ -4898,7 +4898,7 @@
       "class_id": "4-43",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "209",
@@ -4918,7 +4918,7 @@
       "class_id": "4-43",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "210",
@@ -4938,7 +4938,7 @@
       "class_id": "4-44",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "211",
@@ -4956,7 +4956,7 @@
       "class_id": "4-45",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "212",
@@ -4974,7 +4974,7 @@
       "class_id": "4-46",
       "notification_no": "77",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "213",
@@ -4992,7 +4992,7 @@
       "class_id": "4-46",
       "notification_no": "78",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "214",
@@ -5010,7 +5010,7 @@
       "class_id": "4-47",
       "notification_no": "79",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "215",
@@ -5028,7 +5028,7 @@
       "class_id": "4-48",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "216",
@@ -5046,7 +5046,7 @@
       "class_id": "4-49",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "217",
@@ -5064,7 +5064,7 @@
       "class_id": "4-50",
       "notification_no": "86",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "218",
@@ -5082,7 +5082,7 @@
       "class_id": "4-51",
       "notification_no": "64",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "219",
@@ -5100,7 +5100,7 @@
       "class_id": "4-52",
       "notification_no": "80",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "220",
@@ -5118,7 +5118,7 @@
       "class_id": "4-52",
       "notification_no": "81",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "221",
@@ -5136,7 +5136,7 @@
       "class_id": "4-53",
       "notification_no": "87",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "222",
@@ -5154,7 +5154,7 @@
       "class_id": "4-54",
       "notification_no": "82",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "223",
@@ -5172,7 +5172,7 @@
       "class_id": "4-55",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "224",
@@ -5190,7 +5190,7 @@
       "class_id": "4-56",
       "notification_no": "59",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "225",
@@ -5208,7 +5208,7 @@
       "class_id": "4-56",
       "notification_no": "60",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "226",
@@ -5226,7 +5226,7 @@
       "class_id": "4-56",
       "notification_no": "61",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "227",
@@ -5246,7 +5246,7 @@
       "class_id": "4-56",
       "notification_no": "58",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "228",
@@ -5264,7 +5264,7 @@
       "class_id": "4-56",
       "notification_no": "62",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "229",
@@ -5282,7 +5282,7 @@
       "class_id": "4-57",
       "notification_no": "57",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "230",
@@ -5300,7 +5300,7 @@
       "class_id": "4-57",
       "notification_no": "56",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "231",
@@ -5318,7 +5318,7 @@
       "class_id": "4-58",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "232",
@@ -5336,7 +5336,7 @@
       "class_id": "4-58",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "233",
@@ -5354,7 +5354,7 @@
       "class_id": "4-58",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "234",
@@ -5374,7 +5374,7 @@
       "class_id": "4-59",
       "notification_no": "66",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "235",
@@ -5392,7 +5392,7 @@
       "class_id": "4-59",
       "notification_no": "65",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "236",
@@ -5410,7 +5410,7 @@
       "class_id": "4-60",
       "notification_no": "70",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "237",
@@ -5428,7 +5428,7 @@
       "class_id": "4-60",
       "notification_no": "69",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "238",
@@ -5446,7 +5446,7 @@
       "class_id": "4-60",
       "notification_no": "71",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "239",
@@ -5464,7 +5464,7 @@
       "class_id": "4-61",
       "notification_no": "83",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "240",
@@ -5482,7 +5482,7 @@
       "class_id": "4-62",
       "notification_no": "94",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "241",
@@ -5500,7 +5500,7 @@
       "class_id": "4-63",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "242",
@@ -5518,7 +5518,7 @@
       "class_id": "4-63",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "243",
@@ -5536,7 +5536,7 @@
       "class_id": "4-63",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "244",
@@ -5554,7 +5554,7 @@
       "class_id": "4-63",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "245",
@@ -5572,7 +5572,7 @@
       "class_id": "4-63",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "246",
@@ -5590,7 +5590,7 @@
       "class_id": "4-63",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "247",
@@ -5608,7 +5608,7 @@
       "class_id": "4-63",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "248",
@@ -5626,7 +5626,7 @@
       "class_id": "4-63",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "249",
@@ -5644,7 +5644,7 @@
       "class_id": "4-64",
       "notification_no": "55",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "250",
@@ -5662,7 +5662,7 @@
       "class_id": "4-65",
       "notification_no": "75",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "251",
@@ -5680,7 +5680,7 @@
       "class_id": "4-65",
       "notification_no": "74",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "252",
@@ -5700,7 +5700,7 @@
       "class_id": "4-66",
       "notification_no": "90",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "253",
@@ -5718,7 +5718,7 @@
       "class_id": "5-1",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "254",
@@ -5736,7 +5736,7 @@
       "class_id": "5-1",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "255",
@@ -5754,7 +5754,7 @@
       "class_id": "5-2",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "256",
@@ -5772,7 +5772,7 @@
       "class_id": "5-3",
       "notification_no": "55",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "257",
@@ -5792,7 +5792,7 @@
       "class_id": "5-4",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "257-1",
@@ -5812,7 +5812,7 @@
       "class_id": "5-4",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "258",
@@ -5832,7 +5832,7 @@
       "class_id": "5-4",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "258-1",
@@ -5852,7 +5852,7 @@
       "class_id": "5-4",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "259",
@@ -5872,7 +5872,7 @@
       "class_id": "5-5",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "260",
@@ -5890,7 +5890,7 @@
       "class_id": "5-5",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "261",
@@ -5908,7 +5908,7 @@
       "class_id": "5-6",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "262",
@@ -5928,7 +5928,7 @@
       "class_id": "5-7",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "263",
@@ -5946,7 +5946,7 @@
       "class_id": "5-8",
       "notification_no": "75",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "264",
@@ -5966,7 +5966,7 @@
       "class_id": "5-8",
       "notification_no": "73",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "265",
@@ -5984,7 +5984,7 @@
       "class_id": "5-8",
       "notification_no": "74",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "266",
@@ -6002,7 +6002,7 @@
       "class_id": "5-9",
       "notification_no": "67",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "267",
@@ -6024,7 +6024,7 @@
       "class_id": "5-10",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "268",
@@ -6042,7 +6042,7 @@
       "class_id": "5-10",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "269",
@@ -6060,7 +6060,7 @@
       "class_id": "5-11",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "270",
@@ -6080,7 +6080,7 @@
       "class_id": "5-11",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "271",
@@ -6100,7 +6100,7 @@
       "class_id": "5-11",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "271-1",
@@ -6118,7 +6118,7 @@
       "class_id": "5-11",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "272",
@@ -6138,7 +6138,7 @@
       "class_id": "5-11",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "273",
@@ -6156,7 +6156,7 @@
       "class_id": "5-11",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "274",
@@ -6176,7 +6176,7 @@
       "class_id": "5-11",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "275",
@@ -6194,7 +6194,7 @@
       "class_id": "5-11",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "275-1",
@@ -6212,7 +6212,7 @@
       "class_id": "5-11",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "275-2",
@@ -6230,7 +6230,7 @@
       "class_id": "5-11",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "275-3",
@@ -6248,7 +6248,7 @@
       "class_id": "5-11",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "276",
@@ -6266,7 +6266,7 @@
       "class_id": "5-12",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "277",
@@ -6284,7 +6284,7 @@
       "class_id": "5-13",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "278",
@@ -6302,7 +6302,7 @@
       "class_id": "5-14",
       "notification_no": "78",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "279",
@@ -6320,7 +6320,7 @@
       "class_id": "5-15",
       "notification_no": "80",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "280",
@@ -6338,7 +6338,7 @@
       "class_id": "5-15",
       "notification_no": "79",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "281",
@@ -6356,7 +6356,7 @@
       "class_id": "5-16",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "282",
@@ -6374,7 +6374,7 @@
       "class_id": "5-16",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "283",
@@ -6392,7 +6392,7 @@
       "class_id": "5-17",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "284",
@@ -6410,7 +6410,7 @@
       "class_id": "5-17",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "285",
@@ -6430,7 +6430,7 @@
       "class_id": "5-18",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "286",
@@ -6450,7 +6450,7 @@
       "class_id": "5-18",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "287",
@@ -6468,7 +6468,7 @@
       "class_id": "5-18",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "288",
@@ -6486,7 +6486,7 @@
       "class_id": "5-18",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "289",
@@ -6504,7 +6504,7 @@
       "class_id": "5-18",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "290",
@@ -6524,7 +6524,7 @@
       "class_id": "5-19",
       "notification_no": "83",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "291",
@@ -6544,7 +6544,7 @@
       "class_id": "5-19",
       "notification_no": "84",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "292",
@@ -6562,7 +6562,7 @@
       "class_id": "5-19",
       "notification_no": "82",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "293",
@@ -6580,7 +6580,7 @@
       "class_id": "5-19",
       "notification_no": "81",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "294",
@@ -6600,7 +6600,7 @@
       "class_id": "5-19",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "294-1",
@@ -6618,7 +6618,7 @@
       "class_id": "5-19",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "295",
@@ -6636,7 +6636,7 @@
       "class_id": "5-20",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "296",
@@ -6658,7 +6658,7 @@
       "class_id": "5-21",
       "notification_no": "86",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "297",
@@ -6678,7 +6678,7 @@
       "class_id": "5-22",
       "notification_no": "87",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "298",
@@ -6696,7 +6696,7 @@
       "class_id": "5-23",
       "notification_no": "69",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "299",
@@ -6714,7 +6714,7 @@
       "class_id": "5-23",
       "notification_no": "68",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "300",
@@ -6732,7 +6732,7 @@
       "class_id": "5-23",
       "notification_no": "70",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "301",
@@ -6752,7 +6752,7 @@
       "class_id": "5-24",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "301-1",
@@ -6772,7 +6772,7 @@
       "class_id": "5-24",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "302",
@@ -6790,7 +6790,7 @@
       "class_id": "5-25",
       "notification_no": "61",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "303",
@@ -6808,7 +6808,7 @@
       "class_id": "5-25",
       "notification_no": "57",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "304",
@@ -6826,7 +6826,7 @@
       "class_id": "5-25",
       "notification_no": "56",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "305",
@@ -6844,7 +6844,7 @@
       "class_id": "5-25",
       "notification_no": "58",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "306",
@@ -6862,7 +6862,7 @@
       "class_id": "5-25",
       "notification_no": "59",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "307",
@@ -6880,7 +6880,7 @@
       "class_id": "5-25",
       "notification_no": "60",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "308",
@@ -6898,7 +6898,7 @@
       "class_id": "5-25",
       "notification_no": "62",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "309",
@@ -6916,7 +6916,7 @@
       "class_id": "5-26",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "310",
@@ -6934,7 +6934,7 @@
       "class_id": "5-26",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "311",
@@ -6952,7 +6952,7 @@
       "class_id": "5-27",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "312",
@@ -6970,7 +6970,7 @@
       "class_id": "5-28",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "313",
@@ -6990,7 +6990,7 @@
       "class_id": "5-29",
       "notification_no": "71",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "314",
@@ -7008,7 +7008,7 @@
       "class_id": "5-29",
       "notification_no": "72",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "315",
@@ -7026,7 +7026,7 @@
       "class_id": "5-30",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "316",
@@ -7044,7 +7044,7 @@
       "class_id": "5-30",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "317",
@@ -7062,7 +7062,7 @@
       "class_id": "5-30",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "317-1",
@@ -7080,7 +7080,7 @@
       "class_id": "5-30",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "318",
@@ -7098,7 +7098,7 @@
       "class_id": "5-31",
       "notification_no": "53",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "319",
@@ -7116,7 +7116,7 @@
       "class_id": "5-31",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "320",
@@ -7134,7 +7134,7 @@
       "class_id": "5-31",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "321",
@@ -7152,7 +7152,7 @@
       "class_id": "5-31",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "322",
@@ -7170,7 +7170,7 @@
       "class_id": "5-31",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "323",
@@ -7188,7 +7188,7 @@
       "class_id": "5-31",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "324",
@@ -7206,7 +7206,7 @@
       "class_id": "5-31",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "325",
@@ -7224,7 +7224,7 @@
       "class_id": "5-32",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "326",
@@ -7242,7 +7242,7 @@
       "class_id": "5-32",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "327",
@@ -7260,7 +7260,7 @@
       "class_id": "5-32",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "328",
@@ -7278,7 +7278,7 @@
       "class_id": "5-33",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "329",
@@ -7296,7 +7296,7 @@
       "class_id": "5-34",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "330",
@@ -7314,7 +7314,7 @@
       "class_id": "5-34",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "331",
@@ -7332,7 +7332,7 @@
       "class_id": "5-34",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "332",
@@ -7350,7 +7350,7 @@
       "class_id": "5-35",
       "notification_no": "76",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "333",
@@ -7368,7 +7368,7 @@
       "class_id": "5-36",
       "notification_no": "77",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "334",
@@ -7386,7 +7386,7 @@
       "class_id": "5-37",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "335",
@@ -7404,7 +7404,7 @@
       "class_id": "5-38",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "336",
@@ -7428,7 +7428,7 @@
       "class_id": "5-39",
       "notification_no": "64",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "337",
@@ -7452,7 +7452,7 @@
       "class_id": "5-39",
       "notification_no": "65",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "338",
@@ -7470,7 +7470,7 @@
       "class_id": "5-39",
       "notification_no": "66",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "338-1",
@@ -7488,7 +7488,7 @@
       "class_id": "5-39",
       "notification_no": "66",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "339",
@@ -7506,7 +7506,7 @@
       "class_id": "5-40",
       "notification_no": "63",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "340",
@@ -7526,7 +7526,7 @@
       "class_id": "5-41",
       "notification_no": "88",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "341",
@@ -7546,7 +7546,7 @@
       "class_id": "5-41",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "342",
@@ -7566,7 +7566,7 @@
       "class_id": "5-41",
       "notification_no": "92",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "343",
@@ -7586,7 +7586,7 @@
       "class_id": "5-41",
       "notification_no": "89",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "344",
@@ -7606,7 +7606,7 @@
       "class_id": "5-41",
       "notification_no": "90",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "345",
@@ -7626,7 +7626,7 @@
       "class_id": "6-1",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "346",
@@ -7646,7 +7646,7 @@
       "class_id": "6-1",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "347",
@@ -7664,7 +7664,7 @@
       "class_id": "6-1",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "347-1",
@@ -7685,7 +7685,7 @@
       "class_id": "6-1",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "347-2",
@@ -7706,7 +7706,7 @@
       "class_id": "6-1",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "348",
@@ -7728,7 +7728,7 @@
       "class_id": "6-1",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "349",
@@ -7746,7 +7746,7 @@
       "class_id": "6-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "350",
@@ -7766,7 +7766,7 @@
       "class_id": "6-1",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "351",
@@ -7786,7 +7786,7 @@
       "class_id": "6-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "352",
@@ -7806,7 +7806,7 @@
       "class_id": "6-2",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "353",
@@ -7828,7 +7828,7 @@
       "class_id": "6-2",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "354",
@@ -7848,7 +7848,7 @@
       "class_id": "6-2",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "355",
@@ -7868,7 +7868,7 @@
       "class_id": "6-2",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "356",
@@ -7886,7 +7886,7 @@
       "class_id": "6-3",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "357",
@@ -7904,7 +7904,7 @@
       "class_id": "6-4",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "358",
@@ -7924,7 +7924,7 @@
       "class_id": "6-4",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "359",
@@ -7942,7 +7942,7 @@
       "class_id": "6-5",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "360",
@@ -7960,7 +7960,7 @@
       "class_id": "6-5",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "361",
@@ -7978,7 +7978,7 @@
       "class_id": "6-5",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "362",
@@ -8002,7 +8002,7 @@
       "class_id": "6-5",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "363",
@@ -8020,7 +8020,7 @@
       "class_id": "6-5",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "364",
@@ -8042,7 +8042,7 @@
       "class_id": "6-5",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "365",
@@ -8067,7 +8067,7 @@
       "class_id": "6-5",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "366",
@@ -8085,7 +8085,7 @@
       "class_id": "6-5",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "367",
@@ -8103,7 +8103,7 @@
       "class_id": "6-5",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368",
@@ -8121,7 +8121,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-1",
@@ -8141,7 +8141,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-2",
@@ -8161,7 +8161,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-3",
@@ -8181,7 +8181,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-4",
@@ -8199,7 +8199,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-5",
@@ -8217,7 +8217,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-6",
@@ -8235,7 +8235,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-7",
@@ -8253,7 +8253,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-8",
@@ -8271,7 +8271,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-9",
@@ -8291,7 +8291,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-10",
@@ -8309,7 +8309,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-11",
@@ -8327,7 +8327,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-12",
@@ -8348,7 +8348,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-13",
@@ -8366,7 +8366,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-14",
@@ -8386,7 +8386,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-15",
@@ -8404,7 +8404,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-16",
@@ -8422,7 +8422,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-17",
@@ -8440,7 +8440,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "368-18",
@@ -8460,7 +8460,7 @@
       "class_id": "6-5",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "370",
@@ -8478,7 +8478,7 @@
       "class_id": "7-1",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "371",
@@ -8496,7 +8496,7 @@
       "class_id": "7-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "372",
@@ -8518,7 +8518,7 @@
       "class_id": "7-1",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "373",
@@ -8536,7 +8536,7 @@
       "class_id": "7-1",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "374",
@@ -8554,7 +8554,7 @@
       "class_id": "7-1",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "375",
@@ -8572,7 +8572,7 @@
       "class_id": "7-1",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "376",
@@ -8590,7 +8590,7 @@
       "class_id": "7-1",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "377",
@@ -8614,7 +8614,7 @@
       "class_id": "8-1",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "378",
@@ -8632,7 +8632,7 @@
       "class_id": "8-1",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "379",
@@ -8650,7 +8650,7 @@
       "class_id": "8-1",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "380",
@@ -8668,7 +8668,7 @@
       "class_id": "8-1",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "381",
@@ -8686,7 +8686,7 @@
       "class_id": "8-1",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "382",
@@ -8706,7 +8706,7 @@
       "class_id": "8-1",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "383",
@@ -8724,7 +8724,7 @@
       "class_id": "8-1",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "384",
@@ -8742,7 +8742,7 @@
       "class_id": "8-1",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "385",
@@ -8760,7 +8760,7 @@
       "class_id": "8-1",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "386",
@@ -8778,7 +8778,7 @@
       "class_id": "8-1",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "387",
@@ -8796,7 +8796,7 @@
       "class_id": "8-1",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "388",
@@ -8814,7 +8814,7 @@
       "class_id": "8-1",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "389",
@@ -8832,7 +8832,7 @@
       "class_id": "8-1",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "390",
@@ -8854,7 +8854,7 @@
       "class_id": "8-1",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "391",
@@ -8872,7 +8872,7 @@
       "class_id": "8-1",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "392",
@@ -8890,7 +8890,7 @@
       "class_id": "8-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "393",
@@ -8908,7 +8908,7 @@
       "class_id": "8-1",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "394",
@@ -8928,7 +8928,7 @@
       "class_id": "8-1",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "394-1",
@@ -8948,7 +8948,7 @@
       "class_id": "8-1",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "396",
@@ -8968,7 +8968,7 @@
       "class_id": "8-1",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "397",
@@ -8986,7 +8986,7 @@
       "class_id": "8-1",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "398",
@@ -9004,7 +9004,7 @@
       "class_id": "8-1",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "399",
@@ -9022,7 +9022,7 @@
       "class_id": "8-1",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "400",
@@ -9042,7 +9042,7 @@
       "class_id": "8-2",
       "notification_no": "110",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "401",
@@ -9062,7 +9062,7 @@
       "class_id": "8-2",
       "notification_no": "107",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "402",
@@ -9080,7 +9080,7 @@
       "class_id": "8-2",
       "notification_no": "108",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "403",
@@ -9098,7 +9098,7 @@
       "class_id": "8-2",
       "notification_no": "96",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "404",
@@ -9116,7 +9116,7 @@
       "class_id": "8-2",
       "notification_no": "104",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "405",
@@ -9134,7 +9134,7 @@
       "class_id": "8-2",
       "notification_no": "109",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "406",
@@ -9154,7 +9154,7 @@
       "class_id": "8-2",
       "notification_no": "103",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "407",
@@ -9174,7 +9174,7 @@
       "class_id": "8-2",
       "notification_no": "102",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "408",
@@ -9194,7 +9194,7 @@
       "class_id": "8-2",
       "notification_no": "101",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "409",
@@ -9212,7 +9212,7 @@
       "class_id": "8-2",
       "notification_no": "106",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "410",
@@ -9232,7 +9232,7 @@
       "class_id": "8-2",
       "notification_no": "98",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "411",
@@ -9256,7 +9256,7 @@
       "class_id": "8-2",
       "notification_no": "99",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "412",
@@ -9274,7 +9274,7 @@
       "class_id": "8-2",
       "notification_no": "100",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "413",
@@ -9292,7 +9292,7 @@
       "class_id": "8-2",
       "notification_no": "95",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "414",
@@ -9312,7 +9312,7 @@
       "class_id": "8-2",
       "notification_no": "97",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "415",
@@ -9330,7 +9330,7 @@
       "class_id": "8-2",
       "notification_no": "105",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "416",
@@ -9348,7 +9348,7 @@
       "class_id": "8-2",
       "notification_no": "111",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "417",
@@ -9368,7 +9368,7 @@
       "class_id": "8-3",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "418",
@@ -9386,7 +9386,7 @@
       "class_id": "8-3",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "419",
@@ -9404,7 +9404,7 @@
       "class_id": "8-3",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "420",
@@ -9422,7 +9422,7 @@
       "class_id": "8-3",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "421",
@@ -9440,7 +9440,7 @@
       "class_id": "8-3",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "422",
@@ -9458,7 +9458,7 @@
       "class_id": "8-3",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "423",
@@ -9476,7 +9476,7 @@
       "class_id": "8-3",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "424",
@@ -9494,7 +9494,7 @@
       "class_id": "8-3",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "425",
@@ -9512,7 +9512,7 @@
       "class_id": "8-3",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "426",
@@ -9530,7 +9530,7 @@
       "class_id": "8-3",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "427",
@@ -9548,7 +9548,7 @@
       "class_id": "8-4",
       "notification_no": "88",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "428",
@@ -9566,7 +9566,7 @@
       "class_id": "8-4",
       "notification_no": "87",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "429",
@@ -9584,7 +9584,7 @@
       "class_id": "8-4",
       "notification_no": "89",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "430",
@@ -9602,7 +9602,7 @@
       "class_id": "8-4",
       "notification_no": "86",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "431",
@@ -9620,7 +9620,7 @@
       "class_id": "8-4",
       "notification_no": "90",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "432",
@@ -9638,7 +9638,7 @@
       "class_id": "8-4",
       "notification_no": "92",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "433",
@@ -9656,7 +9656,7 @@
       "class_id": "8-4",
       "notification_no": "93",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "433-1",
@@ -9676,7 +9676,7 @@
       "class_id": "8-4",
       "notification_no": "93",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "433-2",
@@ -9696,7 +9696,7 @@
       "class_id": "8-4",
       "notification_no": "93",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "433-3",
@@ -9714,7 +9714,7 @@
       "class_id": "8-4",
       "notification_no": "93",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "434",
@@ -9732,7 +9732,7 @@
       "class_id": "8-4",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "434-1",
@@ -9750,7 +9750,7 @@
       "class_id": "8-4",
       "notification_no": "91",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "435",
@@ -9768,7 +9768,7 @@
       "class_id": "8-4",
       "notification_no": "94",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "436",
@@ -9788,7 +9788,7 @@
       "class_id": "8-5",
       "notification_no": "58",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "437",
@@ -9806,7 +9806,7 @@
       "class_id": "8-5",
       "notification_no": "60",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "438",
@@ -9824,7 +9824,7 @@
       "class_id": "8-5",
       "notification_no": "61",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "439",
@@ -9842,7 +9842,7 @@
       "class_id": "8-5",
       "notification_no": "59",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "440",
@@ -9860,7 +9860,7 @@
       "class_id": "8-5",
       "notification_no": "71",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "441",
@@ -9878,7 +9878,7 @@
       "class_id": "8-5",
       "notification_no": "72",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "442",
@@ -9898,7 +9898,7 @@
       "class_id": "8-5",
       "notification_no": "62",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "443",
@@ -9916,7 +9916,7 @@
       "class_id": "8-5",
       "notification_no": "64",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "444",
@@ -9934,7 +9934,7 @@
       "class_id": "8-5",
       "notification_no": "65",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "445",
@@ -9952,7 +9952,7 @@
       "class_id": "8-5",
       "notification_no": "66",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "446",
@@ -9970,7 +9970,7 @@
       "class_id": "8-5",
       "notification_no": "67",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "447",
@@ -9988,7 +9988,7 @@
       "class_id": "8-5",
       "notification_no": "68",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "448",
@@ -10006,7 +10006,7 @@
       "class_id": "8-5",
       "notification_no": "69",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "449",
@@ -10024,7 +10024,7 @@
       "class_id": "8-5",
       "notification_no": "70",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "450",
@@ -10044,7 +10044,7 @@
       "class_id": "8-5",
       "notification_no": "63",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "451",
@@ -10062,7 +10062,7 @@
       "class_id": "8-5",
       "notification_no": "73",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "452",
@@ -10080,7 +10080,7 @@
       "class_id": "8-6",
       "notification_no": "130",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "453",
@@ -10098,7 +10098,7 @@
       "class_id": "8-6",
       "notification_no": "131",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "454",
@@ -10116,7 +10116,7 @@
       "class_id": "8-6",
       "notification_no": "132",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "455",
@@ -10134,7 +10134,7 @@
       "class_id": "8-6",
       "notification_no": "133",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "456",
@@ -10152,7 +10152,7 @@
       "class_id": "8-6",
       "notification_no": "134",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "457",
@@ -10170,7 +10170,7 @@
       "class_id": "8-6",
       "notification_no": "135",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "458",
@@ -10188,7 +10188,7 @@
       "class_id": "8-6",
       "notification_no": "126",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "459",
@@ -10208,7 +10208,7 @@
       "class_id": "8-6",
       "notification_no": "129",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "460",
@@ -10226,7 +10226,7 @@
       "class_id": "8-6",
       "notification_no": "112",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "461",
@@ -10244,7 +10244,7 @@
       "class_id": "8-6",
       "notification_no": "118",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "462",
@@ -10262,7 +10262,7 @@
       "class_id": "8-6",
       "notification_no": "114",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "463",
@@ -10280,7 +10280,7 @@
       "class_id": "8-6",
       "notification_no": "119",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "464",
@@ -10298,7 +10298,7 @@
       "class_id": "8-6",
       "notification_no": "120",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "465",
@@ -10316,7 +10316,7 @@
       "class_id": "8-6",
       "notification_no": "113",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "466",
@@ -10336,7 +10336,7 @@
       "class_id": "8-6",
       "notification_no": "123",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "467",
@@ -10356,7 +10356,7 @@
       "class_id": "8-6",
       "notification_no": "116",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "468",
@@ -10376,7 +10376,7 @@
       "class_id": "8-6",
       "notification_no": "125",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "469",
@@ -10396,7 +10396,7 @@
       "class_id": "8-6",
       "notification_no": "115",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "470",
@@ -10416,7 +10416,7 @@
       "class_id": "8-6",
       "notification_no": "124",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "471",
@@ -10434,7 +10434,7 @@
       "class_id": "8-6",
       "notification_no": "128",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "472",
@@ -10454,7 +10454,7 @@
       "class_id": "8-6",
       "notification_no": "136",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "473",
@@ -10472,7 +10472,7 @@
       "class_id": "8-6",
       "notification_no": "137",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "474",
@@ -10494,7 +10494,7 @@
       "class_id": "8-6",
       "notification_no": "127",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "475",
@@ -10514,7 +10514,7 @@
       "class_id": "8-6",
       "notification_no": "117",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "476",
@@ -10532,7 +10532,7 @@
       "class_id": "8-6",
       "notification_no": "121",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "477",
@@ -10553,7 +10553,7 @@
       "class_id": "8-6",
       "notification_no": "138",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "478",
@@ -10573,7 +10573,7 @@
       "class_id": "8-6",
       "notification_no": "122",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "479",
@@ -10591,7 +10591,7 @@
       "class_id": "8-6",
       "notification_no": "139",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "480",
@@ -10609,7 +10609,7 @@
       "class_id": "8-7",
       "notification_no": "83",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "481",
@@ -10627,7 +10627,7 @@
       "class_id": "8-7",
       "notification_no": "82",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "482",
@@ -10647,7 +10647,7 @@
       "class_id": "8-7",
       "notification_no": "84",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "483",
@@ -10665,7 +10665,7 @@
       "class_id": "8-7",
       "notification_no": "85",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "484",
@@ -10685,7 +10685,7 @@
       "class_id": "8-8",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "485",
@@ -10705,7 +10705,7 @@
       "class_id": "8-8",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "486",
@@ -10723,7 +10723,7 @@
       "class_id": "8-8",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "487",
@@ -10741,7 +10741,7 @@
       "class_id": "8-8",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "488",
@@ -10759,7 +10759,7 @@
       "class_id": "8-8",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "489",
@@ -10777,7 +10777,7 @@
       "class_id": "8-8",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "490",
@@ -10795,7 +10795,7 @@
       "class_id": "8-8",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "491",
@@ -10819,7 +10819,7 @@
       "class_id": "8-9",
       "notification_no": "80",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "492",
@@ -10837,7 +10837,7 @@
       "class_id": "8-9",
       "notification_no": "76",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "493",
@@ -10855,7 +10855,7 @@
       "class_id": "8-9",
       "notification_no": "78",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "494",
@@ -10873,7 +10873,7 @@
       "class_id": "8-9",
       "notification_no": "79",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "495",
@@ -10891,7 +10891,7 @@
       "class_id": "8-9",
       "notification_no": "77",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "496",
@@ -10909,7 +10909,7 @@
       "class_id": "8-9",
       "notification_no": "81",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "497",
@@ -10927,7 +10927,7 @@
       "class_id": "8-10",
       "notification_no": "74",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "498",
@@ -10945,7 +10945,7 @@
       "class_id": "8-10",
       "notification_no": "75",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "499",
@@ -10963,7 +10963,7 @@
       "class_id": "8-11",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "500",
@@ -10981,7 +10981,7 @@
       "class_id": "8-11",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "501",
@@ -10999,7 +10999,7 @@
       "class_id": "8-11",
       "notification_no": "55",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "502",
@@ -11017,7 +11017,7 @@
       "class_id": "8-11",
       "notification_no": "53",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "503",
@@ -11035,7 +11035,7 @@
       "class_id": "8-11",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "504",
@@ -11053,7 +11053,7 @@
       "class_id": "8-11",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "505",
@@ -11071,7 +11071,7 @@
       "class_id": "8-11",
       "notification_no": "56",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "506",
@@ -11089,7 +11089,7 @@
       "class_id": "8-12",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "507",
@@ -11107,7 +11107,7 @@
       "class_id": "8-12",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "508",
@@ -11125,7 +11125,7 @@
       "class_id": "8-12",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "509",
@@ -11143,7 +11143,7 @@
       "class_id": "8-12",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "510",
@@ -11163,7 +11163,7 @@
       "class_id": "8-12",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "511",
@@ -11181,7 +11181,7 @@
       "class_id": "8-12",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "512",
@@ -11201,7 +11201,7 @@
       "class_id": "8-13",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "513",
@@ -11219,7 +11219,7 @@
       "class_id": "8-13",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "514",
@@ -11237,7 +11237,7 @@
       "class_id": "8-13",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "515",
@@ -11255,7 +11255,7 @@
       "class_id": "8-14",
       "notification_no": "57",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "516",
@@ -11273,7 +11273,7 @@
       "class_id": "8-15",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "517",
@@ -11291,7 +11291,7 @@
       "class_id": "9-1",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "518",
@@ -11309,7 +11309,7 @@
       "class_id": "9-2",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "519",
@@ -11331,7 +11331,7 @@
       "class_id": "9-2",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "520",
@@ -11351,7 +11351,7 @@
       "class_id": "9-3",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "521",
@@ -11369,7 +11369,7 @@
       "class_id": "9-4",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "522",
@@ -11387,7 +11387,7 @@
       "class_id": "9-5",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "523",
@@ -11407,7 +11407,7 @@
       "class_id": "9-6",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "524",
@@ -11427,7 +11427,7 @@
       "class_id": "9-6",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "525",
@@ -11447,7 +11447,7 @@
       "class_id": "9-6",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "526",
@@ -11467,7 +11467,7 @@
       "class_id": "9-7",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "527",
@@ -11487,7 +11487,7 @@
       "class_id": "9-8",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "528",
@@ -11505,7 +11505,7 @@
       "class_id": "9-8",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "529",
@@ -11525,7 +11525,7 @@
       "class_id": "9-8",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "530",
@@ -11543,7 +11543,7 @@
       "class_id": "9-8",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "531",
@@ -11561,7 +11561,7 @@
       "class_id": "9-8",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "532",
@@ -11579,7 +11579,7 @@
       "class_id": "9-8",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "533",
@@ -11597,7 +11597,7 @@
       "class_id": "9-8",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534",
@@ -11615,7 +11615,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534-1",
@@ -11633,7 +11633,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534-2",
@@ -11651,7 +11651,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534-3",
@@ -11671,7 +11671,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534-4",
@@ -11689,7 +11689,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534-5",
@@ -11707,7 +11707,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "534-6",
@@ -11725,7 +11725,7 @@
       "class_id": "9-8",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "535",
@@ -11743,7 +11743,7 @@
       "class_id": "9-9",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "535-1",
@@ -11761,7 +11761,7 @@
       "class_id": "9-9",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "536",
@@ -11781,7 +11781,7 @@
       "class_id": "9-10",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "536-1",
@@ -11801,7 +11801,7 @@
       "class_id": "9-10",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "536-2",
@@ -11821,7 +11821,7 @@
       "class_id": "9-10",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "536-3",
@@ -11842,7 +11842,7 @@
       "class_id": "9-10",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "537",
@@ -11862,7 +11862,7 @@
       "class_id": "9-11",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "538",
@@ -11880,7 +11880,7 @@
       "class_id": "9-12",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "539",
@@ -11898,7 +11898,7 @@
       "class_id": "9-13",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "540",
@@ -11916,7 +11916,7 @@
       "class_id": "9-13",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "540-1",
@@ -11934,7 +11934,7 @@
       "class_id": "9-13",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "540-2",
@@ -11952,7 +11952,7 @@
       "class_id": "9-13",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "541",
@@ -11970,7 +11970,7 @@
       "class_id": "9-14",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "542",
@@ -11988,7 +11988,7 @@
       "class_id": "9-15",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "543",
@@ -12008,7 +12008,7 @@
       "class_id": "9-16",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "544",
@@ -12028,7 +12028,7 @@
       "class_id": "9-16",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "545",
@@ -12046,7 +12046,7 @@
       "class_id": "9-17",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "546",
@@ -12066,7 +12066,7 @@
       "class_id": "9-18",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "547",
@@ -12084,7 +12084,7 @@
       "class_id": "9-19",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "548",
@@ -12104,7 +12104,7 @@
       "class_id": "9-20",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "549",
@@ -12122,7 +12122,7 @@
       "class_id": "9-20",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "550",
@@ -12140,7 +12140,7 @@
       "class_id": "9-20",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551",
@@ -12158,7 +12158,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-1",
@@ -12176,7 +12176,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-2",
@@ -12196,7 +12196,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-3",
@@ -12217,7 +12217,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-4",
@@ -12237,7 +12237,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-5",
@@ -12255,7 +12255,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-6",
@@ -12273,7 +12273,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-7",
@@ -12291,7 +12291,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-8",
@@ -12309,7 +12309,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-9",
@@ -12327,7 +12327,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-10",
@@ -12345,7 +12345,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-11",
@@ -12367,7 +12367,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "551-12",
@@ -12385,7 +12385,7 @@
       "class_id": "9-20",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "552",
@@ -12403,7 +12403,7 @@
       "class_id": "9-21",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "553",
@@ -12421,7 +12421,7 @@
       "class_id": "9-21",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "554",
@@ -12439,7 +12439,7 @@
       "class_id": "9-21",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "555",
@@ -12457,7 +12457,7 @@
       "class_id": "9-21",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "556",
@@ -12475,7 +12475,7 @@
       "class_id": "9-21",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "557",
@@ -12493,7 +12493,7 @@
       "class_id": "9-21",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "558",
@@ -12511,7 +12511,7 @@
       "class_id": "9-21",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "559",
@@ -12529,7 +12529,7 @@
       "class_id": "9-21",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "560",
@@ -12547,7 +12547,7 @@
       "class_id": "9-21",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "561",
@@ -12565,7 +12565,7 @@
       "class_id": "9-21",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "562",
@@ -12587,7 +12587,7 @@
       "class_id": "9-21",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "563",
@@ -12605,7 +12605,7 @@
       "class_id": "9-21",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "563-1",
@@ -12625,7 +12625,7 @@
       "class_id": "9-21",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "563-2",
@@ -12645,7 +12645,7 @@
       "class_id": "9-21",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "563-3",
@@ -12663,7 +12663,7 @@
       "class_id": "9-21",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "563-4",
@@ -12681,7 +12681,7 @@
       "class_id": "9-21",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "563-5",
@@ -12701,7 +12701,7 @@
       "class_id": "9-21",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "564",
@@ -12721,7 +12721,7 @@
       "class_id": "9-22",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "565",
@@ -12741,7 +12741,7 @@
       "class_id": "9-23",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "566",
@@ -12761,7 +12761,7 @@
       "class_id": "9-24",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "567",
@@ -12779,7 +12779,7 @@
       "class_id": "9-25",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "568",
@@ -12797,7 +12797,7 @@
       "class_id": "9-26",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "569",
@@ -12817,7 +12817,7 @@
       "class_id": "10-1",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "570",
@@ -12835,7 +12835,7 @@
       "class_id": "10-1",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "571",
@@ -12857,7 +12857,7 @@
       "class_id": "10-1",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "572",
@@ -12877,7 +12877,7 @@
       "class_id": "10-1",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "573",
@@ -12895,7 +12895,7 @@
       "class_id": "10-1",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "574",
@@ -12913,7 +12913,7 @@
       "class_id": "10-1",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "575",
@@ -12931,7 +12931,7 @@
       "class_id": "10-1",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "576",
@@ -12949,7 +12949,7 @@
       "class_id": "10-1",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "577",
@@ -12967,7 +12967,7 @@
       "class_id": "10-1",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "578",
@@ -12987,7 +12987,7 @@
       "class_id": "10-1",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "579",
@@ -13007,7 +13007,7 @@
       "class_id": "10-2",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "580",
@@ -13025,7 +13025,7 @@
       "class_id": "10-2",
       "notification_no": "55",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "581",
@@ -13045,7 +13045,7 @@
       "class_id": "10-2",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "582",
@@ -13065,7 +13065,7 @@
       "class_id": "10-2",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "583",
@@ -13083,7 +13083,7 @@
       "class_id": "10-2",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "584",
@@ -13101,7 +13101,7 @@
       "class_id": "10-2",
       "notification_no": "53",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "585",
@@ -13119,7 +13119,7 @@
       "class_id": "10-2",
       "notification_no": "56",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "586",
@@ -13139,7 +13139,7 @@
       "class_id": "10-2",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "587",
@@ -13163,7 +13163,7 @@
       "class_id": "10-2",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "588",
@@ -13181,7 +13181,7 @@
       "class_id": "10-2",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "589",
@@ -13199,7 +13199,7 @@
       "class_id": "10-2",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "590",
@@ -13217,7 +13217,7 @@
       "class_id": "10-2",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "591",
@@ -13237,7 +13237,7 @@
       "class_id": "10-3",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "592",
@@ -13257,7 +13257,7 @@
       "class_id": "10-3",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "593",
@@ -13275,7 +13275,7 @@
       "class_id": "10-3",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "594",
@@ -13293,7 +13293,7 @@
       "class_id": "10-3",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "595",
@@ -13311,7 +13311,7 @@
       "class_id": "10-3",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "596",
@@ -13329,7 +13329,7 @@
       "class_id": "10-3",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "597",
@@ -13347,7 +13347,7 @@
       "class_id": "10-3",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "598",
@@ -13365,7 +13365,7 @@
       "class_id": "10-3",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "599",
@@ -13387,7 +13387,7 @@
       "class_id": "10-4",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "600",
@@ -13407,7 +13407,7 @@
       "class_id": "10-4",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "601",
@@ -13429,7 +13429,7 @@
       "class_id": "10-4",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602",
@@ -13447,7 +13447,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-1",
@@ -13468,7 +13468,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-2",
@@ -13488,7 +13488,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-3",
@@ -13508,7 +13508,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-4",
@@ -13528,7 +13528,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-5",
@@ -13546,7 +13546,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-6",
@@ -13566,7 +13566,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-7",
@@ -13586,7 +13586,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-8",
@@ -13606,7 +13606,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-9",
@@ -13624,7 +13624,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-10",
@@ -13644,7 +13644,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-11",
@@ -13664,7 +13664,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-12",
@@ -13684,7 +13684,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-13",
@@ -13705,7 +13705,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-14",
@@ -13726,7 +13726,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-15",
@@ -13744,7 +13744,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-16",
@@ -13767,7 +13767,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "602-17",
@@ -13787,7 +13787,7 @@
       "class_id": "10-4",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "604",
@@ -13805,7 +13805,7 @@
       "class_id": "10-5",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "605",
@@ -13823,7 +13823,7 @@
       "class_id": "10-5",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606",
@@ -13841,7 +13841,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-1",
@@ -13861,7 +13861,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-2",
@@ -13881,7 +13881,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-3",
@@ -13899,7 +13899,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-4",
@@ -13917,7 +13917,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-5",
@@ -13935,7 +13935,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-6",
@@ -13953,7 +13953,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "606-7",
@@ -13971,7 +13971,7 @@
       "class_id": "10-5",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "607",
@@ -13991,7 +13991,7 @@
       "class_id": "10-5",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "608",
@@ -14013,7 +14013,7 @@
       "class_id": "10-5",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "609",
@@ -14033,7 +14033,7 @@
       "class_id": "10-5",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "610",
@@ -14051,7 +14051,7 @@
       "class_id": "10-5",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "611",
@@ -14071,7 +14071,7 @@
       "class_id": "10-5",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "612",
@@ -14089,7 +14089,7 @@
       "class_id": "10-5",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "613",
@@ -14109,7 +14109,7 @@
       "class_id": "10-6",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "614",
@@ -14127,7 +14127,7 @@
       "class_id": "10-6",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "615",
@@ -14145,7 +14145,7 @@
       "class_id": "10-6",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "616",
@@ -14165,7 +14165,7 @@
       "class_id": "10-6",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617",
@@ -14183,7 +14183,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-1",
@@ -14201,7 +14201,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-2",
@@ -14224,7 +14224,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-3",
@@ -14242,7 +14242,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-4",
@@ -14260,7 +14260,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-5",
@@ -14278,7 +14278,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-6",
@@ -14296,7 +14296,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-7",
@@ -14314,7 +14314,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-8",
@@ -14332,7 +14332,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "617-9",
@@ -14350,7 +14350,7 @@
       "class_id": "10-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618",
@@ -14368,7 +14368,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-1",
@@ -14386,7 +14386,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-2",
@@ -14404,7 +14404,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-3",
@@ -14422,7 +14422,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-4",
@@ -14440,7 +14440,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-5",
@@ -14458,7 +14458,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-6",
@@ -14476,7 +14476,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-7",
@@ -14494,7 +14494,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-8",
@@ -14512,7 +14512,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-9",
@@ -14530,7 +14530,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-10",
@@ -14548,7 +14548,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-11",
@@ -14566,7 +14566,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-12",
@@ -14586,7 +14586,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-13",
@@ -14604,7 +14604,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-14",
@@ -14622,7 +14622,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-15",
@@ -14642,7 +14642,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-16",
@@ -14662,7 +14662,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-17",
@@ -14680,7 +14680,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "618-18",
@@ -14700,7 +14700,7 @@
       "class_id": "10-7",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "619",
@@ -14722,7 +14722,7 @@
       "class_id": "10-7",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620",
@@ -14740,7 +14740,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-1",
@@ -14760,7 +14760,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-2",
@@ -14778,7 +14778,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-3",
@@ -14796,7 +14796,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-4",
@@ -14814,7 +14814,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-5",
@@ -14834,7 +14834,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-6",
@@ -14852,7 +14852,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-7",
@@ -14872,7 +14872,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "620-8",
@@ -14892,7 +14892,7 @@
       "class_id": "10-7",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "621",
@@ -14910,7 +14910,7 @@
       "class_id": "10-8",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "622",
@@ -14930,7 +14930,7 @@
       "class_id": "10-9",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "623",
@@ -14948,7 +14948,7 @@
       "class_id": "10-10",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "623-1",
@@ -14966,7 +14966,7 @@
       "class_id": "10-10",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "624",
@@ -14984,7 +14984,7 @@
       "class_id": "10-10",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "625",
@@ -15004,7 +15004,7 @@
       "class_id": "10-11",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "626",
@@ -15022,7 +15022,7 @@
       "class_id": "11-1",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "627",
@@ -15040,7 +15040,7 @@
       "class_id": "11-1",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "628",
@@ -15058,7 +15058,7 @@
       "class_id": "11-1",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "629",
@@ -15076,7 +15076,7 @@
       "class_id": "11-2",
       "notification_no": "55",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "630",
@@ -15094,7 +15094,7 @@
       "class_id": "11-3",
       "notification_no": "66",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "631",
@@ -15112,7 +15112,7 @@
       "class_id": "11-3",
       "notification_no": "72",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "632",
@@ -15130,7 +15130,7 @@
       "class_id": "11-3",
       "notification_no": "68",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "633",
@@ -15152,7 +15152,7 @@
       "class_id": "11-3",
       "notification_no": "71",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "634",
@@ -15172,7 +15172,7 @@
       "class_id": "11-3",
       "notification_no": "70",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "635",
@@ -15190,7 +15190,7 @@
       "class_id": "11-3",
       "notification_no": "69",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "636",
@@ -15210,7 +15210,7 @@
       "class_id": "11-3",
       "notification_no": "67",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "637",
@@ -15230,7 +15230,7 @@
       "class_id": "11-4",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "638",
@@ -15250,7 +15250,7 @@
       "class_id": "11-5",
       "notification_no": "81",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "639",
@@ -15270,7 +15270,7 @@
       "class_id": "11-6",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "640",
@@ -15288,7 +15288,7 @@
       "class_id": "11-6",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "641",
@@ -15311,7 +15311,7 @@
       "class_id": "11-6",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "642",
@@ -15331,7 +15331,7 @@
       "class_id": "11-6",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "643",
@@ -15351,7 +15351,7 @@
       "class_id": "11-6",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "644",
@@ -15371,7 +15371,7 @@
       "class_id": "11-7",
       "notification_no": "56",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "645",
@@ -15391,7 +15391,7 @@
       "class_id": "11-7",
       "notification_no": "57",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "646",
@@ -15412,7 +15412,7 @@
       "class_id": "11-7",
       "notification_no": "58",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "647",
@@ -15432,7 +15432,7 @@
       "class_id": "11-8",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "648",
@@ -15452,7 +15452,7 @@
       "class_id": "11-8",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "649",
@@ -15470,7 +15470,7 @@
       "class_id": "11-8",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "650",
@@ -15488,7 +15488,7 @@
       "class_id": "11-8",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "651",
@@ -15506,7 +15506,7 @@
       "class_id": "11-8",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "652",
@@ -15526,7 +15526,7 @@
       "class_id": "11-9",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "653",
@@ -15544,7 +15544,7 @@
       "class_id": "11-10",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "654",
@@ -15566,7 +15566,7 @@
       "class_id": "11-11",
       "notification_no": "45",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "655",
@@ -15584,7 +15584,7 @@
       "class_id": "11-12",
       "notification_no": "65",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "656",
@@ -15602,7 +15602,7 @@
       "class_id": "11-13",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "657",
@@ -15622,7 +15622,7 @@
       "class_id": "11-13",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "658",
@@ -15642,7 +15642,7 @@
       "class_id": "11-13",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "659",
@@ -15660,7 +15660,7 @@
       "class_id": "11-13",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "659-1",
@@ -15680,7 +15680,7 @@
       "class_id": "11-13",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "659-2",
@@ -15700,7 +15700,7 @@
       "class_id": "11-13",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "659-3",
@@ -15718,7 +15718,7 @@
       "class_id": "11-13",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "659",
@@ -15736,7 +15736,7 @@
       "class_id": "11-14",
       "notification_no": "79",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "660",
@@ -15756,7 +15756,7 @@
       "class_id": "11-15",
       "notification_no": "73",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "661",
@@ -15774,7 +15774,7 @@
       "class_id": "11-16",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "662",
@@ -15792,7 +15792,7 @@
       "class_id": "11-17",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "663",
@@ -15810,7 +15810,7 @@
       "class_id": "11-18",
       "notification_no": "47",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "664",
@@ -15830,7 +15830,7 @@
       "class_id": "11-18",
       "notification_no": "46",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "665",
@@ -15850,7 +15850,7 @@
       "class_id": "11-19",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "666",
@@ -15870,7 +15870,7 @@
       "class_id": "11-19",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "667",
@@ -15888,7 +15888,7 @@
       "class_id": "11-19",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "668",
@@ -15908,7 +15908,7 @@
       "class_id": "11-19",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "669",
@@ -15928,7 +15928,7 @@
       "class_id": "11-19",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "670",
@@ -15946,7 +15946,7 @@
       "class_id": "11-19",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "671",
@@ -15966,7 +15966,7 @@
       "class_id": "11-19",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "672",
@@ -15984,7 +15984,7 @@
       "class_id": "11-19",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "672-1",
@@ -16002,7 +16002,7 @@
       "class_id": "11-19",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "672-2",
@@ -16022,7 +16022,7 @@
       "class_id": "11-19",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "672-3",
@@ -16042,7 +16042,7 @@
       "class_id": "11-19",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "673",
@@ -16062,7 +16062,7 @@
       "class_id": "11-20",
       "notification_no": "52",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "674",
@@ -16080,7 +16080,7 @@
       "class_id": "11-20",
       "notification_no": "48",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "675",
@@ -16098,7 +16098,7 @@
       "class_id": "11-20",
       "notification_no": "50",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "676",
@@ -16116,7 +16116,7 @@
       "class_id": "11-20",
       "notification_no": "49",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "677",
@@ -16134,7 +16134,7 @@
       "class_id": "11-20",
       "notification_no": "51",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "678",
@@ -16152,7 +16152,7 @@
       "class_id": "11-20",
       "notification_no": "53",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "679",
@@ -16170,7 +16170,7 @@
       "class_id": "11-20",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "679-1",
@@ -16190,7 +16190,7 @@
       "class_id": "11-20",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "679-2",
@@ -16208,7 +16208,7 @@
       "class_id": "11-20",
       "notification_no": "54",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "680",
@@ -16228,7 +16228,7 @@
       "class_id": "11-21",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "681",
@@ -16248,7 +16248,7 @@
       "class_id": "11-22",
       "notification_no": "61",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "682",
@@ -16268,7 +16268,7 @@
       "class_id": "11-22",
       "notification_no": "60",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "683",
@@ -16288,7 +16288,7 @@
       "class_id": "11-22",
       "notification_no": "62",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "684",
@@ -16308,7 +16308,7 @@
       "class_id": "11-23",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "685",
@@ -16328,7 +16328,7 @@
       "class_id": "11-23",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "686",
@@ -16348,7 +16348,7 @@
       "class_id": "11-24",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "687",
@@ -16368,7 +16368,7 @@
       "class_id": "11-25",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "688",
@@ -16386,7 +16386,7 @@
       "class_id": "11-26",
       "notification_no": "77",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "689",
@@ -16410,7 +16410,7 @@
       "class_id": "11-26",
       "notification_no": "76",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "690",
@@ -16430,7 +16430,7 @@
       "class_id": "11-27",
       "notification_no": "75",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "691",
@@ -16450,7 +16450,7 @@
       "class_id": "11-27",
       "notification_no": "74",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "692",
@@ -16470,7 +16470,7 @@
       "class_id": "11-28",
       "notification_no": "64",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "693",
@@ -16488,7 +16488,7 @@
       "class_id": "11-29",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "694",
@@ -16506,7 +16506,7 @@
       "class_id": "11-29",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "695",
@@ -16524,7 +16524,7 @@
       "class_id": "11-29",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "696",
@@ -16542,7 +16542,7 @@
       "class_id": "11-29",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "697",
@@ -16566,7 +16566,7 @@
       "class_id": "11-30",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "697-1",
@@ -16587,7 +16587,7 @@
       "class_id": "11-30",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "697-2",
@@ -16608,7 +16608,7 @@
       "class_id": "11-30",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "697-3",
@@ -16629,7 +16629,7 @@
       "class_id": "11-30",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "697-4",
@@ -16650,7 +16650,7 @@
       "class_id": "11-30",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "697-5",
@@ -16671,7 +16671,7 @@
       "class_id": "11-30",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "698",
@@ -16691,7 +16691,7 @@
       "class_id": "11-31",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "699",
@@ -16711,7 +16711,7 @@
       "class_id": "11-32",
       "notification_no": "80",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "700",
@@ -16733,7 +16733,7 @@
       "class_id": "11-33",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "701",
@@ -16755,7 +16755,7 @@
       "class_id": "11-34",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "702",
@@ -16775,7 +16775,7 @@
       "class_id": "11-35",
       "notification_no": "63",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "703",
@@ -16793,7 +16793,7 @@
       "class_id": "11-36",
       "notification_no": "59",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "704",
@@ -16813,7 +16813,7 @@
       "class_id": "11-37",
       "notification_no": "78",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "705",
@@ -16833,7 +16833,7 @@
       "class_id": "11-38",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "706",
@@ -16851,7 +16851,7 @@
       "class_id": "12-1",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "707",
@@ -16871,7 +16871,7 @@
       "class_id": "12-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "708",
@@ -16891,7 +16891,7 @@
       "class_id": "12-1",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "709",
@@ -16909,7 +16909,7 @@
       "class_id": "12-1",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "710",
@@ -16927,7 +16927,7 @@
       "class_id": "12-1",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "711",
@@ -16945,7 +16945,7 @@
       "class_id": "12-1",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "712",
@@ -16963,7 +16963,7 @@
       "class_id": "12-2",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "713",
@@ -16981,7 +16981,7 @@
       "class_id": "12-3",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "714",
@@ -17001,7 +17001,7 @@
       "class_id": "12-4",
       "notification_no": "39",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "715",
@@ -17019,7 +17019,7 @@
       "class_id": "12-4",
       "notification_no": "40",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "716",
@@ -17039,7 +17039,7 @@
       "class_id": "12-4",
       "notification_no": "41",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "717",
@@ -17059,7 +17059,7 @@
       "class_id": "12-4",
       "notification_no": "38",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "718",
@@ -17077,7 +17077,7 @@
       "class_id": "12-5",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "719",
@@ -17095,7 +17095,7 @@
       "class_id": "12-6",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "720",
@@ -17115,7 +17115,7 @@
       "class_id": "12-6",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "721",
@@ -17133,7 +17133,7 @@
       "class_id": "12-6",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "722",
@@ -17153,7 +17153,7 @@
       "class_id": "12-7",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "722-1",
@@ -17173,7 +17173,7 @@
       "class_id": "12-7",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "723",
@@ -17194,7 +17194,7 @@
       "class_id": "12-8",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "724",
@@ -17214,7 +17214,7 @@
       "class_id": "12-9",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "725",
@@ -17232,7 +17232,7 @@
       "class_id": "12-10",
       "notification_no": "44",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "726",
@@ -17252,7 +17252,7 @@
       "class_id": "12-11",
       "notification_no": "43",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "727",
@@ -17272,7 +17272,7 @@
       "class_id": "12-12",
       "notification_no": "42",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "728",
@@ -17290,7 +17290,7 @@
       "class_id": "12-13",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "729",
@@ -17310,7 +17310,7 @@
       "class_id": "12-13",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "730",
@@ -17328,7 +17328,7 @@
       "class_id": "12-13",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "731",
@@ -17348,7 +17348,7 @@
       "class_id": "12-13",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "732",
@@ -17368,7 +17368,7 @@
       "class_id": "12-13",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "733",
@@ -17386,7 +17386,7 @@
       "class_id": "12-13",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "734",
@@ -17406,7 +17406,7 @@
       "class_id": "12-14",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "735",
@@ -17424,7 +17424,7 @@
       "class_id": "12-15",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "736",
@@ -17444,7 +17444,7 @@
       "class_id": "12-16",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "737",
@@ -17462,7 +17462,7 @@
       "class_id": "12-17",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "738",
@@ -17480,7 +17480,7 @@
       "class_id": "12-18",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "739",
@@ -17500,7 +17500,7 @@
       "class_id": "12-19",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "740",
@@ -17518,7 +17518,7 @@
       "class_id": "12-20",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "741",
@@ -17536,7 +17536,7 @@
       "class_id": "12-20",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "742",
@@ -17554,7 +17554,7 @@
       "class_id": "12-21",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "743",
@@ -17574,7 +17574,7 @@
       "class_id": "12-22",
       "notification_no": "36",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "744",
@@ -17592,7 +17592,7 @@
       "class_id": "12-22",
       "notification_no": "37",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "745",
@@ -17612,7 +17612,7 @@
       "class_id": "12-22",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "746",
@@ -17630,7 +17630,7 @@
       "class_id": "12-22",
       "notification_no": "35",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "747",
@@ -17652,7 +17652,7 @@
       "class_id": "12-23",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "748",
@@ -17670,7 +17670,7 @@
       "class_id": "12-24",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "749",
@@ -17688,7 +17688,7 @@
       "class_id": "12-25",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "750",
@@ -17708,7 +17708,7 @@
       "class_id": "13-1",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "751",
@@ -17728,7 +17728,7 @@
       "class_id": "13-1",
       "notification_no": "22",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "752",
@@ -17748,7 +17748,7 @@
       "class_id": "13-1",
       "notification_no": "20",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "753",
@@ -17768,7 +17768,7 @@
       "class_id": "13-1",
       "notification_no": "33",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "754",
@@ -17786,7 +17786,7 @@
       "class_id": "13-1",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "755",
@@ -17806,7 +17806,7 @@
       "class_id": "13-1",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "756",
@@ -17826,7 +17826,7 @@
       "class_id": "13-1",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "757",
@@ -17846,7 +17846,7 @@
       "class_id": "13-1",
       "notification_no": "28",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "758",
@@ -17866,7 +17866,7 @@
       "class_id": "13-1",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "759",
@@ -17884,7 +17884,7 @@
       "class_id": "13-1",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "760",
@@ -17902,7 +17902,7 @@
       "class_id": "13-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "761",
@@ -17924,7 +17924,7 @@
       "class_id": "13-1",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "762",
@@ -17945,7 +17945,7 @@
       "class_id": "13-1",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "763",
@@ -17967,7 +17967,7 @@
       "class_id": "13-1",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "764",
@@ -17987,7 +17987,7 @@
       "class_id": "13-1",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "765",
@@ -18007,7 +18007,7 @@
       "class_id": "13-1",
       "notification_no": "17",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "766",
@@ -18027,7 +18027,7 @@
       "class_id": "13-1",
       "notification_no": "29",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "767",
@@ -18045,7 +18045,7 @@
       "class_id": "13-1",
       "notification_no": "34",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "768",
@@ -18063,7 +18063,7 @@
       "class_id": "13-1",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "769",
@@ -18083,7 +18083,7 @@
       "class_id": "13-1",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "770",
@@ -18103,7 +18103,7 @@
       "class_id": "13-1",
       "notification_no": "24",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "771",
@@ -18124,7 +18124,7 @@
       "class_id": "13-1",
       "notification_no": "25",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "772",
@@ -18144,7 +18144,7 @@
       "class_id": "13-1",
       "notification_no": "18",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "773",
@@ -18164,7 +18164,7 @@
       "class_id": "13-1",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "774",
@@ -18184,7 +18184,7 @@
       "class_id": "13-1",
       "notification_no": "27",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "775",
@@ -18204,7 +18204,7 @@
       "class_id": "13-1",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "776",
@@ -18224,7 +18224,7 @@
       "class_id": "13-1",
       "notification_no": "19",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "777",
@@ -18244,7 +18244,7 @@
       "class_id": "13-1",
       "notification_no": "21",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "778",
@@ -18264,7 +18264,7 @@
       "class_id": "13-1",
       "notification_no": "30",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "779",
@@ -18284,7 +18284,7 @@
       "class_id": "13-1",
       "notification_no": "31",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "780",
@@ -18304,7 +18304,7 @@
       "class_id": "13-1",
       "notification_no": "32",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "781",
@@ -18322,7 +18322,7 @@
       "class_id": "13-1",
       "notification_no": "26",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "782",
@@ -18340,7 +18340,7 @@
       "class_id": "13-1",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "783",
@@ -18358,7 +18358,7 @@
       "class_id": "13-1",
       "notification_no": "23",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "784",
@@ -18380,7 +18380,7 @@
       "class_id": "14-1",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "785",
@@ -18400,7 +18400,7 @@
       "class_id": "14-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "785-1",
@@ -18418,7 +18418,7 @@
       "class_id": "14-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "785-2",
@@ -18436,7 +18436,7 @@
       "class_id": "14-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "785-3",
@@ -18454,7 +18454,7 @@
       "class_id": "14-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "786",
@@ -18472,7 +18472,7 @@
       "class_id": "14-2",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "787",
@@ -18490,7 +18490,7 @@
       "class_id": "14-2",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "788",
@@ -18510,7 +18510,7 @@
       "class_id": "14-2",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "789",
@@ -18532,7 +18532,7 @@
       "class_id": "14-2",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "790",
@@ -18550,7 +18550,7 @@
       "class_id": "14-2",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "790-1",
@@ -18568,7 +18568,7 @@
       "class_id": "14-2",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "790-2",
@@ -18588,7 +18588,7 @@
       "class_id": "14-2",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "790-3",
@@ -18606,7 +18606,7 @@
       "class_id": "14-2",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "790-4",
@@ -18624,7 +18624,7 @@
       "class_id": "14-2",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "791",
@@ -18642,7 +18642,7 @@
       "class_id": "14-3",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "792",
@@ -18660,7 +18660,7 @@
       "class_id": "14-4",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "793",
@@ -18680,7 +18680,7 @@
       "class_id": "14-5",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "794",
@@ -18702,7 +18702,7 @@
       "class_id": "14-6",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "795",
@@ -18720,7 +18720,7 @@
       "class_id": "14-7",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "796",
@@ -18738,7 +18738,7 @@
       "class_id": "14-8",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "797",
@@ -18758,7 +18758,7 @@
       "class_id": "14-9",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "797-1",
@@ -18776,7 +18776,7 @@
       "class_id": "14-9",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "798",
@@ -18794,7 +18794,7 @@
       "class_id": "15-1",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "799",
@@ -18812,7 +18812,7 @@
       "class_id": "15-2",
       "notification_no": "13",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "800",
@@ -18830,7 +18830,7 @@
       "class_id": "15-2",
       "notification_no": "12",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "801",
@@ -18848,7 +18848,7 @@
       "class_id": "15-2",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "802",
@@ -18866,7 +18866,7 @@
       "class_id": "15-2",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "803",
@@ -18884,7 +18884,7 @@
       "class_id": "15-2",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "804",
@@ -18904,7 +18904,7 @@
       "class_id": "15-2",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "805",
@@ -18926,7 +18926,7 @@
       "class_id": "15-2",
       "notification_no": "11",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "806",
@@ -18944,7 +18944,7 @@
       "class_id": "15-2",
       "notification_no": "14",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "807",
@@ -18962,7 +18962,7 @@
       "class_id": "15-2",
       "notification_no": "10",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "808",
@@ -18980,7 +18980,7 @@
       "class_id": "15-2",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "809",
@@ -19000,7 +19000,7 @@
       "class_id": "15-2",
       "notification_no": "16",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "810",
@@ -19018,7 +19018,7 @@
       "class_id": "15-2",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "811",
@@ -19036,7 +19036,7 @@
       "class_id": "15-2",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "812",
@@ -19054,7 +19054,7 @@
       "class_id": "15-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "812-1",
@@ -19072,7 +19072,7 @@
       "class_id": "15-2",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "813",
@@ -19094,7 +19094,7 @@
       "class_id": "15-2",
       "notification_no": "15",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "814",
@@ -19112,7 +19112,7 @@
       "class_id": "16-1",
       "notification_no": "3",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "815",
@@ -19130,7 +19130,7 @@
       "class_id": "16-1",
       "notification_no": "4",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "816",
@@ -19148,7 +19148,7 @@
       "class_id": "16-1",
       "notification_no": "5",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "817",
@@ -19170,7 +19170,7 @@
       "class_id": "16-1",
       "notification_no": "6",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "818",
@@ -19188,7 +19188,7 @@
       "class_id": "16-1",
       "notification_no": "7",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "819",
@@ -19206,7 +19206,7 @@
       "class_id": "16-1",
       "notification_no": "8",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "820",
@@ -19224,7 +19224,7 @@
       "class_id": "16-1",
       "notification_no": "9",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "821",
@@ -19247,7 +19247,7 @@
       "class_id": "16-2",
       "notification_no": "1",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    },
    {
       "id": "822",
@@ -19267,6 +19267,6 @@
       "class_id": "16-3",
       "notification_no": "2",
       "description": "",
-      "obsolete": "FALSE"
+      "obsolete": false
    }
 ]
