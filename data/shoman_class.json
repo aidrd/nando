@@ -1,0 +1,1768 @@
+[
+  {
+    "id": "1",
+    "name_ja": "悪性新生物",
+    "name_en": "Malignant neoplasms"
+  },
+  {
+    "id": "1-1",
+    "name_ja": "白血病",
+    "name_en": "leukemia",
+    "parent": "悪性新生物"
+  },
+  {
+    "id": "1-2",
+    "name_ja": "骨髄異形成症候群",
+    "name_en": "Myelodysplastic syndrome",
+    "parent": "悪性新生物"
+  },
+  {
+    "id": "1-3",
+    "name_ja": "リンパ腫",
+    "name_en": "Lymphoma",
+    "parent": "悪性新生物"
+  },
+  {
+    "id": "1-4",
+    "name_ja": "組織球症",
+    "name_en": "Histiocytosis",
+    "parent": "悪性新生物"
+  },
+  {
+    "id": "1-5",
+    "name_ja": "固形腫瘍（中枢神経系腫瘍を除く。）",
+    "name_en": "Solid tumor (excluding solid tumour of the central nervous system)",
+    "parent": "悪性新生物"
+  },
+  {
+    "id": "1-6",
+    "name_ja": "中枢神経系腫瘍",
+    "name_en": "Central nervous system tumors",
+    "parent": "悪性新生物"
+  },
+  {
+    "id": "2",
+    "name_ja": "慢性腎疾患",
+    "name_en": "Chronic kidney disease"
+  },
+  {
+    "id": "2-1",
+    "name_ja": "ネフローゼ症候群",
+    "name_en": "Nephrotic syndrome",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-2",
+    "name_ja": "慢性糸球体腎炎",
+    "name_en": "Chronic glomerulonephritis",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-3",
+    "name_ja": "慢性尿細管間質性腎炎（尿路奇形が原因のものを除く。）",
+    "name_en": "Chronic tubulointerstitial nephritis (excluding urinary tract malformation)",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-4",
+    "name_ja": "慢性腎盂腎炎",
+    "name_en": "Chronic pyelonephritis",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-5",
+    "name_ja": "アミロイド腎",
+    "name_en": "Amyloid nephropathy",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-6",
+    "name_ja": "家族性若年性高尿酸血症性腎症",
+    "name_en": "Familial juvenile hyperuricaemic nephropathy",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-7",
+    "name_ja": "ネフロン癆",
+    "name_en": "Nephronophthisis",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-8",
+    "name_ja": "腎血管性高血圧",
+    "name_en": "Renovascular hypertension",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-9",
+    "name_ja": "腎静脈血栓症",
+    "name_en": "Renal vein thrombosis",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-10",
+    "name_ja": "腎動静脈瘻",
+    "name_en": "Renal arteriovenous fistula",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-11",
+    "name_ja": "尿細管性アシドーシス",
+    "name_en": "Renal tubular acidosis",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-12",
+    "name_ja": "ギッテルマン（Gitelman）症候群",
+    "name_en": "Gitelman Bartter syndrome",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-13",
+    "name_ja": "バーター（Bartter）症候群",
+    "name_en": "Bartter Gitelman syndrome",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-14",
+    "name_ja": "腎尿管結石",
+    "name_en": "Nephro- and urolithiasis",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-15",
+    "name_ja": "慢性腎不全",
+    "name_en": "Chronic renal failure",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-16",
+    "name_ja": "腎奇形",
+    "name_en": "Renal malformation",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-17",
+    "name_ja": "尿路奇形",
+    "name_en": "Urinary tract malformation",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-18",
+    "name_ja": "萎縮腎（尿路奇形が原因のものを除く。）",
+    "name_en": "Atrophic kidney (excluding urinary tract malformation)",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-19",
+    "name_ja": "ファンコーニ（Fanconi）症候群",
+    "name_en": "Fanconi syndrome",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "2-20",
+    "name_ja": "ロウ（Lowe）症候群",
+    "name_en": "Lowe syndrome",
+    "parent": "慢性腎疾患"
+  },
+  {
+    "id": "3",
+    "name_ja": "慢性呼吸器疾患",
+    "name_en": "Chronic respiratory disease"
+  },
+  {
+    "id": "3-1",
+    "name_ja": "気道狭窄",
+    "name_en": "Airway obstruction and stenosis",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-2",
+    "name_ja": "気管支喘息",
+    "name_en": "Bronchial asthma",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-3",
+    "name_ja": "先天性中枢性低換気症候群",
+    "name_en": "Congenital central hypoventilation syndrome",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-4",
+    "name_ja": "間質性肺疾患",
+    "name_en": "Interstitial pneumonia",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-5",
+    "name_ja": "線毛機能不全症候群",
+    "name_en": "primary ciliary dyskinesia",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-6",
+    "name_ja": "嚢胞性線維症",
+    "name_en": "Cystic fibrosis",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-7",
+    "name_ja": "気管支拡張症",
+    "name_en": "Bronchiectasis",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-8",
+    "name_ja": "特発性肺ヘモジデローシス",
+    "name_en": "Idiopathic pulmonary hemosiderosis",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-9",
+    "name_ja": "慢性肺疾患",
+    "name_en": "Chronic lung disease",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-10",
+    "name_ja": "閉塞性細気管支炎",
+    "name_en": "Bronchiolitis obliterans",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-11",
+    "name_ja": "先天性横隔膜ヘルニア",
+    "name_en": "Congenital diaphragmatic hernia",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "3-12",
+    "name_ja": "先天性嚢胞性肺疾患",
+    "name_en": "Congenital cystic lung disease",
+    "parent": "慢性呼吸器疾患"
+  },
+  {
+    "id": "4",
+    "name_ja": "慢性心疾患",
+    "name_en": "Chronic heart disease"
+  },
+  {
+    "id": "4-1",
+    "name_ja": "洞不全症候群",
+    "name_en": "Sick sinus syndrome",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-2",
+    "name_ja": "モビッツ（Mobitz）2型ブロック ",
+    "name_en": "Mobitz type II second degree atrioventricular block",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-3",
+    "name_ja": "完全房室ブロック ",
+    "name_en": "Complete atrio-ventricular block",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-4",
+    "name_ja": "脚ブロック",
+    "name_en": "Bundle branch block",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-5",
+    "name_ja": "多源性心室期外収縮",
+    "name_en": "Polymorphic ventricular premature beat",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-6",
+    "name_ja": "上室頻拍",
+    "name_en": "Supraventricular tachycardia",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-7",
+    "name_ja": "心室頻拍",
+    "name_en": "Ventricular tachycardia",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-8",
+    "name_ja": "心房粗動",
+    "name_en": "Atrial flutter",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-9",
+    "name_ja": "心房細動",
+    "name_en": "Atrial Fibrillation",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-10",
+    "name_ja": "心室細動",
+    "name_en": "Ventricular fibrillation",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-11",
+    "name_ja": "QT延長症候群",
+    "name_en": "Long QT syndrome",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-12",
+    "name_ja": "肥大型心筋症",
+    "name_en": "Hypertrophic cardiomyopathy",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-13",
+    "name_ja": "不整脈源性右室心筋症",
+    "name_en": "Arrhythmogenic right ventricular cardiomyopathy or dysplasia",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-14",
+    "name_ja": "心筋緻密化障害",
+    "name_en": "Non-compaction of the ventricle",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-15",
+    "name_ja": "拡張型心筋症",
+    "name_en": "Dilated cardiomyopathy",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-16",
+    "name_ja": "拘束型心筋症",
+    "name_en": "Restricted cardiomyopathy",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-17",
+    "name_ja": "心室瘤",
+    "name_en": "Aneurysm of ventricle",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-18",
+    "name_ja": "心内膜線維弾性症",
+    "name_en": "Endocardial fibroelastosis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-19",
+    "name_ja": "心臓腫瘍",
+    "name_en": "Cardiac tumor",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-20",
+    "name_ja": "慢性心筋炎",
+    "name_en": "Chronic myocarditis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-21",
+    "name_ja": "慢性心膜炎",
+    "name_en": "Chronic pericarditis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-22",
+    "name_ja": "収縮性心膜炎",
+    "name_en": "Constrictive pericarditis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-23",
+    "name_ja": "先天性心膜欠損症",
+    "name_en": "Congenital defect of the pericardium",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-24",
+    "name_ja": "乳児特発性僧帽弁腱索断裂",
+    "name_en": "Idiopathic Rupture of Chordae Tendineae of the Mitral Valve in Infants",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-25",
+    "name_ja": "冠動脈起始異常",
+    "name_en": "Abnormal origin of coronary artery from pulmonary artery",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-26",
+    "name_ja": "川崎病性冠動脈瘤",
+    "name_en": "Coronary aneurysms complicated with kawasaki disease",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-27",
+    "name_ja": "冠動脈狭窄症（川崎病によるものを除く。）",
+    "name_en": "Stenosis or atresia of coronary artery",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-28",
+    "name_ja": "虚血性心疾患",
+    "name_en": "Ischemic heart disease",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-29",
+    "name_ja": "左心低形成症候群",
+    "name_en": "Hypoplastic left heart syndrome",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-30",
+    "name_ja": "単心室症",
+    "name_en": "Single ventricle",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-31",
+    "name_ja": "三尖弁閉鎖症",
+    "name_en": "Tricuspid atresia",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-32",
+    "name_ja": "肺動脈閉鎖症 ",
+    "name_en": "Pulmonary atresia",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-33",
+    "name_ja": "ファロー（Fallot）四徴症",
+    "name_en": "Tetralogy of Fallot",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-34",
+    "name_ja": "両大血管右室起始症",
+    "name_en": "Double-outlet right ventricle",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-35",
+    "name_ja": "両大血管左室起始症",
+    "name_en": "Double-outlet left ventricle",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-36",
+    "name_ja": "完全大血管転位症",
+    "name_en": "Complete transposition of the great arteries",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-37",
+    "name_ja": "先天性修正大血管転位症",
+    "name_en": "Congenitally corrected transposition of the great arteries",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-38",
+    "name_ja": "エプスタイン（Ebstein）病",
+    "name_en": "Ebstein’s anomaly",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-39",
+    "name_ja": "総動脈幹遺残症",
+    "name_en": "Truncus arteriosus communis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-40",
+    "name_ja": "大動脈肺動脈窓 ",
+    "name_en": "Aorto-pulmonary window",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-41",
+    "name_ja": "三心房心",
+    "name_en": "Cor triatriatum",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-42",
+    "name_ja": "動脈管開存症",
+    "name_en": "Patent ductus arteriosus",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-43",
+    "name_ja": "心房中隔欠損症",
+    "name_en": "Atrial septal defect",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-44",
+    "name_ja": "完全型房室中隔欠損症",
+    "name_en": "Complete atrioventricular septal defect",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-45",
+    "name_ja": "心室中隔欠損症",
+    "name_en": "Ventricular septal defect",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-46",
+    "name_ja": "肺静脈還流異常症",
+    "name_en": "Total anomalous pulmonary venous connection",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-47",
+    "name_ja": "肺静脈狭窄症",
+    "name_en": "Pulmonary venous obstruction",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-48",
+    "name_ja": "左室右房交通症",
+    "name_en": "Left ventricular-right atrial communication",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-49",
+    "name_ja": "右室二腔症",
+    "name_en": "Double-chambered right ventricle",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-50",
+    "name_ja": "肺動脈弁下狭窄症",
+    "name_en": "Subvalvular pulmonary stenosis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-51",
+    "name_ja": "大動脈弁下狭窄症",
+    "name_en": "Subvalvular aortic stenosis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-52",
+    "name_ja": "肺動脈狭窄症",
+    "name_en": "Supravalvular pulmonary stenosis",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-53",
+    "name_ja": "肺動脈弁欠損",
+    "name_en": "Absent pulmonary valve",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-54",
+    "name_ja": "肺動脈上行大動脈起始症",
+    "name_en": "Origin of pulmonary artery from ascending aorta",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-55",
+    "name_ja": "一側肺動脈欠損",
+    "name_en": "Unilateral absence of a pulmonary artery",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-56",
+    "name_ja": "大動脈狭窄症",
+    "name_en": "Coarctation of the aorta",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-57",
+    "name_ja": "大動脈弓閉塞症",
+    "name_en": "Aortic arch occlusive disease",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-58",
+    "name_ja": "血管輪",
+    "name_en": "Vascular ring",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-59",
+    "name_ja": "大動脈瘤",
+    "name_en": "Aortic aneurysm",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-60",
+    "name_ja": "動静脈瘻",
+    "name_en": "Arteriovenous fistulae",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-61",
+    "name_ja": "肺動脈性肺高血圧症",
+    "name_en": "Idiopathic pulmonary arterial hypertension",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-62",
+    "name_ja": "慢性肺性心",
+    "name_en": "Chronic cor pulmonale",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-63",
+    "name_ja": "心臓弁膜症",
+    "name_en": "Valvular heart disease",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-64",
+    "name_ja": "僧帽弁弁上輪",
+    "name_en": "Supramitral ring",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-65",
+    "name_ja": "内臓錯位症候群",
+    "name_en": "Hheterotaxy syndrome",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "4-66",
+    "name_ja": "フォンタン（Fontan）術後症候群",
+    "name_en": "Post-Fontan syndrome",
+    "parent": "慢性心疾患"
+  },
+  {
+    "id": "5",
+    "name_ja": "内分泌疾患",
+    "name_en": "Endocrine disease"
+  },
+  {
+    "id": "5-1",
+    "name_ja": "下垂体機能低下症",
+    "name_en": "Hypopituitarism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-2",
+    "name_ja": "下垂体性巨人症",
+    "name_en": "Pituitary gigantism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-3",
+    "name_ja": "先端巨大症",
+    "name_en": "Acromegaly",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-4",
+    "name_ja": "成長ホルモン分泌不全性低身長症",
+    "name_en": "Growth hormone deficiency",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-5",
+    "name_ja": "成長ホルモン不応性症候群",
+    "name_en": "Growth hormone insensitivity",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-6",
+    "name_ja": "高プロラクチン血症",
+    "name_en": "Hyperprolactinemia",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-7",
+    "name_ja": "抗利尿ホルモン（ADH）不適切分泌症候群",
+    "name_en": "Syndrome of inappropriate secretion of antidiuretic hormone",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-8",
+    "name_ja": "尿崩症",
+    "name_en": "Diabetes insipidus",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-9",
+    "name_ja": "中枢性塩喪失症候群",
+    "name_en": "Cerebral salt wasting syndrome",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-10",
+    "name_ja": "甲状腺機能亢進症",
+    "name_en": "hyperthyroidism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-11",
+    "name_ja": "甲状腺機能低下症",
+    "name_en": "Hypothyroidism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-12",
+    "name_ja": "甲状腺ホルモン不応症",
+    "name_en": "Resistance to thyroid hormone",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-13",
+    "name_ja": "腺腫様甲状腺腫",
+    "name_en": "Adenomatous goiter",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-14",
+    "name_ja": "副甲状腺機能亢進症",
+    "name_en": "Hyperparathyroidism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-15",
+    "name_ja": "副甲状腺機能低下症",
+    "name_en": "Hypoparathyroidism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-16",
+    "name_ja": "自己免疫性多内分泌腺症候群",
+    "name_en": "Autoimmune polyendocrinopathy",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-17",
+    "name_ja": "偽性副甲状腺機能低下症",
+    "name_en": "Pseudopseudohypoparathyroidism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-18",
+    "name_ja": "クッシング（Cushing）症候群",
+    "name_en": "Cushing (Cushing) syndrome",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-19",
+    "name_ja": "慢性副腎皮質機能低下症",
+    "name_en": "Chronic adrenal insufficiency",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-20",
+    "name_ja": "アルドステロン症",
+    "name_en": "Aldosteronism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-21",
+    "name_ja": "見かけの鉱質コルチコイド過剰症候群（AME症候群）",
+    "name_en": "Apparent mineralocorticoid excess syndrome",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-22",
+    "name_ja": "リドル（Liddle）症候群",
+    "name_en": "Liddle syndrome",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-23",
+    "name_ja": "低アルドステロン症",
+    "name_en": "Hypoaldosteronism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-24",
+    "name_ja": "偽性低アルドステロン症",
+    "name_en": "Pseudohypoaldosteronism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-25",
+    "name_ja": "先天性副腎過形成症",
+    "name_en": "Congenital adrenal hyperplasia",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-26",
+    "name_ja": "思春期早発症",
+    "name_en": "",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-27",
+    "name_ja": "エストロゲン過剰症（思春期早発症を除く。）",
+    "name_en": "",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-28",
+    "name_ja": "アンドロゲン過剰症（思春期早発症を除く。）",
+    "name_en": "",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-29",
+    "name_ja": "低ゴナドトロピン性性腺機能低下症",
+    "name_en": "Hypogonadotropic hypogonadism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-30",
+    "name_ja": "高ゴナドトロピン性性腺機能低下症",
+    "name_en": "Hypergonadotropic hypogonadism",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-31",
+    "name_ja": "性分化疾患",
+    "name_en": "Disorders of sex development",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-32",
+    "name_ja": "消化管ホルモン産生腫瘍",
+    "name_en": "",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-33",
+    "name_ja": "グルカゴノーマ",
+    "name_en": "Glucagonoma",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-34",
+    "name_ja": "高インスリン血性低血糖症",
+    "name_en": "hyperinsulinaemic hypoglycaemia",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-35",
+    "name_ja": "ビタミンD依存性くる病",
+    "name_en": "Vitamin d-dependent rickets",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-36",
+    "name_ja": "ビタミンＤ抵抗性骨軟化症",
+    "name_en": "Vitamin d resistant osteomalacia",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-37",
+    "name_ja": "原発性低リン血症性くる病",
+    "name_en": "Primary hypophosphataemic rickets",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-38",
+    "name_ja": "脂肪異栄養症（脂肪萎縮症）",
+    "name_en": "Lipodystrophy",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-39",
+    "name_ja": "多発性内分泌腫瘍",
+    "name_en": "Multiple endocrine neoplasia",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-40",
+    "name_ja": "多嚢胞性卵巣症候群",
+    "name_en": "Polycystic ovary syndrome",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "5-41",
+    "name_ja": "内分泌疾患を伴うその他の症候群",
+    "name_en": "Other endocrine disease",
+    "parent": "内分泌疾患"
+  },
+  {
+    "id": "6",
+    "name_ja": "膠原病",
+    "name_en": "Collagen disease"
+  },
+  {
+    "id": "6-1",
+    "name_ja": "膠原病疾患",
+    "name_en": "Collagen disease disease",
+    "parent": "膠原病"
+  },
+  {
+    "id": "6-2",
+    "name_ja": "血管炎症候群",
+    "name_en": "",
+    "parent": "膠原病"
+  },
+  {
+    "id": "6-3",
+    "name_ja": "再発性多発軟骨炎",
+    "name_en": "Relapsing polychondritis",
+    "parent": "膠原病"
+  },
+  {
+    "id": "6-4",
+    "name_ja": "皮膚･結合組織疾患",
+    "name_en": "Skin and connective tissue disease",
+    "parent": "膠原病"
+  },
+  {
+    "id": "6-5",
+    "name_ja": "自己炎症性疾患",
+    "name_en": "autoinflammatory disease",
+    "parent": "膠原病"
+  },
+  {
+    "id": "7",
+    "name_ja": "糖尿病",
+    "name_en": "Diabetes"
+  },
+  {
+    "id": "7-1",
+    "name_ja": "糖尿病",
+    "name_en": "Diabetes",
+    "parent": "糖尿病"
+  },
+  {
+    "id": "8",
+    "name_ja": "先天性代謝異常",
+    "name_en": "Inborn errors of metabolism"
+  },
+  {
+    "id": "8-1",
+    "name_ja": "アミノ酸代謝異常症",
+    "name_en": "Disorder of amino acid metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-2",
+    "name_ja": "有機酸代謝異常症",
+    "name_en": "Disorder of organic acid metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-3",
+    "name_ja": "脂肪酸代謝異常症",
+    "name_en": "Disorder of fatty-acid metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-4",
+    "name_ja": "ミトコンドリア病",
+    "name_en": "Mitochondrial disease",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-5",
+    "name_ja": "糖質代謝異常症",
+    "name_en": "Disorder of carbohydrate metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-6",
+    "name_ja": "ライソゾーム病",
+    "name_en": "Lysosomal disease",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-7",
+    "name_ja": "ペルオキシソーム病",
+    "name_en": "Peroxisomal disease",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-8",
+    "name_ja": "金属代謝異常症",
+    "name_en": "Disorder of metal metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-9",
+    "name_ja": "プリンピリミジン代謝異常症",
+    "name_en": "Disorder of purine and pyrimidine metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-10",
+    "name_ja": "ビタミン代謝異常症",
+    "name_en": "Disorder of vitamin metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-11",
+    "name_ja": "神経伝達物質異常症",
+    "name_en": "Disorder of neurotransmitter metabolism and transport",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-12",
+    "name_ja": "脂質代謝異常症",
+    "name_en": "Disorder of lipid metabolism",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-13",
+    "name_ja": "結合組織異常症",
+    "name_en": "Connective tissue disorder",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-14",
+    "name_ja": "先天性ポルフィリン症",
+    "name_en": "porphyria",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "8-15",
+    "name_ja": "α1-アンチトリプシン欠損症",
+    "name_en": "Alpha-1-antitrypsin deficiency",
+    "parent": "先天性代謝異常"
+  },
+  {
+    "id": "9",
+    "name_ja": "血液疾患",
+    "name_en": "Blood disease"
+  },
+  {
+    "id": "9-1",
+    "name_ja": "巨赤芽球性貧血",
+    "name_en": "Megaloblastic anemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-2",
+    "name_ja": "赤芽球癆",
+    "name_en": "pure red cell aplasia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-3",
+    "name_ja": "先天性赤血球形成異常性貧血",
+    "name_en": "Congenital red blood cell dysplasia anemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-4",
+    "name_ja": "鉄芽球性貧血",
+    "name_en": "Sideroblastic anemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-5",
+    "name_ja": "無トランスフェリン血症",
+    "name_en": "Atransferrinemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-6",
+    "name_ja": "自己免疫性溶血性貧血",
+    "name_en": "Autoimmune hemolytic anemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-7",
+    "name_ja": "発作性夜間ヘモグロビン尿症",
+    "name_en": "Paroxysmal nocturnal hemoglobinuria",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-8",
+    "name_ja": "遺伝性溶血性貧血",
+    "name_en": "Hereditary hemolytic anemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-9",
+    "name_ja": "溶血性貧血（脾機能亢進症によるものに限る。）",
+    "name_en": "haemolytic anaemia due to hypersplenism",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-10",
+    "name_ja": "微小血管障害性溶血性貧血",
+    "name_en": "microangiopathic haemolytic anaemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-11",
+    "name_ja": "真性多血症",
+    "name_en": "Polycythemia vera",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-12",
+    "name_ja": "家族性赤血球増加症",
+    "name_en": "Familial vera",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-13",
+    "name_ja": "血小板減少性紫斑病",
+    "name_en": "Thrombocytopenic purpura",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-14",
+    "name_ja": "血栓性血小板減少性紫斑病",
+    "name_en": "Thrombotic thrombocytopenic purpura",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-15",
+    "name_ja": "血小板減少症（脾機能亢進症によるものに限る。）",
+    "name_en": "Thrombocytopenia (limited to those caused by hypersplenism.)",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-16",
+    "name_ja": "先天性骨髄不全症候群",
+    "name_en": "",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-17",
+    "name_ja": "周期性血小板減少症",
+    "name_en": "cyclic thrombocytopenia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-18",
+    "name_ja": "メイ・ヘグリン（May-Hegglin）異常症",
+    "name_en": "May‐Hegglin anomaly",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-19",
+    "name_ja": "本態性血小板血症",
+    "name_en": "essential thrombocythaemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-20",
+    "name_ja": "血小板機能異常症",
+    "name_en": "platelet dysfunction",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-21",
+    "name_ja": "先天性血液凝固因子異常",
+    "name_en": "Inherited bleeding disorder",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-22",
+    "name_ja": "先天性プロテインC欠乏症",
+    "name_en": "protein C deficiency",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-23",
+    "name_ja": "先天性プロテインS欠乏症",
+    "name_en": "protein S deficiency",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-24",
+    "name_ja": "先天性アンチトロンビン欠乏症",
+    "name_en": "antithrombin deficiency",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-25",
+    "name_ja": "骨髄線維症",
+    "name_en": "Myelofibrosis",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "9-26",
+    "name_ja": "再生不良性貧血",
+    "name_en": "Aplastic anemia",
+    "parent": "血液疾患"
+  },
+  {
+    "id": "10",
+    "name_ja": "免疫疾患",
+    "name_en": "Immune system disease"
+  },
+  {
+    "id": "10-1",
+    "name_ja": "複合免疫不全症",
+    "name_en": "Combined immunodeficiency",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-2",
+    "name_ja": "免疫不全を伴う特徴的な症候群",
+    "name_en": "immunodeficiency",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-3",
+    "name_ja": "液性免疫不全を主とする疾患",
+    "name_en": "predominantly antibody deficiency",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-4",
+    "name_ja": "免疫調節障害",
+    "name_en": "disease of immune dysregulation",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-5",
+    "name_ja": "原発性食細胞機能不全症および欠損症",
+    "name_en": "",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-6",
+    "name_ja": "自然免疫異常",
+    "name_en": "defect in innate immunity",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-7",
+    "name_ja": "先天性補体欠損症",
+    "name_en": "inherited deficiency of complement system",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-8",
+    "name_ja": "好酸球増加症",
+    "name_en": "hyper eosinophilic syndrome",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-9",
+    "name_ja": "慢性活動性EBウイルス感染症",
+    "name_en": "Chronic active EB virus infection",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-10",
+    "name_ja": "後天性免疫不全症",
+    "name_en": "Acquired immune deficiency syndrome",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "10-11",
+    "name_ja": "慢性移植片対宿主病",
+    "name_en": "chronic graft-versus-host disease",
+    "parent": "免疫疾患"
+  },
+  {
+    "id": "11",
+    "name_ja": "神経・筋疾患",
+    "name_en": "Neuromuscular disease"
+  },
+  {
+    "id": "11-1",
+    "name_ja": "脊髄髄膜瘤",
+    "name_en": "myelomeningocele",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-2",
+    "name_ja": "仙尾部奇形腫",
+    "name_en": "Sacrococcygeal teratoma",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-3",
+    "name_ja": "脳形成障害",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-4",
+    "name_ja": "ジュベール（Joubert）症候群関連疾患",
+    "name_en": "Joubert syndrome related disorders",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-5",
+    "name_ja": "レット（Rett）症候群",
+    "name_en": "Rett syndrome",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-6",
+    "name_ja": "神経皮膚症候群",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-7",
+    "name_ja": "早老症",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-8",
+    "name_ja": "遺伝子異常による白質脳症",
+    "name_en": "Leukoencephalopathy caused by genetic abnormalities",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-9",
+    "name_ja": "ATR-X症候群",
+    "name_en": "ATR-X syndrome",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-10",
+    "name_ja": "脆弱Ｘ症候群",
+    "name_en": "Fragile X syndrome",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-11",
+    "name_ja": "先天性グリコシルホスファチジルイノシトール（GPI）欠損症",
+    "name_en": "Inherited GPI deficiency",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-12",
+    "name_ja": "脳クレアチン欠乏症候群",
+    "name_en": "Cerebral creatine deficiency syndrome",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-13",
+    "name_ja": "頭蓋骨縫合早期癒合症",
+    "name_en": "craniosynostosis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-14",
+    "name_ja": "もやもや病",
+    "name_en": "Moyamoya Disease",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-15",
+    "name_ja": "脳動静脈奇形",
+    "name_en": "Cerebral arteriovenous malformation",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-16",
+    "name_ja": "海綿状血管腫（脳脊髄）",
+    "name_en": "Cavernous angioma of the brain and spinal cord",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-17",
+    "name_ja": "脊髄性筋萎縮症",
+    "name_en": "spinal muscular atrophy",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-18",
+    "name_ja": "先天性ニューロパチー",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-19",
+    "name_ja": "筋ジストロフィー",
+    "name_en": "Muscular dystrophy",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-20",
+    "name_ja": "先天性ミオパチー",
+    "name_en": "congenital structural myopathy",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-21",
+    "name_ja": "シュワルツ・ヤンペル（Schwartz-Jampel）症候群",
+    "name_en": "Schwartz-Jampel syndrome",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-22",
+    "name_ja": "難治てんかん脳症",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-23",
+    "name_ja": "進行性ミオクローヌスてんかん",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-24",
+    "name_ja": "脊髄小脳変性症",
+    "name_en": "Spinocerebellar degeneration",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-25",
+    "name_ja": "小児交互性片麻痺",
+    "name_en": "alternating hemiplegia of childhood",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-26",
+    "name_ja": "変形性筋ジストニー",
+    "name_en": "dystonia musculorum deformans",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-27",
+    "name_ja": "脳の鉄沈着を伴う神経変性疾患",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-28",
+    "name_ja": "乳児両側線条体壊死",
+    "name_en": "infantile bilateral striatal necrosis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-29",
+    "name_ja": "先天性感染症",
+    "name_en": "",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-30",
+    "name_ja": "エカルディ・グティエール（Aicardi-Goutieres）症候群",
+    "name_en": "Aicardi-Goutieres syndrome",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-31",
+    "name_ja": "亜急性硬化性全脳炎",
+    "name_en": "subacute sclerosing panencephalitis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-32",
+    "name_ja": "ラスムッセン（Rasmussen）脳炎",
+    "name_en": "Rasmussen encephalitis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-33",
+    "name_ja": "痙攣重積型急性脳症",
+    "name_en": "Acute encephalopathy with biphasic seizures and late reduced diffusion",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-34",
+    "name_ja": "自己免疫介在性脳炎・脳症",
+    "name_en": "Autoimmune encephalitis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-35",
+    "name_ja": "難治頻回部分発作重積型急性脳炎",
+    "name_en": "acute encephalitis with refractory, repetitive partial seizures",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-36",
+    "name_ja": "多発性硬化症",
+    "name_en": "multiple sclerosis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-37",
+    "name_ja": "慢性炎症性脱髄性多発神経炎",
+    "name_en": "Chronic inflammatory demyelinating polyneuropathy",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "11-38",
+    "name_ja": "重症筋無力症",
+    "name_en": "myasthenia gravis",
+    "parent": "神経・筋疾患"
+  },
+  {
+    "id": "12",
+    "name_ja": "慢性消化器疾患",
+    "name_en": "Chronic digestive disease"
+  },
+  {
+    "id": "12-1",
+    "name_ja": "先天性吸収不全症",
+    "name_en": "",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-2",
+    "name_ja": "微絨毛封入体病",
+    "name_en": "microvillus inclusion disease",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-3",
+    "name_ja": "腸リンパ管拡張症",
+    "name_en": "Intestinal Lymphangiectasia",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-4",
+    "name_ja": "ポリポーシス",
+    "name_en": "Polyposis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-5",
+    "name_ja": "周期性嘔吐症候群",
+    "name_en": "Cyclic Vomiting Syndrome",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-6",
+    "name_ja": "炎症性腸疾患",
+    "name_en": "Inflammatory bowel disease",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-7",
+    "name_ja": "自己免疫性腸症（IPEX症候群を含む。）",
+    "name_en": "Autoimmune enteropathy (including IPEX syndrome.)",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-8",
+    "name_ja": "非特異性多発性小腸潰瘍症",
+    "name_en": "Non-specific multiple of the small intestine ulcer disease",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-9",
+    "name_ja": "急性肝不全（昏睡型）",
+    "name_en": "Acute Liver Failure",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-10",
+    "name_ja": "新生児ヘモクロマトーシス",
+    "name_en": "Neonatal Hemochromatosis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-11",
+    "name_ja": "自己免疫性肝炎",
+    "name_en": "Autoimmune hepatitis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-12",
+    "name_ja": "原発性硬化性胆管炎",
+    "name_en": "Primary sclerosing cholangitis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-13",
+    "name_ja": "肝内胆汁うっ滞性疾患",
+    "name_en": "",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-14",
+    "name_ja": "先天性肝線維症",
+    "name_en": "Congenital hepatic fibrosis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-15",
+    "name_ja": "肝硬変症",
+    "name_en": "Liver Cirrhosis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-16",
+    "name_ja": "門脈圧亢進症",
+    "name_en": "portal hypertension",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-17",
+    "name_ja": "先天性門脈欠損症",
+    "name_en": "Congenital Absence of Portal Vein",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-18",
+    "name_ja": "門脈・肝動脈瘻",
+    "name_en": "Congenital Hepatoportal Arteriovenous Fistula",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-19",
+    "name_ja": "クリグラー・ナジャー（Crigler-Najjar）症候群",
+    "name_en": "Crigler-Najjar syndrome",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-20",
+    "name_ja": "難治性膵炎",
+    "name_en": "Intractable pancreatitis",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-21",
+    "name_ja": "短腸症",
+    "name_en": "Short Bowel Syndrome",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-22",
+    "name_ja": "ヒルシュスプルング（Hirschsprung）病及び類縁疾患",
+    "name_en": "Hirschsprung disease and related disease",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-23",
+    "name_ja": "肝巨大血管腫",
+    "name_en": "giant hepatic haemangiomas",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-24",
+    "name_ja": "総排泄腔遺残",
+    "name_en": "persistent cloaca",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "12-25",
+    "name_ja": "総排泄腔外反症",
+    "name_en": "Cloacal extrophy",
+    "parent": "慢性消化器疾患"
+  },
+  {
+    "id": "13",
+    "name_ja": "染色体又は遺伝子に変化を伴う症候群",
+    "name_en": "Chromosome abnormality"
+  },
+  {
+    "id": "13-1",
+    "name_ja": "染色体又は遺伝子に変化を伴う症候群",
+    "name_en": "Chromosome abnormality",
+    "parent": "染色体又は遺伝子に変化を伴う症候群"
+  },
+  {
+    "id": "14",
+    "name_ja": "皮膚疾患群",
+    "name_en": "Skin disease"
+  },
+  {
+    "id": "14-1",
+    "name_ja": "眼皮膚白皮症（先天性白皮症）",
+    "name_en": "oculocutaneous albinism(congenital albinism)",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-2",
+    "name_ja": "先天性魚鱗癬",
+    "name_en": "Congenital ichthyosis",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-3",
+    "name_ja": "表皮水疱症",
+    "name_en": "epidermolysis bullosa",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-4",
+    "name_ja": "膿疱性乾癬（汎発型）",
+    "name_en": "pustular psoriasis",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-5",
+    "name_ja": "色素性乾皮症",
+    "name_en": "Xeroderma pigmentosum",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-6",
+    "name_ja": "レックリングハウゼン（Recklinghausen）病（神経線維腫症Ⅰ型）",
+    "name_en": "von Recklinghausen's disease",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-7",
+    "name_ja": "肥厚性皮膚骨膜症",
+    "name_en": "pachydermoperiostosis",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-8",
+    "name_ja": "外胚葉形成不全",
+    "name_en": "ectodermal dysplsia",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "14-9",
+    "name_ja": "スティーヴンス・ジョンソン症候群",
+    "name_en": "Stevens-Johnson syndrome",
+    "parent": "皮膚疾患群"
+  },
+  {
+    "id": "15",
+    "name_ja": "骨系統疾患",
+    "name_en": "Bone disease"
+  },
+  {
+    "id": "15-1",
+    "name_ja": "胸郭不全症候群",
+    "name_en": "Thoracic insufficiency syndrome",
+    "parent": "骨系統疾患"
+  },
+  {
+    "id": "15-2",
+    "name_ja": "骨系統疾患",
+    "name_en": "Bone disease",
+    "parent": "骨系統疾患"
+  },
+  {
+    "id": "16",
+    "name_ja": "脈管系疾患",
+    "name_en": "Vascular disease"
+  },
+  {
+    "id": "16-1",
+    "name_ja": "脈管奇形",
+    "name_en": "",
+    "parent": "脈管系疾患"
+  },
+  {
+    "id": "16-2",
+    "name_ja": "遺伝性出血性末梢血管拡張症",
+    "name_en": "Hereditary hemorrhagic telangiectasia",
+    "parent": "脈管系疾患"
+  },
+  {
+    "id": "16-3",
+    "name_ja": "カサバッハ・メリット（Kasabach-Merritt）症候群 ",
+    "name_en": "Kasabach-Merritt syndrome",
+    "parent": "脈管系疾患"
+  }
+]
