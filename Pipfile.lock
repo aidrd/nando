@@ -355,11 +355,11 @@
         },
         "pynando": {
             "hashes": [
-                "sha256:29de4b53aff2881e19c9b85ddaf58049eb81a502ce6ca1542bd68f4fdaad7d0a",
-                "sha256:39146b2809283cf96679ae486067edd6b26838c97c3d48d36e06468fb1ed074b"
+                "sha256:1c637b871cf7a1511bc1d61c3118e27fca9915e6a416ba3274086fb52dc135ed",
+                "sha256:77b310ab3a6182e7bbe7b5bef39f26d8d0639d72b520b63838f964b22a804b78"
             ],
             "index": "pypi",
-            "version": "==0.0.3"
+            "version": "==0.0.5"
         },
         "pyrsistent": {
             "hashes": [
