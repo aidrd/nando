@@ -4,15 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-jupyter = "*"
 
 [packages]
 tqdm = "*"
-jupyter = "*"
 chain-norm = "*"
-pymondo = "*"
 pynando = "*"
 pyyaml = "*"
+pymondo = "*"
 
 [requires]
 python_version = "3.8"
