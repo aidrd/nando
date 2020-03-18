@@ -21,7 +21,7 @@
                 "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
                 "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
             ],
-            "markers": "platform_system == 'Darwin'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==0.1.0"
         },
         "attrs": {
@@ -355,11 +355,11 @@
         },
         "pynando": {
             "hashes": [
-                "sha256:1c637b871cf7a1511bc1d61c3118e27fca9915e6a416ba3274086fb52dc135ed",
-                "sha256:77b310ab3a6182e7bbe7b5bef39f26d8d0639d72b520b63838f964b22a804b78"
+                "sha256:5307e5e69c6af11c52e40cd01f3eee0adeae8a75dd583cfa58baea35fabc6c6f",
+                "sha256:8674a443857ad4bf31a273511be5e78e07908538a71db9ce7694d8373bbdf637"
             ],
             "index": "pypi",
-            "version": "==0.0.5"
+            "version": "==0.0.6"
         },
         "pyrsistent": {
             "hashes": [

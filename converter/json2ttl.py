@@ -15,6 +15,8 @@ NANBYO2NANDO = {}
 SHOMANCLASS2NANDO = {}
 SHOMAN2NANDO = {}
 
+OBSOLETE_CLASS_ID = '0000002'
+
 
 def zero_pad(_id: Union[str, int], head: str, digit: int=7):
     """
@@ -82,6 +84,21 @@ def top_concept_to_ttl():
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
+    _id += 1
+
+    id_zero_padded = zero_pad(_id, head)
+    lines = [
+        '### obsolete class',
+        ':{}'.format(id_zero_padded),
+        ' ' * 4 + 'rdf:type owl:Class ;',
+        ' ' * 4 + 'rdfs:subClassOf owl:Thing ;',
+        ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+        ' ' * 4 + 'rdfs:label "obsolete class"@en ;',
+        ' ' * 4 + 'efo:definition "NANDO number no more in use."@en ;',
+    ]
+    doc = lines_to_doc(lines)
+    doc_list.append(doc)
+
     return '\n\n'.join(doc_list)
 
 
@@ -167,6 +184,9 @@ def nanbyo_to_ttl(target: str):
             parent_id = x_to_nando(NANBYOCLASS2NANDO, nando_node.class_id)
         else:
             parent_id = NANBYO2NANDO[nando_node.id.rsplit('-', 1)[0]]
+        # obsolete
+        if nando_node.obsolete:
+            parent_id = OBSOLETE_CLASS_ID
 
         # exact_synonym
         exact_synonym_list = []
@@ -181,6 +201,9 @@ def nanbyo_to_ttl(target: str):
         
         exact_synonym = ('\n' + ' ' * 29).join(exact_synonym_list)
         exact_synonym = exact_synonym[:-2]
+
+        # description
+        description = nando_node.description
 
         # see_also
         see_also_list = []
@@ -209,6 +232,8 @@ def nanbyo_to_ttl(target: str):
             lines += [' ' * 4 + 'rdfs:isDefinedBy <{}> ;'.format(nando_node.is_defined_by)]
         if exact_synonym:
             lines += [' ' * 4 + 'oboinowl:hasExactSynonym {} ;'.format(exact_synonym)]
+        if description:
+            lines += [' ' * 4 + 'efo: definition "{}"@ja ;'.format(description)]
         if see_also:
             lines += [' ' * 4 + 'rdfs:seeAlso {} ;'.format(see_also)]
         if mondo:
@@ -313,6 +338,9 @@ def shoman_to_ttl(target: str):
             parent_id = x_to_nando(SHOMANCLASS2NANDO, nando_node.class_id)
         else:
             parent_id = '{}'.format(SHOMAN2NANDO[nando_node.id.rsplit('-', 1)[0]])
+        # obsolete
+        if nando_node.obsolete:
+            parent_id = OBSOLETE_CLASS_ID
 
         # exact_synonym
         exact_synonym_list = []
@@ -326,6 +354,9 @@ def shoman_to_ttl(target: str):
             exact_synonym_list.append('"{}"@en ,'.format(synonym))
         exact_synonym = ('\n' + ' ' * 29).join(exact_synonym_list)
         exact_synonym = exact_synonym[:-2]
+
+        # description
+        description = nando_node.description
 
         # see_also
         see_also_list = []
@@ -354,6 +385,8 @@ def shoman_to_ttl(target: str):
             lines += [' ' * 4 + 'rdfs:isDefinedBy <{}> ;'.format(nando_node.is_defined_by)]
         if exact_synonym:
             lines += [' ' * 4 + 'oboinowl:hasExactSynonym {} ;'.format(exact_synonym)]
+        if description:
+            lines += [' ' * 4 + 'efo: definition "{}"@ja ;'.format(description)]
         if see_also:
             lines += [' ' * 4 + 'rdfs:seeAlso {} ;'.format(see_also)]
         if mondo:
