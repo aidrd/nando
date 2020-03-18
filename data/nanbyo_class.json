@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "name_ja": "神経・筋疾患",
+    "name_en": "Neuromuscular disease"
+  },
+  {
+    "id": "2",
+    "name_ja": "代謝系疾患",
+    "name_en": "Metabolic disease"
+  },
+  {
+    "id": "3",
+    "name_ja": "皮膚・結合組織疾患",
+    "name_en": "Skin and connective tissue disease"
+  },
+  {
+    "id": "4",
+    "name_ja": "免疫系疾患",
+    "name_en": "Immune system disease"
+  },
+  {
+    "id": "5",
+    "name_ja": "循環器系疾患",
+    "name_en": "Cardiovascular disease"
+  },
+  {
+    "id": "6",
+    "name_ja": "血液系疾患",
+    "name_en": "Blood disease"
+  },
+  {
+    "id": "7",
+    "name_ja": "腎・泌尿器系疾患",
+    "name_en": "Renal and urological disease"
+  },
+  {
+    "id": "8",
+    "name_ja": "骨・関節系疾患",
+    "name_en": "Bone and joint disease"
+  },
+  {
+    "id": "9",
+    "name_ja": "内分泌系疾患",
+    "name_en": "Endocrine disease"
+  },
+  {
+    "id": "10",
+    "name_ja": "呼吸器系疾患",
+    "name_en": "Respiratory disease"
+  },
+  {
+    "id": "11",
+    "name_ja": "視覚系疾患",
+    "name_en": "Eye and visual system disease"
+  },
+  {
+    "id": "12",
+    "name_ja": "聴覚・平衡機能系疾患",
+    "name_en": "Hearing and balance disorder"
+  },
+  {
+    "id": "13",
+    "name_ja": "消化器系疾患",
+    "name_en": "Gastrointestinal disease"
+  },
+  {
+    "id": "14",
+    "name_ja": "染色体または遺伝子に変化を伴う症候群",
+    "name_en": "Chromosome abnormality"
+  },
+  {
+    "id": "15",
+    "name_ja": "耳鼻科系疾患",
+    "name_en": "Otorhinolaryngological disease"
+  }
+]
