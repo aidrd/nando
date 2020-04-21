@@ -8,8 +8,8 @@ verify_ssl = true
 [packages]
 tqdm = "*"
 chain-norm = "*"
-pynando = "0.0.9"
-pymondo = "0.0.14"
+pynando = "==0.0.9"
+pymondo = "==0.0.14"
 pyyaml = "*"
 
 [requires]
