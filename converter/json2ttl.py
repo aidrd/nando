@@ -161,7 +161,7 @@ def nanbyo_class_to_ttl(fp: Path):
     return '\n\n'.join(doc_list)
 
 
-def nanbyo_to_ttl(target: str):
+def nanbyo_to_ttl(target: str, data_dir: Path):
     """
     指定難病 疾患のttl化
     :param fp:
@@ -172,7 +172,7 @@ def nanbyo_to_ttl(target: str):
     head = '12'
     doc_list = []
 
-    for nando_node in Nando(target):
+    for nando_node in Nando(target, data_dir):
         if nando_node.id == '0':
             continue
 
@@ -314,7 +314,7 @@ def shoman_class_to_ttl(fp: Path):
     return '\n\n'.join(doc_list)
 
 
-def shoman_to_ttl(target: str):
+def shoman_to_ttl(target: str, data_dir: Path):
     """
     小慢疾患クラスのttl化
     nanbyo_to_ttl()とほとんど同じだが固有の処理が入るかもしれないので関数を分けておく
@@ -326,7 +326,7 @@ def shoman_to_ttl(target: str):
     head = '22'
     doc_list = []
 
-    for nando_node in Nando(target):
+    for nando_node in Nando(target, data_dir):
         if nando_node.id == '0':
             continue
 
@@ -400,11 +400,12 @@ def shoman_to_ttl(target: str):
 
 def main():
     doc_list = []
-    fp_nanbyo_class = find('nanbyo_class')
-    fp_shoman_class = find('shoman_class')
+    config = Config()
+    data_dir = config.DATA_DIR
+    fp_nanbyo_class = find('nanbyo_class', data_dir)
+    fp_shoman_class = find('shoman_class', data_dir)
 
     # 前半部分は手書きのファイルを読み込み
-    config = Config()
     with Path(config.NANDO_FRONT_PATH).open() as f:
         front = f.read()
     doc_list.append(front)
@@ -417,14 +418,14 @@ def main():
     # 指定難病 分類
     doc_list.append(nanbyo_class_to_ttl(fp_nanbyo_class))
     # 指定難病 疾患
-    doc_list.append(nanbyo_to_ttl('nanbyo'))
+    doc_list.append(nanbyo_to_ttl('nanbyo', data_dir))
 
     # 小児特定慢性疾
     doc_list.append(shoman_top_concept_to_ttl())
     # 小児特定慢性疾病 分類
     doc_list.append(shoman_class_to_ttl(fp_shoman_class))
     # 小児特定慢性疾病 疾患
-    doc_list.append(shoman_to_ttl('shoman'))
+    doc_list.append(shoman_to_ttl('shoman', data_dir))
 
     doc = '\n\n'.join(doc_list)
 

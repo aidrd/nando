@@ -120,6 +120,7 @@ def main(target: str):
 
     config = Config()
     results_dir = config.RESULTS_DIR
+    data_dir = config.DATA_DIR
     if not results_dir.exists():
         results_dir.mkdir()
 
@@ -139,7 +140,7 @@ def main(target: str):
         suffix += 'r'
 
     nando_obj = link_nando2mondo(
-        Nando(target),
+        Nando(target, data_dir),
         Mondo(),
         chain,
         allowed_scope_list,
