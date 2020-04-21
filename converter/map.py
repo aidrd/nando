@@ -141,7 +141,7 @@ def main(target: str):
 
     nando_obj = link_nando2mondo(
         Nando(target, data_dir),
-        Mondo(),
+        Mondo('mondo', data_dir),
         chain,
         allowed_scope_list,
         config.ALLOW_DEPRECATED

@@ -9,7 +9,7 @@ verify_ssl = true
 tqdm = "*"
 chain-norm = "*"
 pynando = "==0.0.9"
-pymondo = "==0.0.14"
+pymondo = "==0.0.15"
 pyyaml = "*"
 
 [requires]
