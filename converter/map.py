@@ -86,6 +86,8 @@ def _nando_node2dict(nando_node: NandoNode):
         'children': sorted([n.id for n in nando_node.children]),
         'class_id': nando_node.class_id,
         'notification_no': nando_node.notification_no,
+        'description': nando_node.description,
+        'obsolete': nando_node.obsolete,
         'mondo_nodes': nando_node.mondo_nodes,
      }
     return nando_dict
