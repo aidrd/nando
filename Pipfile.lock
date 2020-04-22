@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "be3c8c4e8677492e3a953cf7dce359df484fa4302d46cdc1d406c7ea54f51eef"
+            "sha256": "d24b5cba61c01e8656abdee40c6abfd6b89cb1723b516c91bbd4a03c5482d7d8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -21,7 +21,7 @@
                 "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
                 "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
             ],
-            "markers": "sys_platform == 'darwin'",
+            "markers": "platform_system == 'Darwin'",
             "version": "==0.1.0"
         },
         "attrs": {
@@ -355,11 +355,11 @@
         },
         "pynando": {
             "hashes": [
-                "sha256:c7d3f45442f65054ec5cb4654591f716e364cbc91b20dac2169c709f4c8b45ef",
-                "sha256:d45d4b58335c1cecb77672a434a992857114c1a686e969b33eea57409f781f84"
+                "sha256:17bcdd4ac1eba330ff3147adb9e592cf9e88831fd4e1f3a630998ac0299be72c",
+                "sha256:c6d2c6c4af027d6fe8e24546aff88906c28340dcc174e1214121e5d12a24bd71"
             ],
             "index": "pypi",
-            "version": "==0.0.9"
+            "version": "==0.0.11"
         },
         "pyrsistent": {
             "hashes": [
