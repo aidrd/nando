@@ -1,6 +1,6 @@
 # NANDO
 
-## 1. setting (Mac，Linuxは検証済み)
+## 1. setting (Mac，Linuxで検証済み)
 - `$ brew install raptor`
 - `$ pipenv install`
 - `$ pipenv shell`
