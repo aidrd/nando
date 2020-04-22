@@ -14,6 +14,7 @@ def json_to_ttl(json_list):
 @prefix mondo: <http://purl.obolibrary.org/obo/> .
 @prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix efo: <http://www.ebi.ac.uk/efo/> .
 # @base <http://nanbyodata.jp/ontology/nanbyo.owl> .
 '''
     
