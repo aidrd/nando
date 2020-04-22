@@ -16,8 +16,8 @@
 #################################################################
 <http://nanbyodata.jp/ontology/nando.owl#>
     rdf:type owl:Ontology ;
-    owl:versionIRI <http://nanbyodata.jp/version0.1> ;
-    owl:versionInfo "0.1"^^xsd:string ;
+    owl:versionIRI <http://nanbyodata.jp/version0.3> ;
+    owl:versionInfo "0.3"^^xsd:string ;
     <http://purl.org/dc/elements/1.1/creator> "Kota Ninomiya"^^xsd:string ,
                                               "Ryota Yamada"^^xsd:string ,
                                               "Orion Buske"^^xsd:string ,
@@ -26,11 +26,10 @@
                                               "Yasunori Yamamoto"^^xsd:string ,
                                               "Hiroshi Masuya"^^xsd:string ,
                                               "Soichi Ogishima"^^xsd:string ,
-                                              "Toyofumi Fujiwara"^^xsd:string ,
-                                              "Yuki Chida"^^xsd:string ;
+                                              "Toyofumi Fujiwara"^^xsd:string ;
     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-    <http://purl.org/dc/terms/created> "2019-10-29T16:00:00"^^xsd:dateTime ;
-    <http://purl.org/dc/terms/modified> "2019-10-29T16:00:00"^^xsd:dateTime .
+    <http://purl.org/dc/terms/created> "2020-4-24T12:00:00"^^xsd:dateTime ;
+    <http://purl.org/dc/terms/modified> "2020-4-24T12:00:00"^^xsd:dateTime .
 
 
 #################################################################
