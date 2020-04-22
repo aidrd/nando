@@ -233,7 +233,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path):
         if exact_synonym:
             lines += [' ' * 4 + 'oboinowl:hasExactSynonym {} ;'.format(exact_synonym)]
         if description:
-            lines += [' ' * 4 + 'efo: definition "{}"@ja ;'.format(description)]
+            lines += [' ' * 4 + 'efo:definition "{}"@ja ;'.format(description)]
         if see_also:
             lines += [' ' * 4 + 'rdfs:seeAlso {} ;'.format(see_also)]
         if mondo:
@@ -386,7 +386,7 @@ def shoman_to_ttl(target: str, data_dir: Path):
         if exact_synonym:
             lines += [' ' * 4 + 'oboinowl:hasExactSynonym {} ;'.format(exact_synonym)]
         if description:
-            lines += [' ' * 4 + 'efo: definition "{}"@ja ;'.format(description)]
+            lines += [' ' * 4 + 'efo:definition "{}"@ja ;'.format(description)]
         if see_also:
             lines += [' ' * 4 + 'rdfs:seeAlso {} ;'.format(see_also)]
         if mondo:
