@@ -161,7 +161,7 @@ def nanbyo_class_to_ttl(fp: Path):
     return '\n\n'.join(doc_list)
 
 
-def nanbyo_to_ttl(target: str, data_dir: Path):
+def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
     """
     指定難病 疾患のttl化
     :param fp:
@@ -172,7 +172,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path):
     head = '12'
     doc_list = []
 
-    for nando_node in Nando(target, data_dir):
+    for nando_node in Nando(target, data_dir, fname):
         if nando_node.id == '0':
             continue
 
@@ -215,7 +215,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path):
         # mondo
         mondo_list = []
         for mondo in nando_node.mondo_nodes:
-            mondo_list.append('mondo:{} ,'.format(mondo.id))
+            mondo_list.append('mondo:{} ,'.format(mondo['id']))
         mondo = ('\n' + ' ' * 53).join(mondo_list)
         mondo = mondo[:-2]
 
@@ -314,7 +314,7 @@ def shoman_class_to_ttl(fp: Path):
     return '\n\n'.join(doc_list)
 
 
-def shoman_to_ttl(target: str, data_dir: Path):
+def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
     """
     小慢疾患クラスのttl化
     nanbyo_to_ttl()とほとんど同じだが固有の処理が入るかもしれないので関数を分けておく
@@ -326,7 +326,7 @@ def shoman_to_ttl(target: str, data_dir: Path):
     head = '22'
     doc_list = []
 
-    for nando_node in Nando(target, data_dir):
+    for nando_node in Nando(target, data_dir, fname):
         if nando_node.id == '0':
             continue
 
@@ -368,7 +368,7 @@ def shoman_to_ttl(target: str, data_dir: Path):
         # mondo
         mondo_list = []
         for mondo in nando_node.mondo_nodes:
-            mondo_list.append('mondo:{} ,'.format(mondo.id))
+            mondo_list.append('mondo:{} ,'.format(mondo['id']))
         mondo = ('\n' + ' ' * 53).join(mondo_list)
         mondo = mondo[:-2]
 
@@ -402,8 +402,22 @@ def main():
     doc_list = []
     config = Config()
     data_dir = config.DATA_DIR
+    results_dir = config.RESULTS_DIR
     fp_nanbyo_class = find('nanbyo_class', data_dir)
     fp_shoman_class = find('shoman_class', data_dir)
+
+    suffix = ''
+    if config.ALLOW_EXACT:
+        suffix += 'e'
+    if config.ALLOW_BROAD:
+        suffix += 'b'
+    if config.ALLOW_NARROW:
+        suffix += 'n'
+    if config.ALLOW_RELATED:
+        suffix += 'r'
+
+    fp_nanbyo2mondo = Path(f'nanbyo2mondo_{suffix}.json')
+    fp_shoman2mondo = Path(f'shoman2mondo_{suffix}.json')
 
     # 前半部分は手書きのファイルを読み込み
     with Path(config.NANDO_FRONT_PATH).open() as f:
@@ -418,17 +432,17 @@ def main():
     # 指定難病 分類
     doc_list.append(nanbyo_class_to_ttl(fp_nanbyo_class))
     # 指定難病 疾患
-    doc_list.append(nanbyo_to_ttl('nanbyo', data_dir))
+    doc_list.append(nanbyo_to_ttl('nanbyo', results_dir, fp_nanbyo2mondo))
 
     # 小児特定慢性疾
     doc_list.append(shoman_top_concept_to_ttl())
     # 小児特定慢性疾病 分類
     doc_list.append(shoman_class_to_ttl(fp_shoman_class))
     # 小児特定慢性疾病 疾患
-    doc_list.append(shoman_to_ttl('shoman', data_dir))
+    doc_list.append(shoman_to_ttl('shoman', results_dir, fp_shoman2mondo))
 
     doc = '\n\n'.join(doc_list)
 
-    output_file_path = config.RESULTS_DIR / 'nando.ttl'
+    output_file_path = results_dir / 'nando.ttl'
     with Path(output_file_path).open(mode='w') as f:
         f.write(doc)
