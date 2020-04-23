@@ -16216,7 +16216,7 @@
     :has_notification_number "80"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_01_001_01.pdf> ;
     oboinowl:hasExactSynonym "B-cell precursor lymphoblastic leukaemia"@en ;
-    efo:definition "本疾患は、骨髄においてリンパ芽球が増殖する造血器の悪性腫瘍性疾患であり、急性リンパ芽球性白血病（Acute lymphoblastic leukemia、ALL）と呼ばれる。芽球の増殖により正常な造血が損なわれるほか、芽球の浸潤によるリンパ節や肝臓・脾臓などの腫大がみられることがある。芽球は中枢神経や精巣へと浸潤することや、皮下腫瘤を形成することもある。白血病の診断は骨髄穿刺での芽球の検出によってなされ、芽球比率が低い場合は、25%以上でALL、25%未満でリンパ芽球性リンパ腫の骨髄浸潤と診断する。骨髄標本の染色所見および白血病細胞の表面抗原検査により前駆B細胞、成熟B細胞、T細胞、NK細胞などの細分類に診断される1)。"@ja ;
+    efo:definition "本疾患は、骨髄においてリンパ芽球が増殖する造血器の悪性腫瘍性疾患であり、急性リンパ芽球性白血病（Acute lymphoblastic leukemia、ALL）と呼ばれる。芽球の増殖により正常な造血が損なわれるほか、芽球の浸潤によるリンパ節や肝臓・脾臓などの腫大がみられることがある。芽球は中枢神経や精巣へと浸潤することや、皮下腫瘤を形成することもある。白血病の診断は骨髄穿刺での芽球の検出によってなされ、芽球比率が低い場合は、25%以上でALL、25%未満でリンパ芽球性リンパ腫の骨髄浸潤と診断する。骨髄標本の染色所見および白血病細胞の表面抗原検査により前駆B細胞、成熟B細胞、T細胞、NK細胞などの細分類に診断される1)。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/01_01_001/> .
 
 ### 小児慢性特定疾病 2
@@ -17707,7 +17707,7 @@
     :has_notification_number "24"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_02_01_005_01.pdf> ;
     oboinowl:hasExactSynonym "Membranous nephropathy"@en ;
-    efo:definition "膜性腎症は，糸球体基底膜上皮下の免疫複合体沈着とこれに引き続いて起こる糸球体基底膜の反応性変化（びまん性肥厚，スパイク形成，点刻像）を特徴とする糸球体疾患である。糸球体基底膜への免疫複合体の沈着，補体活性化などの現象は炎症の中心的な役割を果たしていることから，WHO分類1では膜性糸球体腎炎(membranous glomerulonephritis)としている2。成人では，ネフローゼ症候群の20～30％を占めるが，小児では発症頻度は少ない。膜性腎症は，特発性と膠原病，感染症，薬剤，悪性腫瘍などによる続発性に大別される（表）。"@ja ;
+    efo:definition "膜性腎症は，糸球体基底膜上皮下の免疫複合体沈着とこれに引き続いて起こる糸球体基底膜の反応性変化（びまん性肥厚，スパイク形成，点刻像）を特徴とする糸球体疾患である。糸球体基底膜への免疫複合体の沈着，補体活性化などの現象は炎症の中心的な役割を果たしていることから，WHO分類1では膜性糸球体腎炎(membranous glomerulonephritis)としている2。成人では，ネフローゼ症候群の20～30％を占めるが，小児では発症頻度は少ない。膜性腎症は，特発性と膠原病，感染症，薬剤，悪性腫瘍などによる続発性に大別される（表）。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/02_01_005/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0005376 .
 
@@ -18757,7 +18757,7 @@
     :has_notification_number "5"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_03_02_002_01.pdf> ;
     oboinowl:hasExactSynonym "bronchial asthma"@en ;
-    efo:definition "気管支喘息は、発作性に起こる気道狭窄によって喘鳴や呼気延長、呼吸困難を繰り返す疾患である。これらの臨床症状は自然ないし治療により軽快、消失するが、ごく稀には致死的となる。組織学的には、気道狭窄は、気道平滑筋収縮、気道粘膜浮腫、気道分泌亢進を主な成因とする。基本病態は、慢性の気道炎症と気道過敏性であるが、気道炎症には好酸球、好中球、リンパ球、マスト細胞などの炎症細胞、気道上皮細胞、線維芽細胞、気道平滑筋などの気道構成細胞、および種々の液性因子が関与する。持続する気道炎症は、気道傷害とそれに引き続く気道構造の変化（リモデリング）を惹起して非可逆性の気流制限をもたらし、気道過敏性を亢進させる。乳児喘息（2歳未満の小児における喘息と定義）の病態における特異性としては、呼吸器系における解剖・生理学的特徴が挙げられる。乳幼児は年長児に比し気道内径が狭く、肺弾性収縮力が低下している。さらに、気管支平滑筋が少なく、粘液分泌腺や杯細胞が過形成を示し、側副換気が少なく、横隔膜が水平に付着して呼吸運動が小さいことなどから呼吸困難が生じやすい。このようなことから、2歳未満では年長児と比較して気道狭窄が強く現れやすく、症状の進行が速いことが特徴である。"@ja ;
+    efo:definition "気管支喘息は、発作性に起こる気道狭窄によって喘鳴や呼気延長、呼吸困難を繰り返す疾患である。これらの臨床症状は自然ないし治療により軽快、消失するが、ごく稀には致死的となる。組織学的には、気道狭窄は、気道平滑筋収縮、気道粘膜浮腫、気道分泌亢進を主な成因とする。基本病態は、慢性の気道炎症と気道過敏性であるが、気道炎症には好酸球、好中球、リンパ球、マスト細胞などの炎症細胞、気道上皮細胞、線維芽細胞、気道平滑筋などの気道構成細胞、および種々の液性因子が関与する。持続する気道炎症は、気道傷害とそれに引き続く気道構造の変化（リモデリング）を惹起して非可逆性の気流制限をもたらし、気道過敏性を亢進させる。乳児喘息（2歳未満の小児における喘息と定義）の病態における特異性としては、呼吸器系における解剖・生理学的特徴が挙げられる。乳幼児は年長児に比し気道内径が狭く、肺弾性収縮力が低下している。さらに、気管支平滑筋が少なく、粘液分泌腺や杯細胞が過形成を示し、側副換気が少なく、横隔膜が水平に付着して呼吸運動が小さいことなどから呼吸困難が生じやすい。このようなことから、2歳未満では年長児と比較して気道狭窄が強く現れやすく、症状の進行が速いことが特徴である。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/03_02_002/> .
 
 ### 小児慢性特定疾病 142
@@ -25680,7 +25680,7 @@
     :has_notification_number "44"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_10_04_034_01.pdf> ;
     oboinowl:hasExactSynonym "Other diseases of immune dysregulation"@en ;
-    efo:definition "キラーＴ細胞やNK細胞の感染細胞などの排除機構の障害により免疫反応の制御異常がおきたり、免疫調節障害により自己抗体産生をきたす疾患を含む。2014年のIUIS分類において、31から33に掲げるもののほかの免疫調節障害として、下記があげられている。免疫調節障害は毎年新しい原因遺伝子や疾患が見出されており、その都度、対象疾患として追加する必要がある。また、既知の疾患に完全に一致しない免疫調節障害も知られており、その病態や診断について専門的な検討が必要である。免疫調節障害が疑われる場合、Primary Immunodeficiency Database in Japan (PIDJ) (http://pidj.rcai.riken.jp/) の患者相談フォームで相談することが可能である。家族性血球貪食性リンパ組織球症（FHL）とその類縁疾患パーフォリン欠損症（FHL2）、UNC13D/Munc13-4欠損症（FHL3）、Syntaxin11欠損症（FHL4）、STXBP2/Munc18-2欠損症（FHL5）、Gricelli症候群2型、Hermansky-Pudlak症候群2型リンパ増殖症候群ITK欠損症、CD27欠損症制御性T細胞の遺伝子的欠陥IPEX症候群、CD25欠損症、STAT5b欠損症リンパ増殖症を伴わない自己免疫疾患自己免疫性多腺性内分泌不全症（APECED）、ITCH欠損症自己免疫性リンパ増殖症候群（ALPS）類縁疾患カスペース8欠損症、FADD欠損症、CARD11機能獲得型変異、PRKCδ欠損症腸炎を伴う免疫調節障害IL-10欠損症、IL-10Rα欠損症、IL-10Rβ欠損症I型インターフェロン異常症TREX1欠損症（Aicardi–Goutieres症候群1, AGS1）、RNASEH2B欠損症（AGS2）、RNASEH2C欠損症（AGS3）、RNASEH2A欠損症（AGS4a）、SAMHD1欠損症（AGS5）、ADAR1欠損症（AGS6）、Spondylo enchondro-dysplasiawith immune dysregulation (SPENCD)"@ja ;
+    efo:definition "キラーＴ細胞やNK細胞の感染細胞などの排除機構の障害により免疫反応の制御異常がおきたり、免疫調節障害により自己抗体産生をきたす疾患を含む。2014年のIUIS分類において、31から33に掲げるもののほかの免疫調節障害として、下記があげられている。免疫調節障害は毎年新しい原因遺伝子や疾患が見出されており、その都度、対象疾患として追加する必要がある。また、既知の疾患に完全に一致しない免疫調節障害も知られており、その病態や診断について専門的な検討が必要である。免疫調節障害が疑われる場合、Primary Immunodeficiency Database in Japan (PIDJ) (http://pidj.rcai.riken.jp/) の患者相談フォームで相談することが可能である。家族性血球貪食性リンパ組織球症（FHL）とその類縁疾患パーフォリン欠損症（FHL2）、UNC13D/Munc13-4欠損症（FHL3）、Syntaxin11欠損症（FHL4）、STXBP2/Munc18-2欠損症（FHL5）、Gricelli症候群2型、Hermansky-Pudlak症候群2型リンパ増殖症候群ITK欠損症、CD27欠損症制御性T細胞の遺伝子的欠陥IPEX症候群、CD25欠損症、STAT5b欠損症リンパ増殖症を伴わない自己免疫疾患自己免疫性多腺性内分泌不全症（APECED）、ITCH欠損症自己免疫性リンパ増殖症候群（ALPS）類縁疾患カスペース8欠損症、FADD欠損症、CARD11機能獲得型変異、PRKCδ欠損症腸炎を伴う免疫調節障害IL-10欠損症、IL-10Rα欠損症、IL-10Rβ欠損症I型インターフェロン異常症TREX1欠損症（Aicardi–Goutieres症候群1, AGS1）、RNASEH2B欠損症（AGS2）、RNASEH2C欠損症（AGS3）、RNASEH2A欠損症（AGS4a）、SAMHD1欠損症（AGS5）、ADAR1欠損症（AGS6）、Spondylo enchondro-dysplasiawith immune dysregulation (SPENCD)"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/10_04_034/> .
 
 ### 小児慢性特定疾病 599-1
@@ -29328,7 +29328,7 @@
     :has_notification_number "12"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_14_03_008_01.pdf> ;
     oboinowl:hasExactSynonym "epidermolysis bullosa"@en ;
-    efo:definition "平成６年に実施した全国疫学調査によると、全国推定患者数は500～640人。性比は男女ほぼ同数、年齢別では５歳未満が最も多く22％。発症年齢は約９割が１歳未満。病型別では(1)単純型　32％(2)接合部型　7％(3)優性と劣性栄養障害型　それぞれ21％と33％(4)その他　7％で、特定疾患治療研究事業対象（(2)、(3)）の合計は61％。受療状況は、主に通院が約50％で最も多く、次いで在宅療法16％、軽快10％、主に入院3％の順。軽症例も含め、実際の患者数はさらに多いと予想される。表皮水疱症は、その遺伝形式と水疱の形成する部位によって4型に大別される。（表1）(新国際診断基準 Fineetal. JAm Acad Dermatol(2008)から引用)"@ja ;
+    efo:definition "平成６年に実施した全国疫学調査によると、全国推定患者数は500～640人。性比は男女ほぼ同数、年齢別では５歳未満が最も多く22％。発症年齢は約９割が１歳未満。病型別では(1)単純型　32％(2)接合部型　7％(3)優性と劣性栄養障害型　それぞれ21％と33％(4)その他　7％で、特定疾患治療研究事業対象（(2)、(3)）の合計は61％。受療状況は、主に通院が約50％で最も多く、次いで在宅療法16％、軽快10％、主に入院3％の順。軽症例も含め、実際の患者数はさらに多いと予想される。表皮水疱症は、その遺伝形式と水疱の形成する部位によって4型に大別される。（表1）(新国際診断基準 Fineetal. JAm Acad Dermatol(2008)から引用)"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/14_03_008/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0006541 .
 
@@ -29384,7 +29384,7 @@
     :has_notification_number "11"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_14_07_012_01.pdf> ;
     oboinowl:hasExactSynonym "pachydermoperiostosis"@en ;
-    efo:definition "肥厚性皮膚骨膜症(pachydermoperiostosis, PDP)は太鼓ばち指、長管骨を主とする骨膜性骨肥厚、皮膚肥厚（脳回転状頭皮を含む）を３主徴とする遺伝性疾患である。2次性（続発性）として肺がんなどの胸腔内疾患によるものが知られている。特発性肥大性骨関節症（primary hypertrophic osteoarthropathy, PHO)も現在では原因遺伝子が同一の疾患であるが、骨・関節症状に着目した病名で皮膚症状の有無を問わない。1868年、Friedreichが、３徴を有する症例を最初に記載した。本症では多彩な合併症が知られており、多汗症、眼瞼下垂、脱毛、下腿潰瘍に加え、消化器症状として10代からの胃・十二指腸潰瘍や胃粘膜巨大襞壁や非特異性多発性小腸潰瘍症が報告されている。特に後者は最近原因遺伝子が本症と同一であることが判明し、本症の重要な合併症と位置づけられた。そのほか骨髄線維症や低カリウム血症が知られ、皮膚・骨のみならず多くの臓器に障害を来す系統疾患である。"@ja ;
+    efo:definition "肥厚性皮膚骨膜症(pachydermoperiostosis, PDP)は太鼓ばち指、長管骨を主とする骨膜性骨肥厚、皮膚肥厚（脳回転状頭皮を含む）を３主徴とする遺伝性疾患である。2次性（続発性）として肺がんなどの胸腔内疾患によるものが知られている。特発性肥大性骨関節症（primary hypertrophic osteoarthropathy, PHO)も現在では原因遺伝子が同一の疾患であるが、骨・関節症状に着目した病名で皮膚症状の有無を問わない。1868年、Friedreichが、３徴を有する症例を最初に記載した。本症では多彩な合併症が知られており、多汗症、眼瞼下垂、脱毛、下腿潰瘍に加え、消化器症状として10代からの胃・十二指腸潰瘍や胃粘膜巨大襞壁や非特異性多発性小腸潰瘍症が報告されている。特に後者は最近原因遺伝子が本症と同一であることが判明し、本症の重要な合併症と位置づけられた。そのほか骨髄線維症や低カリウム血症が知られ、皮膚・骨のみならず多くの臓器に障害を来す系統疾患である。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/14_07_012/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009799 ,
                                                      mondo:MONDO_0016620 .
