@@ -154,7 +154,8 @@ def nanbyo_class_to_ttl(fp: Path):
             ' ' * 4 + 'rdfs:label "{}"@ja ;'.format(name_ja),
         ]
         if nando_class_node['name_en']:
-            lines += [' ' * 4 + 'oboinowl:hasExactSynonym "{}"@en ;'.format(name_en)]
+            lines += [' ' * 4 + 'rdfs:label "{}"@en ;'.format(name_en)]
+
         doc = lines_to_doc(lines)
         doc_list.append(doc)
         _id += 1
@@ -194,7 +195,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
             if not synonym:
                 continue
             exact_synonym_list.append('"{}"@ja ,'.format(synonym))
-        for synonym in [nando_node.name_en] + nando_node.synonyms_en:
+        for synonym in nando_node.synonyms_en:
             if not synonym:
                 continue
             exact_synonym_list.append('"{}"@en ,'.format(synonym))
@@ -225,6 +226,10 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
             ' ' * 4 + 'rdf:type owl:Class ;',
             ' ' * 4 + 'rdfs:subClassOf :{} ;'.format(parent_id),
             ' ' * 4 + 'rdfs:label "{}"@ja ;'.format(nando_node.name_ja),
+        ]
+        if nando_node.name_en:
+            lines += [' ' * 4 + 'rdfs:label "{}"@en ;'.format(nando_node.name_en)]
+        lines += [
             ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
             ' ' * 4 + ':has_notification_number "{}"^^xsd:string ;'.format(nando_node.notification_no),
         ]
@@ -307,7 +312,7 @@ def shoman_class_to_ttl(fp: Path):
             ' ' * 4 + 'rdfs:label "{}"@ja ;'.format(name_ja),
         ]
         if name_en:
-            lines += [' ' * 4 + 'oboinowl:hasExactSynonym "{}"@en ;'.format(name_en)]
+            lines += [' ' * 4 + 'rdfs:label "{}"@en ;'.format(name_en)]
         doc = lines_to_doc(lines)
         doc_list.append(doc)
         _id += 1
@@ -348,7 +353,7 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
             if not synonym:
                 continue
             exact_synonym_list.append('"{}"@ja ,'.format(synonym))
-        for synonym in [nando_node.name_en] + nando_node.synonyms_en:
+        for synonym in nando_node.synonyms_en:
             if not synonym:
                 continue
             exact_synonym_list.append('"{}"@en ,'.format(synonym))
@@ -378,6 +383,10 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
             ' ' * 4 + 'rdf:type owl:Class ;',
             ' ' * 4 + 'rdfs:subClassOf :{} ;'.format(parent_id),
             ' ' * 4 + 'rdfs:label "{}"@ja ;'.format(nando_node.name_ja),
+        ]
+        if nando_node.name_en:
+            lines += [' ' * 4 + 'rdfs:label "{}"@en ;'.format(nando_node.name_en)]
+        lines += [
             ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
             ' ' * 4 + ':has_notification_number "{}"^^xsd:string ;'.format(nando_node.notification_no),
         ]
