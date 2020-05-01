@@ -626,6 +626,7 @@
             "653",
             "654",
             "655",
+            "656",
             "657",
             "658",
             "659",
@@ -72214,145 +72215,24 @@
     },
     {
         "id": "655",
-        "name_ja": "もやもや病",
+        "name_ja": "30から32までに掲げるもののほか、重度の頭蓋骨早期癒合症",
         "synonyms_ja": [],
-        "name_en": "moyamoya disease",
+        "name_en": "Other craniosynostosis",
         "synonyms_en": [],
-        "is_defined_by": "https://www.shouman.jp/archives/doc/doc_11_14_035_01.pdf",
+        "is_defined_by": "https://www.shouman.jp/archives/doc/doc_11_13_034_01.pdf",
         "see_also": [
-            "https://www.shouman.jp/disease/details/11_14_035/"
+            "https://www.shouman.jp/disease/details/11_13_034/"
         ],
         "children": [
             "655-1",
             "655-2",
             "655-3"
         ],
-        "class_id": "11-14",
-        "notification_no": "79",
+        "class_id": "11-13",
+        "notification_no": "34",
         "description": "複数の頭蓋骨早期癒合に伴う複雑な頭蓋（顔面）変形を伴う頭蓋骨多縫合早期癒合症の中で、クルーゾン病、アペール症候群以外のものを対象とする。症候性としてはPfeiffer症候群、Carpenter症候群、Antley-Bixler症候群、Seather-Chotzen症候群などが相当する。この他にも稀少症候群、あるいは分類不能の多縫合早期癒合症を対象とする。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0009649",
-                "name": "MYMY1",
-                "xrefs": [
-                    "ICD9:437.5",
-                    "OMIM:252350",
-                    "SCTID:69116000"
-                ],
-                "synonyms": [
-                    {
-                        "name": "Moyamoya disease",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:252350"
-                        ]
-                    },
-                    {
-                        "name": "Moyamoya disease 1",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:252350"
-                        ]
-                    },
-                    {
-                        "name": "Moyamoya disease 1; MYMY1",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:252350"
-                        ]
-                    },
-                    {
-                        "name": "MYMY1",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:252350"
-                        ]
-                    },
-                    {
-                        "name": "spontaneous occlusion of the circle of Willis",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:252350"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0016820",
-                "name": "Moyamoya disease",
-                "xrefs": [
-                    "COHD:378774",
-                    "DOID:13099",
-                    "GARD:0007064",
-                    "ICD10:I67.5",
-                    "ICD9:437.5",
-                    "MESH:D009072",
-                    "MedDRA:10028047",
-                    "NCIT:C84895",
-                    "OMIMPS:252350",
-                    "Orphanet:2573",
-                    "SCTID:89142007",
-                    "UMLS:C0026654"
-                ],
-                "synonyms": [
-                    {
-                        "name": "idiopathic Moyamoya disease",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:2573"
-                        ]
-                    },
-                    {
-                        "name": "Moyamoya disease, primary",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007064"
-                        ]
-                    },
-                    {
-                        "name": "Moyamoya disease, secondary",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007064"
-                        ]
-                    },
-                    {
-                        "name": "MYMY",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007064"
-                        ]
-                    },
-                    {
-                        "name": "progressive intracranial arterial occlusion",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:13099"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0018792",
-                "name": "Moyamoya syndrome",
-                "xrefs": [
-                    "Orphanet:477771",
-                    "UMLS:CN776904"
-                ],
-                "synonyms": [
-                    {
-                        "name": "rare disorder with a Moyamoya angiopathy",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "Orphanet:477771"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "655-1",
@@ -72686,6 +72566,144 @@
         "description": "",
         "obsolete": false,
         "mondo_nodes": []
+    },
+    {
+        "id": "656",
+        "name_ja": "もやもや病",
+        "synonyms_ja": [],
+        "name_en": "moyamoya disease",
+        "synonyms_en": [],
+        "is_defined_by": "https://www.shouman.jp/archives/doc/doc_11_14_035_01.pdf",
+        "see_also": [
+            "https://www.shouman.jp/disease/details/11_14_035/"
+        ],
+        "children": [],
+        "class_id": "11-14",
+        "notification_no": "79",
+        "description": "複数の頭蓋骨早期癒合に伴う複雑な頭蓋（顔面）変形を伴う頭蓋骨多縫合早期癒合症の中で、クルーゾン病、アペール症候群以外のものを対象とする。症候性としてはPfeiffer症候群、Carpenter症候群、Antley-Bixler症候群、Seather-Chotzen症候群などが相当する。この他にも稀少症候群、あるいは分類不能の多縫合早期癒合症を対象とする。",
+        "obsolete": false,
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0009649",
+                "name": "MYMY1",
+                "xrefs": [
+                    "ICD9:437.5",
+                    "OMIM:252350",
+                    "SCTID:69116000"
+                ],
+                "synonyms": [
+                    {
+                        "name": "Moyamoya disease",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:252350"
+                        ]
+                    },
+                    {
+                        "name": "Moyamoya disease 1",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:252350"
+                        ]
+                    },
+                    {
+                        "name": "Moyamoya disease 1; MYMY1",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:252350"
+                        ]
+                    },
+                    {
+                        "name": "MYMY1",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:252350"
+                        ]
+                    },
+                    {
+                        "name": "spontaneous occlusion of the circle of Willis",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:252350"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "MONDO_0016820",
+                "name": "Moyamoya disease",
+                "xrefs": [
+                    "COHD:378774",
+                    "DOID:13099",
+                    "GARD:0007064",
+                    "ICD10:I67.5",
+                    "ICD9:437.5",
+                    "MESH:D009072",
+                    "MedDRA:10028047",
+                    "NCIT:C84895",
+                    "OMIMPS:252350",
+                    "Orphanet:2573",
+                    "SCTID:89142007",
+                    "UMLS:C0026654"
+                ],
+                "synonyms": [
+                    {
+                        "name": "idiopathic Moyamoya disease",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:2573"
+                        ]
+                    },
+                    {
+                        "name": "Moyamoya disease, primary",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0007064"
+                        ]
+                    },
+                    {
+                        "name": "Moyamoya disease, secondary",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0007064"
+                        ]
+                    },
+                    {
+                        "name": "MYMY",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0007064"
+                        ]
+                    },
+                    {
+                        "name": "progressive intracranial arterial occlusion",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:13099"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "MONDO_0018792",
+                "name": "Moyamoya syndrome",
+                "xrefs": [
+                    "Orphanet:477771",
+                    "UMLS:CN776904"
+                ],
+                "synonyms": [
+                    {
+                        "name": "rare disorder with a Moyamoya angiopathy",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "Orphanet:477771"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "657",
