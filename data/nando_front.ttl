@@ -8,6 +8,7 @@
 @prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix efo: <http://www.ebi.ac.uk/efo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 # @base <http://nanbyodata.jp/ontology/nando.owl> .
 
 
@@ -16,8 +17,8 @@
 #################################################################
 <http://nanbyodata.jp/ontology/nando.owl#>
     rdf:type owl:Ontology ;
-    owl:versionIRI <http://nanbyodata.jp/version0.3> ;
-    owl:versionInfo "0.3"^^xsd:string ;
+    owl:versionIRI <http://nanbyodata.jp/version0.3.2> ;
+    owl:versionInfo "0.3.2"^^xsd:string ;
     <http://purl.org/dc/elements/1.1/creator> "Kota Ninomiya"^^xsd:string ,
                                               "Ryota Yamada"^^xsd:string ,
                                               "Orion Buske"^^xsd:string ,
@@ -28,8 +29,8 @@
                                               "Soichi Ogishima"^^xsd:string ,
                                               "Toyofumi Fujiwara"^^xsd:string ;
     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-    <http://purl.org/dc/terms/created> "2020-4-24T12:00:00"^^xsd:dateTime ;
-    <http://purl.org/dc/terms/modified> "2020-4-24T12:00:00"^^xsd:dateTime .
+    <http://purl.org/dc/terms/created> "2020-5-3T12:00:00"^^xsd:dateTime ;
+    <http://purl.org/dc/terms/modified> "2020-5-3T12:00:00"^^xsd:dateTime .
 
 
 #################################################################
