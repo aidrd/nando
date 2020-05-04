@@ -10,7 +10,7 @@ NANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の疾患�
 - http://bioportal.bioontology.org/ontologies/NANDO
 
 ## 作成
-#### 1. 設定 (Mac，Linuxで検証済み)
+#### 1. 設定 (Macで検証済み)
 - `$ brew install raptor`
 - `$ pipenv install`
 - `$ pipenv shell`
