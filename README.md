@@ -23,3 +23,13 @@
     - `$ rapper -i turtle -o rdfxml-abbrev results/nando.ttl > results/nando.rdf`
 1. HTML化
     - `$ xsltproc --output results/nando.html data/owl2xhtml.xsl results/nando.rdf`
+
+## 統計情報
+| 全疾患 | 2,348件 |
+| 指定難病 | 1,023件 |
+| 小児慢性特定疾病 | 1,323件 |
+| MONDOへのクロスリファレンスを含む疾患 | 1,372件 |
+| 英語表記を含む疾患 | 2,288件 |
+| 疾患定義を含む疾患 | 1,190件 |
+
+
