@@ -25,6 +25,7 @@
     - `$ xsltproc --output results/nando.html data/owl2xhtml.xsl results/nando.rdf`
 
 ## 統計情報
+| --- | --- |
 | 全疾患 | 2,348件 |
 | 指定難病 | 1,023件 |
 | 小児慢性特定疾病 | 1,323件 |
