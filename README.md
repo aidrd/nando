@@ -37,3 +37,7 @@
 
 ## コンタクト
 新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
+
+## 謝辞
+- 本オントロジー の構築に際して<a href="https://ddrare.nibiohn.go.jp/">DDrare</a>および<a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a>を参照した．
+- 本オントロジー の構築に<a href="http://biohackathon.org/">BioHackathon</a>の成果を利用した．
