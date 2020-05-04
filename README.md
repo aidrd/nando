@@ -1,5 +1,5 @@
-# NANDO (Nanbyo Disease Ontology)
-本オントロジー は，「指定難病」制度対象の333疾患と「小児慢性特定疾病」制度対象の762疾患について，国内においてオーソライズされた資料を元に，疾患概念と疾患同士の関係性を厳密に体系化したものである．国際的な疾患オントロジー<a href="https://github.com/monarch-initiative/mondo">MONDO</a>へのクロスリファレンスを含む．
+# NANDO 
+本オントロジーNANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の333疾患と「小児慢性特定疾病」制度対象の762疾患について，国内においてオーソライズされた資料を元に，疾患概念と疾患同士の関係性を厳密に体系化したものである．NANDOは国際的な疾患オントロジー<a href="https://github.com/monarch-initiative/mondo">MONDO</a>へのクロスリファレンスを含む．
 
 ## 取得
 - http://nanbyodata.jp/ontology/nando.ttl
@@ -39,5 +39,5 @@
 新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
 
 ## 謝辞
-- 本オントロジー の構築に際して<a href="https://ddrare.nibiohn.go.jp/">DDrare</a>および<a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a>を参照した．
-- 本オントロジー の構築に<a href="http://biohackathon.org/">BioHackathon</a>の成果を利用した．
+- 本オントロジーの構築に際して<a href="https://ddrare.nibiohn.go.jp/">DDrare</a>および<a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a>を参照した．
+- 本オントロジーの構築に<a href="http://biohackathon.org/">BioHackathon</a>の成果を利用した．
