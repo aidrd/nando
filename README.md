@@ -10,22 +10,21 @@
 - http://bioportal.bioontology.org/ontologies/NANDO
 
 ## 作成
-#### 1. setting (Mac，Linuxで検証済み)
+#### 1. 設定 (Mac，Linuxで検証済み)
 - `$ brew install raptor`
 - `$ pipenv install`
 - `$ pipenv shell`
 - `$ ./setting.sh`
 
-#### 2. convert
-1. TTL作成
+#### 2. ファイル作成
+1. TTL
     - `$ python -m converter`
-1. RDF化
+1. RDF
     - `$ rapper -i turtle -o rdfxml-abbrev results/nando.ttl > results/nando.rdf`
-1. HTML化
+1. HTML
     - `$ xsltproc --output results/nando.html data/owl2xhtml.xsl results/nando.rdf`
 
 ## 統計情報
-
 || 全疾患 | 指定難病 | 小児慢性特定疾病 |
 | --- | ---: | ---: | ---: |
 | クラス数 | `2,347` | `1,023` | `1,323` |
@@ -33,4 +32,8 @@
 | 疾患定義を含むクラス数 | `1,189` | `333` | `856` |
 | MONDOへのクロスリファレンスを含むクラス数 | `1,382` | `698` | `684` |
 
+## ライセンス
+<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a>
 
+## コンタクト
+新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
