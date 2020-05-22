@@ -2312,9 +2312,11 @@
    {
       "id": "103",
       "name_ja": "慢性糸球体腎炎（アルポート 症候群によるものに限る。）",
-      "name_en": "chronic glomerulonephritis",
+      "name_en": "Alport syndrome",
       "synonyms_ja": [],
-      "synonyms_en": [],
+      "synonyms_en": [
+         "chronic glomerulonephritis"
+      ],
       "comment": "「慢性糸球体腎炎」の英語追加(http://www.tokyo-med.ac.jp/dimc/term/us.html)はしない",
       "comment_about_translation": "",
       "references_in_translation": [],
@@ -2330,7 +2332,7 @@
    {
       "id": "104",
       "name_ja": "エプスタイン症候群",
-      "name_en": "Alport syndrome",
+      "name_en": "Epstein syndrome",
       "synonyms_ja": [
          "Epstein症候群"
       ],
