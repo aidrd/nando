@@ -7462,9 +7462,11 @@
    },
    {
       "id": "334",
-      "name_ja": "脂肪異栄養症（脂肪萎縮症）",
+      "name_ja": "脂肪異栄養症",
       "name_en": "Lipodystrophy",
-      "synonyms_ja": [],
+      "synonyms_ja": [
+         "脂肪萎縮症"
+      ],
       "synonyms_en": [],
       "comment": "",
       "comment_about_translation": "",
@@ -17377,18 +17379,16 @@
    },
    {
       "id": "721",
-      "name_ja": "急性肝不全",
-      "name_en": "Acute Liver Failure",
+      "name_ja": "急性肝不全（昏睡型）",
+      "name_en": "acute liver failure with hepatic coma",
       "synonyms_ja": [],
-      "synonyms_en": [
-         "hepatic coma"
-      ],
+      "synonyms_en": [],
       "comment": "昏睡型",
       "comment_about_translation": "",
-      "references_in_translation": [],
+      "references_in_translation": "https://upload.umin.ac.jp/cgi-open-bin/ctr/ctr_view.cgi?recptno=R000020778",
       "is_defined_by": "https://www.shouman.jp/archives/doc/doc_12_06_019_01.pdf",
       "see_also": [
-         "https://www.shouman.jp/disease/details/12_06_019/"
+         NaN
       ],
       "class_id": "12-9",
       "notification_no": "17",
