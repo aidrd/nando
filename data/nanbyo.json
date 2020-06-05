@@ -19308,7 +19308,9 @@
     "synonyms_en": [],
     "comment": "",
     "comment_about_translation": "未確定",
-    "references_in_translation": [],
+    "references_in_translation": [
+      "参照（https://www.nature.com/articles/jhg201752）"
+    ],
     "is_defined_by": "https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/317-201704-kojin.pdf",
     "see_also": [
       "https://www.nanbyou.or.jp/entry/5431",
