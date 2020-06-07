@@ -197,9 +197,11 @@
   {
     "id": "6",
     "name_ja": "パーキンソン病",
-    "name_en": "Parkinson disease",
+    "name_en": "Parkinson's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Parkinson disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -235,9 +237,11 @@
   {
     "id": "8",
     "name_ja": "ハンチントン病",
-    "name_en": "Huntington disease",
+    "name_en": "Huntington's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Huntington disease"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -560,7 +564,7 @@
   {
     "id": "14",
     "name_ja": "慢性炎症性脱髄性多発神経炎／多巣性運動ニューロパチー",
-    "name_en": "Chronic inflammatory demyelinating polyneuropathy/Multifocal motor neuropathy",
+    "name_en": "Chronic Inflammatory Demyelinating Polyneuropathy /Multifocal Motor Neuropathy",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "",
@@ -581,7 +585,9 @@
     "name_ja": "慢性炎症性脱髄性多発神経炎",
     "name_en": "Chronic inflammatory demyelinating polyneuropathy",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -600,7 +606,9 @@
     "name_ja": "多巣性運動ニューロパチー",
     "name_en": "Multifocal motor neuropathy",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Multifocal Motor Neuropathy"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -1065,7 +1073,7 @@
   {
     "id": "19",
     "name_ja": "ライソゾーム病",
-    "name_en": "Lysosomal storage disease",
+    "name_en": "Lysosomal Storage Disease",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "",
@@ -3402,7 +3410,7 @@
   {
     "id": "21",
     "name_ja": "ミトコンドリア病",
-    "name_en": "Mitochondrial disease",
+    "name_en": "Mitochondrial Diseases",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -4300,7 +4308,7 @@
   {
     "id": "31",
     "name_ja": "ベスレムミオパチー",
-    "name_en": "Bethlem myopathy",
+    "name_en": "Bethlem Myopathy",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -4682,9 +4690,11 @@
   {
     "id": "37",
     "name_ja": "膿疱性乾癬（汎発型）",
-    "name_en": "Generalized Pustular Psoriasis",
+    "name_en": "Pustular Psoriasis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Generalized Pustular Psoriasis"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -4901,10 +4911,11 @@
   {
     "id": "40",
     "name_ja": "高安動脈炎",
-    "name_en": "Takayasu arteritis",
+    "name_en": "Takayasu's Arteritis",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Aortitis syndrome"
+      "Aortitis syndrome",
+      "Takayasu arteritis"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -5131,9 +5142,11 @@
   {
     "id": "44",
     "name_ja": "多発血管炎性肉芽腫症",
-    "name_en": "Wegeners granulomatosis",
+    "name_en": "Granulomatosis with Polyangiitis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Wegeners granulomatosis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5169,9 +5182,11 @@
   {
     "id": "46",
     "name_ja": "悪性関節リウマチ",
-    "name_en": "Rheumatoid arthritis with vasculitis",
+    "name_en": "Malignant Rheumatoid Arthritis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Rheumatoid arthritis with vasculitis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5188,9 +5203,11 @@
   {
     "id": "47",
     "name_ja": "バージャー病",
-    "name_en": "Thromboangiitis obliterans",
+    "name_en": "Buerger's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Thromboangiitis obliterans"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5207,9 +5224,11 @@
   {
     "id": "48",
     "name_ja": "原発性抗リン脂質抗体症候群",
-    "name_en": "Antiphospholipid syndrome",
+    "name_en": "Antiphospholipid Antibody Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Antiphospholipid syndrome"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5397,9 +5416,11 @@
   {
     "id": "51",
     "name_ja": "全身性強皮症",
-    "name_en": "Systemic scleroderma",
+    "name_en": "Systemic Sclerosis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Systemic scleroderma"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5435,9 +5456,11 @@
   {
     "id": "53",
     "name_ja": "シェーグレン症候群",
-    "name_en": "Sjogren syndrome",
+    "name_en": "Sjogren's Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Sjogren syndrome"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5492,9 +5515,11 @@
   {
     "id": "54",
     "name_ja": "成人スチル病",
-    "name_en": "Adult still disease",
+    "name_en": "Adult-Still's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Adult still disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5530,9 +5555,11 @@
   {
     "id": "56",
     "name_ja": "ベーチェット病",
-    "name_en": "Behcet disease",
+    "name_en": "Behcet's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Behcet disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -5549,7 +5576,7 @@
   {
     "id": "57",
     "name_ja": "特発性拡張型心筋症",
-    "name_en": "Idiopathic dilated cardiomyopathy",
+    "name_en": "Idiopathic Dilated Cardiomyopathy",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -6222,9 +6249,11 @@
   {
     "id": "65",
     "name_ja": "原発性免疫不全症候群",
-    "name_en": "Primary immunodeficiency",
+    "name_en": "Primary Immunodeficiency Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Primary immunodeficiency"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7130,7 +7159,7 @@
   {
     "id": "66",
     "name_ja": "IgＡ腎症",
-    "name_en": "IgA nephropathy",
+    "name_en": "IgA Nephropathy",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "",
@@ -7149,9 +7178,11 @@
   {
     "id": "67",
     "name_ja": "多発性嚢胞腎",
-    "name_en": "Polycystic kidney",
+    "name_en": "Polycystic Kidney Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Polycystic kidney"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7210,9 +7241,11 @@
   {
     "id": "68",
     "name_ja": "黄色靱帯骨化症",
-    "name_en": "Ossification of the ligamentum flavum",
+    "name_en": "Ossification of Ligamentum Flavum",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Ossification of the ligamentum flavum"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7248,9 +7281,11 @@
   {
     "id": "70",
     "name_ja": "広範脊柱管狭窄症",
-    "name_en": "Spinal stenosis",
+    "name_en": "Coexisting Cervical and Lumbar Spinal Stenosis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Spinal stenosis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7267,9 +7302,11 @@
   {
     "id": "71",
     "name_ja": "特発性大腿骨頭壊死症",
-    "name_en": "Idiopathic osteonecrosis of the femoral head",
+    "name_en": "Idiopathic Osteonecrosis of Femoral Head",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Idiopathic osteonecrosis of the femoral head"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7286,9 +7323,11 @@
   {
     "id": "72",
     "name_ja": "下垂体性ADH分泌異常症",
-    "name_en": "Pituitary ADH secretion disorders",
+    "name_en": "Diencephalo-hypophysial Insufficiency-Inappropriate ADH Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Pituitary ADH secretion disorders"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7347,9 +7386,11 @@
   {
     "id": "73",
     "name_ja": "下垂体性TSH分泌亢進症",
-    "name_en": "TSH-secreting pituitary adenoma",
+    "name_en": "Diencephalo-hypophysial Insufficiency-Inappropriate Thyroid stimulating Hormone Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "TSH-secreting pituitary adenoma"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7366,9 +7407,11 @@
   {
     "id": "74",
     "name_ja": "下垂体性PRL分泌亢進症",
-    "name_en": "Prolactin secreting pituitary adenoma",
+    "name_en": "Diencephalo-hypophysial Insufficiency-Inappropriate Prolactin Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Prolactin secreting pituitary adenoma"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7385,9 +7428,11 @@
   {
     "id": "75",
     "name_ja": "クッシング病",
-    "name_en": "Cushing disease",
+    "name_en": "Cushing's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Cushing disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7404,9 +7449,11 @@
   {
     "id": "76",
     "name_ja": "下垂体性ゴナドトロピン分泌亢進症",
-    "name_en": "Pituitary gonadotropin secretion hyperthyroidism",
+    "name_en": "Diencephalo-hypophysial dysfunction-Syndrome of abnormal secretion of Gonadotropin",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Pituitary gonadotropin secretion hyperthyroidism"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7520,9 +7567,11 @@
   {
     "id": "77",
     "name_ja": "下垂体性成長ホルモン分泌亢進症",
-    "name_en": "Growth hormone secreting pituitary adenoma",
+    "name_en": "Diencephalo-hypophysial dysfunction-Syndrome of abnormal secretion of Growth hormone",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Growth hormone secreting pituitary adenoma"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7539,9 +7588,11 @@
   {
     "id": "78",
     "name_ja": "下垂体前葉機能低下症",
-    "name_en": "Hypopituitarism",
+    "name_en": "Hypopituitarism Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Hypopituitarism"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7682,9 +7733,11 @@
   {
     "id": "79",
     "name_ja": "家族性高コレステロール血症（ホモ接合体）",
-    "name_en": "Homozygous familial hypercholesterolemia",
+    "name_en": "Familial Hypercholesterolemia （Homozygote ）",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Homozygous familial hypercholesterolemia"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -7701,10 +7754,10 @@
   {
     "id": "80",
     "name_ja": "甲状腺ホルモン不応症",
-    "name_en": "Resistance to thyroid hormone",
+    "name_en": "Syndrome of Resistance to Thyroid Hormone",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Syndrome of resistance to thyroid hormone",
+      "Resistance to thyroid hormone",
       "Thyroid hormone insensitivity syndrome"
     ],
     "comment": "遺伝学的検査必須。",
@@ -7723,10 +7776,10 @@
   {
     "id": "81",
     "name_ja": "先天性副腎皮質酵素欠損症",
-    "name_en": "Congenital adrenal hyperplasia",
+    "name_en": "Congenital Adrenal Enzyme Deficiency",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Congenital adrenal enzyme deficiency",
+      "Congenital adrenal hyperplasia",
       "Congenial adrenal cortex enzyme deficiency"
     ],
     "comment": "",
@@ -8023,10 +8076,11 @@
   {
     "id": "83",
     "name_ja": "アジソン病",
-    "name_en": "Addison disease",
+    "name_en": "Addison's Disease",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Primary chronic adrenocortical insufficiency"
+      "Primary chronic adrenocortical insufficiency",
+      "Addison disease"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -8326,9 +8380,11 @@
   {
     "id": "87",
     "name_ja": "肺静脈閉塞症／肺毛細血管腫症",
-    "name_en": "Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis",
+    "name_en": "Pulmonary Veno-Occlusive Disease / Pulmonary Capillary Hemangiomatosis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -8345,7 +8401,7 @@
   {
     "id": "87-1",
     "name_ja": "肺静脈閉塞症",
-    "name_en": "Pulmonary venous obstruction",
+    "name_en": "Pulmonary Veno-Occlusive Disease",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "",
@@ -8364,7 +8420,7 @@
   {
     "id": "87-2",
     "name_ja": "肺毛細血管腫症",
-    "name_en": "Pulmonary capillary hemangiomatosis",
+    "name_en": "Pulmonary Capillary Hemangiomatosis",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "",
@@ -8575,9 +8631,11 @@
   {
     "id": "93",
     "name_ja": "原発性胆汁性胆管炎",
-    "name_en": "Primary biliary cirrhosis",
+    "name_en": "Primary Biliary Cholangitis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Primary biliary cirrhosis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -8670,9 +8728,11 @@
   {
     "id": "96",
     "name_ja": "クローン病",
-    "name_en": "Crohn disease",
+    "name_en": "Crohn's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Crohn disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -8864,9 +8924,11 @@
   {
     "id": "98",
     "name_ja": "好酸球性消化管疾患",
-    "name_en": "Eosinophilic gastrointestinal disease",
+    "name_en": "Eosinophilic Gastro-Intestinal Disorder",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Eosinophilic gastrointestinal disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -8946,9 +9008,11 @@
   {
     "id": "99",
     "name_ja": "慢性特発性偽性腸閉塞症",
-    "name_en": "Chronic intestinal pseudo-obstruction",
+    "name_en": "Chronic Idiopathic Intestinal Pseudo-Obstruction",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Chronic intestinal pseudo-obstruction"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -8965,10 +9029,11 @@
   {
     "id": "100",
     "name_ja": "巨大膀胱短小結腸腸管蠕動不全症",
-    "name_en": "Megacystis microcolon intestinal hypoperistalsis syndrome",
+    "name_en": "Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Huge bladder short and small colon intestinal peristalsis deficiency"
+      "Huge bladder short and small colon intestinal peristalsis deficiency",
+      "Megacystis microcolon intestinal hypoperistalsis syndrome"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -9026,10 +9091,10 @@
   {
     "id": "103",
     "name_ja": "CFC症候群",
-    "name_en": "Cardio-facio-cutaneous syndrome",
+    "name_en": "CFC Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
-      "CFC syndrome"
+      "Cardio-facio-cutaneous syndrome"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -9047,9 +9112,11 @@
   {
     "id": "104",
     "name_ja": "コステロ症候群",
-    "name_en": "Costello syndrome",
+    "name_en": "Costello's Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Costello syndrome"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -9176,10 +9243,10 @@
   {
     "id": "107",
     "name_ja": "若年性特発性関節炎",
-    "name_en": "Juvenile idiopathic arthritis",
+    "name_en": "Systemic-Onset Juvenile Idiopathic Arthritis",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Systemic-onset juvenile idiopathic arthritis"
+      "Juvenile idiopathic arthritis"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -9693,9 +9760,11 @@
   {
     "id": "114",
     "name_ja": "非ジストロフィー性ミオトニー症候群",
-    "name_en": "Non-dystrophic myotonia syndrome",
+    "name_en": "Non-dystrophic Myotonia",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Non-dystrophic myotonia syndrome"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -9813,9 +9882,11 @@
   {
     "id": "115",
     "name_ja": "遺伝性周期性四肢麻痺",
-    "name_en": "Hereditary periodic paralysis",
+    "name_en": "Hereditary Hypokalemic Periodic Paralysis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Hereditary periodic paralysis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -10720,10 +10791,11 @@
   {
     "id": "124",
     "name_ja": "皮質下梗塞と白質脳症を伴う常染色体優性脳動脈症",
-    "name_en": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy",
+    "name_en": "Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarct and Leukoencephalopathy",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Autosomal dominant cerebral artery disease with subcortical infarct and leukoencephalopathy"
+      "Autosomal dominant cerebral artery disease with subcortical infarct and leukoencephalopathy",
+      "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -10836,10 +10908,11 @@
   {
     "id": "128",
     "name_ja": "ビッカースタッフ脳幹脳炎",
-    "name_en": "Vickers staff brainstem encephalitis",
+    "name_en": "Bickerstaff's Brainstem encephalitis",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Bickerstaff Brainstem encephalitis"
+      "Bickerstaff Brainstem encephalitis",
+      "Vickers staff brainstem encephalitis"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -10857,11 +10930,12 @@
   {
     "id": "129",
     "name_ja": "痙攣重積型（二相性）急性脳症",
-    "name_en": "Acute encephalopathy with biphasic seizures and late reduced diffusion",
+    "name_en": "Acute Encephalopathy with Febrile Convulsive Status Epilepticus",
     "synonyms_ja": [],
     "synonyms_en": [
       "Epilepticus type biphasic acute encphalopathy",
-      "Epilepticus type acute encphalopathy"
+      "Epilepticus type acute encphalopathy",
+      "Acute encephalopathy with biphasic seizures and late reduced diffusion"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -10879,7 +10953,7 @@
   {
     "id": "130",
     "name_ja": "先天性無痛無汗症",
-    "name_en": "Congenital insensitivity to pain with anhidrosis",
+    "name_en": "Congenital Insensitivity to Pain with Anhidrosis",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -10898,7 +10972,7 @@
   {
     "id": "131",
     "name_ja": "アレキサンダー病",
-    "name_en": "Alexander disease",
+    "name_en": "Alexander Disease",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -10984,10 +11058,10 @@
   {
     "id": "132",
     "name_ja": "先天性核上性球麻痺",
-    "name_en": "Congenital supranuclear bulbar palsy",
+    "name_en": "Congenital Suprabulbar Paresis",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Congenital suprabulbar paresis",
+      "Congenital supranuclear bulbar palsy",
       "Worcester drought syndrome",
       "Worster-Drought syndrome"
     ],
@@ -11007,9 +11081,11 @@
   {
     "id": "133",
     "name_ja": "メビウス症候群",
-    "name_en": "Moebius syndrome",
+    "name_en": "Mobius Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Moebius syndrome"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -11026,7 +11102,7 @@
   {
     "id": "134",
     "name_ja": "中隔視神経形成異常症／ドモルシア症候群",
-    "name_en": "Septo-optic dysplasia/De Morsier syndrome",
+    "name_en": "Septo-optic Dysplasia / De Morsier syndrome",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "",
@@ -11296,11 +11372,11 @@
   {
     "id": "138",
     "name_ja": "神経細胞移動異常症",
-    "name_en": "Nerve cell migration disorders",
+    "name_en": "Neuronal Migration Defects",
     "synonyms_ja": [],
     "synonyms_en": [
       "Lissencephaly",
-      "Neuronal migration defect"
+      "Nerve cell migration disorders"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -11318,7 +11394,7 @@
   {
     "id": "139",
     "name_ja": "先天性大脳白質形成不全症",
-    "name_en": "Congenital cerebral hypomyelination",
+    "name_en": "Congenital Cerebral Hypomyelination",
     "synonyms_ja": [],
     "synonyms_en": [
       "Congenital cerebral white matter aplasia"
@@ -11571,11 +11647,11 @@
   {
     "id": "141",
     "name_ja": "海馬硬化を伴う内側側頭葉てんかん",
-    "name_en": "Mesial temporal lobe epilepsy with hippocampal sclerosis",
+    "name_en": "Mesial Temporal Lobe Epilepsy with Bilateral Hippocampal Sclerosis",
     "synonyms_ja": [],
     "synonyms_en": [
       "Mesial temporal lobe epilepsy with hippocampal sclerosis",
-      "Mesial temporal lobe epilepsy with bilateral hippocampal sclerosis"
+      "Mesial temporal lobe epilepsy with hippocampal sclerosis"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -11612,7 +11688,7 @@
   {
     "id": "143",
     "name_ja": "ミオクロニー脱力発作を伴うてんかん",
-    "name_en": "Epilepsy with myoclonic-atonic seizures",
+    "name_en": "Epilepsy with Myoclonic Atonic Seizures",
     "synonyms_ja": [],
     "synonyms_en": [
       "Epilepsy with myoclonic cataplexy"
@@ -11735,7 +11811,7 @@
   {
     "id": "149",
     "name_ja": "片側痙攣・片麻痺・てんかん症候群",
-    "name_en": "Hemiconvulsion hemiplegia epilepsy syndrome",
+    "name_en": "Hemiconvulsion-Hemiplegia-Epilepsy Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
       "One side convulsions, hemiplegia - epilepsy syndrome"
@@ -11756,10 +11832,10 @@
   {
     "id": "150",
     "name_ja": "環状20番染色体症候群",
-    "name_en": "Ring chromosome 20 epilepsy syndrome",
+    "name_en": "Ring Chromosome 20 Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Ring chromosome 20 syndrome"
+      "Ring chromosome 20 epilepsy syndrome"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -11777,9 +11853,11 @@
   {
     "id": "151",
     "name_ja": "ラスムッセン脳炎",
-    "name_en": "Rasmussen encephalitis",
+    "name_en": "Rasmussen's Encephalitis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Rasmussen encephalitis"
+    ],
     "comment": "診断基準が２つある（Part A,Part B）",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -11796,7 +11874,7 @@
   {
     "id": "152",
     "name_ja": "ＰＣＤＨ19関連症候群",
-    "name_en": "PCDH19 related syndrome",
+    "name_en": "PCDH19-related Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
       "PCDH19 Epilepsy",
@@ -11839,10 +11917,10 @@
   {
     "id": "154",
     "name_ja": "徐波睡眠期持続性棘徐波を示すてんかん性脳症",
-    "name_en": "Epilepsy with continuous spikes and waves during slow sleep",
+    "name_en": "Epileptic Encephalopathy with Continuous Spike-and-Wave During Sleep",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Epileptic encephalopathy with continuous spike-and-wave during sleep"
+      "Epilepsy with continuous spikes and waves during slow sleep"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -11860,10 +11938,10 @@
   {
     "id": "155",
     "name_ja": "ランドウ・クレフナー症候群",
-    "name_en": "Acquired aphasia with convulsive disorder",
+    "name_en": "Landau-Kleffner Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Landau-Kleffner syndrome"
+      "Acquired aphasia with convulsive disorder"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -11881,9 +11959,11 @@
   {
     "id": "156",
     "name_ja": "レット症候群",
-    "name_en": "Rett syndrome",
+    "name_en": "Rett's Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Rett syndrome"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -11957,10 +12037,10 @@
   {
     "id": "158",
     "name_ja": "結節性硬化症",
-    "name_en": "Tuberous sclerosis",
+    "name_en": "Tuberous Sclerosis Complex",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Tuberous sclerosis complex"
+      "Tuberous sclerosis"
     ],
     "comment": "２つのDefinite基準あり（遺伝学的、臨床的）。遺伝子検査必須。",
     "comment_about_translation": "",
@@ -12432,13 +12512,13 @@
   {
     "id": "161",
     "name_ja": "家族性良性慢性天疱瘡",
-    "name_en": "Familial benign chronic pemphigus",
+    "name_en": "Benign Familial Pemphigus",
     "synonyms_ja": [
       "ヘイリー・ヘイリー病"
     ],
     "synonyms_en": [
       "Hailey-Hailey disease",
-      "Benign familial pemphigus"
+      "Familial benign chronic pemphigus"
     ],
     "comment": "２つのDefinite基準あり。遺伝子検査必須。",
     "comment_about_translation": "",
@@ -12456,9 +12536,11 @@
   {
     "id": "162",
     "name_ja": "類天疱瘡",
-    "name_en": "Pemphigoid",
+    "name_en": "Pemphigoid （including Epidermolysis Bullosa Acquisita）",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Pemphigoid"
+    ],
     "comment": "後天性表皮水疱症を含む。２つのDefinite基準あり",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -12532,11 +12614,11 @@
   {
     "id": "163",
     "name_ja": "特発性後天性全身性無汗症",
-    "name_en": "Idiopathic pure sudomotor failure",
+    "name_en": "Acquired Idiopathic Generalized Anhidrosis",
     "synonyms_ja": [],
     "synonyms_en": [
       "Idiopathic acquired systemic anhidrosis",
-      "Acquired idiopathic generalized anhidrosis"
+      "Idiopathic pure sudomotor failure"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -12689,9 +12771,11 @@
   {
     "id": "167",
     "name_ja": "マルファン症候群",
-    "name_en": "Marfan syndrome",
+    "name_en": "Marfan's Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Marfan syndrome"
+    ],
     "comment": "２つの診断あり（確定診断、臨床診断）。遺伝子検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -12872,9 +12956,11 @@
   {
     "id": "169",
     "name_ja": "メンケス病",
-    "name_en": "Menkes disease",
+    "name_en": "Menkes' Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Menkes disease"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -12910,9 +12996,11 @@
   {
     "id": "171",
     "name_ja": "ウィルソン病",
-    "name_en": "Wilson disease",
+    "name_en": "Wilson's Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Wilson disease"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -13066,7 +13154,7 @@
   {
     "id": "178",
     "name_ja": "モワット・ウィルソン症候群",
-    "name_en": "Mowat-Wilson syndrome",
+    "name_en": "Mowat Wilson Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -13125,7 +13213,7 @@
   {
     "id": "181",
     "name_ja": "クルーゾン症候群",
-    "name_en": "Crouzon syndrome",
+    "name_en": "Crouzon's Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -13184,7 +13272,9 @@
     "name_ja": "アントレー・ビクスラー症候群",
     "name_en": "Antley-Bixler syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Antley-Bixler Syndrome Phenotype"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -13651,10 +13741,10 @@
   {
     "id": "207",
     "name_ja": "総動脈幹遺残症",
-    "name_en": "Truncus arteriosus communis",
+    "name_en": "Persistent truncus arteriosus",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Persistent truncus arteriosus"
+      "Truncus arteriosus communis"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -13748,9 +13838,11 @@
   {
     "id": "208",
     "name_ja": "修正大血管転位症",
-    "name_en": "Corrected transposition of the great arteries",
+    "name_en": "Corrected Transposition of Great Arteries",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Corrected transposition of the great arteries"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -13767,10 +13859,11 @@
   {
     "id": "209",
     "name_ja": "完全大血管転位症",
-    "name_en": "Complete transposition of the great arteries",
+    "name_en": "Complete Transposition of Great Arteries",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Complete TGA"
+      "Complete TGA",
+      "Complete transposition of the great arteries"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -13923,10 +14016,10 @@
   {
     "id": "213",
     "name_ja": "心室中隔欠損を伴わない肺動脈閉鎖症",
-    "name_en": "Pulmonary atresia without ventricular septum defect",
+    "name_en": "Pulmonary Atresia with Intact Ventricular Septum",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Pulmonary atresia with intact ventricular septum"
+      "Pulmonary atresia without ventricular septum defect"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -13967,7 +14060,9 @@
     "name_ja": "ファロー四徴症",
     "name_en": "Tetralogy of Fallot",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Fallot's Tetralogy"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -14024,9 +14119,11 @@
   {
     "id": "218",
     "name_ja": "アルポート症候群",
-    "name_en": "Alport syndrome",
+    "name_en": "Alport's Syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Alport syndrome"
+    ],
     "comment": "２つのDefiniteあり。遺伝子検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -14142,9 +14239,11 @@
   {
     "id": "221",
     "name_ja": "抗糸球体基底膜腎炎",
-    "name_en": "Anti-glomerular basement membrane disease",
+    "name_en": "Anti-GBM Nephritis",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Anti-glomerular basement membrane disease"
+    ],
     "comment": "２つのDefiniteあり",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -14637,10 +14736,11 @@
   {
     "id": "226",
     "name_ja": "間質性膀胱炎（ハンナ型）",
-    "name_en": "Interstitial cystitis with Hunners ulcer",
+    "name_en": "Interstitial Cystitis （Hunner type）",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Interstitial cystitis"
+      "Interstitial cystitis",
+      "Interstitial cystitis with Hunners ulcer"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -14941,9 +15041,11 @@
   {
     "id": "234",
     "name_ja": "ペルオキシソーム病",
-    "name_en": "Peroxisomal disease",
+    "name_en": "Peroxisomal Disorder",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Peroxisomal disease "
+    ],
     "comment": "副腎白質ジストロフィーを除く。その他として隣接遺伝子症候群（隣接 ABCD1/DXS1357E 欠失症候群(Contiguous ABCD1/DXS1357E deletion syndrome:CADDS)）",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -15322,11 +15424,11 @@
   {
     "id": "237",
     "name_ja": "副腎皮質刺激ホルモン不応症",
-    "name_en": "ACTH unresponsiveness",
+    "name_en": "Adrenocorticotropic Hormone Insensitivity",
     "synonyms_ja": [],
     "synonyms_en": [
       "Adrenocorticotropic hormone unresponsiveness",
-      "Adrenocorticotropic hormone insensitivity"
+      "ACTH unresponsiveness"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -15346,7 +15448,9 @@
     "name_ja": "ビタミンＤ抵抗性くる病/骨軟化症",
     "name_en": "Vitamin D-resistant rickets/Vitamin D-resistant osteomalacia",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Vitamin D Resistant Rickets / Osteomalacia "
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -15404,7 +15508,8 @@
     "name_en": "Vitamin D-dependent rickets",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Vitamin D-dependent osteomalacia"
+      "Vitamin D-dependent osteomalacia",
+      "Vitamin D-dependent Rickets / Osteomalacia "
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -15971,10 +16076,10 @@
   {
     "id": "253",
     "name_ja": "先天性葉酸吸収不全",
-    "name_en": "Congenital folate malabsorption",
+    "name_en": "Hereditary Folate Malabsorption",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Hereditary Folate Malabsorption"
+      "Congenital folate malabsorption"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -16226,11 +16331,11 @@
   {
     "id": "256",
     "name_ja": "筋型糖原病",
-    "name_en": "Skeletal muscle glycogenosis",
+    "name_en": "Muscle Glycogen Storage Disease",
     "synonyms_ja": [],
     "synonyms_en": [
       "Glycogen storage disease type VII",
-      "Muscle glycogen storage disease",
+      "Skeletal muscle glycogenosis",
       "Muscular glycogenosis"
     ],
     "comment": "遺伝学的検査必須。",
@@ -16543,9 +16648,11 @@
   {
     "id": "257",
     "name_ja": "肝型糖原病",
-    "name_en": "Hepatic glycogenosis",
+    "name_en": "Hepatic Glycogen Storage Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Hepatic glycogenosis"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -16827,10 +16934,10 @@
   {
     "id": "258",
     "name_ja": "ガラクトース-1-リン酸ウリジルトランスフェラーゼ欠損症",
-    "name_en": "Galactose-1-phosphate uridylyltransferase deficiency",
+    "name_en": "Galactose-1-phosphate Uridyltransferase Deficiency",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Galactose-1-phosphate uridyltransferase deficiency",
+      "Galactose-1-phosphate uridylyltransferase deficiency",
       "Galactosemia type 1",
       "GALT deficiency"
     ],
@@ -16850,7 +16957,7 @@
   {
     "id": "259",
     "name_ja": "レシチンコレステロールアシルトランスフェラーゼ欠損症",
-    "name_en": "Lecithin‐cholesterol acyltransferase deficiency",
+    "name_en": "Lecithin Cholesterol Acyltransferase Deficiency",
     "synonyms_ja": [],
     "synonyms_en": [
       "LCAT deficiency"
@@ -17162,10 +17269,11 @@
   {
     "id": "269",
     "name_ja": "化膿性無菌性関節炎・壊疽性膿皮症・アクネ症候群",
-    "name_en": "Pyogenic arthritis, pyoderma gangrenosum and acne syndrome",
+    "name_en": "Pyogenic Arthritis, Pyoderma Gangrenosum, Acne Syndrome",
     "synonyms_ja": [],
     "synonyms_en": [
-      "PAPA syndrome"
+      "PAPA syndrome",
+      "Pyogenic arthritis, pyoderma gangrenosum and acne syndrome"
     ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
@@ -17242,9 +17350,11 @@
   {
     "id": "273",
     "name_ja": "肋骨異常を伴う先天性側弯症",
-    "name_en": "Congenital scoliosis with rib anomaly",
+    "name_en": "Congenital Scoliosis with Rib Anomalies",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Congenital scoliosis with rib anomaly"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -17356,9 +17466,11 @@
   {
     "id": "277",
     "name_ja": "リンパ管腫症/ゴーハム病",
-    "name_en": "Lymphangiomatosis/Gorham disease",
+    "name_en": "Lymphangiomatosis / Gorham-Stout Disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Lymphangiomatosis/Gorham disease"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -17417,10 +17529,11 @@
   {
     "id": "278",
     "name_ja": "巨大リンパ管奇形（頚部顔面病変）",
-    "name_en": "Huge Lymphatic malformation with cervicofacial lesion",
+    "name_en": "Giant Lymphatic Malformation （Cervicofacial Lesion）",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Huge Lymphatic malformation"
+      "Huge Lymphatic malformation",
+      "Huge Lymphatic malformation with cervicofacial lesion"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -17438,10 +17551,11 @@
   {
     "id": "279",
     "name_ja": "巨大静脈奇形（頚部口腔咽頭びまん性病変）",
-    "name_en": "Huge venous malformation with cervical, oral and pharyngeal diffuse lesion",
+    "name_en": "Giant Venous Malformation （Cervical, Oral and Oropharyngeal Diffuse Lesion）",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Huge venous malformation"
+      "Huge venous malformation",
+      "Huge venous malformation with cervical, oral and pharyngeal diffuse lesion"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -17459,10 +17573,11 @@
   {
     "id": "280",
     "name_ja": "巨大動静脈奇形（頚部顔面又は四肢病変）",
-    "name_en": "Huge arteriovenous malformation with cervicofacial or limb lesion",
+    "name_en": "Giant Arteriovenous Malformation （Cervicofacial / Limb Lesion）",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Huge arteriovenous malformation"
+      "Huge arteriovenous malformation",
+      "Huge arteriovenous malformation with cervicofacial or limb lesion"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -17594,7 +17709,7 @@
   {
     "id": "284",
     "name_ja": "ダイアモンド・ブラックファン貧血",
-    "name_en": "Diamond-Blackfan anemia",
+    "name_en": "Diamond-Blackfan Anaemia",
     "synonyms_ja": [],
     "synonyms_en": [],
     "comment": "遺伝学的検査必須。",
@@ -17835,9 +17950,11 @@
   {
     "id": "290",
     "name_ja": "非特異性多発性小腸潰瘍症",
-    "name_en": "Chronic nonspecific multiple ulcers of the small intestine",
+    "name_en": "Nonspecific Multiple Ulcers of Small Intestine",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Chronic nonspecific multiple ulcers of the small intestine"
+    ],
     "comment": "２つのDefiniteあり。遺伝子検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -17856,7 +17973,9 @@
     "name_ja": "ヒルシュスプルング病",
     "name_en": "Hirschsprung disease",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Hirschsprung Disease （Entire Colon type / Extensive type）"
+    ],
     "comment": "全結腸型又は小腸型のみ適用",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -18025,10 +18144,10 @@
   {
     "id": "295",
     "name_ja": "乳幼児肝巨大血管腫",
-    "name_en": "Infant huge hepatic hemangioma",
+    "name_en": "Infantile Giant Hepatic Haemangiomas",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Infant giant liver hemangioma"
+      "Infant huge hepatic hemangioma"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -18666,9 +18785,11 @@
   {
     "id": "304",
     "name_ja": "若年発症型両側性感音難聴",
-    "name_en": "Juvenile-onset bilateral sensorineural hearing loss",
+    "name_en": "Juvenile Bilateral Sensorineural Hearing Loss",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Juvenile-onset bilateral sensorineural hearing loss"
+    ],
     "comment": "遺伝学的検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -18742,9 +18863,11 @@
   {
     "id": "308",
     "name_ja": "進行性白質脳症",
-    "name_en": "Leukoencephalopathy",
+    "name_en": "Progressive multifocal leukoencephalopathy",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Leukoencephalopathy"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -18818,7 +18941,7 @@
   {
     "id": "309",
     "name_ja": "進行性ミオクローヌスてんかん",
-    "name_en": "progressive myoclonus epilepsy",
+    "name_en": "Progressive myoclonus epilepsy",
     "synonyms_ja": [],
     "synonyms_en": [
       "PME"
@@ -18900,9 +19023,11 @@
   {
     "id": "310",
     "name_ja": "先天異常症候群",
-    "name_en": "Malformative syndrome",
+    "name_en": "Congenital anomalies syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Malformative syndrome"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -18997,10 +19122,11 @@
   {
     "id": "311",
     "name_ja": "先天性三尖弁狭窄症",
-    "name_en": "Congenital tricuspid atresia",
+    "name_en": "Congenital tricuspid stenosis",
     "synonyms_ja": [],
     "synonyms_en": [
-      "Tricuspid atresia"
+      "Tricuspid atresia",
+      "Congenital tricuspid atresia"
     ],
     "comment": "２つDefiniteあり",
     "comment_about_translation": "",
@@ -19058,10 +19184,11 @@
   {
     "id": "314",
     "name_ja": "左肺動脈右肺動脈起始症",
-    "name_en": "Pulmonary artery sling",
+    "name_en": "Vascular sling",
     "synonyms_ja": [],
     "synonyms_en": [
-      "PA sling"
+      "PA sling",
+      "Pulmonary artery sling"
     ],
     "comment": "",
     "comment_about_translation": "",
@@ -19637,9 +19764,11 @@
   {
     "id": "325",
     "name_ja": "遺伝性自己炎症疾患",
-    "name_en": "hereditary autoinflammatory diseases",
+    "name_en": "Hereditary autoinflammatory syndrome",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "hereditary autoinflammatory diseases"
+    ],
     "comment": "",
     "comment_about_translation": "",
     "references_in_translation": [],
@@ -19753,9 +19882,11 @@
   {
     "id": "327",
     "name_ja": "特発性血栓症",
-    "name_en": "Idiopathic thrombosis",
+    "name_en": "Idiopathic thrombosis （inherited cause of thrombosis）（neonates, infants）",
     "synonyms_ja": [],
-    "synonyms_en": [],
+    "synonyms_en": [
+      "Idiopathic thrombosis"
+    ],
     "comment": "遺伝性血栓性素因によるものに限る。遺伝子検査必須。",
     "comment_about_translation": "",
     "references_in_translation": [],
