@@ -3472,7 +3472,54 @@
         "notification_no": "47",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0005813",
+                "name": "interdigitating dendritic cell sarcoma",
+                "xrefs": [
+                    "DOID:7848",
+                    "EFO:0007329",
+                    "ICD10:C96.4",
+                    "ICDO:9757/1",
+                    "ICDO:9757/3",
+                    "MESH:D054739",
+                    "NCIT:C9282",
+                    "ONCOTREE:IDCS",
+                    "SCTID:715664005"
+                ],
+                "synonyms": [
+                    {
+                        "name": "interdigitating cell sarcoma",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:7848",
+                            "NCIT:C9282"
+                        ]
+                    },
+                    {
+                        "name": "interdigitating cell sarcoma/tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C9282"
+                        ]
+                    },
+                    {
+                        "name": "interdigitating Dendritic cell sarcoma",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C9282"
+                        ]
+                    },
+                    {
+                        "name": "interdigitating Dendritic cell sarcoma/tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C9282"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "26-3",
@@ -8307,101 +8354,7 @@
         "notification_no": "12",
         "description": "乳幼児期の肺や稀には壁側胸膜に発生する胎児性悪性腫瘍。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0011014",
-                "name": "pleuropulmonary blastoma",
-                "xrefs": [
-                    "DOID:4769",
-                    "EFO:0009052",
-                    "GARD:0008757",
-                    "ICD10:C34.1",
-                    "ICD10:C34.2",
-                    "ICD10:C34.3",
-                    "ICD10:C34.9",
-                    "ICD9:162.9",
-                    "ICDO:8973/3",
-                    "MESH:C537516",
-                    "NCIT:C5669",
-                    "OMIM:601200",
-                    "ONCOTREE:PPB",
-                    "Orphanet:64742",
-                    "SCTID:707670009",
-                    "UMLS:C1266144",
-                    "UMLS:CN072455"
-                ],
-                "synonyms": [
-                    {
-                        "name": "childhood pulmonary blastoma",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern"
-                        ]
-                    },
-                    {
-                        "name": "pediatric pulmonary blastoma",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern",
-                            "MONDO:patterns/childhood"
-                        ]
-                    },
-                    {
-                        "name": "pediatric pulmonary blastoma",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:patterns/childhood"
-                        ]
-                    },
-                    {
-                        "name": "pleuropulmonary blastoma",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "NCIT:C5669",
-                            "OMIM:601200"
-                        ]
-                    },
-                    {
-                        "name": "pleuropulmonary blastoma (morphologic abnormality)",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:4769"
-                        ]
-                    },
-                    {
-                        "name": "pleuropulmonary blastoma; PPB",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:601200"
-                        ]
-                    },
-                    {
-                        "name": "PPB",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:601200"
-                        ]
-                    },
-                    {
-                        "name": "PPB familial tumor and dysplasia syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:601200"
-                        ]
-                    },
-                    {
-                        "name": "pulmonary blastoma of childhood",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:patterns/childhood",
-                            "NCIT:C5669"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "67",
@@ -10921,20 +10874,6 @@
         "obsolete": false,
         "mondo_nodes": [
             {
-                "id": "MONDO_0002173",
-                "name": "neuroma",
-                "xrefs": [
-                    "DOID:2001",
-                    "ICD9:215.9",
-                    "ICDO:9570/0",
-                    "MESH:D009463",
-                    "NCIT:C3275",
-                    "SCTID:443892003",
-                    "UMLS:C0027858"
-                ],
-                "synonyms": []
-            },
-            {
                 "id": "MONDO_0002546",
                 "name": "schwannoma",
                 "xrefs": [
@@ -13098,8 +13037,10 @@
         "id": "103",
         "name_ja": "慢性糸球体腎炎（アルポート 症候群によるものに限る。）",
         "synonyms_ja": [],
-        "name_en": "chronic glomerulonephritis",
-        "synonyms_en": [],
+        "name_en": "Alport syndrome",
+        "synonyms_en": [
+            "chronic glomerulonephritis"
+        ],
         "is_defined_by": "https://www.shouman.jp/archives/doc/doc_02_02_012_01.pdf",
         "see_also": [
             "https://www.shouman.jp/disease/details/02_02_012/"
@@ -13109,7 +13050,45 @@
         "notification_no": "39",
         "description": "Alport症候群(AS)は1927年にAlportにより報告された進行性の腎炎を特徴とする遺伝性疾患で，聴力異常・眼球異常の合併を特徴とする(1)。その原因遺伝子は，COL4A3，COL4A4，COL4A5遺伝子である。1990年に初めてCOL4A5遺伝子変異がＸ染色体連鎖型(X-linked Alport syndrome: XLAS)家系で同定され(2)，次いで1994年にCOL4A3あるいはCOL4A4遺伝子変異が常染色体劣性型(autosomal recessive Alport syndrome: ARAS)家系で同定されている(3)。AS全体の中で，XLASが約80％，ARASが約15％を占める．残りの5％の中にCOL4A3あるいはCOL4A4遺伝子の異常から引き起こされる常染色体優性型が報告されている(4)。ASによる糸球体腎炎は糸球体基底膜(GBM)の菲薄化・断裂を伴って進行し，数年から十数年を経て慢性腎不全に至る(5)。初期症状は無症候性血尿であることが多く，特にXLASの男性において成人になってからほぼ例外なく腎不全に至る。XLASのキャリアである女性のASによる糸球体腎炎は，無症候性血尿のみの症例から早期に慢性腎不全に至る症例まで多様であり，Ｘ染色体の不活化現象によると推測されている(5)。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0018965",
+                "name": "Alport syndrome",
+                "xrefs": [
+                    "DOID:10983",
+                    "ICD10:Q87.8",
+                    "ICD10:Q87.81",
+                    "MedDRA:10001843",
+                    "NCIT:C34842",
+                    "Orphanet:63",
+                    "UMLS:C1567741"
+                ],
+                "synonyms": [
+                    {
+                        "name": "Alport deafness-nephropathy",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:63"
+                        ]
+                    },
+                    {
+                        "name": "Alport's syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C34842"
+                        ]
+                    },
+                    {
+                        "name": "hereditary nephritis",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:10983",
+                            "NCIT:C34842"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "104",
@@ -13117,7 +13096,7 @@
         "synonyms_ja": [
             "Epstein症候群"
         ],
-        "name_en": "Alport syndrome",
+        "name_en": "Epstein syndrome",
         "synonyms_en": [
             "AS"
         ],
@@ -13271,165 +13250,326 @@
                 ]
             },
             {
-                "id": "MONDO_0010524",
-                "name": "X-linked sideroblastic anemia with ataxia",
+                "id": "MONDO_0007954",
+                "name": "May-Hegglin anomaly",
                 "xrefs": [
-                    "DOID:0050554",
-                    "DOID:0060064",
-                    "GARD:0000668",
-                    "ICD10:D64.0",
-                    "MESH:C536358",
-                    "OMIM:301310",
-                    "Orphanet:2802",
-                    "SCTID:719816006",
-                    "UMLS:C1845028",
-                    "UMLS:C4304338"
+                    "GARD:0000179",
+                    "ICD9:582.89",
+                    "ICD9:759.89",
+                    "MESH:C537831",
+                    "NCIT:C131639",
+                    "NCIT:C131642",
+                    "NCIT:C131646",
+                    "NCIT:C131650",
+                    "OMIM:153640",
+                    "OMIM:153650",
+                    "OMIM:155100",
+                    "OMIM:600208",
+                    "OMIM:605249",
+                    "Orphanet:1019",
+                    "Orphanet:1984",
+                    "Orphanet:807",
+                    "Orphanet:850",
+                    "SCTID:234484005",
+                    "SCTID:234485006",
+                    "SCTID:236422008",
+                    "UMLS:C0398641",
+                    "UMLS:C0403445",
+                    "UMLS:C1834478",
+                    "UMLS:CN226018",
+                    "UMLS:CN226030",
+                    "UMLS:CN226270"
                 ],
                 "synonyms": [
                     {
-                        "name": "anemia sideroblastic and spinocerebellar ataxia",
+                        "name": "Alport syndrome with macrothrombocytopenia",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:153640"
+                        ]
+                    },
+                    {
+                        "name": "Alport syndrome with macrothrombocytopenia, formerly",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:153640"
+                        ]
+                    },
+                    {
+                        "name": "bleeding disorder, Platelet-type, 6",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "Brodie Chole griffin syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000179"
+                        ]
+                    },
+                    {
+                        "name": "Dohle leukocyte inclusions with giant platelets",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "Epstein syndrome",
                         "scope": "EXACT",
                         "xrefs": [
-                            "DOID:0050554"
+                            "OMIM:153650"
                         ]
                     },
                     {
-                        "name": "anemia, Sex-linked hypochromic Siderobla",
-                        "scope": "RELATED",
+                        "name": "Fechtner syndrome",
+                        "scope": "EXACT",
                         "xrefs": [
-                            "MESH:C536358"
-                        ]
-                    },
-                    {
-                        "name": "anemia, sideroblastic, and spinocerebellar ataxia",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536358",
                             "MONDO:Lexical",
-                            "OMIM:301310"
+                            "OMIM:153640"
                         ]
                     },
                     {
-                        "name": "anemia, sideroblastic, and spinocerebellar ataxia; ASAT",
+                        "name": "Fechtner syndrome; FTNS",
                         "scope": "RELATED",
                         "xrefs": [
-                            "OMIM:301310"
+                            "OMIM:153640"
                         ]
                     },
                     {
-                        "name": "ASAT",
-                        "scope": "EXACT",
+                        "name": "FTNS",
+                        "scope": "RELATED",
                         "xrefs": [
-                            "DOID:0060064",
-                            "MESH:C536358",
                             "MONDO:Lexical",
-                            "OMIM:301310"
+                            "OMIM:153640"
                         ]
                     },
                     {
-                        "name": "Pagon Bird Detter syndrome",
+                        "name": "giant platelet syndrome with thrombocytopenia",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss",
                         "scope": "RELATED",
                         "xrefs": [
-                            "MESH:C536358"
+                            "OMIM:155100"
                         ]
                     },
                     {
-                        "name": "Pagon-Bird-Detter syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:2802"
-                        ]
-                    },
-                    {
-                        "name": "sideroblastic anemia with spinocerebellar ataxia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MESH:C536358",
-                            "MONDO:0000609"
-                        ]
-                    },
-                    {
-                        "name": "X-linked sideroblastic anemia and ataxia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0050554"
-                        ]
-                    },
-                    {
-                        "name": "X-linked sideroblastic Anemia and ataxia",
+                        "name": "macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss; matins",
                         "scope": "RELATED",
                         "xrefs": [
-                            "MESH:C536358"
+                            "OMIM:155100"
                         ]
                     },
                     {
-                        "name": "X-linked sideroblastic anemia and spinocerebellar ataxia",
+                        "name": "macrothrombocytopenia and progressive sensorineural deafness",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:600208"
+                        ]
+                    },
+                    {
+                        "name": "macrothrombocytopenia progressive deafness",
                         "scope": "RELATED",
                         "xrefs": [
-                            "Orphanet:2802"
+                            "GARD:0000179"
                         ]
                     },
                     {
-                        "name": "X-linked sideroblastic anemia with ataxia",
-                        "scope": "EXACT",
+                        "name": "macrothrombocytopenia with dispersed leukocytic inclusions",
+                        "scope": "RELATED",
                         "xrefs": [
-                            "Orphanet:2802"
+                            "OMIM:605249"
                         ]
                     },
                     {
-                        "name": "X-linked sideroblastic anemia with spinocerebellar ataxia",
-                        "scope": "EXACT",
+                        "name": "macrothrombocytopenia with leukocyte inclusions",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "macrothrombocytopenia, nephritis, and deafness",
+                        "scope": "RELATED",
                         "xrefs": []
                     },
                     {
-                        "name": "XLSA-A",
-                        "scope": "EXACT",
+                        "name": "macrothrombocytopenia, nephritis, deafness, and leukocyte inclusions",
+                        "scope": "RELATED",
                         "xrefs": [
-                            "Orphanet:2802"
+                            "OMIM:153640"
                         ]
                     },
                     {
-                        "name": "Xlsa-A",
+                        "name": "matins",
                         "scope": "RELATED",
                         "xrefs": [
-                            "MESH:C536358"
+                            "OMIM:155100"
                         ]
+                    },
+                    {
+                        "name": "May-Hegglin anomaly",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "MAY-Hegglin anomaly; MHA",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "May-Hegglin thrombocytopenia",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:850"
+                        ]
+                    },
+                    {
+                        "name": "MHA",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:155100"
+                        ]
+                    },
+                    {
+                        "name": "MOVED to 155100",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:605249"
+                        ]
+                    },
+                    {
+                        "name": "SBS",
+                        "scope": "RELATED",
+                        "xrefs": []
+                    },
+                    {
+                        "name": "Sebastian Platelet syndrome",
+                        "scope": "RELATED",
+                        "xrefs": []
+                    },
+                    {
+                        "name": "Sebastian syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:605249"
+                        ]
+                    },
+                    {
+                        "name": "Sebastian syndrome; SBS",
+                        "scope": "RELATED",
+                        "xrefs": []
                     }
                 ]
             },
             {
-                "id": "MONDO_0018965",
-                "name": "Alport syndrome",
+                "id": "MONDO_0015912",
+                "name": "MYH-9 related disease",
                 "xrefs": [
-                    "DOID:10983",
-                    "ICD10:Q87.8",
-                    "ICD10:Q87.81",
-                    "MedDRA:10001843",
-                    "NCIT:C34842",
-                    "Orphanet:63",
-                    "UMLS:C1567741"
+                    "DOID:0060651",
+                    "GARD:0000180",
+                    "ICD10:D69.4",
+                    "ICD9:287.33",
+                    "Orphanet:182050",
+                    "SCTID:712922002"
                 ],
                 "synonyms": [
                     {
-                        "name": "Alport deafness-nephropathy",
-                        "scope": "EXACT",
+                        "name": "Epstein syndrome",
+                        "scope": "RELATED",
                         "xrefs": [
-                            "Orphanet:63"
+                            "GARD:0000180"
                         ]
                     },
                     {
-                        "name": "Alport's syndrome",
-                        "scope": "EXACT",
+                        "name": "Fechtner syndrome",
+                        "scope": "RELATED",
                         "xrefs": [
-                            "NCIT:C34842"
+                            "GARD:0000180"
                         ]
                     },
                     {
-                        "name": "hereditary nephritis",
+                        "name": "May-Hegglin anomaly",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000180"
+                        ]
+                    },
+                    {
+                        "name": "MYH9 related disorders",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000180"
+                        ]
+                    },
+                    {
+                        "name": "MYH9 related thrombocytopenia",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000180"
+                        ]
+                    },
+                    {
+                        "name": "MYH9-RD",
                         "scope": "EXACT",
                         "xrefs": [
-                            "DOID:10983",
-                            "NCIT:C34842"
+                            "Orphanet:182050"
+                        ]
+                    },
+                    {
+                        "name": "MYH9-related disease",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "Orphanet:182050"
+                        ]
+                    },
+                    {
+                        "name": "MYH9-related disorder",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:182050"
+                        ]
+                    },
+                    {
+                        "name": "MYH9-related syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:182050"
+                        ]
+                    },
+                    {
+                        "name": "MYH9-related syndromic thrombocytopenia",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:182050"
+                        ]
+                    },
+                    {
+                        "name": "Sebastian platelet syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000180"
+                        ]
+                    },
+                    {
+                        "name": "Sebastian syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000180"
                         ]
                     }
                 ]
@@ -16150,6 +16290,38 @@
         "obsolete": false,
         "mondo_nodes": [
             {
+                "id": "MONDO_0006007",
+                "name": "vesicoureteral reflux (disease)",
+                "xrefs": [
+                    "DOID:9620",
+                    "EFO:0007536",
+                    "HP:0000076",
+                    "ICD10:N13.7",
+                    "ICD10:N13.70",
+                    "ICD9:593.7",
+                    "MESH:D014718",
+                    "OMIMPS:193000",
+                    "SCTID:197811007",
+                    "UMLS:C0042580"
+                ],
+                "synonyms": [
+                    {
+                        "name": "vesico-ureteral reflux",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:9620"
+                        ]
+                    },
+                    {
+                        "name": "vesicoureteral reflux",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:ambiguous"
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": "MONDO_0008653",
                 "name": "VUR1",
                 "xrefs": [
@@ -17803,149 +17975,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "id": "MONDO_0010561",
-                "name": "Coffin-Lowry syndrome",
-                "xrefs": [
-                    "DOID:3783",
-                    "GARD:0006123",
-                    "GARD:0008589",
-                    "ICD10:Q87.0",
-                    "ICD9:759.89",
-                    "MESH:C536435",
-                    "MESH:D038921",
-                    "NCIT:C84643",
-                    "OMIM:303600",
-                    "Orphanet:192",
-                    "SCTID:15182000",
-                    "UMLS:C0265252"
-                ],
-                "synonyms": [
-                    {
-                        "name": "CLS",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:303600",
-                            "Orphanet:192"
-                        ]
-                    },
-                    {
-                        "name": "Coffin syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0006123"
-                        ]
-                    },
-                    {
-                        "name": "Coffin syndrome 1",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0008589"
-                        ]
-                    },
-                    {
-                        "name": "Coffin-Lowry syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:303600"
-                        ]
-                    },
-                    {
-                        "name": "COFFIN-Lowry syndrome; CLS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:303600"
-                        ]
-                    },
-                    {
-                        "name": "dwarfism, lean spastic type",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0008589",
-                            "MESH:C536435"
-                        ]
-                    },
-                    {
-                        "name": "lean spastic dwarfism",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0008589",
-                            "MESH:C536435"
-                        ]
-                    },
-                    {
-                        "name": "mental retardation with osteocartilaginous abnormalities",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0006123"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0015279",
-                "name": "chronic mucocutaneous candidiasis (disease)",
-                "xrefs": [
-                    "DOID:2058",
-                    "HP:0002728",
-                    "ICD10:B37.2",
-                    "MESH:D002178",
-                    "MedDRA:10009007",
-                    "NCIT:C34444",
-                    "OMIMPS:114580",
-                    "Orphanet:1334",
-                    "SCTID:234568006",
-                    "UMLS:C0006845"
-                ],
-                "synonyms": [
-                    {
-                        "name": "CANDF",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:cjm"
-                        ]
-                    },
-                    {
-                        "name": "chronic mucocutaneous candidiasis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:2058",
-                            "MONDO:ambiguous",
-                            "NCIT:C34444"
-                        ]
-                    },
-                    {
-                        "name": "CMC",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:1334"
-                        ]
-                    },
-                    {
-                        "name": "familial candidiasis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIMPS:114580"
-                        ]
-                    },
-                    {
-                        "name": "familial chronic mucocutaneous candidiasis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:0024486"
-                        ]
-                    },
-                    {
-                        "name": "familial CMC",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:cjm"
-                        ]
-                    }
-                ]
             }
         ]
     },
@@ -18493,84 +18522,7 @@
         "notification_no": "9",
         "description": "P波が心室に伝導せず、P波とQRS波が全く独立した調律をとる。胎児や新生児期に出現することがあり（先天性完全房室ブロック）、この場合、抗SS-A抗体、抗SS-B抗体陽性の母からの出生児のことが多い。小児期に発見され、原因不明のこともある。遺伝子異常が認められることもある。症候性徐脈、心室機能低下、低拍出がある場合には、ペースメーカの適応となる。ペースメーカ植込みを行なえば予後は比較的良好である。無治療で突然死することがある。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0000468",
-                "name": "third-degree atrioventricular block",
-                "xrefs": [
-                    "DOID:0050823",
-                    "ICD9:426.0",
-                    "NCIT:C50501",
-                    "SCTID:27885002",
-                    "UMLS:C0151517"
-                ],
-                "synonyms": [
-                    {
-                        "name": "atrioventricular block complete",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "atrioventricular block, third degree",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "AV block third degree",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "complete atrioventricular block",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "complete AV block",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0050823"
-                        ]
-                    },
-                    {
-                        "name": "complete heart block",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "non-congenital complete atrioventricular block",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "third degree atrioventricular block",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    },
-                    {
-                        "name": "third degree AV block",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C50501"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "157",
@@ -19129,7 +19081,53 @@
         "notification_no": "30",
         "description": "心室が無秩序に興奮している状態で、心電図では基線の細かい揺れとして記録される。持続すれば死亡する。広義にはQT延長症候群、Brugada症候群、カテコラミン誘発多形性心室頻拍、QT短縮症候群も含めるが、特発性心室細動はこれらを除いた心室細動で、近年注目されている、J波症候群（早期再分極症候群）がその範疇に入る。頻拍の予防はアミオダロン内服、及びICD植込みである。予後不良の疾患ではあるが、はっきりした予後は未だ不明である。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0000190",
+                "name": "ventricular fibrillation (disease)",
+                "xrefs": [
+                    "COHD:437894",
+                    "DC:0000692",
+                    "EFO:0004287",
+                    "HP:0001663",
+                    "ICD9:427.41",
+                    "MESH:D014693",
+                    "NCIT:C50799",
+                    "SCTID:71908006",
+                    "UMLS:C0042510"
+                ],
+                "synonyms": [
+                    {
+                        "name": "fibrillation, ventricular",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C50799"
+                        ]
+                    },
+                    {
+                        "name": "ventricular fibrillation",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:ambiguous"
+                        ]
+                    },
+                    {
+                        "name": "VF",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C50799"
+                        ]
+                    },
+                    {
+                        "name": "VFib",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C50799"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "168",
@@ -21222,7 +21220,69 @@
         "notification_no": "31",
         "description": "左右の心室の間の壁である心室中隔に孔のあいている先天性心疾患。心室中隔は膜様部中隔と筋性部中隔に分けられ、筋性部中隔は更に流入路中隔、肉柱部中隔、および流出路（漏斗部）中隔に分けられる。これらの部位に欠損孔が認められる。欠損孔の大きさ、位置により臨床症状、治療方針が異なる。肺高血圧の合併がなく、左右短絡が少ない例では原則として外科治療の適応はなく、感染性心内膜炎に注意しながら経過観察する。大動脈弁の嵌入逸脱をともなう例では小短絡であっても外科治療が必要となることがある。肺体血流量比が2.0以上で多呼吸、哺乳障害、体重増加不良、気道感染の反復などの症状がある場合には内科治療と手術を行う。肺高血圧を合併した例では症状が軽微であっても6カ月以内に心内修復術を行う。肺高血圧がなくとも肺体血流量比が2.0以上で左室容量負荷所見を認める場合には就学前に心内修復術を行うことが多い。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0002070",
+                "name": "ventricular septal defect (disease)",
+                "xrefs": [
+                    "COHD:434462",
+                    "DOID:1657",
+                    "GARD:0007853",
+                    "HP:0001629",
+                    "ICD10:Q21.0",
+                    "ICD9:745.4",
+                    "MESH:D006345",
+                    "NCIT:C84506",
+                    "OMIMPS:614429",
+                    "SCTID:30288003"
+                ],
+                "synonyms": [
+                    {
+                        "name": "heart septal defects, ventricular",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0007853"
+                        ]
+                    },
+                    {
+                        "name": "interventricular septal defect",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:1657",
+                            "MTHICD9_2006:745.4"
+                        ]
+                    },
+                    {
+                        "name": "ventricular septal abnormality",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:1657"
+                        ]
+                    },
+                    {
+                        "name": "ventricular septal defect",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:ambiguous"
+                        ]
+                    },
+                    {
+                        "name": "ventricular septal defects",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0007853"
+                        ]
+                    },
+                    {
+                        "name": "VSD",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C84506"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "211",
@@ -21256,7 +21316,34 @@
         "notification_no": "78",
         "description": "部分肺静脈還流異常は,4本の肺静脈のうち1〜3本が体静脈系に異常還流する疾患である。心房中隔欠損に合併することが多い。胎生早期に共通肺静脈の一部が閉鎖し、体静脈系と交通を残すことにより生じる。心房中隔欠損の心内修復手術時に、一緒に治療する。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0020453",
+                "name": "congenital partial pulmonary venous return anomaly",
+                "xrefs": [
+                    "ICD10:Q26.3",
+                    "NCIT:C99004",
+                    "Orphanet:99124",
+                    "SCTID:68237008"
+                ],
+                "synonyms": [
+                    {
+                        "name": "Partial anomalous pulmonary Venous connection",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C99004"
+                        ]
+                    },
+                    {
+                        "name": "Partial anomalous pulmonary Venous return",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C99004"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "213",
@@ -21953,7 +22040,36 @@
         "notification_no": "66",
         "description": "先天的に支持組織の脆弱性によりValsalva洞の一部が右室もしくは右房に瘤状に突出している。漏斗部心室中隔欠損に大動脈弁とバルサルバ洞が落ち込み、バルサルバ洞の拡大と弁の逸脱をきたしたものが多い。心室中隔欠損はバルサルバ洞で閉鎖されていることもある。大動脈弁の変形から閉鎖不全をきたすことがある。またバルサルバ洞が右室など交通を作ることがある（バルサルバ洞破裂）。破裂すると、突然の胸痛とともに、左右短絡をきたす。手術適応である。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0015197",
+                "name": "aneurysm of sinus of Valsalva",
+                "xrefs": [
+                    "GARD:0000670",
+                    "ICD10:Q25.4",
+                    "ICD9:747.29",
+                    "Orphanet:1054",
+                    "SCTID:54160000",
+                    "UMLS:CN197542"
+                ],
+                "synonyms": [
+                    {
+                        "name": "sinus of Valsalva aneurysm",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000670"
+                        ]
+                    },
+                    {
+                        "name": "SVA",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0000670"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "234",
@@ -22156,7 +22272,37 @@
         "notification_no": "83",
         "description": "肺動脈性肺高血圧の原因は不明であるが、高度の肺動脈孿縮が生じ、そこに血管壁の肥厚性変化や血管際構築などの基質的病変が加わり惹起されるとされている。肺の筋性動脈や細動脈の中膜、内膜肥厚により肺動脈の血圧が高まり、心拍出量低下を生じ、右心不全をはじめ心臓や肺の機能に障害をもたらす、進行性の疾患。原因は、BMPR2、ALK1、Endoglinなどの遺伝子異常が存在するものと、未だ遺伝子異常があきらかでないものがある。予後不良で、難治性の疾患である。近年、様々な肺血管拡張薬が開発され、臨床使用されるようになり、予後は改善してきているが、それでも依然予後不良の疾患であることには変わりない。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0017147",
+                "name": "idiopathic pulmonary arterial hypertension",
+                "xrefs": [
+                    "ICD10:I27.0",
+                    "ICD9:416.0",
+                    "MedDRA:10065151",
+                    "Orphanet:275766",
+                    "SCTID:697898008",
+                    "UMLS:C3203102",
+                    "UMLS:CN202574"
+                ],
+                "synonyms": [
+                    {
+                        "name": "IPAH",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:275766"
+                        ]
+                    },
+                    {
+                        "name": "primary pulmonary arterial hypertension",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:275766"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "239",
@@ -24885,41 +25031,6 @@
                 ]
             },
             {
-                "id": "MONDO_0008959",
-                "name": "CHAND syndrome",
-                "xrefs": [
-                    "MESH:C538074",
-                    "OMIM:214350",
-                    "Orphanet:1401",
-                    "SCTID:239037001",
-                    "UMLS:C0406733",
-                    "UMLS:CN199447"
-                ],
-                "synonyms": [
-                    {
-                        "name": "CHAND syndrome; CHANDS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:214350"
-                        ]
-                    },
-                    {
-                        "name": "CHANDS",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:214350"
-                        ]
-                    },
-                    {
-                        "name": "curly hair-ankyloblepharon-nail dysplasia syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:214350"
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "MONDO_0018612",
                 "name": "congenital hypothyroidism",
                 "xrefs": [
@@ -27059,7 +27170,79 @@
         "notification_no": "83",
         "description": "下垂体からのACTH分泌が、下垂体、視床下部あるいはさらに上位の中枢の問題により、障害されている状態を指す。慢性のACTH分泌不全では、副腎皮質は萎縮状となり、機能の低下を招くため、二次性副腎皮質機能低下症ともいう。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0008720",
+                "name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+                "xrefs": [
+                    "DOID:0080150",
+                    "EFO:1001979",
+                    "GARD:0005727",
+                    "HP:0011748",
+                    "ICD10:E23.6",
+                    "ICD9:255.41",
+                    "MESH:C535668",
+                    "OMIM:201400",
+                    "Orphanet:199296",
+                    "SCTID:237692001",
+                    "UMLS:C0342388"
+                ],
+                "synonyms": [
+                    {
+                        "name": "ACTH deficiency, isolated",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:201400"
+                        ]
+                    },
+                    {
+                        "name": "ACTH deficiency, isolated; IAD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:201400"
+                        ]
+                    },
+                    {
+                        "name": "adrenocorticotropic hormone deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:ambiguous",
+                            "OMIM:201400"
+                        ]
+                    },
+                    {
+                        "name": "congenital isolated ACTH deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "Orphanet:199296"
+                        ]
+                    },
+                    {
+                        "name": "IAD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:201400"
+                        ]
+                    },
+                    {
+                        "name": "isolated ACTH deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005727"
+                        ]
+                    },
+                    {
+                        "name": "isolated adrenocorticotropic hormone deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005727"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "290",
@@ -28290,43 +28473,7 @@
         "notification_no": "7",
         "description": "アルドステロン分泌は正常であるにもかかわらず、先天的な腎尿細管におけるNa再吸収とＫ排泄能の低下のため塩類喪失症候群 salt-wasting syndromeをきたす疾患群である。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0019161",
-                "name": "pseudohypoaldosteronism type 1",
-                "xrefs": [
-                    "ICD10:N25.8",
-                    "ICD9:275.8",
-                    "NCIT:C123251",
-                    "Orphanet:756",
-                    "SCTID:43941006",
-                    "UMLS:C0268436"
-                ],
-                "synonyms": [
-                    {
-                        "name": "PHA type 1",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:756"
-                        ]
-                    },
-                    {
-                        "name": "PHA1B",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C123251"
-                        ]
-                    },
-                    {
-                        "name": "pseudohypoaldosteronism type I autosomal recessive",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C123251"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "300-2",
@@ -28345,113 +28492,7 @@
         "notification_no": "7",
         "description": "腎尿細管機能異常により高カリウム血症，高クロール血症性代謝性アシドーシス をきたすが，PHA Iと異なり塩類喪失症状はなく，循環血液量増大による高血圧を呈する疾患である。Gordon症候群ともいう。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0019162",
-                "name": "pseudohypoaldosteronism type 2",
-                "xrefs": [
-                    "GARD:0004553",
-                    "ICD10:I15.1",
-                    "ICD9:588.89",
-                    "NCIT:C123252",
-                    "OMIMPS:145260",
-                    "Orphanet:757",
-                    "SCTID:15689008",
-                    "UMLS:C1449844"
-                ],
-                "synonyms": [
-                    {
-                        "name": "chloride shunt syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "familial hyperkalemic hypertension",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "Gordon hyperkalemia-hypertension syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "Gordon syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C123252"
-                        ]
-                    },
-                    {
-                        "name": "hyperkalemia-hypertension syndrome, Gordon type",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "hyperpotassemia and hypertension familial",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0004553"
-                        ]
-                    },
-                    {
-                        "name": "hypertensive hyperkalemia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "mineralocorticoid resistant hyperkalemia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "PHA2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "PHAII",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    },
-                    {
-                        "name": "pseudohypoaldosteronism, type 2",
-                        "scope": "EXACT",
-                        "xrefs": []
-                    },
-                    {
-                        "name": "pseudohypoaldosteronism, type II",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIMPS:145260"
-                        ]
-                    },
-                    {
-                        "name": "Spitzer-Weinstein syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:757"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "301",
@@ -30109,7 +30150,185 @@
         "notification_no": "42",
         "description": "腫瘍からのVIP分泌過剰による疾患。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0019960",
+                "name": "VIPoma",
+                "xrefs": [
+                    "DOID:5574",
+                    "EFO:1000622",
+                    "GARD:0003787",
+                    "GARD:0005493",
+                    "ICD10:E16.8",
+                    "ICD9:239.7",
+                    "ICDO:8155/1",
+                    "MESH:D003969",
+                    "MedDRA:10047430",
+                    "NCIT:C26749",
+                    "Orphanet:97282",
+                    "SCTID:253005002",
+                    "UMLS:C0011993"
+                ],
+                "synonyms": [
+                    {
+                        "name": "Diarrheogenic islet cell tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:97282"
+                        ]
+                    },
+                    {
+                        "name": "malignant vasoactive intestinal peptide-secreting tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:5574"
+                        ]
+                    },
+                    {
+                        "name": "pancreatic cholera",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "GARD:0003787",
+                            "Orphanet:97282"
+                        ]
+                    },
+                    {
+                        "name": "pancreatic vipoma",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005493"
+                        ]
+                    },
+                    {
+                        "name": "vasoactive intestinal peptide (VIP) tumor",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005493"
+                        ]
+                    },
+                    {
+                        "name": "vasoactive intestinal peptide producing neoplasm",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "vasoactive intestinal peptide producing tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "vasoactive intestinal peptide secreting neoplasm",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "vasoactive intestinal peptide-producing tumor",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005493"
+                        ]
+                    },
+                    {
+                        "name": "vasoactive intestinal peptide-secreting tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:5574"
+                        ]
+                    },
+                    {
+                        "name": "Verner-Morrison syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:97282"
+                        ]
+                    },
+                    {
+                        "name": "VIP producing neoplasm",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "VIP- secreting neoplasm",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "VIP- secreting tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:5574",
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "VIP-producing NET",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "VIP-producing neuroendocrine tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "VIP-secreting tumor",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:97282"
+                        ]
+                    },
+                    {
+                        "name": "VIPoma",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26749"
+                        ]
+                    },
+                    {
+                        "name": "VIPoma, malignant",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:5574"
+                        ]
+                    },
+                    {
+                        "name": "watery diarrhea, hypokalemia, and achlorhydria syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0003787"
+                        ]
+                    },
+                    {
+                        "name": "watery diarrhea-hypokalemia-achlorhydria syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:97282"
+                        ]
+                    },
+                    {
+                        "name": "WDHA syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:97282"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "325",
@@ -30469,7 +30688,151 @@
         "notification_no": "17",
         "description": "膵β細胞由来のインスリン分泌性腺腫。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0024677",
+                "name": "pancreatic insulinoma",
+                "xrefs": [
+                    "DOID:3892",
+                    "EFO:0000549",
+                    "GARD:0003010",
+                    "HP:0012197",
+                    "ICD10:E16.8",
+                    "MESH:D007340",
+                    "MedDRA:10022498",
+                    "NCIT:C95598",
+                    "SCTID:302822000"
+                ],
+                "synonyms": [
+                    {
+                        "name": "adenoma, beta cell",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "adenoma, beta-cell",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "adenomas, beta-cell",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "beta cell tumor",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "beta-cell adenoma",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "beta-cell adenomas",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "beta-cell tumor",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "beta-cell tumors",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "insulin-producing tumor of islet cells",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:3892"
+                        ]
+                    },
+                    {
+                        "name": "insulinoma",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C95598"
+                        ]
+                    },
+                    {
+                        "name": "insulinoma tumor suppressor GENE locus",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "Insulinomas",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "insuloma",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "Insulomas",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "islet cell adenoma",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:3892"
+                        ]
+                    },
+                    {
+                        "name": "pancreatic insulinoma",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C95598"
+                        ]
+                    },
+                    {
+                        "name": "tumor, beta-cell",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    },
+                    {
+                        "name": "tumors, beta-cell",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MESH:D007340"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "329",
@@ -30520,7 +30883,105 @@
         "notification_no": "76",
         "description": "ビタミンD依存性くる病は、遺伝性にビタミンD抵抗性くる病（骨軟化症）をきたす疾患で、生理量のビタミンDではその作用が不足する病態である。通常生後数カ月以内に、くる病所見や、低カルシウム血症によるテタニーやけいれんで発症する。腎臓の25位水酸化ビタミンD 1α位水酸化酵素遺伝子(CYP27B1)の不活性型変異によりビタミンD活性化が障害されるビタミンD依存症I型（Vitamin D-dependent rickets, type 1：VDDR I）と，ビタミンD受容体遺伝子(VDR)の不活性型変異によりビタミンDの作用が障害されるビタミンD依存症II型（（Vitamin D-dependent rickets, type II：VDDR II）に分類される。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0005520",
+                "name": "rickets (disease)",
+                "xrefs": [
+                    "COHD:438719",
+                    "DOID:10609",
+                    "EFO:0005583",
+                    "GARD:0005700",
+                    "HP:0002748",
+                    "ICD10:E55.0",
+                    "ICD9:268.0",
+                    "MESH:D012279",
+                    "NCIT:C26878",
+                    "SCTID:41345002",
+                    "UMLS:C0035579"
+                ],
+                "synonyms": [
+                    {
+                        "name": "active rickets",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "DOID:10609"
+                        ]
+                    },
+                    {
+                        "name": "hypovitaminosis D",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005700"
+                        ]
+                    },
+                    {
+                        "name": "nutritional rickets",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005700"
+                        ]
+                    },
+                    {
+                        "name": "rachitis",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C26878"
+                        ]
+                    },
+                    {
+                        "name": "rickets",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:ambiguous"
+                        ]
+                    },
+                    {
+                        "name": "Vitamin D deficiency disease",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005700"
+                        ]
+                    },
+                    {
+                        "name": "vitamin D hydroxylation-deficient rickets",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:10609"
+                        ]
+                    },
+                    {
+                        "name": "vitamin D-dependent rickets",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:10609"
+                        ]
+                    },
+                    {
+                        "name": "Vitamin-D deficiency rickets",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0005700"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "MONDO_0024299",
+                "name": "vitamin D-dependent rickets",
+                "xrefs": [
+                    "SCTID:68295002",
+                    "UMLS:C0221468"
+                ],
+                "synonyms": [
+                    {
+                        "name": "VDDR",
+                        "scope": "EXACT",
+                        "xrefs": []
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "332",
@@ -30558,8 +31019,10 @@
     },
     {
         "id": "334",
-        "name_ja": "脂肪異栄養症（脂肪萎縮症）",
-        "synonyms_ja": [],
+        "name_ja": "脂肪異栄養症",
+        "synonyms_ja": [
+            "脂肪萎縮症"
+        ],
         "name_en": "Lipodystrophy",
         "synonyms_en": [],
         "is_defined_by": "https://www.shouman.jp/archives/doc/doc_05_38_083_01.pdf",
@@ -31206,124 +31669,7 @@
         "notification_no": "66",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0008667",
-                "name": "von Hippel-Lindau disease",
-                "xrefs": [
-                    "DOID:14175",
-                    "GARD:0007855",
-                    "ICD10:Q85.8",
-                    "ICD9:759.6",
-                    "MESH:D006623",
-                    "MedDRA:10047716",
-                    "NCIT:C3105",
-                    "OMIM:193300",
-                    "Orphanet:892",
-                    "SCTID:46659004",
-                    "UMLS:C0019562"
-                ],
-                "synonyms": [
-                    {
-                        "name": "cerebroretinal angiomatosis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C3105"
-                        ]
-                    },
-                    {
-                        "name": "familial cerebelloretinal angiomatosis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:892"
-                        ]
-                    },
-                    {
-                        "name": "Hippel Lindau syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "CSP2005:5000-0055",
-                            "DOID:14175"
-                        ]
-                    },
-                    {
-                        "name": "Lindau disease",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:892"
-                        ]
-                    },
-                    {
-                        "name": "VHL",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:193300",
-                            "Orphanet:892"
-                        ]
-                    },
-                    {
-                        "name": "VHL syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007855"
-                        ]
-                    },
-                    {
-                        "name": "Von Hippel Lindau disease",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007855"
-                        ]
-                    },
-                    {
-                        "name": "von Hippel-Lindau syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:14175",
-                            "MTHICD9_2006:759.6"
-                        ]
-                    },
-                    {
-                        "name": "VON Hippel-Lindau syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:193300"
-                        ]
-                    },
-                    {
-                        "name": "Von Hippel-Lindau syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:892"
-                        ]
-                    },
-                    {
-                        "name": "Von Hippel-Lindau syndrome (VHL)",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:14175",
-                            "NCIT:C3105"
-                        ]
-                    },
-                    {
-                        "name": "Von Hippel-Lindau syndrome, Modifiers of",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:193300"
-                        ]
-                    },
-                    {
-                        "name": "VON Hippel-Lindau syndrome; VHL",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:193300"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "338",
@@ -32606,49 +32952,6 @@
                 ]
             },
             {
-                "id": "MONDO_0011721",
-                "name": "distal myopathy with anterior tibial onset",
-                "xrefs": [
-                    "ICD10:G71.0",
-                    "MESH:C564664",
-                    "OMIM:606768",
-                    "Orphanet:178400",
-                    "UMLS:C1847532"
-                ],
-                "synonyms": [
-                    {
-                        "name": "distal anterior compartment myopathy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:178400"
-                        ]
-                    },
-                    {
-                        "name": "DMAT",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:606768"
-                        ]
-                    },
-                    {
-                        "name": "myopathy, distal, with anterior tibial onset",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:606768"
-                        ]
-                    },
-                    {
-                        "name": "myopathy, distal, with anterior tibial onset; DMAT",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:606768"
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "MONDO_0016367",
                 "name": "dermatomyositis",
                 "xrefs": [
@@ -33086,68 +33389,7 @@
         "notification_no": "6",
         "description": "抗リン脂質抗体症候群は、抗リン脂質抗体の存在下に血栓傾向が増す疾患であり、小児では動静脈血栓症が問題となる。抗リン脂質抗体はリン脂質またはリン脂質と蛋白の複合体に結合する自己抗体の総称で、抗カルジオリピン抗体（aPL）や生物学的偽陽性などが含まれるが、臨床診断には抗カルジオリピンβ2-グリコプロテインⅠ（aPLβ2GPI）抗体もしくはループスアンチコアグラント（LA）の存在が重要である。　単独で発症した症例は原発性APSに、全身性エリテマトーデス(SLE)などリウマチ性疾患に伴う場合は続発性APSに分類される。APSの特殊型として、多臓器に微小血栓をきたし急速に多臓器不全に陥る、致死率が高い劇症型抗リン脂質抗体症候群(Catastrophic APS)がある。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0007140",
-                "name": "antiphospholipid syndrome",
-                "xrefs": [
-                    "DOID:2988",
-                    "GARD:0005824",
-                    "ICD10:D68.61",
-                    "ICD9:279.49",
-                    "MESH:D016736",
-                    "NCIT:C61283",
-                    "OMIM:107320",
-                    "SCTID:26843008",
-                    "UMLS:C0085278"
-                ],
-                "synonyms": [
-                    {
-                        "name": "antiphospholipid antibody syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "CSP2005:5002-0009",
-                            "DOID:2988"
-                        ]
-                    },
-                    {
-                        "name": "antiphospholipid syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:2988"
-                        ]
-                    },
-                    {
-                        "name": "antiphospholipid syndrome, familial",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:107320"
-                        ]
-                    },
-                    {
-                        "name": "familial antiphospholipid syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0005824"
-                        ]
-                    },
-                    {
-                        "name": "Hughes syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0005824"
-                        ]
-                    },
-                    {
-                        "name": "lupus anticoagulant, familial",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:107320"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "349",
@@ -35080,7 +35322,88 @@
         "notification_no": "13",
         "description": "本疾患は、炎症性サイトカインであるIL-1とⅠ型IL-1レセプターに対して競合阻害するIL-1レセプターアンタゴニストの欠損により起こる、常染色体劣性遺伝形式の自己炎症性疾患である。膿疱症・骨髄炎・骨膜炎が主症状となる。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0013021",
+                "name": "sterile multifocal osteomyelitis with periostitis and pustulosis",
+                "xrefs": [
+                    "GARD:0010516",
+                    "MESH:C557815",
+                    "NCIT:C119056",
+                    "OMIM:612852",
+                    "Orphanet:210115",
+                    "UMLS:C2748507"
+                ],
+                "synonyms": [
+                    {
+                        "name": "autoinflammatory disease due to interleukin-1 receptor antagonist deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:210115"
+                        ]
+                    },
+                    {
+                        "name": "deficiency of interleukin-1 receptor antagonist",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0010516"
+                        ]
+                    },
+                    {
+                        "name": "deficiency of the Interleukin-1 receptor antagonist",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C119056"
+                        ]
+                    },
+                    {
+                        "name": "DIRA",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:210115"
+                        ]
+                    },
+                    {
+                        "name": "Interleukin 1 receptor antagonist deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:612852"
+                        ]
+                    },
+                    {
+                        "name": "Interleukin-1 receptor antagonist deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:210115"
+                        ]
+                    },
+                    {
+                        "name": "OMPP",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:612852",
+                            "Orphanet:210115"
+                        ]
+                    },
+                    {
+                        "name": "osteomyelitis, STERILE multifocal, with periostitis and pustulosis",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:612852"
+                        ]
+                    },
+                    {
+                        "name": "osteomyelitis, STERILE multifocal, with periostitis and pustulosis; OMPP",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:612852"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "367",
@@ -37867,131 +38190,7 @@
         "notification_no": "5",
         "description": "尿素サイクルの最初のステップであるアンモニアからのカルバミルリン酸合成を司る酵素がカルバミルリン酸合成酵素1(CPS1)である。CPS1欠損症は高アンモニア血症をきたす常染色体劣性遺伝性疾患である。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0009376",
-                "name": "carbamoyl phosphate synthetase I deficiency disease",
-                "xrefs": [
-                    "DOID:9280",
-                    "EFO:0007193",
-                    "GARD:0007269",
-                    "ICD10:E72.2",
-                    "MESH:D020165",
-                    "MedDRA:10058297",
-                    "NCIT:C84612",
-                    "OMIM:237300",
-                    "Orphanet:147",
-                    "SCTID:62522004"
-                ],
-                "synonyms": [
-                    {
-                        "name": "carbamoyl phosphate synthetase 1 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:237300"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl phosphate synthetase 1 deficiency, hyperammonemia due to",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:237300"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl phosphate synthetase deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C84612"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl phosphate synthetase I deficiency, hyperammonemia due to",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:237300"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl-phosphate synthase",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C84612"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl-phosphate synthetase 1 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "Orphanet:147"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl-phosphate synthetase deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:147"
-                        ]
-                    },
-                    {
-                        "name": "carbamoyl-phosphate synthetase I deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:147"
-                        ]
-                    },
-                    {
-                        "name": "carbamyl phosphate synthetase (CPS) deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007269"
-                        ]
-                    },
-                    {
-                        "name": "CPS 1 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:237300"
-                        ]
-                    },
-                    {
-                        "name": "CPS I deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:9280"
-                        ]
-                    },
-                    {
-                        "name": "CPS1 deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:147"
-                        ]
-                    },
-                    {
-                        "name": "CPS1D",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:147"
-                        ]
-                    },
-                    {
-                        "name": "deficiency disease",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C84612"
-                        ]
-                    },
-                    {
-                        "name": "hyperammonemia due to carbamoyl phosphate synthetase 1 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007269"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "387",
@@ -38305,65 +38504,7 @@
         "notification_no": "6",
         "description": "肝臓においてアンモニアを無害な尿素に代謝する尿素サイクルの最終段階の酵素がアルギナーゼ1であり、アルギニンを尿素とオルニチンへと分解する。高アルギニン血症は常染色体劣性遺伝性疾患であり、アルギナーゼ1の障害により血中・尿中にアルギニン上昇が認められる。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0008814",
-                "name": "hyperargininemia",
-                "xrefs": [
-                    "DOID:9278",
-                    "GARD:0005840",
-                    "ICD10:E72.2",
-                    "ICD10:E72.21",
-                    "MESH:D020162",
-                    "MedDRA:10062695",
-                    "NCIT:C84568",
-                    "OMIM:207800",
-                    "Orphanet:90",
-                    "SCTID:23501004",
-                    "UMLS:C0268548"
-                ],
-                "synonyms": [
-                    {
-                        "name": "Arg1 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:207800"
-                        ]
-                    },
-                    {
-                        "name": "arginase deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:207800",
-                            "Orphanet:90"
-                        ]
-                    },
-                    {
-                        "name": "argininemia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "CSP2005:1849-9378",
-                            "DOID:9278"
-                        ]
-                    },
-                    {
-                        "name": "deficiency of canavanase",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:9278"
-                        ]
-                    },
-                    {
-                        "name": "hyperargininemia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:207800",
-                            "Orphanet:90"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "391",
@@ -39509,26 +39650,7 @@
         "notification_no": "107",
         "description": "必須アミノ酸であるバリン・イソロイシン代謝経路の中間代謝障害によって、プロピオン酸をはじめとする有機酸が蓄積し、代謝性アシドーシスに伴う各種の症状を呈する常染色体劣性遺伝性疾患(MIM #606054)。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0021668",
-                "name": "disorder involving pain",
-                "xrefs": [
-                    "DOID:0060164",
-                    "SCTID:373673007",
-                    "UMLS:C1300028"
-                ],
-                "synonyms": [
-                    {
-                        "name": "pain disorder",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:0000691"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "399",
@@ -41572,96 +41694,7 @@
         "notification_no": "42",
         "description": "カルニチン回路異常症の1つで、フリーカルニチンからアシルカルニチンの生成が障害されることにより、長鎖脂肪酸のミトコンドリア内への転送が障害され、脂肪酸代謝が十分行われずにエネルギー産生低下を引き起こす。新生児期発症型はけいれん、意識障害、呼吸障害などで急性発症し、著しい低血糖や高アンモニア血症、肝逸脱酵素の上昇などをきたす。乳児期以降は飢餓時や発熱時に、Reye様症候群として発症する。急性発症が死亡につながる症例もある。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0015515",
-                "name": "carnitine palmitoyltransferase II deficiency",
-                "xrefs": [
-                    "DOID:0060235",
-                    "GARD:0001121",
-                    "HGNC:2330",
-                    "ICD10:E71.3",
-                    "ICD9:277.85",
-                    "MESH:C535589",
-                    "NCIT:C114766",
-                    "Orphanet:157",
-                    "SCTID:238002005",
-                    "UMLS:C0342790"
-                ],
-                "synonyms": [
-                    {
-                        "name": "Carnitine palmitoyltransferase 2 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0001121"
-                        ]
-                    },
-                    {
-                        "name": "Carnitine palmitoyltransferase deficiency type 2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:157"
-                        ]
-                    },
-                    {
-                        "name": "Carnitine palmitoyltransferase II (CPT II) deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0001121"
-                        ]
-                    },
-                    {
-                        "name": "CPT II deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "NCIT:C114766"
-                        ]
-                    },
-                    {
-                        "name": "CPT-II",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0060235"
-                        ]
-                    },
-                    {
-                        "name": "CPT2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:157"
-                        ]
-                    },
-                    {
-                        "name": "CPTII",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:157"
-                        ]
-                    },
-                    {
-                        "name": "infantile carnitine palmitoyltransferase II deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0060235"
-                        ]
-                    },
-                    {
-                        "name": "late-onset carnitine palmitoyltransferase II deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0060235"
-                        ]
-                    },
-                    {
-                        "name": "lethal neonatal carnitine palmitoyltransferase II deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0060235"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "417",
@@ -41749,7 +41782,91 @@
         "notification_no": "43",
         "description": "細胞内に取り込まれた長鎖脂肪酸は、ミトコンドリア内で脂肪酸の炭素長に応じた各脱水素酵素で順次代謝され、1ステップごとに炭素鎖が2個ずつ短くなってアセチルCoAに至り、エネルギー産生に寄与している。極長鎖アシルCoA脱水素酵素(very-long-chain acyl-CoA dehydrogenase: VLCAD)はミトコンドリア内膜上内側に存在する酵素であり、三頭酵素ととともに長鎖脂肪酸のβ酸化を担う。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0008723",
+                "name": "very long chain acyl-CoA dehydrogenase deficiency",
+                "xrefs": [
+                    "DOID:0080155",
+                    "GARD:0005508",
+                    "ICD10:E71.3",
+                    "ICD10:E71.310",
+                    "NCIT:C98647",
+                    "OMIM:201475",
+                    "Orphanet:26793",
+                    "SCTID:237997005",
+                    "UMLS:C3887523"
+                ],
+                "synonyms": [
+                    {
+                        "name": "ACADVLD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:201475"
+                        ]
+                    },
+                    {
+                        "name": "acyl-CoA dehydrogenase, very long-chain deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C98647"
+                        ]
+                    },
+                    {
+                        "name": "acyl-CoA dehydrogenase, very long-chain, deficiency OF",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:201475"
+                        ]
+                    },
+                    {
+                        "name": "acyl-CoA dehydrogenase, very long-chain, deficiency OF; ACADVLD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:201475"
+                        ]
+                    },
+                    {
+                        "name": "very long-chain acyl-CoA dehydrogenase deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C98647"
+                        ]
+                    },
+                    {
+                        "name": "very long-chain acyl-Coenzyme A dehydrogenase deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C98647"
+                        ]
+                    },
+                    {
+                        "name": "VLCAD",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C98647"
+                        ]
+                    },
+                    {
+                        "name": "VLCAD deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:201475",
+                            "Orphanet:26793"
+                        ]
+                    },
+                    {
+                        "name": "VLCADD",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:26793"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "419",
@@ -42151,159 +42268,7 @@
         "notification_no": "45",
         "description": "細胞内に取り込まれた長鎖脂肪酸は、ミトコンドリア内で脂肪酸の炭素長に応じた各脱水素酵素で順次代謝され、1ステップごとに炭素鎖が2個ずつ短くなってアセチルCoAに至り、エネルギー産生に寄与している。3-ヒドロキシアシルCoA脱水素酵素(3-hydroxy acyl-CoA dehydrogenase ：HADH)はミトコンドリア内膜に存在する酵素であり、他のβ酸化酵素群と協働して中・短鎖アシルCoAの代謝を担当している。以前は短鎖3-ヒドロキシアシルCoA脱水素酵素（SCHAD）ともよばれていた。HADH欠損症は、中鎖、短鎖の3-ヒドロキシアシルCoAが蓄積し、血中3-ヒドロキシブチリルカルニチン（C4-OHカルニチン）がおもに増加する。重症例では高インスリン性低血糖が認められる。これは、HADHがインスリン分泌を調節するグルタミン酸脱水素酵素（GDH）を抑制する機能を担っているからであり、HADH欠損症ではGDH活性が亢進した状態となり、インスリン過分泌を引き起こす。頻度が極めて低く、偽陽性率が相対的に高いため、現在、わが国では新生児マススクリーニングの対象疾患とはされていない。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0009278",
-                "name": "hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency",
-                "xrefs": [
-                    "GARD:0009870",
-                    "ICD10:E71.3",
-                    "MESH:C535310",
-                    "Orphanet:71212"
-                ],
-                "synonyms": [
-                    {
-                        "name": "3-alpha hydroxyacyl-CoA dehydrogenase deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009870"
-                        ]
-                    },
-                    {
-                        "name": "3-Alpha-hydroxyacyl-Coenzyme A dehydrogenase deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "3-hydroxyacyl-CoA dehydrogenase deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:231530"
-                        ]
-                    },
-                    {
-                        "name": "3-hydroxyacyl-Coenzyme A dehydrogenase deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "3-hydroxylacyl-CoA dehydrogenase deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009870"
-                        ]
-                    },
-                    {
-                        "name": "had deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "HADH deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009870",
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "Hadh deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:231530"
-                        ]
-                    },
-                    {
-                        "name": "HADHSC deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "hyperinsulinemic hypoglycemia due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:71212"
-                        ]
-                    },
-                    {
-                        "name": "hyperinsulinism due to glutamodehydrogenase deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:71212"
-                        ]
-                    },
-                    {
-                        "name": "hyperinsulinism due to SCHAD deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:71212"
-                        ]
-                    },
-                    {
-                        "name": "L-3-Alpha-hydroxyacyl-CoA dehydrogenase, short chain, deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "M-SCHAD deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C535310"
-                        ]
-                    },
-                    {
-                        "name": "M/SCHAD",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009870"
-                        ]
-                    },
-                    {
-                        "name": "medium and short chain 3-hydroxyacyl-CoA dehydrogenase deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009870"
-                        ]
-                    },
-                    {
-                        "name": "SCHAD deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MESH:C535310",
-                            "OMIM:231530",
-                            "Orphanet:71212"
-                        ]
-                    },
-                    {
-                        "name": "SCHAD deficiency, formerly",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:231530"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0017715",
-                "name": "3-hydroxyacyl-CoA dehydrogenase deficiency",
-                "xrefs": [
-                    "ICD10:E71.3",
-                    "OMIM:231530",
-                    "Orphanet:309127"
-                ],
-                "synonyms": []
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "423",
@@ -50991,7 +50956,81 @@
         "notification_no": "78",
         "description": "ヒポキサンチンからキサンチン、およびキサンチンから尿酸への代謝を触媒するキサンチン脱水素酵素（XDH）の欠損により、尿酸酸性低下からの低尿酸血症、時としてキサンチン結石による尿路結石を発症する先天代謝異常症である。XDH単独欠損のタイプI、モリブデン補酵素（MoCo）の硫黄付加の酵素であるMoCo硫化酵素（MOCOS）により、それを基質とするXDHおよびアルデヒド酸化酵素（AO）が障害されるタイプIIに分類される。ともに常染色体性劣性遺伝形式をとるまれな先天代謝異常症であるが、尿路結石以外の症状は特に見られず予後良好とされている。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0000721",
+                "name": "xanthinuria",
+                "xrefs": [
+                    "ICD9:277.2",
+                    "OMIMPS:278300",
+                    "SCTID:190919008"
+                ],
+                "synonyms": []
+            },
+            {
+                "id": "MONDO_0018106",
+                "name": "hereditary xanthinuria",
+                "xrefs": [
+                    "DOID:0060236",
+                    "HP:0010934",
+                    "ICD10:E79.8",
+                    "ICD9:277.2",
+                    "Orphanet:3467",
+                    "SCTID:54627004"
+                ],
+                "synonyms": [
+                    {
+                        "name": "classic xanthinuria",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:3467"
+                        ]
+                    },
+                    {
+                        "name": "hereditary xanthinuria",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:patterns/hereditary"
+                        ]
+                    },
+                    {
+                        "name": "xanthic urolithiasis",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:3467"
+                        ]
+                    },
+                    {
+                        "name": "xanthine dehydrogenase deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0060236"
+                        ]
+                    },
+                    {
+                        "name": "xanthine oxidase deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0060236"
+                        ]
+                    },
+                    {
+                        "name": "xanthine stone disease",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:3467"
+                        ]
+                    },
+                    {
+                        "name": "xanthinuria",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "DOID:0060236"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "491",
@@ -53325,45 +53364,6 @@
         "obsolete": false,
         "mondo_nodes": [
             {
-                "id": "MONDO_0007169",
-                "name": "ATHS",
-                "xrefs": [
-                    "OMIM:108725"
-                ],
-                "synonyms": [
-                    {
-                        "name": "Atherogenic lipoprotein phenotype",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:108725"
-                        ]
-                    },
-                    {
-                        "name": "atherosclerosis susceptibility",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:108725"
-                        ]
-                    },
-                    {
-                        "name": "atherosclerosis susceptibility; ATHS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:108725"
-                        ]
-                    },
-                    {
-                        "name": "ATHS",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:108725"
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "MONDO_0019350",
                 "name": "hereditary spherocytosis",
                 "xrefs": [
@@ -54728,63 +54728,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "id": "MONDO_0012689",
-                "name": "premature ovarian failure 5",
-                "xrefs": [
-                    "MESH:C566921",
-                    "OMIM:611548",
-                    "UMLS:C1969060"
-                ],
-                "synonyms": [
-                    {
-                        "name": "NOBOX primary ovarian failure",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern",
-                            "MONDO:patterns/disease_series_by_gene"
-                        ]
-                    },
-                    {
-                        "name": "Pof5",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:611548"
-                        ]
-                    },
-                    {
-                        "name": "premature ovarian failure 5",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:611548"
-                        ]
-                    },
-                    {
-                        "name": "premature ovarian failure 5; Pof5",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:611548"
-                        ]
-                    },
-                    {
-                        "name": "premature ovarian failure type 5",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDORULE:1",
-                            "OMIM:611548"
-                        ]
-                    },
-                    {
-                        "name": "primary ovarian failure caused by mutation in NOBOX",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern"
-                        ]
-                    }
-                ]
             }
         ]
     },
@@ -55305,333 +55248,7 @@
         "notification_no": "51",
         "description": "本疾患は、先天性血小板減少症の中で巨大血小板症を呈する代表的疾患の一つである。これまで、メイ・ヘグリン（May-Hegglin）異常、セバスチャン（Sebastian）症候群、フェクトナー（Fechtner）症候群、エプスタイン（Epstein）症候群と別々に呼称されてきた類縁疾患が、同一の遺伝子（MYH9遺伝子）異常に起因することが明らかとなり、これらを包括する疾患概念として本疾患が提唱された（つまり、メイ・ヘグリン異常はメイ・ヘグリン異常症に包含される1病型となる）。同義で、MYH9異常症という疾患名も使用される。具体的な定義としては、血小板減少症、巨大血小板症がみられ、MYH9遺伝子異常が原因である場合に、本疾患と診断する。その他、末梢血塗抹標本像での顆粒球封入体（デーレ様小体：Döhle-like bodies）の存在や、腎炎、難聴、白内障といったアルポート（Alport）症状は本疾患を示唆する所見である。なお、巨大血小板の正式な定義はないが、末梢血塗抹標本上、概ね正常血小板の大きさの2倍程度（直径4μm）の場合に大型血小板、赤血球大（直径8μm）以上の場合に巨大血小板と判定する。免疫性血小板減少性紫斑症（ITP）でも大型血小板はしばしば観察されるが、大多数の血小板は正常大である。一方、先天性巨大血小板症では大多数の血小板は大型あるいは巨大であり、正常大血小板はまれである。以下に、これまで使用されてきた疾患名のそれぞれの臨床的特徴を示す。メイ・ヘグリン異常：明瞭な顆粒球封入体を認めるセバスチャン症候群：やや不明瞭な顆粒球封入体を認めるフェクトナー症候群：アルポート症状（腎炎・難聴・白内障）を認めるエプスタイン症候群：アルポート症状を認めるが、顆粒球封入体は同定困難",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0007954",
-                "name": "May-Hegglin anomaly",
-                "xrefs": [
-                    "GARD:0000179",
-                    "ICD9:582.89",
-                    "ICD9:759.89",
-                    "MESH:C537831",
-                    "NCIT:C131639",
-                    "NCIT:C131642",
-                    "NCIT:C131646",
-                    "NCIT:C131650",
-                    "OMIM:153640",
-                    "OMIM:153650",
-                    "OMIM:155100",
-                    "OMIM:600208",
-                    "OMIM:605249",
-                    "Orphanet:1019",
-                    "Orphanet:1984",
-                    "Orphanet:807",
-                    "Orphanet:850",
-                    "SCTID:234484005",
-                    "SCTID:234485006",
-                    "SCTID:236422008",
-                    "UMLS:C0398641",
-                    "UMLS:C0403445",
-                    "UMLS:C1834478",
-                    "UMLS:CN226018",
-                    "UMLS:CN226030",
-                    "UMLS:CN226270"
-                ],
-                "synonyms": [
-                    {
-                        "name": "Alport syndrome with macrothrombocytopenia",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:153640"
-                        ]
-                    },
-                    {
-                        "name": "Alport syndrome with macrothrombocytopenia, formerly",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:153640"
-                        ]
-                    },
-                    {
-                        "name": "bleeding disorder, Platelet-type, 6",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "Brodie Chole griffin syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000179"
-                        ]
-                    },
-                    {
-                        "name": "Dohle leukocyte inclusions with giant platelets",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "Epstein syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:153650"
-                        ]
-                    },
-                    {
-                        "name": "Fechtner syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:153640"
-                        ]
-                    },
-                    {
-                        "name": "Fechtner syndrome; FTNS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:153640"
-                        ]
-                    },
-                    {
-                        "name": "FTNS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:153640"
-                        ]
-                    },
-                    {
-                        "name": "giant platelet syndrome with thrombocytopenia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss; matins",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia and progressive sensorineural deafness",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:600208"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia progressive deafness",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000179"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia with dispersed leukocytic inclusions",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:605249"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia with leukocyte inclusions",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "macrothrombocytopenia, nephritis, and deafness",
-                        "scope": "RELATED",
-                        "xrefs": []
-                    },
-                    {
-                        "name": "macrothrombocytopenia, nephritis, deafness, and leukocyte inclusions",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:153640"
-                        ]
-                    },
-                    {
-                        "name": "matins",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "May-Hegglin anomaly",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "MAY-Hegglin anomaly; MHA",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "May-Hegglin thrombocytopenia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:850"
-                        ]
-                    },
-                    {
-                        "name": "MHA",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:155100"
-                        ]
-                    },
-                    {
-                        "name": "MOVED to 155100",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:605249"
-                        ]
-                    },
-                    {
-                        "name": "SBS",
-                        "scope": "RELATED",
-                        "xrefs": []
-                    },
-                    {
-                        "name": "Sebastian Platelet syndrome",
-                        "scope": "RELATED",
-                        "xrefs": []
-                    },
-                    {
-                        "name": "Sebastian syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:605249"
-                        ]
-                    },
-                    {
-                        "name": "Sebastian syndrome; SBS",
-                        "scope": "RELATED",
-                        "xrefs": []
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0015912",
-                "name": "MYH-9 related disease",
-                "xrefs": [
-                    "DOID:0060651",
-                    "GARD:0000180",
-                    "ICD10:D69.4",
-                    "ICD9:287.33",
-                    "Orphanet:182050",
-                    "SCTID:712922002"
-                ],
-                "synonyms": [
-                    {
-                        "name": "Epstein syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    },
-                    {
-                        "name": "Fechtner syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    },
-                    {
-                        "name": "May-Hegglin anomaly",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    },
-                    {
-                        "name": "MYH9 related disorders",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    },
-                    {
-                        "name": "MYH9 related thrombocytopenia",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    },
-                    {
-                        "name": "MYH9-RD",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:182050"
-                        ]
-                    },
-                    {
-                        "name": "MYH9-related disease",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "Orphanet:182050"
-                        ]
-                    },
-                    {
-                        "name": "MYH9-related disorder",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:182050"
-                        ]
-                    },
-                    {
-                        "name": "MYH9-related syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:182050"
-                        ]
-                    },
-                    {
-                        "name": "MYH9-related syndromic thrombocytopenia",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:182050"
-                        ]
-                    },
-                    {
-                        "name": "Sebastian platelet syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    },
-                    {
-                        "name": "Sebastian syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0000180"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "544",
@@ -56730,104 +56347,7 @@
         "notification_no": "14",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0013623",
-                "name": "platelet-type bleeding disorder 11",
-                "xrefs": [
-                    "DOID:0111057",
-                    "GARD:0013293",
-                    "ICD10:D69.8",
-                    "OMIM:614201",
-                    "Orphanet:98885",
-                    "SCTID:765977002",
-                    "UMLS:C3280120"
-                ],
-                "synonyms": [
-                    {
-                        "name": "BDPLT11",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0111057",
-                            "MONDO:Lexical",
-                            "OMIM:614201"
-                        ]
-                    },
-                    {
-                        "name": "bleeding diathesis due to glycoprotein VI deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "Orphanet:98885"
-                        ]
-                    },
-                    {
-                        "name": "bleeding disorder, platelet-type, 11",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:614201"
-                        ]
-                    },
-                    {
-                        "name": "bleeding disorder, platelet-type, 11; BDPLT11",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:614201"
-                        ]
-                    },
-                    {
-                        "name": "glycoprotein 6 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:614201"
-                        ]
-                    },
-                    {
-                        "name": "glycoprotein VI deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0111057"
-                        ]
-                    },
-                    {
-                        "name": "GP 6 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:614201"
-                        ]
-                    },
-                    {
-                        "name": "GP VI deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0111057"
-                        ]
-                    },
-                    {
-                        "name": "GP6 inherited bleeding disorder, platelet-type",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern",
-                            "MONDO:patterns/disease_series_by_gene"
-                        ]
-                    },
-                    {
-                        "name": "inherited bleeding disorder, platelet-type caused by mutation in GP6",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern"
-                        ]
-                    },
-                    {
-                        "name": "platelet-type bleeding disorder-11",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0013293"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "548-12",
@@ -57914,6 +57434,101 @@
         "obsolete": false,
         "mondo_nodes": [
             {
+                "id": "MONDO_0019565",
+                "name": "hereditary von Willebrand disease",
+                "xrefs": [
+                    "DOID:12531",
+                    "GARD:0007867",
+                    "ICD10:D68.0",
+                    "ICD10:D69.8",
+                    "ICD9:286.4",
+                    "MESH:C531844",
+                    "MedDRA:10047715",
+                    "Orphanet:903",
+                    "SCTID:234446004",
+                    "UMLS:C0042974"
+                ],
+                "synonyms": [
+                    {
+                        "name": "congenital von willebrand disease",
+                        "scope": "RELATED",
+                        "xrefs": []
+                    },
+                    {
+                        "name": "congenital von willebrand's disease",
+                        "scope": "EXACT",
+                        "xrefs": []
+                    },
+                    {
+                        "name": "hereditary von Willebrand disease (hereditary or acquired)",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:patterns/hereditary"
+                        ]
+                    },
+                    {
+                        "name": "vascular hemophilia",
+                        "scope": "BROAD",
+                        "xrefs": [
+                            "CSP2005:0438-9190",
+                            "DOID:12531"
+                        ]
+                    },
+                    {
+                        "name": "vascular pseudohemophilia",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:12531",
+                            "MTHICD9_2006:287.8"
+                        ]
+                    },
+                    {
+                        "name": "von Willebrand disease",
+                        "scope": "BROAD",
+                        "xrefs": [
+                            "DOID:12531",
+                            "Orphanet:903"
+                        ]
+                    },
+                    {
+                        "name": "von Willebrand disorder",
+                        "scope": "BROAD",
+                        "xrefs": [
+                            "DOID:12531"
+                        ]
+                    },
+                    {
+                        "name": "von Willebrand's disease",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "DOID:12531"
+                        ]
+                    },
+                    {
+                        "name": "von Willebrand's-Jurgens' disease",
+                        "scope": "BROAD",
+                        "xrefs": [
+                            "DOID:12531",
+                            "MTHICD9_2006:286.4"
+                        ]
+                    },
+                    {
+                        "name": "von Willebrand-Jrgens disease",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:12531"
+                        ]
+                    },
+                    {
+                        "name": "von Willebrand-Jurgens disease",
+                        "scope": "BROAD",
+                        "xrefs": [
+                            "DOID:12531"
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": "MONDO_0024574",
                 "name": "von Willebrand disease (hereditary or acquired)",
                 "xrefs": [
@@ -58345,7 +57960,51 @@
         "notification_no": "40",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0013227",
+                "name": "congenital plasminogen activator inhibitor type 1 deficiency",
+                "xrefs": [
+                    "GARD:0004381",
+                    "ICD10:D68.8",
+                    "MESH:C567640",
+                    "NCIT:C133884",
+                    "OMIM:613329",
+                    "Orphanet:465",
+                    "SCTID:717407006"
+                ],
+                "synonyms": [
+                    {
+                        "name": "congenital PAI-1 deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:465"
+                        ]
+                    },
+                    {
+                        "name": "hyperfibrinolysis due to Pai1 deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:613329"
+                        ]
+                    },
+                    {
+                        "name": "plasminogen activator inhibitor type 1 deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0004381"
+                        ]
+                    },
+                    {
+                        "name": "plasminogen activator INHIBITOR-1 deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:613329"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "561",
@@ -61037,77 +60696,6 @@
         "obsolete": false,
         "mondo_nodes": [
             {
-                "id": "MONDO_0012908",
-                "name": "complement component 6 deficiency",
-                "xrefs": [
-                    "DOID:0060299",
-                    "ICD10:D84.1",
-                    "OMIM:612446",
-                    "UMLS:C2676232"
-                ],
-                "synonyms": [
-                    {
-                        "name": "C6 classic complement early component deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern",
-                            "MONDO:patterns/disease_series_by_gene"
-                        ]
-                    },
-                    {
-                        "name": "C6 deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:612446"
-                        ]
-                    },
-                    {
-                        "name": "C6 deficiency, subtotal",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:612446"
-                        ]
-                    },
-                    {
-                        "name": "C6D",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:612446"
-                        ]
-                    },
-                    {
-                        "name": "classic complement early component deficiency caused by mutation in C6",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern"
-                        ]
-                    },
-                    {
-                        "name": "complement component 6 deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:612446"
-                        ]
-                    },
-                    {
-                        "name": "complement component 6 deficiency, subtotal",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:612446"
-                        ]
-                    },
-                    {
-                        "name": "complement component 6 deficiency; C6D",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:612446"
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "MONDO_0015517",
                 "name": "common variable immunodeficiency",
                 "xrefs": [
@@ -61483,7 +61071,78 @@
         "notification_no": "1",
         "description": "IgGサブクラス（IgG1, IgG2, IgG3, IgG4）のうち1つないしはいくつかのサブクラスの欠損ならびに低下を示すものをいう。IgA欠損症を伴うこともある。IgG2欠損症はIgG4欠損症、さらにはIgA欠損症を伴うことがある。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0013576",
+                "name": "recurrent infections associated with rare immunoglobulin isotypes deficiency",
+                "xrefs": [
+                    "MESH:C564131",
+                    "OMIM:614102",
+                    "Orphanet:183675",
+                    "UMLS:C3279824"
+                ],
+                "synonyms": [
+                    {
+                        "name": "IgG subclass deficiency with IgA subclass deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:183675"
+                        ]
+                    },
+                    {
+                        "name": "IGKCD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:614102"
+                        ]
+                    },
+                    {
+                        "name": "IMMUNOGLOBULIN kappa LIGHT chain deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:614102"
+                        ]
+                    },
+                    {
+                        "name": "IMMUNOGLOBULIN kappa LIGHT chain deficiency; IGKCD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614102"
+                        ]
+                    },
+                    {
+                        "name": "isolated IgG subclass deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:183675"
+                        ]
+                    },
+                    {
+                        "name": "kappa chain deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614102"
+                        ]
+                    },
+                    {
+                        "name": "kappa-chain deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:183675"
+                        ]
+                    },
+                    {
+                        "name": "selective IgG subclass deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:183675"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "592",
@@ -61656,41 +61315,6 @@
         "description": "CHSは、細胞内蛋白輸送にかかわるCHS1/LYST遺伝子の異常により引き起こされる先天性免疫不全症である。白血球内の巨大顆粒を特徴とし、部分的白子症、易感染性、出血傾向などを示す。最近は、白子症を伴う家族性血球貪食性リンパ組織球症（FHL）の一つに分類されている。",
         "obsolete": false,
         "mondo_nodes": [
-            {
-                "id": "MONDO_0008959",
-                "name": "CHAND syndrome",
-                "xrefs": [
-                    "MESH:C538074",
-                    "OMIM:214350",
-                    "Orphanet:1401",
-                    "SCTID:239037001",
-                    "UMLS:C0406733",
-                    "UMLS:CN199447"
-                ],
-                "synonyms": [
-                    {
-                        "name": "CHAND syndrome; CHANDS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:214350"
-                        ]
-                    },
-                    {
-                        "name": "CHANDS",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:214350"
-                        ]
-                    },
-                    {
-                        "name": "curly hair-ankyloblepharon-nail dysplasia syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:214350"
-                        ]
-                    }
-                ]
-            },
             {
                 "id": "MONDO_0008963",
                 "name": "Chediak-Higashi syndrome",
@@ -63185,7 +62809,72 @@
         "notification_no": "44",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0011664",
+                "name": "immunodeficiency due to CD25 deficiency",
+                "xrefs": [
+                    "ICD10:D81.2",
+                    "MESH:C565232",
+                    "OMIM:606367",
+                    "Orphanet:169100",
+                    "UMLS:C1853392"
+                ],
+                "synonyms": [
+                    {
+                        "name": "CD25 deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:606367"
+                        ]
+                    },
+                    {
+                        "name": "IL2RA deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:606367"
+                        ]
+                    },
+                    {
+                        "name": "IMD41",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:606367"
+                        ]
+                    },
+                    {
+                        "name": "immunodeficiency 41 with lymphoproliferation and autoimmunity",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:606367"
+                        ]
+                    },
+                    {
+                        "name": "immunodeficiency 41 with lymphoproliferation and autoimmunity; IMD41",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:606367"
+                        ]
+                    },
+                    {
+                        "name": "Interleukin 2 receptor, alpha, deficiency of",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:606367"
+                        ]
+                    },
+                    {
+                        "name": "Interleukin-2 receptor alpha chain deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:169100"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "599-10",
@@ -64768,129 +64457,6 @@
         "description": "白血球における接着分子である2インテグリンやセレクチンリガンドの発現異常により発症する疾患。接着分子の異常により感染部位への白血球浸潤が不能となり、感染症が遷延する。細菌、真菌による難治性皮膚炎、中耳炎、副鼻腔炎を発症する。治療は軽度から中程度であれば抗菌剤等の対処療法を行うが、重症の場合は造血幹細胞移植が適応となる。常染色体劣性遺伝。",
         "obsolete": false,
         "mondo_nodes": [
-            {
-                "id": "MONDO_0007089",
-                "name": "Alzheimer disease 2",
-                "xrefs": [
-                    "DOID:0110035",
-                    "GARD:0009467",
-                    "ICD10:G30",
-                    "MESH:C536595",
-                    "OMIM:104310",
-                    "UMLS:C1863051"
-                ],
-                "synonyms": [
-                    {
-                        "name": "AD2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0110035",
-                            "OMIM:104310"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease 2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:104310"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease 2, late onset",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0110035"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease 2, late-onset",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:104310"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease 2; AD2",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:104310"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease associated with APOE E4",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009467"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease associated with Apoe4",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:104310"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease associated with APOE4",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0110035"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease type 2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDORULE:1",
-                            "OMIM:104310"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer disease-2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0110035"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer's disease 2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:LexicalVariant",
-                            "doi:10.1093/jama/9780195176339.003.0016"
-                        ]
-                    },
-                    {
-                        "name": "Alzheimer's disease type 2",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:0110035",
-                            "MONDORULE:1"
-                        ]
-                    },
-                    {
-                        "name": "late onset Alzheimer disease",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009467"
-                        ]
-                    },
-                    {
-                        "name": "late onset familial Alzheimer disease",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009467"
-                        ]
-                    },
-                    {
-                        "name": "LOFAD",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009467"
-                        ]
-                    }
-                ]
-            },
             {
                 "id": "MONDO_0007293",
                 "name": "leukocyte adhesion deficiency 1",
@@ -68329,69 +67895,7 @@
         "notification_no": "18",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0015691",
-                "name": "hypereosinophilic syndrome",
-                "xrefs": [
-                    "DOID:999",
-                    "EFO:1001467",
-                    "GARD:0002804",
-                    "ICD10:D47.5",
-                    "ICD10:D72.1",
-                    "ICD9:288.3",
-                    "ICDO:9964/3",
-                    "MESH:D017681",
-                    "MedDRA:10048643",
-                    "NCIT:C27038",
-                    "Orphanet:168956",
-                    "SCTID:419455006",
-                    "UMLS:C1540912"
-                ],
-                "synonyms": [
-                    {
-                        "name": "eosinophilia",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "DOID:999"
-                        ]
-                    },
-                    {
-                        "name": "eosinophilic leukocytosis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:999",
-                            "MTHICD9_2006:288.3"
-                        ]
-                    },
-                    {
-                        "name": "HES",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:168956"
-                        ]
-                    },
-                    {
-                        "name": "hypereosinophilic disease",
-                        "scope": "EXACT",
-                        "xrefs": []
-                    },
-                    {
-                        "name": "hypereosinophilic disorder",
-                        "scope": "EXACT",
-                        "xrefs": []
-                    },
-                    {
-                        "name": "hypereosinophilic syndrome",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:0004945",
-                            "NCIT:C27038"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "617-1",
@@ -71628,57 +71132,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "id": "MONDO_0015431",
-                "name": "ring chromosome 10",
-                "xrefs": [
-                    "GARD:0001322",
-                    "ICD10:Q93.2",
-                    "MESH:C538086",
-                    "Orphanet:1438",
-                    "SCTID:86997002",
-                    "UMLS:C0265438",
-                    "UMLS:CN037257"
-                ],
-                "synonyms": [
-                    {
-                        "name": "chromosome 10 ring",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0001322"
-                        ]
-                    },
-                    {
-                        "name": "r10",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0001322"
-                        ]
-                    },
-                    {
-                        "name": "Ring 10",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0001322"
-                        ]
-                    },
-                    {
-                        "name": "Ring chromosome 10 syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "Orphanet:1438"
-                        ]
-                    },
-                    {
-                        "name": "Ring chromosome type 10",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDORULE:2",
-                            "Orphanet:1438"
-                        ]
-                    }
-                ]
             }
         ]
     },
@@ -71923,25 +71376,7 @@
         "notification_no": "33",
         "description": "単一あるいは稀に複数の頭蓋骨縫合早期癒合による特有の頭蓋顔面の変形を来たし、他の顔面・指趾・四肢・全身の異常を伴わないものを非症候性頭蓋骨縫合早期癒合症とよぶ。頭蓋骨縫合早期癒合症全体の約85%と推定されている。頭蓋骨縫合早期癒合部位に応じた代償性頭蓋骨変形を生じる。原因はほとんどの場合不明である。最近になり一部の症例で遺伝子異常が報告されるようになったが系統だった解析は今後の課題である。従来の見解と異なり、高次脳機能障害を伴うこともあることが近年明らかとなってきている。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0015337",
-                "name": "isolated craniosynostosis",
-                "xrefs": [
-                    "ICD10:Q75.0",
-                    "Orphanet:139390"
-                ],
-                "synonyms": [
-                    {
-                        "name": "nonsyndromic craniosynostosis",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:patterns/isolated"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "653",
@@ -72862,7 +72297,157 @@
         "notification_no": "47",
         "description": "先天性無痛症は遺伝性感覚・自律神経ニューロパチー(HSAN)に属する疾患で、このうち4型（先天性無痛無汗症：Congenital Insensitivity to Pain with Anhidrosis：CIPA）と5型（先天性無痛症：Congenital Insensitivity to Pain：CIP）が相当する。全身の温痛覚消失を主徴とする。CIPAでは全身の発汗低下を合併し、種々の程度の知能低下を合併することがある。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0009746",
+                "name": "hereditary sensory and autonomic neuropathy type 4",
+                "xrefs": [
+                    "DOID:0070146",
+                    "GARD:0003006",
+                    "GARD:3006",
+                    "ICD10:G60.8",
+                    "NCIT:C118633",
+                    "OMIM:256800",
+                    "Orphanet:642",
+                    "PMID:14272277",
+                    "PMID:8696348",
+                    "SCTID:62985007",
+                    "UMLS:C0020074"
+                ],
+                "synonyms": [
+                    {
+                        "name": "CIP-anhidrosis syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:642"
+                        ]
+                    },
+                    {
+                        "name": "CIPA",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "congenital insensitivity to pain with anhidrosis",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "NCIT:C118633"
+                        ]
+                    },
+                    {
+                        "name": "congenital insensitivity to pain-anhidrosis syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:642"
+                        ]
+                    },
+                    {
+                        "name": "familial dysautonomia, type 2",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "hereditary sensory and autonomic neuropathy 4",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "hereditary sensory and autonomic neuropathy caused by mutation in NTRK1",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:design_pattern"
+                        ]
+                    },
+                    {
+                        "name": "hereditary sensory and autonomic neuropathy type IV",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:642"
+                        ]
+                    },
+                    {
+                        "name": "hereditary sensory neuropathy type 4",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "DOID:0070146"
+                        ]
+                    },
+                    {
+                        "name": "hereditary sensory neuropathy type IV",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0070146"
+                        ]
+                    },
+                    {
+                        "name": "HSAN 4",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "HSAN IV",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0003006"
+                        ]
+                    },
+                    {
+                        "name": "HSAN4",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:642"
+                        ]
+                    },
+                    {
+                        "name": "HSNAN4",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0003006"
+                        ]
+                    },
+                    {
+                        "name": "insensitivity to pain, congenital, with anhidrosis",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0070146",
+                            "MONDO:Lexical",
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "insensitivity to pain, congenital, with anhidrosis; CIPA",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "neuropathy, congenital sensory, with anhidrosis",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256800"
+                        ]
+                    },
+                    {
+                        "name": "NTRK1 hereditary sensory and autonomic neuropathy",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:design_pattern",
+                            "MONDO:patterns/disease_series_by_gene"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "661",
@@ -73331,256 +72916,7 @@
         "notification_no": "12",
         "description": "常染色体優性遺伝をとり、顔面筋、肩甲、上腕近位部の筋が主に障害をうけ、緩徐進行性を示す疾患である。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0001347",
-                "name": "facioscapulohumeral muscular dystrophy",
-                "xrefs": [
-                    "DOID:11727",
-                    "ICD10:G71.0",
-                    "MESH:D020391",
-                    "MedDRA:10064087",
-                    "NCIT:C84704",
-                    "Orphanet:269",
-                    "SCTID:399091004"
-                ],
-                "synonyms": [
-                    {
-                        "name": "facioscapulohumeral dystrophy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:0017099"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:269"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral myopathy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:269"
-                        ]
-                    },
-                    {
-                        "name": "FSH dystrophy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:269"
-                        ]
-                    },
-                    {
-                        "name": "FSHD",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:269"
-                        ]
-                    },
-                    {
-                        "name": "Landouzy Dejerine muscular dystrophy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "CSP2005:1849-6662",
-                            "DOID:11727"
-                        ]
-                    },
-                    {
-                        "name": "Landouzy-Dejerine muscular dystrophy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:11727"
-                        ]
-                    },
-                    {
-                        "name": "Landouzy-Dejerine myopathy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:269"
-                        ]
-                    },
-                    {
-                        "name": "muscular dystrophy, Landouzy-Dejerine",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:11727",
-                            "MTHICD9_2006:359.1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0008030",
-                "name": "facioscapulohumeral muscular dystrophy 1",
-                "xrefs": [
-                    "GARD:0009941",
-                    "MESH:C536391",
-                    "OMIM:158900"
-                ],
-                "synonyms": [
-                    {
-                        "name": "facioscapulohumeral dystrophy with sensorineural hearing loss and tortuosity of retinal arterioles",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536391",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral dystrophy with sensorineural hearing loss and tortuosity of retinal arterioles, included",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536391"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy",
-                        "scope": "BROAD",
-                        "xrefs": [
-                            "MESH:C536391",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy 1",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MESH:C536391",
-                            "MONDO:Lexical",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy 1; FSHD1",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy 1A",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009941"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy caused by mutation in FRG1",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy type 1",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDORULE:1",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "facioscapulohumeral muscular dystrophy, infantile",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536391",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "FMD",
-                        "scope": "BROAD",
-                        "xrefs": [
-                            "MESH:C536391"
-                        ]
-                    },
-                    {
-                        "name": "FRG1 facioscapulohumeral muscular dystrophy",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "MONDO:design_pattern",
-                            "MONDO:patterns/disease_series_by_gene"
-                        ]
-                    },
-                    {
-                        "name": "FSHD",
-                        "scope": "BROAD",
-                        "xrefs": [
-                            "GARD:0009941",
-                            "MESH:C536391"
-                        ]
-                    },
-                    {
-                        "name": "FSHD1",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536391",
-                            "MONDO:Lexical",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "FSHD1A",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009941",
-                            "MESH:C536391"
-                        ]
-                    },
-                    {
-                        "name": "FSHMD1A",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009941",
-                            "MESH:C536391"
-                        ]
-                    },
-                    {
-                        "name": "Landouzy-Dejerine muscular dystrophy",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009941",
-                            "MESH:C536391",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "Landouzy-Dejerine muscular dystrophy facioscapulohumeral muscular dystrophy, infantile, included",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536391"
-                        ]
-                    },
-                    {
-                        "name": "muscular dystrophy, facioscapulohumeral",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0009941"
-                        ]
-                    },
-                    {
-                        "name": "muscular dystrophy, facioscapulohumeral, type 1",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MESH:C536391",
-                            "OMIM:158900"
-                        ]
-                    },
-                    {
-                        "name": "muscular dystrophy, facioscapulohumeral, type 1A",
-                        "scope": "NARROW",
-                        "xrefs": [
-                            "GARD:0009941",
-                            "MESH:C536391",
-                            "OMIM:158900"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "666",
@@ -77425,6 +76761,134 @@
                         ]
                     }
                 ]
+            },
+            {
+                "id": "MONDO_0024457",
+                "name": "neurodegeneration with brain iron accumulation 2A",
+                "xrefs": [
+                    "DOID:0110735",
+                    "GARD:0002751",
+                    "OMIM:256600"
+                ],
+                "synonyms": [
+                    {
+                        "name": "Hunter Carpenter Macdonald syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0002751"
+                        ]
+                    },
+                    {
+                        "name": "inaD",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "INAD1",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "infantile neuroaxonal dystrophy 1",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0110735"
+                        ]
+                    },
+                    {
+                        "name": "NBIA2a",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0110735"
+                        ]
+                    },
+                    {
+                        "name": "NBIA2A",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "neuroaxonal dystrophy presenting with neonatal dysmorphic features, early onset of peripheral gangrene",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0002751"
+                        ]
+                    },
+                    {
+                        "name": "neuroaxonal dystrophy, infantile",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration with brain iron accumulation 2A",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration with brain iron accumulation 2A; NBIA2A",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration with brain iron accumulation type 2a",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0110735",
+                            "MONDORULE:4"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration with brain iron accumulation type 2A",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDORULE:4",
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration, Pla2g6-associated",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "DOID:0110735"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration, Pla2G6-associated",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "neurodegeneration, PLA2G6-associated",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:256600"
+                        ]
+                    },
+                    {
+                        "name": "Seitelberger disease",
+                        "scope": "BROAD",
+                        "xrefs": [
+                            "DOID:0110735",
+                            "OMIM:256600"
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -79782,7 +79246,30 @@
         "notification_no": "27",
         "description": "1961年にWaldmannらにより提唱された疾患概念である。腸管壁内のリンパ管内圧が亢進し、リンパ管の拡張や破綻をきたす。その結果、リンパ液とともに蛋白成分が腸管内へ漏出し低蛋白血症をきたす。",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0018178",
+                "name": "intestinal lymphangiectasia (disease)",
+                "xrefs": [
+                    "GARD:0012331",
+                    "HP:0002593",
+                    "ICD10:I89.0",
+                    "ICD9:457.1",
+                    "MedDRA:10025213",
+                    "Orphanet:36204",
+                    "SCTID:197260007"
+                ],
+                "synonyms": [
+                    {
+                        "name": "intestinal lymphangiectasia",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:ambiguous"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "711",
@@ -80410,7 +79897,62 @@
         "notification_no": "19",
         "description": "周期性嘔吐症候群（cyclic vomiting syndrome,CVS）は数日間の嘔吐発作を周期的にくり返すが,間欠期は正常であること, 数年の経過により自然治癒することを特徴とする.CVSは全ての人種で見られ,頻度は白人で2%との報告がある.Liらは小児の発症年齢は中央値が4.8歳で最小発症年齢は生後6日,成人の発症年齢の中央値は35歳で最高齢は73歳であり,性差は小児で57:43(女:男),成人では9:8(女:男)と報告している1).",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0010778",
+                "name": "cyclic vomiting syndrome",
+                "xrefs": [
+                    "GARD:0006230",
+                    "OMIM:500007"
+                ],
+                "synonyms": [
+                    {
+                        "name": "CVS",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:500007"
+                        ]
+                    },
+                    {
+                        "name": "Cvs-plus",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:500007"
+                        ]
+                    },
+                    {
+                        "name": "cyclic vomiting syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:500007"
+                        ]
+                    },
+                    {
+                        "name": "cyclic vomiting syndrome with neuromuscular disease",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:500007"
+                        ]
+                    },
+                    {
+                        "name": "cyclic vomiting syndrome-plus",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:500007"
+                        ]
+                    },
+                    {
+                        "name": "cyclic vomiting syndrome; CVS",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:500007"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "716",
@@ -81134,12 +80676,10 @@
     },
     {
         "id": "721",
-        "name_ja": "急性肝不全",
+        "name_ja": "急性肝不全（昏睡型）",
         "synonyms_ja": [],
-        "name_en": "Acute Liver Failure",
-        "synonyms_en": [
-            "hepatic coma"
-        ],
+        "name_en": "acute liver failure with hepatic coma",
+        "synonyms_en": [],
         "is_defined_by": "https://www.shouman.jp/archives/doc/doc_12_06_019_01.pdf",
         "see_also": [
             "https://www.shouman.jp/disease/details/12_06_019/"
@@ -81149,59 +80689,7 @@
         "notification_no": "17",
         "description": "肝細胞の急速な壊死あるいは代謝機能の障害により肝機能が高度に低下した状態であり、重篤化とともに凝固障害や意識障害をきたす。本邦では厚生労働科学研究「難治性の肝・胆道疾患に関する調査研究」班（持田班）の診断基準が用いられている。すなわち急性肝不全を・正常肝ないし肝機能が正常と考えられる肝に・肝障害が生じ初発症状出現から8週以内に・高度の肝機能障害に基ついてプロトロンビン時間が40%以下ないしはINR値1.5以上を示すもの　と定義している。このうち肝性昏睡 II 度以上の肝性脳症を呈するものが「昏睡型」である。　しかし小児、ことに乳児の肝性脳症は観察によって判定することが容易でない。近年の欧米の小児のガイドラインでは予後を解析し、INR値2.0以上であれば意識状態によらず昏睡型と同等として扱っている。",
         "obsolete": false,
-        "mondo_nodes": [
-            {
-                "id": "MONDO_0001548",
-                "name": "hepatic coma",
-                "xrefs": [
-                    "COHD:377604",
-                    "DOID:12550",
-                    "ICD10:K72.91",
-                    "ICD9:070.42",
-                    "SCTID:72836002",
-                    "UMLS:C0019147"
-                ],
-                "synonyms": [
-                    {
-                        "name": "hepatocerebral intoxication",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:12550",
-                            "MTHICD9_2006:572.2"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0019542",
-                "name": "acute liver failure",
-                "xrefs": [
-                    "ICD10:K72.0",
-                    "MESH:D017114",
-                    "MedDRA:10000804",
-                    "NCIT:C84396",
-                    "Orphanet:90062",
-                    "SCTID:197270009",
-                    "UMLS:C0162557"
-                ],
-                "synonyms": [
-                    {
-                        "name": "acute hepatic failure",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:90062"
-                        ]
-                    },
-                    {
-                        "name": "fulminant hepatic failure",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "Orphanet:90062"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "mondo_nodes": []
     },
     {
         "id": "722",
@@ -83372,41 +82860,6 @@
                 ]
             },
             {
-                "id": "MONDO_0011604",
-                "name": "spondylo-ocular syndrome",
-                "xrefs": [
-                    "ICD10:Q87.5",
-                    "OMIM:605822",
-                    "Orphanet:85194",
-                    "SCTID:715653007"
-                ],
-                "synonyms": [
-                    {
-                        "name": "SOS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:605822"
-                        ]
-                    },
-                    {
-                        "name": "spondyloocular syndrome",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "MONDO:Lexical",
-                            "OMIM:605822"
-                        ]
-                    },
-                    {
-                        "name": "spondyloocular syndrome; SOS",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:605822"
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "MONDO_0019349",
                 "name": "Sotos syndrome",
                 "xrefs": [
@@ -84334,90 +83787,6 @@
                         "xrefs": [
                             "MONDORULE:4",
                             "Orphanet:281"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "MONDO_0008297",
-                "name": "variegate porphyria",
-                "xrefs": [
-                    "DOID:4346",
-                    "GARD:0007848",
-                    "ICD10:E80.2",
-                    "MESH:D046350",
-                    "NCIT:C85219",
-                    "OMIM:176200",
-                    "Orphanet:79473",
-                    "SCTID:58275005",
-                    "UMLS:C0162532"
-                ],
-                "synonyms": [
-                    {
-                        "name": "porphyria variegata",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:176200"
-                        ]
-                    },
-                    {
-                        "name": "porphyria variegate",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007848"
-                        ]
-                    },
-                    {
-                        "name": "porphyria, South African type",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:176200"
-                        ]
-                    },
-                    {
-                        "name": "PPOX deficiency",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:176200"
-                        ]
-                    },
-                    {
-                        "name": "Protocoproporphyria",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:4346",
-                            "MTHICD9_2006:277.1"
-                        ]
-                    },
-                    {
-                        "name": "protoporphyrinogen oxidase deficiency",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "DOID:4346",
-                            "OMIM:176200",
-                            "Orphanet:79473"
-                        ]
-                    },
-                    {
-                        "name": "variegate porphyria",
-                        "scope": "EXACT",
-                        "xrefs": [
-                            "OMIM:176200",
-                            "Orphanet:79473"
-                        ]
-                    },
-                    {
-                        "name": "variegate porphyria, homozygous variant",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "OMIM:176200"
-                        ]
-                    },
-                    {
-                        "name": "VP",
-                        "scope": "RELATED",
-                        "xrefs": [
-                            "GARD:0007848"
                         ]
                     }
                 ]
@@ -86117,6 +85486,64 @@
         "description": "コフィン・シリス症候群（Coffin-Siris症候群）は、1970年にCoffinとSirisにより初めて報告された先天異常症候群であり、重度の知的障害、成長障害、特徴的な顔貌（疎な頭髪、濃い眉と睫毛、厚い口唇など）、手足の第５指の爪及び末節骨の無～低形成を主徴とする疾患である。",
         "obsolete": false,
         "mondo_nodes": [
+            {
+                "id": "MONDO_0007617",
+                "name": "Coffin-Siris syndrome 1",
+                "xrefs": [
+                    "GARD:0009945",
+                    "MESH:C538391",
+                    "OMIM:135900",
+                    "OMIM:609943",
+                    "UMLS:C1864967",
+                    "UMLS:CN029606"
+                ],
+                "synonyms": [
+                    {
+                        "name": "COFFIN-SIRIS syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:135900"
+                        ]
+                    },
+                    {
+                        "name": "COFFIN-SIRIS syndrome 1; CSS1",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:135900"
+                        ]
+                    },
+                    {
+                        "name": "COFFIN-SIRIS syndrome; CSS",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:135900"
+                        ]
+                    },
+                    {
+                        "name": "CSS",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:135900"
+                        ]
+                    },
+                    {
+                        "name": "fifth digit syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:135900"
+                        ]
+                    },
+                    {
+                        "name": "hypertrichosis, hyperkeratosis, mental retardation, and distinctive facial features",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "OMIM:609943"
+                        ]
+                    }
+                ]
+            },
             {
                 "id": "MONDO_0015452",
                 "name": "Coffin-Siris syndrome",
@@ -88151,7 +87578,64 @@
         "notification_no": "9",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0010624",
+                "name": "IFAP/Breshek syndrome",
+                "xrefs": [
+                    "GARD:0002952",
+                    "MESH:C536085",
+                    "OMIM:308205",
+                    "Orphanet:2273",
+                    "UMLS:C1839988"
+                ],
+                "synonyms": [
+                    {
+                        "name": "ichthyosis follicularis atrichia photophobia syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0002952"
+                        ]
+                    },
+                    {
+                        "name": "ichthyosis follicularis, atrichia, and photophobia with or without brain anomalies, retardation, ectodermal dysplasia, skeletal malformations, Hirschsprung disease, Ear/eye anomalies, cleft palate/cryptorchidism, and kidney dysplasia/hypoplasia",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:308205"
+                        ]
+                    },
+                    {
+                        "name": "ichthyosis follicularis-alopecia-photophobia syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "https://clinicalgenome.org/affiliation/40006/",
+                            "https://github.com/monarch-initiative/mondo/issues/1144"
+                        ]
+                    },
+                    {
+                        "name": "ichthyosis follicularis-atrichia-photophobia syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:2273"
+                        ]
+                    },
+                    {
+                        "name": "IFAP syndrome",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:2273"
+                        ]
+                    },
+                    {
+                        "name": "IFAP syndrome with or without BRESHECK syndrome",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:308205"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "788",

@@ -47,16 +47,16 @@ rule_replace_special_spaces = ReplacePatterns(special_spaces)
 rule_replace_greek = Greek2Alpha()
 
 roman_nums = [
-    ['VIII', '8'],
-    ['VII', '7'],
-    ['VI', '6'],
-    ['IV', '4'],
-    ['V', '5'],
-    ['IX', '9'],
-    ['X', '10'],
-    ['III', '3'],
-    ['II', '2'],
-    ['I', '1'],
+    [re.compile('^VIII$'), '8'],
+    [re.compile('^VII$'), '7'],
+    [re.compile('^VI$'), '6'],
+    [re.compile('^IV$'), '4'],
+    [re.compile('^V$'), '5'],
+    [re.compile('^IX$'), '9'],
+    [re.compile('^X$'), '10'],
+    [re.compile('^III$'), '3'],
+    [re.compile('^II$'), '2'],
+    [re.compile('^I$'), '1'],
 ]
 rule_replace_roman = ReplacePatterns(roman_nums)
 
@@ -67,8 +67,27 @@ posesses = ["'s"]
 rule_remove_posesses = RemovePatterns(posesses)
 
 stop_words = [
-    'types', 'type', 'diseases', 'disease', 'syndromes', 'syndrome', 'disorders', 'disorder',
-    'of', 'with', 'at', 'from', 'in', 'among', 'upon', 'to', 'in', 'for', 'on', 'by', 'and',
+    re.compile('^types$'), 
+    re.compile('^type$'),
+    re.compile('^diseases$'),
+    re.compile('^disease$'),
+    re.compile('^syndromes$'),
+    re.compile('^syndrome$'),
+    re.compile('^disorders$'),
+    re.compile('^disorder$'),
+    re.compile('^of$'),
+    re.compile('^with$'),
+    re.compile('^at$'),
+    re.compile('^from$'),
+    re.compile('^in$'),
+    re.compile('^among$'),
+    re.compile('^upon$'),
+    re.compile('^to$'),
+    re.compile('^in$'),
+    re.compile('^for$'),
+    re.compile('^on$'),
+    re.compile('^by$'),
+    re.compile('^and$'),
 ]
 rule_remove_stop_words = RemovePatterns(stop_words)
 

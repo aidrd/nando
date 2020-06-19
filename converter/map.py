@@ -12,6 +12,23 @@ from cnorm.chain import Chain
 from .config import Config
 from .utils.chain import chain
 
+from nltk.tokenize import word_tokenize
+
+
+def _preprocess_text(chain: Chain, text, onto):
+    # convert hyphens to spaces
+    h2s_text = text.replace('-', ' ')
+
+    tokens = word_tokenize(h2s_text)
+    preprocess_tokens = []
+    for token in tokens:
+        preprocess_token = chain.apply(token)
+        if preprocess_token != "":
+            preprocess_tokens.append(preprocess_token)
+    preprocess_text = " ".join(preprocess_tokens)
+    print("\t".join([onto, text, preprocess_text]))
+    return preprocess_text
+
 
 def _make_mondo_mapper(
         mondo_obj: Mondo, chain: Chain,
@@ -31,14 +48,14 @@ def _make_mondo_mapper(
         if not allow_deprecated and mondo_node.deprecated:
             continue
 
-        text = chain.apply(mondo_node.name)
+        text = _preprocess_text(chain, mondo_node.name, "mondo")
         mapper.setdefault(text, set())
         mapper[text].add(_id)
 
         for synonym in mondo_node.synonyms:
             if synonym.scope not in allowed_scope_list:
                 continue
-            text = chain.apply(synonym.name)
+            text = _preprocess_text(chain, synonym.name, "mondo")
             mapper.setdefault(text, set())
             mapper[text].add(_id)
     mapper.pop('', None)
@@ -50,7 +67,7 @@ def _search_mondoids4nando(nando_node: NandoNode, mondo_mapper, chain: Chain):
     names = [nando_node.name_en] + nando_node.synonyms_en
     mondo_ids = []
     for name in names:
-        name = chain.apply(name)
+        name = _preprocess_text(chain, name, "nando")
         mondo_ids += mondo_mapper.get(name, [])
     return sorted(list(set(mondo_ids)))
 

@@ -11,6 +11,8 @@ chain-norm = "*"
 pynando = "==0.0.11"
 pymondo = "==0.0.15"
 pyyaml = "*"
+rdflib = "*"
+nltk = "*"
 
 [requires]
 python_version = "3.8"

@@ -323,8 +323,7 @@
     oboinowl:hasExactSynonym "成人発症型"@ja ,
                              "SMA type4"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/135> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198037.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010056 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198037.docx> .
 
 ### 指定難病 4
 :1200008
@@ -361,11 +360,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "パーキンソン病"@ja ;
-    rdfs:label "Parkinson disease"@en ;
-    skos:prefLabel "Parkinson disease"@en ;
+    rdfs:label "Parkinson's Disease"@en ;
+    skos:prefLabel "Parkinson's Disease"@en ;
     terms:identifier "1200010"^^xsd:string ;
     :has_notification_number "6"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/006-201804-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Parkinson disease"@en ;
     efo:definition "パーキンソン病は、黒質のドパミン神経細胞の変性を主体とする進行性変成疾患である。４大症状として(１)安静時振戦、(２)筋強剛（筋固縮）、(３)無動・寡動、(４)姿勢反射障害を特徴とする。このほか(５)同時に２つの動作をする能力の低下、(６)自由にリズムを作る能力の低下を加えると、ほとんどの運動症状を説明することができる。近年では運動症状のみならず、精神症状などの非運動症状も注目されている。発症年齢は50～65歳に多いが、高齢になるほど発病率が増加する。40歳以下で発症するものは若年性パーキンソン病と呼ばれる。この中には遺伝子異常が明らかにされた症例も含まれる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/169> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157751.docx> ;
@@ -392,11 +392,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ハンチントン病"@ja ;
-    rdfs:label "Huntington disease"@en ;
-    skos:prefLabel "Huntington disease"@en ;
+    rdfs:label "Huntington's Disease"@en ;
+    skos:prefLabel "Huntington's Disease"@en ;
     terms:identifier "1200012"^^xsd:string ;
     :has_notification_number "8"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/008-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Huntington disease"@en ;
     efo:definition "ハンチントン病は、常染色体優性遺伝様式をとり、舞踏病運動を主体とする不随意運動と精神症状、認知症を主症状とする慢性進行性神経変性疾患である。ハンチントン病はポリグルタミン病の１つで、病因遺伝子は第４染色体短腕4p16.3のHTTである。遺伝子産物はhuntingtinとよばれる。浸透の高い遺伝病とされており、環境による発症率の差異は報告されていない。ポリグルタミン病の特徴としての表現促進現象がみられる。　主として成人に発症し、好発年齢は30歳台であるが、小児期から老齢期まで様々な年齢での発症がみられる。男女差はない。約10％の症例は20歳以下で発症し、若年型ハンチントン病と称する。優性遺伝のため、多くは両親のどちらかが本症に罹患しているが、小児期発症例（特に幼児期発症例）の場合には、表現促進現象のため小児発症者の遺伝子診断が、両親のどちらかにとっての発症前診断となってしまうこともあり留意する必要がある。罹病期間は一般に10～20年である。臨床像では、舞踏運動を主症状とする不随意運動と精神症状とがある。舞踏運動は早期には四肢遠位部にみられることが多いが、次第に全身性となり、ジストニアなど他の不随意運動が加わる。運動の持続障害があり、転倒、手の把持持続障害の要因となる。精神症状には人格障害と易刺激性、うつなどの感情障害と認知機能低下を認める。進行期になると立位保持が不能となり、臥床状態となる。てんかん発作を合併することもある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/175> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157756.docx> ;
@@ -500,7 +501,8 @@
     :has_notification_number "10"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/010-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3773> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157714.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157714.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0018778 .
 
 ### 指定難病 11
 :1200020
@@ -636,8 +638,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "慢性炎症性脱髄性多発神経炎／多巣性運動ニューロパチー"@ja ;
-    rdfs:label "Chronic inflammatory demyelinating polyneuropathy/Multifocal motor neuropathy"@en ;
-    skos:prefLabel "Chronic inflammatory demyelinating polyneuropathy/Multifocal motor neuropathy"@en ;
+    rdfs:label "Chronic Inflammatory Demyelinating Polyneuropathy /Multifocal Motor Neuropathy"@en ;
+    skos:prefLabel "Chronic Inflammatory Demyelinating Polyneuropathy /Multifocal Motor Neuropathy"@en ;
     terms:identifier "1200029"^^xsd:string ;
     :has_notification_number "14"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/014-201704-kojin.pdf> ;
@@ -655,6 +657,7 @@
     terms:identifier "1200030"^^xsd:string ;
     :has_notification_number "14"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/014-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Chronic Inflammatory Demyelinating Polyneuropathy"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4089> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157814.docx> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0002335 ,
@@ -670,6 +673,7 @@
     terms:identifier "1200031"^^xsd:string ;
     :has_notification_number "14"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/014-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Multifocal Motor Neuropathy"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4089> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157814.docx> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0018979 .
@@ -686,7 +690,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/015-201704-kojin.pdf> ;
     efo:definition "臨床的には中高年以降に緩徐進行性の経過で四肢、特に大腿部や手指・手首屈筋を侵し、副腎皮質ステロイドによる効果はないか、あっても一時的である。筋への炎症性細胞浸潤、特に非壊死線維への浸潤が特徴とされる。筋線維の縁取り空胞と併せて筋病理学的に診断される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3801> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157761.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157761.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007827 .
 
 ### 指定難病 16
 :1200033
@@ -1007,8 +1012,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "ライソゾーム病"@ja ;
-    rdfs:label "Lysosomal storage disease"@en ;
-    skos:prefLabel "Lysosomal storage disease"@en ;
+    rdfs:label "Lysosomal Storage Disease"@en ;
+    skos:prefLabel "Lysosomal Storage Disease"@en ;
     terms:identifier "1200055"^^xsd:string ;
     :has_notification_number "19"^^xsd:string ;
     efo:definition "ライソゾーム病は、ライソゾーム内の酸性分解酵素の遺伝的欠損により、ライソゾーム内に大量の脂質あるいはムコ多糖などを蓄積し、肝臓・脾臓の腫大、骨変形、中枢神経障害など、種々な症状を呈する疾患群であり、現在60種の疾患が含まれる。"@ja ;
@@ -1291,7 +1296,8 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-06-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0016089 .
 
 ### 指定難病 19-6-2
 :1200076
@@ -1458,8 +1464,7 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-09-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009852 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> .
 
 ### 指定難病 19-9-2
 :1200088
@@ -1794,10 +1799,10 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-14-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ムコ多糖症VI型 "@ja ,
-                             "Mucopolysaccharidosis type 5"@en ;
+                             "Mucopolysaccharidosis type 6"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011760 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009661 ,
                                                      mondo:MONDO_0017171 .
 
 ### 指定難病 19-16-2
@@ -1811,10 +1816,10 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-14-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ムコ多糖症VI型 "@ja ,
-                             "Mucopolysaccharidosis type 5"@en ;
+                             "Mucopolysaccharidosis type 6"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011760 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009661 ,
                                                      mondo:MONDO_0017172 .
 
 ### 指定難病 19-17
@@ -1840,10 +1845,10 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-15-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ムコ多糖症VII型 "@ja ,
-                             "Mucopolysaccharidosis type 6"@en ;
+                             "Mucopolysaccharidosis type 7"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009661 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009662 .
 
 ### 指定難病 19-17-2
 :1200113
@@ -1854,10 +1859,10 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-15-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ムコ多糖症VII型 "@ja ,
-                             "Mucopolysaccharidosis type 6"@en ;
+                             "Mucopolysaccharidosis type 7"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009661 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009662 .
 
 ### 指定難病 19-17-3
 :1200114
@@ -1868,10 +1873,10 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-15-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ムコ多糖症VII型 "@ja ,
-                             "Mucopolysaccharidosis type 6"@en ;
+                             "Mucopolysaccharidosis type 7"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009661 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009662 .
 
 ### 指定難病 19-18
 :1200115
@@ -1884,11 +1889,10 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-16-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ムコ多糖症IX型 "@ja ,
-                             "Mucopolysaccharidosis type 7"@en ;
+                             "Mucopolysaccharidosis type 9"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009662 ,
-                                                     mondo:MONDO_0011093 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011093 .
 
 ### 指定難病 19-19
 :1200116
@@ -2405,7 +2409,9 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/019-29-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4063> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157775.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009744 ,
+                                                     mondo:MONDO_0019261 .
 
 ### 指定難病 19-31-3
 :1200153
@@ -2693,8 +2699,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "ミトコンドリア病"@ja ;
-    rdfs:label "Mitochondrial disease"@en ;
-    skos:prefLabel "Mitochondrial disease"@en ;
+    rdfs:label "Mitochondrial Diseases"@en ;
+    skos:prefLabel "Mitochondrial Diseases"@en ;
     terms:identifier "1200173"^^xsd:string ;
     :has_notification_number "21"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/021-201704-kojin.pdf> ;
@@ -3147,7 +3153,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/027-201704-kojin.pdf> ;
     efo:definition "1930年、ドイツの病理学者Theodor Fahr（1877～1945）が病理学的な症例報告をして、その名前が病名につけられている。しかし、ファール（Fahr）病という病名は疾患概念として曖昧なところがあり、これまでも多くの名称が用いられてきたが、最近、海外ではfamilial idiopathic basal ganglia calcification（FIBGC）、primary familial brain calcification（PFBC）など様々な名称が使われている。本疾患は、両側基底核に明らかな病的な石灰化を認め、下記の診断基準にある鑑別疾患がなされたものを特発性基底核石灰化症（Idiopathic basal ganglia calcification：IBGC）と定義する。さらに、家族例（家系内に複数の同様の患者が存在する。）と判明した症例や、後述の遺伝子異常が判明した症例は、家族性特発性基底核石灰化症（familial Idiopathic basal ganglia calcification：FIBGC）に分類する。当初、孤発例と思われた症例もその後の臨床的検索から、家族例と判明する症例も存在すると考えられ、今後、家族例を主に更なる原因遺伝子が判明していくものと思われる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3838> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157865.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157865.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008947 .
 
 ### 指定難病 27-1
 :1200208
@@ -3325,8 +3332,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ベスレムミオパチー"@ja ;
-    rdfs:label "Bethlem myopathy"@en ;
-    skos:prefLabel "Bethlem myopathy"@en ;
+    rdfs:label "Bethlem Myopathy"@en ;
+    skos:prefLabel "Bethlem Myopathy"@en ;
     terms:identifier "1200220"^^xsd:string ;
     :has_notification_number "31"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/031-201704-kojin.pdf> ;
@@ -3611,16 +3618,18 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100003 ;
     rdfs:label "膿疱性乾癬（汎発型）"@ja ;
-    rdfs:label "Generalized Pustular Psoriasis"@en ;
-    skos:prefLabel "Generalized Pustular Psoriasis"@en ;
+    rdfs:label "Pustular Psoriasis"@en ;
+    skos:prefLabel "Pustular Psoriasis"@en ;
     terms:identifier "1200240"^^xsd:string ;
     :has_notification_number "37"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/037-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Generalized Pustular Psoriasis"@en ;
     efo:definition "乾癬には、最も発症頻度の高い尋常性乾癬の他に亜型として、乾癬性関節炎（関節症性乾癬）、乾癬性紅皮症、膿疱性乾癬がある。広義の膿疱性乾癬には膿疱性乾癬（汎発型）と限局性膿疱性乾癬（掌蹠膿疱症、アロポー稽留性肢端皮膚炎）があり、本稿で取り扱うのは膿疱性乾癬（汎発型）である。膿疱性乾癬（汎発型）には急性汎発性膿疱性乾癬（von Zumbusch型）、小児汎発性膿疱性乾癬、疱疹性膿痂疹などが含まれる。von Zumbusch型は、急激な発熱とともに全身の皮膚が潮紅し、無菌性膿疱が多発するまれな疾患である。その他の型では、全身症状はないか、あっても軽度で紅斑と膿疱を繰り返し、慢性に経過する。　経過中に、全身炎症反応に伴って臨床検査異常を示し、しばしば粘膜症状、関節炎を合併するほか、まれに眼症状、心・循環器不全、呼吸器不全、二次性アミロイドーシスを合併することがある。膿疱性乾癬（汎発型）と鑑別を要する疾患として、膿疱型薬疹（急性汎発性発疹性膿疱症（acute generalized exanthematous pustulosis：AGEP）を含む。）や角層下膿疱症がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/168> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198043.docx> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013626 ,
-                                                     mondo:MONDO_0016597 .
+                                                     mondo:MONDO_0016597 ,
+                                                     mondo:MONDO_0022205 .
 
 ### 指定難病 37-1
 :1200241
@@ -3763,12 +3772,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "高安動脈炎"@ja ;
-    rdfs:label "Takayasu arteritis"@en ;
-    skos:prefLabel "Takayasu arteritis"@en ;
+    rdfs:label "Takayasu's Arteritis"@en ;
+    skos:prefLabel "Takayasu's Arteritis"@en ;
     terms:identifier "1200251"^^xsd:string ;
     :has_notification_number "40"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/040-201804-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Aortitis syndrome"@en ;
+    oboinowl:hasExactSynonym "Aortitis syndrome"@en ,
+                             "Takayasu arteritis"@en ;
     efo:definition "高安動脈炎は大動脈及びその主要分枝や肺動脈、冠動脈に炎症性壁肥厚をきたし、またその結果として狭窄、閉塞または拡張病変を来す原因不明の非特異的大型血管炎である。狭窄または閉塞を来した動脈の支配臓器に特有の虚血障害、あるいは逆に拡張病変による動脈瘤がその臨床病態の中心をなす。病変の生じた血管領域により臨床症状が異なるため多彩な臨床症状を呈する。全身の諸臓器に多彩な病変を合併する。若い女性に好発する。これまで高安動脈炎（大動脈炎症候群）とされていたが国際分類に沿って、高安動脈炎と統一した。また、橈骨動脈脈拍の消失がよく見られるため、脈無し病とも呼ばれている。病名は、1908年に本疾患を発見した金沢大学眼科の高安右人博士の名に由来する。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/141> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198050.docx> ;
@@ -3925,14 +3935,16 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "多発血管炎性肉芽腫症"@ja ;
-    rdfs:label "Wegeners granulomatosis"@en ;
-    skos:prefLabel "Wegeners granulomatosis"@en ;
+    rdfs:label "Granulomatosis with Polyangiitis"@en ;
+    skos:prefLabel "Granulomatosis with Polyangiitis"@en ;
     terms:identifier "1200263"^^xsd:string ;
     :has_notification_number "44"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/044-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Wegeners granulomatosis"@en ;
     efo:definition "多発血管炎性肉芽腫症は、以前はウェゲナー肉芽腫症と称されていた疾患で、病理組織学的に(１)全身の壊死性肉芽腫性血管炎、(２)上気道と肺を主とする壊死性肉芽腫性炎、(３)半月体形成腎炎を呈し、その発症機序に抗好中球細胞質抗体（antineutrophil cytoplasmic antibody：ANCA）)が関与する血管炎症候群である。元来生命予後の極めて悪い疾患であるが、発症早期に免疫抑制療法を開始すると、高率に寛解を導入できる。早期確定診断にANCAの測定は極めて有用である。多発血管炎性肉芽腫症で認められるANCAのサブタイプは、欧米では、ほとんどがプロテイネース３に対する抗体（PR3-ANCA）であるが、わが国ではミエロペルオキシダーゼに対する抗体（MPO-ANCA）が約半数を占める。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4011> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198052.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198052.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0012105 .
 
 ### 指定難病 45
 :1200264
@@ -3954,11 +3966,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "悪性関節リウマチ"@ja ;
-    rdfs:label "Rheumatoid arthritis with vasculitis"@en ;
-    skos:prefLabel "Rheumatoid arthritis with vasculitis"@en ;
+    rdfs:label "Malignant Rheumatoid Arthritis"@en ;
+    skos:prefLabel "Malignant Rheumatoid Arthritis"@en ;
     terms:identifier "1200265"^^xsd:string ;
     :has_notification_number "46"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/046-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Rheumatoid arthritis with vasculitis"@en ;
     efo:definition "既存の関節リウマチ（rheumatic arthritis：RA）に、血管炎をはじめとする関節外症状を認め、難治性又は重症な臨床病態を伴う場合に、悪性関節リウマチという。内臓障害がなく、関節リウマチの関節病変が進行して関節の機能が高度に低下して身体障害がもたらされる場合には悪性関節リウマチとはいわない。悪性関節リウマチと診断される年齢のピークは60歳代で、男女比は１：２である。悪性関節リウマチの血管炎は結節性多発動脈炎と同様な全身性動脈炎型（内臓を系統的に侵し、生命予後不良）と内膜の線維性増殖を呈する末梢動脈炎型（四肢末梢及び皮膚を侵し、生命予後は良好）の２つの型に分けられる。血管炎以外の臓器症状としては、間質性肺炎を生じると生命予後不良である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/43> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157666.docx> .
@@ -3968,11 +3981,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "バージャー病"@ja ;
-    rdfs:label "Thromboangiitis obliterans"@en ;
-    skos:prefLabel "Thromboangiitis obliterans"@en ;
+    rdfs:label "Buerger's Disease"@en ;
+    skos:prefLabel "Buerger's Disease"@en ;
     terms:identifier "1200266"^^xsd:string ;
     :has_notification_number "47"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/047-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Thromboangiitis obliterans"@en ;
     efo:definition "閉塞性血栓血管炎とも呼ばれ、四肢の主幹動脈に閉塞性の血管全層炎を来す疾患である。特に下肢動脈に好発して、虚血症状として間欠性跛行や安静時疼痛、虚血性皮膚潰瘍、壊疽（特発性脱疽とも呼ばれる）を来す。また、しばしば表在静脈にも炎症を来し（遊走性静脈炎）、まれに大動脈や内臓動静脈にも病変を来す。従前「ビュルガー病」と呼ばれていた。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/170> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157866.docx> ;
@@ -3983,11 +3997,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "原発性抗リン脂質抗体症候群"@ja ;
-    rdfs:label "Antiphospholipid syndrome"@en ;
-    skos:prefLabel "Antiphospholipid syndrome"@en ;
+    rdfs:label "Antiphospholipid Antibody Syndrome"@en ;
+    skos:prefLabel "Antiphospholipid Antibody Syndrome"@en ;
     terms:identifier "1200267"^^xsd:string ;
     :has_notification_number "48"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/048-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Antiphospholipid syndrome"@en ;
     efo:definition "抗リン脂質抗体（aPL）には、抗カルジオリピン抗体（aCL）、ループス抗凝固因子（LAC）、ワッセルマン反応（STS）偽陽性などが含まれるが、これらの抗体を有し、臨床的に動･静脈の血栓症、血小板減少症、習慣流産･死産･子宮内胎児死亡などをみる場合に抗リン脂質抗体症候群（APS）と称せられる。全身性エリテマトーデス（SLE）を始めとする膠原病や自己免疫疾患に認められることが多いが（続発性）、原発性APSも存在する。また、多臓器梗塞を同時にみる予後不良な病態は、劇症型抗リン脂質抗体症候群（catastrophic　APS）と称せられる。原因は未だ不明である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4101> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157692.docx> ;
@@ -4121,11 +4136,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100003 ;
     rdfs:label "全身性強皮症"@ja ;
-    rdfs:label "Systemic scleroderma"@en ;
-    skos:prefLabel "Systemic scleroderma"@en ;
+    rdfs:label "Systemic Sclerosis"@en ;
+    skos:prefLabel "Systemic Sclerosis"@en ;
     terms:identifier "1200277"^^xsd:string ;
     :has_notification_number "51"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/051-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Systemic scleroderma"@en ;
     efo:definition "全身性強皮症（Systemic sclerosis：SSc）は、皮膚や内臓が硬くなる変化（硬化という。）を特徴とし、慢性に経過する疾患である。しかし、硬化の程度、進行などについては患者によって様々である点に注意が必要である。この観点から、全身性強皮症を大きく２つに分ける分類が国際的に広く用いられている。つまり、典型的な症状を示す「びまん皮膚硬化型全身性強皮症」と、比較的軽症型の「限局皮膚硬化型全身性強皮症」に分けられている。前者は発症より５～６年以内は進行することが多いが、後者の軽症型では進行はほとんどないか、あるいは緩徐である。なお、「限局性強皮症」は皮膚のみに硬化が起こる全く別の病気であり、前述の「限局皮膚硬化型全身性強皮症」とは全く異なるものである。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4026> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157796.docx> ;
@@ -4151,11 +4167,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "シェーグレン症候群"@ja ;
-    rdfs:label "Sjogren syndrome"@en ;
-    skos:prefLabel "Sjogren syndrome"@en ;
+    rdfs:label "Sjogren's Syndrome"@en ;
+    skos:prefLabel "Sjogren's Syndrome"@en ;
     terms:identifier "1200279"^^xsd:string ;
     :has_notification_number "53"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/053-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Sjogren syndrome"@en ;
     efo:definition "慢性唾液腺炎と乾燥性角結膜炎を主徴とし、多彩な自己抗体の出現や高ガンマグロブリン血症を来す自己免疫疾患の一つである。乾燥症が主症状となるが、唾液腺、涙腺だけでなく、全身の外分泌腺が系統的に障害されるため、autoimmune exocrinopathyとも称される。シェーグレン症候群は他の膠原病の合併がみられない一次性と関節リウマチや全身性エリテマトーデスなどの膠原病を合併する二次性とに大別される。さらに、一次性シェーグレン症候群は、病変が涙腺、唾液腺に限局する腺型と病変が全身諸臓器に及ぶ腺外型とに分けられる。様々な自己抗体の出現や臓器に浸潤した自己反応性リンパ球の存在により、自己免疫応答がその病因として考えられている。ポリクローナルな高ガンマグロブリン血症のほか、抗核抗体、リウマトイド因子、抗SS‐A抗体、抗SS‐B抗体などの自己抗体が出現する。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/111> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157710.docx> ;
@@ -4192,11 +4209,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "成人スチル病"@ja ;
-    rdfs:label "Adult still disease"@en ;
-    skos:prefLabel "Adult still disease"@en ;
+    rdfs:label "Adult-Still's Disease"@en ;
+    skos:prefLabel "Adult-Still's Disease"@en ;
     terms:identifier "1200282"^^xsd:string ;
     :has_notification_number "54"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/054-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Adult still disease"@en ;
     efo:definition "若年性特発性関節炎（juvenile idiopathic arthritis）のうち全身型は、小児の熱性疾患としてStill（1897）により記載されたスチル病と同じものである。スチル病には成人発症例もあることが、Bywaters（1971）の報告以来知られている。16歳以上を成人とするが、小児例と病像は同様、治療方針も同じである。小児発症で成人まで遷延した例と合わせて成人スチル病と呼ばれ、本邦集計で成人例の88％が成人発症型であった。成人例の発症年齢は、本邦集計で20歳前後をピークに年齢とともに集計数が減少し、６割は16～35歳に分布し、女性が男性の２倍である。高年齢では女性に偏り、稀に80歳代の発症例もある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/132> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157811.docx> ;
@@ -4222,11 +4240,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "ベーチェット病"@ja ;
-    rdfs:label "Behcet disease"@en ;
-    skos:prefLabel "Behcet disease"@en ;
+    rdfs:label "Behcet's Disease"@en ;
+    skos:prefLabel "Behcet's Disease"@en ;
     terms:identifier "1200284"^^xsd:string ;
     :has_notification_number "56"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/056-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Behcet disease"@en ;
     efo:definition "口腔粘膜のアフタ性潰瘍、皮膚症状、眼のぶどう膜炎、外陰部潰瘍を主症状とし、急性炎症性発作を繰り返すことを特徴とする。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/187> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157765.docx> ;
@@ -4237,14 +4256,15 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "特発性拡張型心筋症"@ja ;
-    rdfs:label "Idiopathic dilated cardiomyopathy"@en ;
-    skos:prefLabel "Idiopathic dilated cardiomyopathy"@en ;
+    rdfs:label "Idiopathic Dilated Cardiomyopathy"@en ;
+    skos:prefLabel "Idiopathic Dilated Cardiomyopathy"@en ;
     terms:identifier "1200285"^^xsd:string ;
     :has_notification_number "57"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/057-201704-kojin.pdf> ;
     efo:definition "左室収縮低下と左室内腔の拡張を特徴とする疾患群であり、高血圧性、弁膜性、虚血性心疾患など原因の明らかな疾患を除外する必要がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3985> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198053.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198053.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0016333 .
 
 ### 指定難病 58
 :1200286
@@ -4398,7 +4418,8 @@
     :has_notification_number "60"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/060-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/106> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157706.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157706.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0012197 .
 
 ### 指定難病 60-2
 :1200297
@@ -4656,7 +4677,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/063-201704-kojin.pdf> ;
     efo:definition "本疾患は、血小板膜蛋白に対する自己抗体が発現し、血小板に結合する結果、主として脾臓における網内系細胞での血小板の破壊が亢進し、血小板減少を来す自己免疫性疾患である。最近、欧米において本症は、一次性免疫性血小板減少症（primary immune thrombocytopenia）と呼ばれることが多い。種々の出血症状を呈する。通常、赤血球、白血球系に異常を認めず、骨髄での巨核球産生能の低下も見られない。ITPの診断は今でも除外診断が主体であり、血小板減少をもたらす基礎疾患や、薬剤の関与を除外する必要がある。血小板減少とは、血小板数10万/µL未満をさす。最近では、ITPにおいては血小板破壊亢進のみならず、血小板産生も抑制されていることが明らかにされている。血小板自己抗体が骨髄巨核球にも結合し、血小板の産生障害を引き起こしていると考えられる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/157> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157747.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157747.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008558 .
 
 ### 指定難病 64
 :1200316
@@ -4718,11 +4740,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100006 ;
     rdfs:label "原発性免疫不全症候群"@ja ;
-    rdfs:label "Primary immunodeficiency"@en ;
-    skos:prefLabel "Primary immunodeficiency"@en ;
+    rdfs:label "Primary Immunodeficiency Syndrome"@en ;
+    skos:prefLabel "Primary Immunodeficiency Syndrome"@en ;
     terms:identifier "1200320"^^xsd:string ;
     :has_notification_number "65"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/065-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Primary immunodeficiency"@en ;
     efo:definition "原発性免疫不全症候群は、先天的に免疫系のいずれかの部分に欠陥がある疾患の総称であり、後天的に免疫力が低下するエイズなどの後天性免疫不全症候群と区別される。障害される免疫担当細胞（例えば、好中球、T細胞、B細胞）などの種類や部位により200近くの疾患に分類される。原発性免疫不全症候群で問題となるのは、感染に対する抵抗力の低下である。重症感染のため重篤な肺炎、中耳炎、膿瘍、髄膜炎などを繰り返す。時に生命の危険を生じることもあり、中耳炎の反復による難聴、肺感染の反復により気管支拡張症などの後遺症を残すこともある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/95> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157976.docx> ;
@@ -5380,8 +5403,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100007 ;
     rdfs:label "IgＡ腎症"@ja ;
-    rdfs:label "IgA nephropathy"@en ;
-    skos:prefLabel "IgA nephropathy"@en ;
+    rdfs:label "IgA Nephropathy"@en ;
+    skos:prefLabel "IgA Nephropathy"@en ;
     terms:identifier "1200366"^^xsd:string ;
     :has_notification_number "66"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/066-201704-kojin.pdf> ;
@@ -5395,10 +5418,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100007 ;
     rdfs:label "多発性嚢胞腎"@ja ;
-    rdfs:label "Polycystic kidney"@en ;
-    skos:prefLabel "Polycystic kidney"@en ;
+    rdfs:label "Polycystic Kidney Disease"@en ;
+    skos:prefLabel "Polycystic Kidney Disease"@en ;
     terms:identifier "1200367"^^xsd:string ;
     :has_notification_number "67"^^xsd:string ;
+    oboinowl:hasExactSynonym "Polycystic kidney"@en ;
     efo:definition "両側の腎臓に嚢胞が無数に生じる、遺伝性疾患。多発性嚢胞腎（Polycystic Kidney）には、常染色体優性多発性嚢胞腎（Autosomal Dominant Polycystic Kidney Disease：ADPKD）と常染色体劣性多発性嚢胞腎（Autosomal Recessive Polycystic Kidney Disease：ARPKD）とがある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/146> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198063.docx> ;
@@ -5439,11 +5463,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100008 ;
     rdfs:label "黄色靱帯骨化症"@ja ;
-    rdfs:label "Ossification of the ligamentum flavum"@en ;
-    skos:prefLabel "Ossification of the ligamentum flavum"@en ;
+    rdfs:label "Ossification of Ligamentum Flavum"@en ;
+    skos:prefLabel "Ossification of Ligamentum Flavum"@en ;
     terms:identifier "1200370"^^xsd:string ;
     :has_notification_number "68"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/068-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Ossification of the ligamentum flavum"@en ;
     efo:definition "黄色靱帯骨化症（the ossification of the ligamentum flavum：OLF）は、黄色靱帯が骨化する疾患であり、胸腰移行部に多いが、全脊柱に発生する。診断には単純レントゲン写真、断層写真あるいはMRI、CTが有用である。多椎間罹患例は約35％である。頸椎後縦靱帯骨化症、あるいは胸椎後縦靱帯骨化症と合併することが多いことから、脊柱管内靱帯骨化の一連の疾患と考えられている。しかし、単独で発症することもある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/58> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157671.docx> .
@@ -5468,11 +5493,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100008 ;
     rdfs:label "広範脊柱管狭窄症"@ja ;
-    rdfs:label "Spinal stenosis"@en ;
-    skos:prefLabel "Spinal stenosis"@en ;
+    rdfs:label "Coexisting Cervical and Lumbar Spinal Stenosis"@en ;
+    skos:prefLabel "Coexisting Cervical and Lumbar Spinal Stenosis"@en ;
     terms:identifier "1200372"^^xsd:string ;
     :has_notification_number "70"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/070-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Spinal stenosis"@en ;
     efo:definition "頸、胸、腰椎部の広範囲にわたる脊柱管狭小により、脊髄、馬尾神経又は神経根の障害を来す疾患をいう。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/101> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198064.docx> ;
@@ -5483,11 +5509,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100008 ;
     rdfs:label "特発性大腿骨頭壊死症"@ja ;
-    rdfs:label "Idiopathic osteonecrosis of the femoral head"@en ;
-    skos:prefLabel "Idiopathic osteonecrosis of the femoral head"@en ;
+    rdfs:label "Idiopathic Osteonecrosis of Femoral Head"@en ;
+    skos:prefLabel "Idiopathic Osteonecrosis of Femoral Head"@en ;
     terms:identifier "1200373"^^xsd:string ;
     :has_notification_number "71"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/071-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Idiopathic osteonecrosis of the femoral head"@en ;
     efo:definition "大腿骨頭壊死症は、大腿骨頭が阻血性壊死に陥って圧潰し、股関節機能が失われる難治性疾患である。大腿骨頭壊死症のうち、 脱臼や骨折などの阻血原因が明らかである場合以外が特発性大腿骨頭壊死症とされている。特発性大腿骨頭壊死症の治療は長期間に及ぶこともあり、医療経済学的に問題が大きい。また、青・壮年期に好発して労働能力を著しく低下させることから、労働経済学的にも大きな損失を生じる。患者のQOLに大きな影響を与えるため、早期に適切な診断を行い、適切な治療へと結びつけていく必要がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/160> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157748.docx> .
@@ -5497,10 +5524,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "下垂体性ADH分泌異常症"@ja ;
-    rdfs:label "Pituitary ADH secretion disorders"@en ;
-    skos:prefLabel "Pituitary ADH secretion disorders"@en ;
+    rdfs:label "Diencephalo-hypophysial Insufficiency-Inappropriate ADH Syndrome"@en ;
+    skos:prefLabel "Diencephalo-hypophysial Insufficiency-Inappropriate ADH Syndrome"@en ;
     terms:identifier "1200374"^^xsd:string ;
     :has_notification_number "72"^^xsd:string ;
+    oboinowl:hasExactSynonym "Pituitary ADH secretion disorders"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3988> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157673.docx> .
@@ -5541,11 +5569,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "下垂体性TSH分泌亢進症"@ja ;
-    rdfs:label "TSH-secreting pituitary adenoma"@en ;
-    skos:prefLabel "TSH-secreting pituitary adenoma"@en ;
+    rdfs:label "Diencephalo-hypophysial Insufficiency-Inappropriate Thyroid stimulating Hormone Syndrome"@en ;
+    skos:prefLabel "Diencephalo-hypophysial Insufficiency-Inappropriate Thyroid stimulating Hormone Syndrome"@en ;
     terms:identifier "1200377"^^xsd:string ;
     :has_notification_number "73"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/073-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "TSH-secreting pituitary adenoma"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/64> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157676.docx> ;
@@ -5556,11 +5585,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "下垂体性PRL分泌亢進症"@ja ;
-    rdfs:label "Prolactin secreting pituitary adenoma"@en ;
-    skos:prefLabel "Prolactin secreting pituitary adenoma"@en ;
+    rdfs:label "Diencephalo-hypophysial Insufficiency-Inappropriate Prolactin Syndrome"@en ;
+    skos:prefLabel "Diencephalo-hypophysial Insufficiency-Inappropriate Prolactin Syndrome"@en ;
     terms:identifier "1200378"^^xsd:string ;
     :has_notification_number "74"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/074-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Prolactin secreting pituitary adenoma"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4045> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157677.docx> ;
@@ -5571,11 +5601,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "クッシング病"@ja ;
-    rdfs:label "Cushing disease"@en ;
-    skos:prefLabel "Cushing disease"@en ;
+    rdfs:label "Cushing's Disease"@en ;
+    skos:prefLabel "Cushing's Disease"@en ;
     terms:identifier "1200379"^^xsd:string ;
     :has_notification_number "75"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/075-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Cushing disease"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/78> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157685.docx> ;
@@ -5588,11 +5619,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "下垂体性ゴナドトロピン分泌亢進症"@ja ;
-    rdfs:label "Pituitary gonadotropin secretion hyperthyroidism"@en ;
-    skos:prefLabel "Pituitary gonadotropin secretion hyperthyroidism"@en ;
+    rdfs:label "Diencephalo-hypophysial dysfunction-Syndrome of abnormal secretion of Gonadotropin"@en ;
+    skos:prefLabel "Diencephalo-hypophysial dysfunction-Syndrome of abnormal secretion of Gonadotropin"@en ;
     terms:identifier "1200380"^^xsd:string ;
     :has_notification_number "76"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/076-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Pituitary gonadotropin secretion hyperthyroidism"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4070> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157674.docx> .
@@ -5671,11 +5703,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "下垂体性成長ホルモン分泌亢進症"@ja ;
-    rdfs:label "Growth hormone secreting pituitary adenoma"@en ;
-    skos:prefLabel "Growth hormone secreting pituitary adenoma"@en ;
+    rdfs:label "Diencephalo-hypophysial dysfunction-Syndrome of abnormal secretion of Growth hormone"@en ;
+    skos:prefLabel "Diencephalo-hypophysial dysfunction-Syndrome of abnormal secretion of Growth hormone"@en ;
     terms:identifier "1200386"^^xsd:string ;
     :has_notification_number "77"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/077-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Growth hormone secreting pituitary adenoma"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3922> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157675.docx> ;
@@ -5686,10 +5719,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "下垂体前葉機能低下症"@ja ;
-    rdfs:label "Hypopituitarism"@en ;
-    skos:prefLabel "Hypopituitarism"@en ;
+    rdfs:label "Hypopituitarism Syndrome"@en ;
+    skos:prefLabel "Hypopituitarism Syndrome"@en ;
     terms:identifier "1200387"^^xsd:string ;
     :has_notification_number "78"^^xsd:string ;
+    oboinowl:hasExactSynonym "Hypopituitarism"@en ;
     efo:definition "下垂体から分泌されるADH、ACTH、TSH、GH、LH、FSH、PRLの単独ないし複数のホルモン分泌障害あるいは分泌亢進により、主として末梢ホルモン欠乏あるいは過剰による多彩な症状を呈する疾患である。病因は、下垂体自体の障害と、下垂体ホルモンの分泌を制御する視床下部の障害及び両者を連結する下垂体茎部の障害に分類される。実際は障害部位が複数の領域にまたがっていることも多い。　全ての前葉ホルモン分泌が障害されているものを汎下垂体機能低下症、複数のホルモンが種々の程度に障害されているものを部分型下垂体機能低下症と呼ぶ。また、単一のホルモンのみが欠損するものは、単独欠損症と呼ばれる。一方、分泌亢進は通常単独のホルモンのみとなる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4017> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157678.docx> ;
@@ -5785,11 +5819,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "家族性高コレステロール血症（ホモ接合体）"@ja ;
-    rdfs:label "Homozygous familial hypercholesterolemia"@en ;
-    skos:prefLabel "Homozygous familial hypercholesterolemia"@en ;
+    rdfs:label "Familial Hypercholesterolemia （Homozygote ）"@en ;
+    skos:prefLabel "Familial Hypercholesterolemia （Homozygote ）"@en ;
     terms:identifier "1200394"^^xsd:string ;
     :has_notification_number "79"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/079-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Homozygous familial hypercholesterolemia"@en ;
     efo:definition "家族性高コレステロール血症（familial hypercholesterolaemia：FH）は、LDL受容体遺伝子変異による単一遺伝子疾患であり、常染色体優性遺伝形式をとる。ホモ接合体患者は100万人に１人程度の頻度で認められる。FHは高LDL-コレステロール血症、腱黄色腫及び若年性冠動脈硬化症を主徴とする。ヘテロ接合体とホモ接合体は、出現する症状や総コレステロールの値の程度、治療への反応性が全く異なり、その管理においても全く別の取り扱いをする必要がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/65> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157679.docx> ;
@@ -5800,12 +5835,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "甲状腺ホルモン不応症"@ja ;
-    rdfs:label "Resistance to thyroid hormone"@en ;
-    skos:prefLabel "Resistance to thyroid hormone"@en ;
+    rdfs:label "Syndrome of Resistance to Thyroid Hormone"@en ;
+    skos:prefLabel "Syndrome of Resistance to Thyroid Hormone"@en ;
     terms:identifier "1200395"^^xsd:string ;
     :has_notification_number "80"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/080-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Syndrome of resistance to thyroid hormone"@en ,
+    oboinowl:hasExactSynonym "Resistance to thyroid hormone"@en ,
                              "Thyroid hormone insensitivity syndrome"@en ;
     efo:definition "甲状腺ホルモン不応症（Syndrome of Resistance to Thyroid Hormone：RTH）は、甲状腺ホルモンに対する標的臓器の反応性が減弱している家族性症候群として1967年、Refetoffらによって初めて報告され、レフェトフ症候群とも言われる疾患である。RTHは、甲状腺ホルモンの甲状腺ホルモン受容体（TR）を介した作用の低下によるものとされている。TRをコードする遺伝子にはα型TR（TRα）とTRβの２つがあるが、RTH家系の約85％にTRβ遺伝子変異が認めることから、RTHはTRβの異常症と同義と考えられるようになっている。残りの約15％の家系における原因遺伝子は明らかでないが、TRβ遺伝子変異を伴う家系と変異が認められない家系との臨床症状は全く区別がつかないことから、何らかの原因でTRβの機能が障害され発症するものと考えられている。なお、2012年TRα変異を伴う症例が相次いで報告されたが、その臨床症状はTRβの機能異常症であるRTHとは大きく異なるものであった。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/99> ,
@@ -5816,11 +5851,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "先天性副腎皮質酵素欠損症"@ja ;
-    rdfs:label "Congenital adrenal hyperplasia"@en ;
-    skos:prefLabel "Congenital adrenal hyperplasia"@en ;
+    rdfs:label "Congenital Adrenal Enzyme Deficiency"@en ;
+    skos:prefLabel "Congenital Adrenal Enzyme Deficiency"@en ;
     terms:identifier "1200396"^^xsd:string ;
     :has_notification_number "81"^^xsd:string ;
-    oboinowl:hasExactSynonym "Congenital adrenal enzyme deficiency"@en ,
+    oboinowl:hasExactSynonym "Congenital adrenal hyperplasia"@en ,
                              "Congenial adrenal cortex enzyme deficiency"@en ;
     efo:definition "副腎皮質では、ミネラルコルチコイド、グルココルチコイド、副腎性アンドロゲンが産生されている。副腎皮質酵素欠損症は、このステロイドホルモンを作る過程に関与する酵素が先天的に欠損することで起こる病気である。ステロイドホルモンが作られる過程には五つのチトクローム酵素（P450）と3β-ヒドロキシステロイドデヒドロゲナーゼの六つの酵素が関与している。したがって、副腎皮質酵素欠損症として六つの病気があることになる。このうち、特にコルチゾールができないことにより、下垂体からACTH（副腎皮質刺激ホルモン）が過剰に分泌される結果副腎が過形成を来すものを先天性副腎過形成症と呼ぶ。これには、リポイド過形成症、21水酸化酵素欠損症、11β-水酸化酵素欠損症、17α-水酸化酵素欠損症、3β-ヒドロキシステロイドデヒドロゲナーゼ（3β-HSD）欠損症の五つの病気がある。その他、鉱質コルチコイドができないもので、過剰なACTH分泌過剰を来さないものとして18-ヒドロキシラーゼ欠損症がある。遅発型を示すものは21水酸化酵素欠損症、11β-水酸化酵素欠損症でみられている。更に最近では、21水酸化酵素、17α水酸化酵素活性がともに低下し、骨奇形を伴う酵素欠損症が報告された（P450 オキシドレダクターゼ欠損症）。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/185> ,
@@ -5854,8 +5889,7 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/081-02-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "３β-HSD欠損症"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/185> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157731.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008727 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157731.docx> .
 
 ### 指定難病 81-3
 :1200399
@@ -5882,8 +5916,7 @@
     :has_notification_number "81"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/081-04-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/185> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157731.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008729 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157731.docx> .
 
 ### 指定難病 81-5
 :1200401
@@ -5896,8 +5929,7 @@
     :has_notification_number "81"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/081-05-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/185> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157731.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008730 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157731.docx> .
 
 ### 指定難病 81-6
 :1200402
@@ -6031,12 +6063,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "アジソン病"@ja ;
-    rdfs:label "Addison disease"@en ;
-    skos:prefLabel "Addison disease"@en ;
+    rdfs:label "Addison's Disease"@en ;
+    skos:prefLabel "Addison's Disease"@en ;
     terms:identifier "1200411"^^xsd:string ;
     :has_notification_number "83"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/083-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Primary chronic adrenocortical insufficiency"@en ;
+    oboinowl:hasExactSynonym "Primary chronic adrenocortical insufficiency"@en ,
+                             "Addison disease"@en ;
     efo:definition "原発性の慢性副腎不全は、1855年英国の内科医であるThomas Addisonにより初めて報告された疾患であることから、アジソン（Addison）病とも呼ばれている。その後、この原発性慢性副腎皮質機能低下症の病因として、 副腎皮質ステロイド合成酵素欠損症による先天性副腎皮質過形成症、先天性副腎低形成（X連鎖性、常染色体性）、ACTH不応症などが同定され、責任遺伝子も明らかにされ、先天性のものはアジソン病とは独立した疾患単位として扱われるようになった。このため、アジソン病は後天性の成因による病態を総称する用語として用いられている。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/44> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157667.docx> ;
@@ -6112,7 +6145,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/085-201704-kojin.pdf> ;
     efo:definition "間質性肺炎とは、胸部X線写真やCT画像にて両側びまん性の陰影を認める疾患のうち、肺の間質を炎症や線維化病変の場とする疾患の総称である。間質性肺炎の原因は多岐にわたり、職業・環境性や薬剤など原因の明らかなものや、膠原病・サルコイドーシスなどの全身性疾患に付随して発症するものとともに、原因が特定できないものが含まれる。また、特発性間質性肺炎（IIPs）は原因を特定しえない間質性肺炎の総称であり、特発性肺線維症（IPF）などの７疾患に分類される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/156> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198066.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198066.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0002429 .
 
 ### 指定難病 85-1
 :1200417
@@ -6126,7 +6160,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/085-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "IPF"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/156> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198066.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198066.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008345 .
 
 ### 指定難病 85-2
 :1200418
@@ -6250,11 +6285,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100010 ;
     rdfs:label "肺静脈閉塞症／肺毛細血管腫症"@ja ;
-    rdfs:label "Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis"@en ;
-    skos:prefLabel "Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis"@en ;
+    rdfs:label "Pulmonary Veno-Occlusive Disease / Pulmonary Capillary Hemangiomatosis"@en ;
+    skos:prefLabel "Pulmonary Veno-Occlusive Disease / Pulmonary Capillary Hemangiomatosis"@en ;
     terms:identifier "1200426"^^xsd:string ;
     :has_notification_number "87"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/087-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis"@en ;
     efo:definition "肺静脈閉塞症（pulmonary veno-occlusive disease：PVOD）は極めて稀な疾患である。特発性肺動脈性肺高血圧症とは異なる疾患であり、治療に抵抗性で非常に予後不良である。病理組織学的には肺内の静脈が主な病変部位であり、肺静脈の内膜肥厚や線維化等による閉塞を認める。肺毛細管腫症（pulmonary capillary hemangiomatosis：PCH）は、病理組織学的に肺胞壁の毛細管増生を特徴とするが、両疾患ともに肺内の静脈閉塞を生じ、肺静脈中枢側である肺動脈の血圧（肺動脈圧）の持続的な上昇を来たすことになる。そのため、臨床的には両者の鑑別は困難である。さらに、病態的には他の肺動脈性肺高血圧症（pulmonary arterial hypertension：PAH）と類似しており、一般内科診療において臨床所見からだけではPVOD/PCHを疑うことは困難である。典型例では胸部CT像において、すりガラス状陰影、小葉間隔壁の肥厚などが観察されるが、確定診断は現在でも肺組織からの病理組織診断でのみ可能である。したがって、特発性肺動脈性肺高血圧症と診断されていることが多く、正確な発症数は把握されていないのが現状である。PVOD/PCHはあらゆる年代に発症し、喫煙者が多いとされている。成人例では男性にやや多い傾向がある。15歳未満の症例では男女差は無いといわれている。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3868> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157867.docx> ;
@@ -6265,21 +6301,22 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1200426 ;
     rdfs:label "肺静脈閉塞症"@ja ;
-    rdfs:label "Pulmonary venous obstruction"@en ;
-    skos:prefLabel "Pulmonary venous obstruction"@en ;
+    rdfs:label "Pulmonary Veno-Occlusive Disease"@en ;
+    skos:prefLabel "Pulmonary Veno-Occlusive Disease"@en ;
     terms:identifier "1200427"^^xsd:string ;
     :has_notification_number "87"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/087-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3868> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157867.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157867.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009937 .
 
 ### 指定難病 87-2
 :1200428
     rdf:type owl:Class ;
     rdfs:subClassOf :1200426 ;
     rdfs:label "肺毛細血管腫症"@ja ;
-    rdfs:label "Pulmonary capillary hemangiomatosis"@en ;
-    skos:prefLabel "Pulmonary capillary hemangiomatosis"@en ;
+    rdfs:label "Pulmonary Capillary Hemangiomatosis"@en ;
+    skos:prefLabel "Pulmonary Capillary Hemangiomatosis"@en ;
     terms:identifier "1200428"^^xsd:string ;
     :has_notification_number "87"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/087-201704-kojin.pdf> ;
@@ -6438,11 +6475,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "原発性胆汁性胆管炎"@ja ;
-    rdfs:label "Primary biliary cirrhosis"@en ;
-    skos:prefLabel "Primary biliary cirrhosis"@en ;
+    rdfs:label "Primary Biliary Cholangitis"@en ;
+    skos:prefLabel "Primary Biliary Cholangitis"@en ;
     terms:identifier "1200439"^^xsd:string ;
     :has_notification_number "93"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/093-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Primary biliary cirrhosis"@en ;
     efo:definition "原発性胆汁性胆管炎（Primary biliary cholangitis：PBC。旧称：原発性胆汁性肝硬変（primary biliary cirrhosis））は病因が未だ解明されていない慢性進行性の胆汁うっ滞性肝疾患である。胆汁うっ滞に伴い肝実質細胞の破壊と線維化を生じ、最終的には肝硬変から肝不全を呈する。臨床的には胆汁うっ滞に伴うそう痒感、及び自己抗体の１つである抗ミトコンドリア抗体（Anti-mitochondrial antibodies：AMA）の陽性化を特徴とし、中年以後の女性に多い。臨床症状も全くみられない無症候性PBCの症例も多く、このような症例は長年無症状で経過し予後もよい。なお、本疾患は以前、原発性胆汁性肝硬変（primary biliary cirrhosis）と呼ばれていた。本疾患概念が確立された当時は、大多数の症例が肝硬変まで進行した段階で発見されていたため「肝硬変」という語句が使用されていたが、診断・治療技術の進歩した現在では、ほとんどの患者が肝硬変の状態ではないことから、2016年に日本肝臓学会及び日本消化器病学会において「原発性胆汁性胆管炎」への病名変更が決定された。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/93> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157694.docx> ;
@@ -6506,11 +6544,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "クローン病"@ja ;
-    rdfs:label "Crohn disease"@en ;
-    skos:prefLabel "Crohn disease"@en ;
+    rdfs:label "Crohn's Disease"@en ;
+    skos:prefLabel "Crohn's Disease"@en ;
     terms:identifier "1200444"^^xsd:string ;
     :has_notification_number "96"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/096-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Crohn disease"@en ;
     efo:definition "本疾患は原因不明で、主として若年者にみられ、潰瘍や線維化を伴う肉芽腫性炎症性病変からなり、消化管のどの部位にも起こりうる。消化管以外（特に皮膚）にも病変が起こることがある。当初の報告では回腸末端を侵す（回腸末端炎）と記載されたが、その後口腔から肛門までの消化管のあらゆる部位に起こりうることがわかった。臨床像は病変の部位や範囲によって多彩である。発熱、栄養障害、貧血などの全身症状や関節炎、虹彩炎、肝障害などの全身性合併症が起こりうる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/81> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157688.docx> ;
@@ -6645,10 +6684,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "好酸球性消化管疾患"@ja ;
-    rdfs:label "Eosinophilic gastrointestinal disease"@en ;
-    skos:prefLabel "Eosinophilic gastrointestinal disease"@en ;
+    rdfs:label "Eosinophilic Gastro-Intestinal Disorder"@en ;
+    skos:prefLabel "Eosinophilic Gastro-Intestinal Disorder"@en ;
     terms:identifier "1200454"^^xsd:string ;
     :has_notification_number "98"^^xsd:string ;
+    oboinowl:hasExactSynonym "Eosinophilic gastrointestinal disease"@en ;
     efo:definition "消化管を主座とする好酸球性炎症症候群（Eosinophilic Gastro-Intestinal Disorder：EGID）は、新生児～乳児における食物蛋白誘発胃腸炎 （ここでは日本における Food-Protein Induced Enterocolitis Syndrome という意味でN-FPIESと呼ぶ。）、幼児～成人における好酸球性食道炎（EoE）、好酸球性胃腸炎（EGE）の総称である。特に新生児期～乳児期の患者は、1990年台末から急激に増加していると考えられている。また、EGEは本邦に特に患者が多い。診断法、治療法が確立していないことから、多くの患者が苦しんでいる。 新生児～乳児における食物蛋白誘発胃腸炎（N-FPIES）では10％の患者は、生命にかかわる重大な合併症を引き起こすため、緊急の治療が必要となる。治療困難症例の場合、症状は一生続く。 幼児～成人における好酸球性食道炎（EoE）では、嚥下障害のために日常生活が障害されるとともに、長期経過例では、食道狭窄を起こし観血的な治療が必要となる。 幼児～成人における好酸球性胃腸炎（EGE）は胃-大腸に至る重要な臓器が障害されるが、欧米では症例数が少ないこともあり、診断治療研究が進んでいない。多くの患者を抱える我が国で研究を進歩させる必要がある。60％程度の例で再発を繰り返し、慢性化してステロイド依存性となるなどして薬剤治療にともなう様々な副作用が問題となる。日本では好酸球性胃腸炎（EGE）は、以前から症例報告が多いが、好酸球性食道炎（EoE）は少ない。逆に欧米では好酸球性食道炎（EoE）が多く、EGEは少ない。世界的にEGE の診断治療法に関する研究は遅れている。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5388> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157697.docx> ;
@@ -6703,11 +6743,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "慢性特発性偽性腸閉塞症"@ja ;
-    rdfs:label "Chronic intestinal pseudo-obstruction"@en ;
-    skos:prefLabel "Chronic intestinal pseudo-obstruction"@en ;
+    rdfs:label "Chronic Idiopathic Intestinal Pseudo-Obstruction"@en ;
+    skos:prefLabel "Chronic Idiopathic Intestinal Pseudo-Obstruction"@en ;
     terms:identifier "1200458"^^xsd:string ;
     :has_notification_number "99"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/099-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Chronic intestinal pseudo-obstruction"@en ;
     efo:definition "慢性特発性偽性腸閉塞症（Chronic Idiopathic Intestinal Pseudo-Obstruction：CIIP）は、長期に腹部膨満、嘔気・嘔吐、腹痛等の腸閉塞様症状を呈し、画像検査で腸管拡張や鏡面像を認める原因不明の難治性疾患である。消化管内容物の輸送を妨げる物理的閉塞がないにもかかわらず、消化管運動機能障害のために腸閉塞様症状を来す慢性偽性腸閉塞症（Chronic Intestinal Pseudo-Obstruction：CIPO）には、消化管病変よる原発性（Primary）、全身疾患や薬剤に伴う続発性（Secondary）、原因不明の特発性（idiopathic）がある。原発性には、ヒルシュスプルング（Hirschsprung）病（腸管無神経節症）やCIIPを除いた、ヒルシュスプルング（Hirschsprung）病類縁疾患等があり、小児期のCIIPの診断においては鑑別が必要である。成人のCIIPの診断においては、続発性の偽性腸閉塞を鑑別することが重要である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3960> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157771.docx> ;
@@ -6718,12 +6759,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "巨大膀胱短小結腸腸管蠕動不全症"@ja ;
-    rdfs:label "Megacystis microcolon intestinal hypoperistalsis syndrome"@en ;
-    skos:prefLabel "Megacystis microcolon intestinal hypoperistalsis syndrome"@en ;
+    rdfs:label "Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome"@en ;
+    skos:prefLabel "Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome"@en ;
     terms:identifier "1200459"^^xsd:string ;
     :has_notification_number "100"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/100-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Huge bladder short and small colon intestinal peristalsis deficiency"@en ;
+    oboinowl:hasExactSynonym "Huge bladder short and small colon intestinal peristalsis deficiency"@en ,
+                             "Megacystis microcolon intestinal hypoperistalsis syndrome"@en ;
     efo:definition "本症は、新生児期から巨大膀胱、Microcolonを呈し、重篤なイレウス症状を来す疾患群（巨大膀胱短小結腸腸管蠕動不全症（Megacystis Microcolon Intestinal Hypoperistalsis Syndrome：MMIHS））であり、予後不良の先天性消化管疾患として知られている。多くは、生命維持のために中心静脈栄養が長期にわたり必要であり、小腸移植の適応にもなり得る。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4064> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157683.docx> ;
@@ -6764,12 +6806,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100014 ;
     rdfs:label "CFC症候群"@ja ;
-    rdfs:label "Cardio-facio-cutaneous syndrome"@en ;
-    skos:prefLabel "Cardio-facio-cutaneous syndrome"@en ;
+    rdfs:label "CFC Syndrome"@en ;
+    skos:prefLabel "CFC Syndrome"@en ;
     terms:identifier "1200462"^^xsd:string ;
     :has_notification_number "103"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/103-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "CFC syndrome"@en ;
+    oboinowl:hasExactSynonym "Cardio-facio-cutaneous syndrome"@en ;
     efo:definition "細胞内Ras/MAPKシグナル伝達経路に存在する遺伝子の先天的な異常によって、成長・発達障害、精神発達遅滞、薄い眉毛や側頭部狭小などの特徴的な顔つき、脆弱でカールした毛髪、湿疹・角化異常・魚麟癬などの皮膚症状、先天性心疾患、肥大型心筋症などがみられる遺伝性疾患。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4095> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157709.docx> ;
@@ -6781,11 +6823,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100014 ;
     rdfs:label "コステロ症候群"@ja ;
-    rdfs:label "Costello syndrome"@en ;
-    skos:prefLabel "Costello syndrome"@en ;
+    rdfs:label "Costello's Syndrome"@en ;
+    skos:prefLabel "Costello's Syndrome"@en ;
     terms:identifier "1200463"^^xsd:string ;
     :has_notification_number "104"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/104-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Costello syndrome"@en ;
     efo:definition "先天的なHRAS遺伝子の異常によって、成長・発達障害、精神発達遅滞、特徴的な顔つき、緩い皮膚、巻き毛、乳頭腫、肥大型心筋症、悪性腫瘍の合併などがみられる遺伝性疾患。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4085> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157703.docx> ;
@@ -6878,11 +6921,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "若年性特発性関節炎"@ja ;
-    rdfs:label "Juvenile idiopathic arthritis"@en ;
-    skos:prefLabel "Juvenile idiopathic arthritis"@en ;
+    rdfs:label "Systemic-Onset Juvenile Idiopathic Arthritis"@en ;
+    skos:prefLabel "Systemic-Onset Juvenile Idiopathic Arthritis"@en ;
     terms:identifier "1200469"^^xsd:string ;
     :has_notification_number "107"^^xsd:string ;
-    oboinowl:hasExactSynonym "Systemic-onset juvenile idiopathic arthritis"@en ;
+    oboinowl:hasExactSynonym "Juvenile idiopathic arthritis"@en ;
     efo:definition "16歳未満に発症した、原因不明の６週間以上持続する慢性の関節炎である。自己免疫現象を基盤とし、進行性・破壊性の関節炎を認め、ぶどう膜炎（虹彩炎）、皮疹、肝脾腫、漿膜炎、発熱、リンパ節腫脹などさまざまな関節外症状を伴う。全身症状の強い全身型と、全身症状のない関節型がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/3946> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198074.docx> ;
@@ -7261,16 +7304,16 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "非ジストロフィー性ミオトニー症候群"@ja ;
-    rdfs:label "Non-dystrophic myotonia syndrome"@en ;
-    skos:prefLabel "Non-dystrophic myotonia syndrome"@en ;
+    rdfs:label "Non-dystrophic Myotonia"@en ;
+    skos:prefLabel "Non-dystrophic Myotonia"@en ;
     terms:identifier "1200496"^^xsd:string ;
     :has_notification_number "114"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/114-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Non-dystrophic myotonia syndrome"@en ;
     efo:definition "筋線維の興奮性異常による筋強直（ミオトニー）現象を主徴とし、筋の変性（ジストロフィー変化）を伴わない遺伝性疾患である。臨床症状や原因遺伝子から先天性ミオトニー、先天性パラミオトニー、ナトリウムチャネルミオトニーなどに分類される。筋強直性ジストロフィーは、同様に筋強直現象を示す関連疾患ではあるが、非ジストロフィー性ミオトニー症候群には含めない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4519> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157271.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0016110 ,
-                                                     mondo:MONDO_0054869 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0016110 .
 
 ### 指定難病 114-1
 :1200497
@@ -7350,10 +7393,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "遺伝性周期性四肢麻痺"@ja ;
-    rdfs:label "Hereditary periodic paralysis"@en ;
-    skos:prefLabel "Hereditary periodic paralysis"@en ;
+    rdfs:label "Hereditary Hypokalemic Periodic Paralysis"@en ;
+    skos:prefLabel "Hereditary Hypokalemic Periodic Paralysis"@en ;
     terms:identifier "1200502"^^xsd:string ;
     :has_notification_number "115"^^xsd:string ;
+    oboinowl:hasExactSynonym "Hereditary periodic paralysis"@en ;
     efo:definition "発作性の骨格筋の脱力・麻痺を来す遺伝性疾患で、血清カリウム値の異常を伴うことが多い。発作時の血清カリウム値により低カリウム性周期性四肢麻痺と高カリウム性周期性四肢麻痺に分類される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4528> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157132.docx> ;
@@ -7658,7 +7702,6 @@
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0000903 ,
                                                      mondo:MONDO_0008044 ,
                                                      mondo:MONDO_0009532 ,
-                                                     mondo:MONDO_0010328 ,
                                                      mondo:MONDO_0018881 .
 
 ### 指定難病 120-12
@@ -8007,12 +8050,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "皮質下梗塞と白質脳症を伴う常染色体優性脳動脈症"@ja ;
-    rdfs:label "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy"@en ;
-    skos:prefLabel "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy"@en ;
+    rdfs:label "Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarct and Leukoencephalopathy"@en ;
+    skos:prefLabel "Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarct and Leukoencephalopathy"@en ;
     terms:identifier "1200545"^^xsd:string ;
     :has_notification_number "124"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/124-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Autosomal dominant cerebral artery disease with subcortical infarct and leukoencephalopathy"@en ;
+    oboinowl:hasExactSynonym "Autosomal dominant cerebral artery disease with subcortical infarct and leukoencephalopathy"@en ,
+                             "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy"@en ;
     efo:definition "皮質下梗塞と白質脳症を伴う常染色体優性脳動脈症（Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarct and Leukoencephalopathy：CADASIL）は、常染色体優性遺伝形式を示し、若年期から前兆を伴う片頭痛が先行、CT・MRIで同定される大脳白質病変が徐々に進行、中年期から脳卒中危険因子がなくても皮質下白質にラクナ梗塞を繰り返し発症し、うつ症状、脳血管性認知症に至る。NOTCH3遺伝子変異を認め、病理学的に脳小血管の平滑筋の変性と、電顕でオスミウムに濃染する顆粒（GOM）の蓄積を特徴とし、遺伝子診断又は病理診断で確定診断する。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4444> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157272.docx> ;
@@ -8094,12 +8138,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ビッカースタッフ脳幹脳炎"@ja ;
-    rdfs:label "Vickers staff brainstem encephalitis"@en ;
-    skos:prefLabel "Vickers staff brainstem encephalitis"@en ;
+    rdfs:label "Bickerstaff's Brainstem encephalitis"@en ;
+    skos:prefLabel "Bickerstaff's Brainstem encephalitis"@en ;
     terms:identifier "1200551"^^xsd:string ;
     :has_notification_number "128"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/128-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Bickerstaff Brainstem encephalitis"@en ;
+    oboinowl:hasExactSynonym "Bickerstaff Brainstem encephalitis"@en ,
+                             "Vickers staff brainstem encephalitis"@en ;
     efo:definition "眼球運動や運動失調、意識障害を三主徴とし、脳幹を病変の首座とする自己免疫疾患である。症状は４週以内にピークとなり、その後は徐々に回復に向かうのが原則であるが、約半数の症例で四肢筋力低下を来し、主として四肢筋力低下による後遺症がみられることが多い。全ての年齢層で発症がみられるが、30歳代を中心として若年者の発症が多いことが特徴である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4462> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157275.docx> ;
@@ -8110,13 +8155,14 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "痙攣重積型（二相性）急性脳症"@ja ;
-    rdfs:label "Acute encephalopathy with biphasic seizures and late reduced diffusion"@en ;
-    skos:prefLabel "Acute encephalopathy with biphasic seizures and late reduced diffusion"@en ;
+    rdfs:label "Acute Encephalopathy with Febrile Convulsive Status Epilepticus"@en ;
+    skos:prefLabel "Acute Encephalopathy with Febrile Convulsive Status Epilepticus"@en ;
     terms:identifier "1200552"^^xsd:string ;
     :has_notification_number "129"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/129-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "Epilepticus type biphasic acute encphalopathy"@en ,
-                             "Epilepticus type acute encphalopathy"@en ;
+                             "Epilepticus type acute encphalopathy"@en ,
+                             "Acute encephalopathy with biphasic seizures and late reduced diffusion"@en ;
     efo:definition "小児に多く、突発性発疹やインフルエンザなどの感染症を契機に急激に発症し、典型例では二相性の痙攣とそれに続く意識障害を呈する。意識障害からの回復後に、大脳皮質の機能低下とてんかんがしばしば出現する。罹病率は１年に100～200人である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4513> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157183.docx> ;
@@ -8127,8 +8173,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "先天性無痛無汗症"@ja ;
-    rdfs:label "Congenital insensitivity to pain with anhidrosis"@en ;
-    skos:prefLabel "Congenital insensitivity to pain with anhidrosis"@en ;
+    rdfs:label "Congenital Insensitivity to Pain with Anhidrosis"@en ;
+    skos:prefLabel "Congenital Insensitivity to Pain with Anhidrosis"@en ;
     terms:identifier "1200553"^^xsd:string ;
     :has_notification_number "130"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/130-201704-kojin.pdf> ;
@@ -8142,8 +8188,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "アレキサンダー病"@ja ;
-    rdfs:label "Alexander disease"@en ;
-    skos:prefLabel "Alexander disease"@en ;
+    rdfs:label "Alexander Disease"@en ;
+    skos:prefLabel "Alexander Disease"@en ;
     terms:identifier "1200554"^^xsd:string ;
     :has_notification_number "131"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/131-201704-kojin.pdf> ;
@@ -8203,12 +8249,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "先天性核上性球麻痺"@ja ;
-    rdfs:label "Congenital supranuclear bulbar palsy"@en ;
-    skos:prefLabel "Congenital supranuclear bulbar palsy"@en ;
+    rdfs:label "Congenital Suprabulbar Paresis"@en ;
+    skos:prefLabel "Congenital Suprabulbar Paresis"@en ;
     terms:identifier "1200558"^^xsd:string ;
     :has_notification_number "132"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/132-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Congenital suprabulbar paresis"@en ,
+    oboinowl:hasExactSynonym "Congenital supranuclear bulbar palsy"@en ,
                              "Worcester drought syndrome"@en ,
                              "Worster-Drought syndrome"@en ;
     efo:definition "先天性核上性球麻痺（ウースター・ドロート症候群）は、胎児から新生児期の非進行性脳障害により咽頭喉頭部（球筋）の運動障害を来し、嚥下、摂食、会話、唾液コントールの機能が低下する。症状は成長に伴って変化するが、消失することはない。経過は脳性麻痺に似るが、上下肢の運動障害はないか、あっても軽度である。先天性傍シルビウス裂症候群とは異なり、画像上病変を伴わない。"@ja ;
@@ -8221,11 +8267,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "メビウス症候群"@ja ;
-    rdfs:label "Moebius syndrome"@en ;
-    skos:prefLabel "Moebius syndrome"@en ;
+    rdfs:label "Mobius Syndrome"@en ;
+    skos:prefLabel "Mobius Syndrome"@en ;
     terms:identifier "1200559"^^xsd:string ;
     :has_notification_number "133"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/133-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Moebius syndrome"@en ;
     efo:definition "メビウス（1888）が疾患単位として確立した疾患で、先天性顔面神経麻痺と先天性外転神経麻痺を特徴とするが、他の脳神経麻痺や四肢形態異常を伴うこともある。先天性顔面神経麻痺と先天性外転神経麻痺（片側性も含む。）を伴い、他の神経筋疾患を原因としないものとする。多くは孤発例であるが、30家系ほどの家族例の報告がある。日本での発生頻度は、少なくとも生産児８万人に１人と推定される。全国の患者数は1,000人前後と推定される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5326> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157306.docx> ;
@@ -8236,8 +8283,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100011 ;
     rdfs:label "中隔視神経形成異常症／ドモルシア症候群"@ja ;
-    rdfs:label "Septo-optic dysplasia/De Morsier syndrome"@en ;
-    skos:prefLabel "Septo-optic dysplasia/De Morsier syndrome"@en ;
+    rdfs:label "Septo-optic Dysplasia / De Morsier syndrome"@en ;
+    skos:prefLabel "Septo-optic Dysplasia / De Morsier syndrome"@en ;
     terms:identifier "1200560"^^xsd:string ;
     :has_notification_number "134"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/134-201704-kojin.pdf> ;
@@ -8427,13 +8474,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "神経細胞移動異常症"@ja ;
-    rdfs:label "Nerve cell migration disorders"@en ;
-    skos:prefLabel "Nerve cell migration disorders"@en ;
+    rdfs:label "Neuronal Migration Defects"@en ;
+    skos:prefLabel "Neuronal Migration Defects"@en ;
     terms:identifier "1200574"^^xsd:string ;
     :has_notification_number "138"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/138-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "Lissencephaly"@en ,
-                             "Neuronal migration defect"@en ;
+                             "Nerve cell migration disorders"@en ;
     efo:definition "大脳皮質の形成過程における神経細胞移動（後）の障害によって生じた皮質形成異常である。狭義には無脳回と厚脳回の古典型滑脳症を指すが、広義には異所性灰白質（皮質下帯状異所性灰白質と脳室周囲結節状異所性灰白質）、多小脳回、敷石様皮質異形成、裂脳症、孔脳症を含む。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4396> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157211.docx> ;
@@ -8444,8 +8491,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "先天性大脳白質形成不全症"@ja ;
-    rdfs:label "Congenital cerebral hypomyelination"@en ;
-    skos:prefLabel "Congenital cerebral hypomyelination"@en ;
+    rdfs:label "Congenital Cerebral Hypomyelination"@en ;
+    skos:prefLabel "Congenital Cerebral Hypomyelination"@en ;
     terms:identifier "1200575"^^xsd:string ;
     :has_notification_number "139"^^xsd:string ;
     oboinowl:hasExactSynonym "Congenital cerebral white matter aplasia"@en ;
@@ -8627,13 +8674,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "海馬硬化を伴う内側側頭葉てんかん"@ja ;
-    rdfs:label "Mesial temporal lobe epilepsy with hippocampal sclerosis"@en ;
-    skos:prefLabel "Mesial temporal lobe epilepsy with hippocampal sclerosis"@en ;
+    rdfs:label "Mesial Temporal Lobe Epilepsy with Bilateral Hippocampal Sclerosis"@en ;
+    skos:prefLabel "Mesial Temporal Lobe Epilepsy with Bilateral Hippocampal Sclerosis"@en ;
     terms:identifier "1200588"^^xsd:string ;
     :has_notification_number "141"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/141-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "Mesial temporal lobe epilepsy with hippocampal sclerosis"@en ,
-                             "Mesial temporal lobe epilepsy with bilateral hippocampal sclerosis"@en ;
+                             "Mesial temporal lobe epilepsy with hippocampal sclerosis"@en ;
     efo:definition "てんかん原性焦点を側頭葉の内側に有する部分てんかんで、かつ病理学的に海馬硬化を呈するもの。推定病因、臨床経過、発作症状、脳波所見、画像所見などがおおむね共通している。上腹部不快感などの前兆、強直や自動症を伴う複雑部分発作を認める。薬物治療に極めて抵抗するが、一側の海馬硬化症の場合は外科的治療の成績はよい。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4438> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157154.docx> ;
@@ -8658,8 +8705,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ミオクロニー脱力発作を伴うてんかん"@ja ;
-    rdfs:label "Epilepsy with myoclonic-atonic seizures"@en ;
-    skos:prefLabel "Epilepsy with myoclonic-atonic seizures"@en ;
+    rdfs:label "Epilepsy with Myoclonic Atonic Seizures"@en ;
+    skos:prefLabel "Epilepsy with Myoclonic Atonic Seizures"@en ;
     terms:identifier "1200590"^^xsd:string ;
     :has_notification_number "143"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/143-201704-kojin.pdf> ;
@@ -8754,8 +8801,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "片側痙攣・片麻痺・てんかん症候群"@ja ;
-    rdfs:label "Hemiconvulsion hemiplegia epilepsy syndrome"@en ;
-    skos:prefLabel "Hemiconvulsion hemiplegia epilepsy syndrome"@en ;
+    rdfs:label "Hemiconvulsion-Hemiplegia-Epilepsy Syndrome"@en ;
+    skos:prefLabel "Hemiconvulsion-Hemiplegia-Epilepsy Syndrome"@en ;
     terms:identifier "1200596"^^xsd:string ;
     :has_notification_number "149"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/149-201704-kojin.pdf> ;
@@ -8770,12 +8817,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "環状20番染色体症候群"@ja ;
-    rdfs:label "Ring chromosome 20 epilepsy syndrome"@en ;
-    skos:prefLabel "Ring chromosome 20 epilepsy syndrome"@en ;
+    rdfs:label "Ring Chromosome 20 Syndrome"@en ;
+    skos:prefLabel "Ring Chromosome 20 Syndrome"@en ;
     terms:identifier "1200597"^^xsd:string ;
     :has_notification_number "150"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/150-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Ring chromosome 20 syndrome"@en ;
+    oboinowl:hasExactSynonym "Ring chromosome 20 epilepsy syndrome"@en ;
     efo:definition "主症状は、難治な非痙攣性てんかん重積状態（意識が曇り、適切な行動ができない。）であり、ミオクローヌス、小型又は大型の運動発作、複雑部分発作、非対称性の強直発作、過運動発作を伴うこともある。てんかんの平均発症年齢は６歳（０～24歳）。特徴的な脳波異常を伴う。さまざまな程度の知的障害や行動障害を伴うことがある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4576> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157165.docx> ;
@@ -8786,11 +8833,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ラスムッセン脳炎"@ja ;
-    rdfs:label "Rasmussen encephalitis"@en ;
-    skos:prefLabel "Rasmussen encephalitis"@en ;
+    rdfs:label "Rasmussen's Encephalitis"@en ;
+    skos:prefLabel "Rasmussen's Encephalitis"@en ;
     terms:identifier "1200598"^^xsd:string ;
     :has_notification_number "151"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/151-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Rasmussen encephalitis"@en ;
     efo:definition "慢性進行性の疾患である。健常者に何らかの先行感染症やワクチン接種があった後に、あるいは先行感染なく限局性に細胞傷害性T細胞を主役とした自己免疫性炎症が起こり、通常はてんかん発作で発病する。てんかん発作が難治に経過し、次第に片麻痺・知的障害などが出現し、半球性の萎縮がMRIで明らかとなる。発病年齢は平均9.0（±10.3）歳だが、成人でも発病しうる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4339> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157964.docx> ;
@@ -8801,8 +8849,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ＰＣＤＨ19関連症候群"@ja ;
-    rdfs:label "PCDH19 related syndrome"@en ;
-    skos:prefLabel "PCDH19 related syndrome"@en ;
+    rdfs:label "PCDH19-related Syndrome"@en ;
+    skos:prefLabel "PCDH19-related Syndrome"@en ;
     terms:identifier "1200599"^^xsd:string ;
     :has_notification_number "152"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/152-201704-kojin.pdf> ;
@@ -8834,12 +8882,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "徐波睡眠期持続性棘徐波を示すてんかん性脳症"@ja ;
-    rdfs:label "Epilepsy with continuous spikes and waves during slow sleep"@en ;
-    skos:prefLabel "Epilepsy with continuous spikes and waves during slow sleep"@en ;
+    rdfs:label "Epileptic Encephalopathy with Continuous Spike-and-Wave During Sleep"@en ;
+    skos:prefLabel "Epileptic Encephalopathy with Continuous Spike-and-Wave During Sleep"@en ;
     terms:identifier "1200601"^^xsd:string ;
     :has_notification_number "154"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/154-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Epileptic encephalopathy with continuous spike-and-wave during sleep"@en ;
+    oboinowl:hasExactSynonym "Epilepsy with continuous spikes and waves during slow sleep"@en ;
     efo:definition "徐波睡眠期持続性棘徐波を示すてんかん性脳症は、焦点性発作ならびに一見全般性の発作（片側あるいは両側性の間代発作、強直間代発作、欠神発作）を生じ、徐波睡眠時に広汎性棘徐波が持続性に出現し、知的・認知機能の退行の形をとる神経心理学的障害を伴うことが特徴である。関連症候群に、広汎性棘徐波が優勢に出現する部位に対応して、聴覚性言語障害を主徴とするランドウ・クレフナー症候群がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4654> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157210.docx> .
@@ -8849,12 +8897,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "ランドウ・クレフナー症候群"@ja ;
-    rdfs:label "Acquired aphasia with convulsive disorder"@en ;
-    skos:prefLabel "Acquired aphasia with convulsive disorder"@en ;
+    rdfs:label "Landau-Kleffner Syndrome"@en ;
+    skos:prefLabel "Landau-Kleffner Syndrome"@en ;
     terms:identifier "1200602"^^xsd:string ;
     :has_notification_number "155"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/155-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Landau-Kleffner syndrome"@en ;
+    oboinowl:hasExactSynonym "Acquired aphasia with convulsive disorder"@en ;
     efo:definition "徐波睡眠期持続性棘徐波を示すてんかん性脳症は、焦点性発作ならびに一見全般性の発作（片側あるいは両側性の間代発作、強直間代発作、欠神発作）を生じ、徐波睡眠時に広汎性棘徐波が持続性に出現し、知的・認知機能の退行の形をとる神経心理学的障害を伴うことが特徴である。関連症候群に、広汎性棘徐波が優勢に出現する部位に対応して、聴覚性言語障害を主徴とするランドウ・クレフナー症候群がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4411> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157313.docx> ;
@@ -8865,11 +8913,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "レット症候群"@ja ;
-    rdfs:label "Rett syndrome"@en ;
-    skos:prefLabel "Rett syndrome"@en ;
+    rdfs:label "Rett's Syndrome"@en ;
+    skos:prefLabel "Rett's Syndrome"@en ;
     terms:identifier "1200603"^^xsd:string ;
     :has_notification_number "156"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/156-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Rett syndrome"@en ;
     efo:definition "1966年Andreas Rett（ウィーンの小児神経科医）により初めて報告された疾患である。本症は神経系を主体とした特異な発達障害である。初発症状は乳児期早期に外界への反応の欠如、筋緊張低下であるが、それらの症状が軽微なため異常に気付かないことが多い。乳児期後半以後、手の常同運動を主体とする特徴的な症状が年齢依存性に出現する。治療法は現時点では対症療法のみである。原因遺伝子はMethyl-CpG-binding protein2 遺伝子 (MECP2)である。MECP2の基礎的研究が進められているが、レット症候群の病態解明までには至っていない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4366> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157966.docx> ;
@@ -8920,12 +8969,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "結節性硬化症"@ja ;
-    rdfs:label "Tuberous sclerosis"@en ;
-    skos:prefLabel "Tuberous sclerosis"@en ;
+    rdfs:label "Tuberous Sclerosis Complex"@en ;
+    skos:prefLabel "Tuberous Sclerosis Complex"@en ;
     terms:identifier "1200607"^^xsd:string ;
     :has_notification_number "158"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/158-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Tuberous sclerosis complex"@en ;
+    oboinowl:hasExactSynonym "Tuberous sclerosis"@en ;
     efo:definition "結節性硬化症（tuberous sclerosis complex：TSC）は、原因遺伝子TSC1、TSC2の産生タンパクであるハマルチン、チュベリンの複合体の機能不全により、下流のmTORC1の抑制がとれるために、てんかんや精神発達遅滞、自閉症などの行動異常や、上衣下巨細胞性星細胞腫（SEGA）、腎血管筋脂肪腫、リンパ脈管筋腫症（lymphangioleiomyomatosis：LAM）、顔面の血管線維腫などの過誤腫を全身に生じる疾患である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4384> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157184.docx> ;
@@ -8945,7 +8994,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/159-201704-kojin.pdf> ;
     efo:definition "色素性乾皮症は、日光過敏症状を呈し、露出部皮膚の乾燥、色素沈着を呈し、皮膚がんを高率に発生する遺伝疾患である。A～G群、V（バリアント）型の８つの病型に分けられ、タイプにより様々な神経症状を来すこともある全身疾患である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/112> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157203.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157203.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019600 .
 
 ### 指定難病 160
 :1200609
@@ -9058,7 +9108,8 @@
     :has_notification_number "160"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/160-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/139> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157226.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157226.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019306 .
 
 ### 指定難病 160-3-2
 :1200617
@@ -9086,7 +9137,8 @@
     :has_notification_number "160"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/160-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/139> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157226.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157226.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019269 .
 
 ### 指定難病 160-4-1
 :1200619
@@ -9247,7 +9299,8 @@
     oboinowl:hasExactSynonym "CHILD syndrome"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/139> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157226.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010621 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010621 ,
+                                                     mondo:MONDO_0017015 .
 
 ### 指定難病 160-4-12
 :1200630
@@ -9269,14 +9322,14 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100003 ;
     rdfs:label "家族性良性慢性天疱瘡"@ja ;
-    rdfs:label "Familial benign chronic pemphigus"@en ;
-    skos:prefLabel "Familial benign chronic pemphigus"@en ;
+    rdfs:label "Benign Familial Pemphigus"@en ;
+    skos:prefLabel "Benign Familial Pemphigus"@en ;
     terms:identifier "1200631"^^xsd:string ;
     :has_notification_number "161"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/161-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "ヘイリー・ヘイリー病"@ja ,
                              "Hailey-Hailey disease"@en ,
-                             "Benign familial pemphigus"@en ;
+                             "Familial benign chronic pemphigus"@en ;
     efo:definition "家族性良性慢性天疱瘡（ヘイリー・ヘイリー病）は、常染色体優性遺伝を示す先天性皮膚疾患で、生下時には皮膚病変はなく青壮年期に発症することが多い。腋窩・陰股部・頸部・肛囲などの間擦部に小水疱やびらん、痂皮を形成するが、より広範囲に皮膚病変を形成することもある。通常、予後良好な疾患であるが、夏季に悪化し、紫外線曝露や機械的刺激、二次感染が増悪因子になることがある。病理組織学的には、表皮基底層直上から上層の棘融解が特徴的である。責任遺伝子はATP2C1である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4489> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157157.docx> ;
@@ -9287,11 +9340,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100003 ;
     rdfs:label "類天疱瘡"@ja ;
-    rdfs:label "Pemphigoid"@en ;
-    skos:prefLabel "Pemphigoid"@en ;
+    rdfs:label "Pemphigoid （including Epidermolysis Bullosa Acquisita）"@en ;
+    skos:prefLabel "Pemphigoid （including Epidermolysis Bullosa Acquisita）"@en ;
     terms:identifier "1200632"^^xsd:string ;
     :has_notification_number "162"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/162-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Pemphigoid"@en ;
     efo:definition "表皮基底膜構成タンパクに対する自己抗体（IgG）によって、表皮下水疱をきたす自己免疫性水疱症。全身の皮膚及び粘膜に、水疱やびらんを生じる。類天疱瘡には、水疱性類天疱瘡（主に皮膚に症状）と粘膜類天疱瘡（主に粘膜に症状）の亜型が存在する。後天性表皮水疱症は、水疱性類天疱瘡と臨床症状が類似しており、病理学的所見、蛍光抗体法所見から両疾患を鑑別することは困難であり、現時点では同一の疾病として取り扱う。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4525> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157317.docx> ;
@@ -9344,13 +9398,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100003 ;
     rdfs:label "特発性後天性全身性無汗症"@ja ;
-    rdfs:label "Idiopathic pure sudomotor failure"@en ;
-    skos:prefLabel "Idiopathic pure sudomotor failure"@en ;
+    rdfs:label "Acquired Idiopathic Generalized Anhidrosis"@en ;
+    skos:prefLabel "Acquired Idiopathic Generalized Anhidrosis"@en ;
     terms:identifier "1200636"^^xsd:string ;
     :has_notification_number "163"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/163-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "Idiopathic acquired systemic anhidrosis"@en ,
-                             "Acquired idiopathic generalized anhidrosis"@en ;
+                             "Idiopathic pure sudomotor failure"@en ;
     efo:definition "発汗を促す環境下（高温、多湿）においても、発汗がみられない疾患を無汗症という。まれな疾患で発症率は明らかでない。無汗のため、皮膚は乾燥し、時にはコリン性蕁麻疹を合併することもある。また、高温の環境下において体温調節ができず熱中症を容易に発症し発熱、脱力感、疲労感、めまい、動悸さらには意識障害など重篤な症状が出現することもある。このため、夏には外出できなくなるなどの生活の制限がありQOLが著しく損なわれる疾患である。無汗症は先天性と後天性に分類され先天性無汗症は先天性無痛無汗症、ファブリー病などがある。一方、後天性全身性無汗症の原因はエクリン汗腺の異常、交感神経の異常、自己免疫性疾患、薬剤などによる続発性の発汗障害と原因不明の特発性後天性全身性無汗症に分類されている。特に、特発性後天性全身性無汗症は治療法も確立されてなく治療に苦慮する疾患であった。特発性後天性全身性無汗症は、特発性分節型無汗症とidiopathic pure sudomtor fairlure（IPSF）などに分類されているが、その病態は明らかにされていない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4390> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157253.docx> .
@@ -9464,11 +9518,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100003 ;
     rdfs:label "マルファン症候群"@ja ;
-    rdfs:label "Marfan syndrome"@en ;
-    skos:prefLabel "Marfan syndrome"@en ;
+    rdfs:label "Marfan's Syndrome"@en ;
+    skos:prefLabel "Marfan's Syndrome"@en ;
     terms:identifier "1200644"^^xsd:string ;
     :has_notification_number "167"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/167-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Marfan syndrome"@en ;
     efo:definition "大動脈、骨格、眼、肺、皮膚、硬膜などの全身の結合組織が脆弱になる遺伝性疾患。結合組織が脆弱になることにより、大動脈瘤や大動脈解離、高身長、側弯等の骨格変異、水晶体亜脱臼、自然気胸などを来す。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4792> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157297.docx> ;
@@ -9598,11 +9653,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "メンケス病"@ja ;
-    rdfs:label "Menkes disease"@en ;
-    skos:prefLabel "Menkes disease"@en ;
+    rdfs:label "Menkes' Disease"@en ;
+    skos:prefLabel "Menkes' Disease"@en ;
     terms:identifier "1200653"^^xsd:string ;
     :has_notification_number "169"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/169-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Menkes disease"@en ;
     efo:definition "メンケス（Menkes）病は、銅輸送ATPaseの１つであるATP7A遺伝子異常で、X染色体劣性遺伝性疾患であるので、患者は原則男児である。腸管での銅輸送障害のため、摂取した銅は腸粘膜に蓄積し、体内に輸送されない。その結果、重篤な銅欠乏により、銅酵素活性が低下し、重度の中枢神経障害、血管異常・膀胱憩室・骨粗鬆症等の結合織異常、特徴的頭髪異常などが出現する。神経症状は母体由来の銅が消失する生後２～３か月からは発症する。治療としてヒスチジン銅の皮下注射が行われているが、治療開始が神経症状出現後では神経障害に対して全く効果がない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4729> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157307.docx> ;
@@ -9628,11 +9684,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "ウィルソン病"@ja ;
-    rdfs:label "Wilson disease"@en ;
-    skos:prefLabel "Wilson disease"@en ;
+    rdfs:label "Wilson's Disease"@en ;
+    skos:prefLabel "Wilson's Disease"@en ;
     terms:identifier "1200655"^^xsd:string ;
     :has_notification_number "171"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/171-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Wilson disease"@en ;
     efo:definition "ウィルソン病は常染色体劣性遺伝で遺伝する胆汁中への銅排泄障害による先天性銅過剰症である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4543> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157141.docx> ;
@@ -9750,8 +9807,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100014 ;
     rdfs:label "モワット・ウィルソン症候群"@ja ;
-    rdfs:label "Mowat-Wilson syndrome"@en ;
-    skos:prefLabel "Mowat-Wilson syndrome"@en ;
+    rdfs:label "Mowat Wilson Syndrome"@en ;
+    skos:prefLabel "Mowat Wilson Syndrome"@en ;
     terms:identifier "1200663"^^xsd:string ;
     :has_notification_number "178"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/178-201704-kojin.pdf> ;
@@ -9790,16 +9847,15 @@
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4432> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157145.docx> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007716 ,
-                                                     mondo:MONDO_0010519 ,
-                                                     mondo:MONDO_0015431 .
+                                                     mondo:MONDO_0010519 .
 
 ### 指定難病 181
 :1200666
     rdf:type owl:Class ;
     rdfs:subClassOf :1100014 ;
     rdfs:label "クルーゾン症候群"@ja ;
-    rdfs:label "Crouzon syndrome"@en ;
-    skos:prefLabel "Crouzon syndrome"@en ;
+    rdfs:label "Crouzon's Syndrome"@en ;
+    skos:prefLabel "Crouzon's Syndrome"@en ;
     terms:identifier "1200666"^^xsd:string ;
     :has_notification_number "181"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/181-201704-kojin.pdf> ;
@@ -9850,6 +9906,7 @@
     terms:identifier "1200669"^^xsd:string ;
     :has_notification_number "184"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/184-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Antley-Bixler Syndrome Phenotype"@en ;
     efo:definition "頭蓋・顔面骨縫合早期癒合を来す疾患群であり、頭蓋・顔面の異常、頸部・気管の異常及び四肢の異常を認め、疾患ごとに症状が異なる。代表的な疾患を挙げるとクルーゾン症候群、アペール症候群、ファイファー症候群、アントレー・ビクスラー症候群などがある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4669> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157123.docx> ;
@@ -9868,7 +9925,8 @@
     efo:definition "コフィン・シリス症候群（Coffin-Siris症候群）は、1970年にCoffinとSirisにより初めて報告された先天異常症候群であり、重度の知的障害、成長障害、特徴的な顔貌（疎な頭髪、濃い眉と睫毛、厚い口唇など）、手足の第５指の爪及び末節骨の無～低形成を主徴とする疾患である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4762> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157198.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015452 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007617 ,
+                                                     mondo:MONDO_0015452 .
 
 ### 指定難病 186
 :1200671
@@ -10007,7 +10065,6 @@
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4777> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157238.docx> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007299 ,
-                                                     mondo:MONDO_0011604 ,
                                                      mondo:MONDO_0019349 .
 
 ### 指定難病 195
@@ -10088,8 +10145,7 @@
     efo:definition "5p欠失症候群は５番染色体短腕の部分欠失に基づく染色体異常症候群の１つである。本症候群の頻度は15,000～50,000出生に１人とされ、また精神発達の遅れを示す患者350人に１人の割合を占めるとされる。小頭症、小顎症、発達の遅れ、筋緊張低下を主徴とする。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4862> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157196.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007404 ,
-                                                     mondo:MONDO_0008297 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007404 .
 
 ### 指定難病 200
 :1200685
@@ -10220,12 +10276,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "総動脈幹遺残症"@ja ;
-    rdfs:label "Truncus arteriosus communis"@en ;
-    skos:prefLabel "Truncus arteriosus communis"@en ;
+    rdfs:label "Persistent truncus arteriosus"@en ;
+    skos:prefLabel "Persistent truncus arteriosus"@en ;
     terms:identifier "1200693"^^xsd:string ;
     :has_notification_number "207"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/207-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Persistent truncus arteriosus"@en ;
+    oboinowl:hasExactSynonym "Truncus arteriosus communis"@en ;
     efo:definition "大きな心室中隔欠損を有し、左右両心室から単一の動脈に血液を駆出することで、大動脈、肺動脈及び冠動脈に血液を供給する先天性心疾患である。肺高血圧を伴う肺血流増多と、総動脈幹弁形成不全による弁逆流により、出生後ただちに心不全症状を呈することが多い。　Collett and Edwardsの分類"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4895> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157235.docx> ;
@@ -10289,11 +10345,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "修正大血管転位症"@ja ;
-    rdfs:label "Corrected transposition of the great arteries"@en ;
-    skos:prefLabel "Corrected transposition of the great arteries"@en ;
+    rdfs:label "Corrected Transposition of Great Arteries"@en ;
+    skos:prefLabel "Corrected Transposition of Great Arteries"@en ;
     terms:identifier "1200698"^^xsd:string ;
     :has_notification_number "208"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/208-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Corrected transposition of the great arteries"@en ;
     efo:definition "大血管転位症には、完全大血管転位症と修正大血管転位症が含まれる。完全大血管転位症とは、右房と右室、左房と左室が正常につながり、右室から大動脈が、左室から肺動脈が起始している先天性心疾患である。心室中隔欠損のないI型、心室中隔欠損を合併するII型、心室中隔欠損＋肺動脈狭窄合併のIII型（および心室中隔欠損のない肺動脈弁ないし弁下狭窄合併のIV型）に分類する。　完全大血管転位　修正大血管転位　修正大血管転位症とは、左右の心室が入れ替わり、右房→解剖学的左室（右側）→肺動脈へ繋がり、左房→解剖学的右室（左側）→大動脈が起始する。血液の流れは、正常と同様に、静脈血は肺動脈へ、動脈血は大動脈へ流れる。しかし、心室中隔欠損や心室中隔欠損＋肺動脈狭窄の合併が多く、それぞれの血行動態と臨床症状を呈する。心房心室の特異なつながりのため、房室プロックや頻拍発作などの不整脈が多い。または、解剖学的右室は解剖学的左室と異なり、一生涯120mmHg以上の血圧を維持することは不可能であり、成人期に解剖学的右室の心不全が発症する。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4474> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157209.docx> .
@@ -10303,12 +10360,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "完全大血管転位症"@ja ;
-    rdfs:label "Complete transposition of the great arteries"@en ;
-    skos:prefLabel "Complete transposition of the great arteries"@en ;
+    rdfs:label "Complete Transposition of Great Arteries"@en ;
+    skos:prefLabel "Complete Transposition of Great Arteries"@en ;
     terms:identifier "1200699"^^xsd:string ;
     :has_notification_number "209"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/209-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Complete TGA"@en ;
+    oboinowl:hasExactSynonym "Complete TGA"@en ,
+                             "Complete transposition of the great arteries"@en ;
     efo:definition "大血管転位症には、完全大血管転位症と修正大血管転位症が含まれる。完全大血管転位症とは、右房と右室、左房と左室が正常につながり、右室から大動脈が、左室から肺動脈が起始している先天性心疾患である。心室中隔欠損のないI型、心室中隔欠損を合併するII型、心室中隔欠損＋肺動脈狭窄合併のIII型（および心室中隔欠損のない肺動脈弁ないし弁下狭窄合併のIV型）に分類する。　完全大血管転位　修正大血管転位　修正大血管転位症とは、左右の心室が入れ替わり、右房→解剖学的左室（右側）→肺動脈へ繋がり、左房→解剖学的右室（左側）→大動脈が起始する。血液の流れは、正常と同様に、静脈血は肺動脈へ、動脈血は大動脈へ流れる。しかし、心室中隔欠損や心室中隔欠損＋肺動脈狭窄の合併が多く、それぞれの血行動態と臨床症状を呈する。心房心室の特異なつながりのため、房室プロックや頻拍発作などの不整脈が多い。または、解剖学的右室は解剖学的左室と異なり、一生涯120mmHg以上の血圧を維持することは不可能であり、成人期に解剖学的右室の心不全が発症する。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4477> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157166.docx> .
@@ -10416,12 +10474,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "心室中隔欠損を伴わない肺動脈閉鎖症"@ja ;
-    rdfs:label "Pulmonary atresia without ventricular septum defect"@en ;
-    skos:prefLabel "Pulmonary atresia without ventricular septum defect"@en ;
+    rdfs:label "Pulmonary Atresia with Intact Ventricular Septum"@en ;
+    skos:prefLabel "Pulmonary Atresia with Intact Ventricular Septum"@en ;
     terms:identifier "1200707"^^xsd:string ;
     :has_notification_number "213"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/213-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Pulmonary atresia with intact ventricular septum"@en ;
+    oboinowl:hasExactSynonym "Pulmonary atresia without ventricular septum defect"@en ;
     efo:definition "単心室症、左心低形成症候群、三尖弁閉鎖症、心室中隔欠損を伴わない肺動脈閉鎖症の総称を単心室循環症候群という。単心室循環症候群とは、体循環と肺循環の双方を、機能的に一つの心室のみに依存する血行動態を有する疾患群の総称である。全て、先天性であり、後天性の疾患は存在しない。なお、単心室症とは、形態的に心室が一つのみ存在することを意味するものではない。　単心室循環症候群では、重度の慢性低酸素血症、多呼吸、易疲労感などの心不全症状を呈する。肺血流は増加、減少の双方が存在し、心室レベルで血液が右—左短絡するため、酸素投与に反応しない低酸素血症を生じる。肺高血圧、肺血管低形成を合併することも多い。　手術を含め、根治的治療法はない。労作時の易疲労のため、就業な困難な場合が多い。重度の慢性低酸素血症やフォンタン型手術後の循環破綻によって死亡することが多い。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4483> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157217.docx> ;
@@ -10453,6 +10511,7 @@
     terms:identifier "1200709"^^xsd:string ;
     :has_notification_number "215"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/215-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Fallot's Tetralogy"@en ;
     efo:definition "ファロー四徴症類縁疾患とは、ファロー四徴症に類似の血行動態をとる疾患群であり、ファロー四徴症、心室中隔欠損を伴う肺動脈閉鎖、両大血管右室起始症が含まれる。心室中隔欠損を伴う肺動脈閉鎖症は、ファロー四徴症における肺動脈狭窄が重症化して肺動脈閉鎖となった型であり、別名、極型ファロー四徴症とも呼称される。両大血管右室起始症は、大動脈と肺動脈の２つの大血管のうち、どちらか一方の大血管が完全に、他方の大血管が50％以上、右心室から起始する疾患である。共通する特徴として、①心室中隔欠損、②肺動脈狭窄ないし閉鎖、③大血管と心室の解剖学的連続性の異常、④右室肥大が存在する。肺動脈弁が閉鎖していたり、肺動脈が低形成であったりする場合には、肺血流は動脈管に依存することが多い。原因は不明である。　ファロー四徴症類縁疾患には、１）高度肺動脈低形成のため心内修復術ができない場合、２）心内修復術後だが、成人期以降に、右室不全、左室不全が存在する場合がある。　外科治療をしなければ、１年生存率は75％、３年生存率は60％、10年生存率は30％といわれる。肺動脈低形成で心内修復術ができない例では、成人期の死亡原因は低酸素血症、脳梗塞、脳膿瘍、心不全、腎不全などである。ラステリ（Rastelli）手術など心内修復術が施行された例では、成人期以降に、右室不全、左室不全が進行する例があり、肺動脈弁閉鎖不全や右心機能不全となる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4741> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157279.docx> ;
@@ -10495,11 +10554,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100007 ;
     rdfs:label "アルポート症候群"@ja ;
-    rdfs:label "Alport syndrome"@en ;
-    skos:prefLabel "Alport syndrome"@en ;
+    rdfs:label "Alport's Syndrome"@en ;
+    skos:prefLabel "Alport's Syndrome"@en ;
     terms:identifier "1200712"^^xsd:string ;
     :has_notification_number "218"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/218-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Alport syndrome"@en ;
     efo:definition "アルポート症候群は進行性遺伝性腎炎であり、約９割がX連鎖型遺伝形式を示し、その重症例では男性で10代後半から20代前半に末期腎不全に進行する。若年透析導入の主因である。糸球体基底膜に電子顕微鏡で特徴的網目状変化を認め診断に有用である。皮膚基底膜や糸球体基底膜のIV型コラーゲン蛋白の異常の検出が確定診断に有用である。遺伝子解析も可能で、確定診断に有用である。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4348> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157120.docx> ;
@@ -10582,11 +10642,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100007 ;
     rdfs:label "抗糸球体基底膜腎炎"@ja ;
-    rdfs:label "Anti-glomerular basement membrane disease"@en ;
-    skos:prefLabel "Anti-glomerular basement membrane disease"@en ;
+    rdfs:label "Anti-GBM Nephritis"@en ;
+    skos:prefLabel "Anti-GBM Nephritis"@en ;
     terms:identifier "1200718"^^xsd:string ;
     :has_notification_number "221"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/221-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Anti-glomerular basement membrane disease"@en ;
     efo:definition "血清中又は腎糸球体に抗糸球体基底膜抗体を認め、典型例では腎糸球体に急速かつ激烈な炎症がおこり、数週から数か月間の経過で腎機能が急速に低下する急速進行性糸球体腎炎症候群を呈する。肺出血を合併する場合もあり、腎予後、生命予後とも不良で維持透析へ移行しない場合も慢性腎不全としての管理加療を要することが大半である。腎疾患の中でも最も予後が悪く、治療にも難渋することが多い。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4378> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198079.doc> ;
@@ -10931,15 +10992,17 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100007 ;
     rdfs:label "間質性膀胱炎（ハンナ型）"@ja ;
-    rdfs:label "Interstitial cystitis with Hunners ulcer"@en ;
-    skos:prefLabel "Interstitial cystitis with Hunners ulcer"@en ;
+    rdfs:label "Interstitial Cystitis （Hunner type）"@en ;
+    skos:prefLabel "Interstitial Cystitis （Hunner type）"@en ;
     terms:identifier "1200743"^^xsd:string ;
     :has_notification_number "226"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/226-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Interstitial cystitis"@en ;
+    oboinowl:hasExactSynonym "Interstitial cystitis"@en ,
+                             "Interstitial cystitis with Hunners ulcer"@en ;
     efo:definition "間質性膀胱炎とは、「膀胱の非特異的な慢性炎症を伴い、頻尿・尿意亢進・尿意切迫感・膀胱痛などの症状を呈する疾患」（間質性膀胱炎診療ガイドラインによる）である。その病型はハンナ型（ハンナ病変を有するもの）と非ハンナ型（有しないもの）に大別され、ハンナ型は内視鏡的にも病理学的にも明確な異常所見を有し、症状的にもより重症である。中高齢の女性に多いが、男性や小児にもみられる。原因は不明で、膀胱粘膜の機能障害や免疫学的機序が想定されている。頻回な排尿や膀胱の痛みによる苦痛から生活の質は大きく損なわれる。確立した治療法はなく、対症的な治療に留まる。再燃と寛解を繰り返し長期にわたる医学管理が必要となる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4429> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157164.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157164.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0018301 .
 
 ### 指定難病 227
 :1200744
@@ -11017,7 +11080,8 @@
     :has_notification_number "229"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/229-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4774> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157266.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157266.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0012579 .
 
 ### 指定難病 229-3
 :1200749
@@ -11160,10 +11224,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "ペルオキシソーム病"@ja ;
-    rdfs:label "Peroxisomal disease"@en ;
-    skos:prefLabel "Peroxisomal disease"@en ;
+    rdfs:label "Peroxisomal Disorder"@en ;
+    skos:prefLabel "Peroxisomal Disorder"@en ;
     terms:identifier "1200758"^^xsd:string ;
     :has_notification_number "234"^^xsd:string ;
+    oboinowl:hasExactSynonym "Peroxisomal disease "@en ;
     efo:definition "ペルオキシソーム病は細胞内ペルオキシソームに局在する酵素・タンパクの単独欠損症と、それらのタンパクをペルオキシソームに局在させるために必要なPEXタンパクの遺伝子異常症（ペルオキシソーム形成異常症）の２つに分けられる。これらの遺伝子異常により様々なペルオキシソーム代謝系が障害され、中枢神経系を中心に対象となる臓器に障害を来して多岐にわたる臨床像を呈する。これまでに最も頻度の高い副腎白質ジストロフィーや、最も重篤かつペルオキシソーム病の極型であるツェルベーガー症候群など15の疾患に分類されている。ここでは既に指定難病の対象となっている副腎白質ジストロフィーを除いたペルオキシソーム病を対象とする。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4621> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> ;
@@ -11223,7 +11288,9 @@
     :has_notification_number "234"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/234-01-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4621> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009959 ,
+                                                     mondo:MONDO_0019174 .
 
 ### 指定難病 234-1-4
 :1200763
@@ -11311,8 +11378,7 @@
     oboinowl:hasExactSynonym "AMACR欠損症"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4621> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008967 ,
-                                                     mondo:MONDO_0013681 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013681 .
 
 ### 指定難病 234-3
 :1200769
@@ -11353,8 +11419,7 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/234-03-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "RCDP type2"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4621> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009112 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> .
 
 ### 指定難病 234-4-2
 :1200772
@@ -11368,8 +11433,7 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/234-03-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "RCDP type3"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4621> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010823 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157291.docx> .
 
 ### 指定難病 234-5
 :1200773
@@ -11438,13 +11502,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100009 ;
     rdfs:label "副腎皮質刺激ホルモン不応症"@ja ;
-    rdfs:label "ACTH unresponsiveness"@en ;
-    skos:prefLabel "ACTH unresponsiveness"@en ;
+    rdfs:label "Adrenocorticotropic Hormone Insensitivity"@en ;
+    skos:prefLabel "Adrenocorticotropic Hormone Insensitivity"@en ;
     terms:identifier "1200777"^^xsd:string ;
     :has_notification_number "237"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/237-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "Adrenocorticotropic hormone unresponsiveness"@en ,
-                             "Adrenocorticotropic hormone insensitivity"@en ;
+                             "ACTH unresponsiveness"@en ;
     efo:definition "副腎皮質刺激ホルモン（ACTH）不応症は、家族性アジソン病から独立した疾患単位であり、先天性の要因により、グルココルチコイドであるコルチゾール、及び副腎アンドロゲンであるデヒドロエピアンドロステロン（DHEA）とその硫酸塩であるデヒドロエピアンドロステロンサルフェート（DHEA-S）の分泌が生体の必要量以下に慢性的に低下するが、ミネラルコルチコイドであるアルドステロンの分泌は保たれている状態である。ACTH不応症は、無涙症（alacrima）、アカラシア（achalasia）を合併することがあり、Triple A症候群（Allgrove症候群）と呼ばれる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4357> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157285.docx> .
@@ -11458,6 +11522,7 @@
     skos:prefLabel "Vitamin D-resistant rickets/Vitamin D-resistant osteomalacia"@en ;
     terms:identifier "1200778"^^xsd:string ;
     :has_notification_number "238"^^xsd:string ;
+    oboinowl:hasExactSynonym "Vitamin D Resistant Rickets / Osteomalacia "@en ;
     efo:definition "別名、低リン血症性くる病・骨軟化症と呼ばれる疾患である。このうち、成長軟骨帯閉鎖以前に発症するものを、くる病と呼んでいる。くる病・骨軟化症は、骨石灰化障害を特徴とする疾患で、下記の症状により、罹患患者のQOLを重度に障害しうる。ビタミンD欠乏性くる病・骨軟化症とは異なり、天然型ビタミンDにより完治しない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4558> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198083.docx> .
@@ -11499,10 +11564,13 @@
     skos:prefLabel "Vitamin D-dependent rickets"@en ;
     terms:identifier "1200781"^^xsd:string ;
     :has_notification_number "239"^^xsd:string ;
-    oboinowl:hasExactSynonym "Vitamin D-dependent osteomalacia"@en ;
+    oboinowl:hasExactSynonym "Vitamin D-dependent osteomalacia"@en ,
+                             "Vitamin D-dependent Rickets / Osteomalacia "@en ;
     efo:definition "ビタミンD依存性くる病/骨軟化症は、ビタミンD依存症ともいい、遺伝性に天然型ビタミンDに対する抵抗性を示すくる病（骨軟化症）を来す疾患で、生理量のビタミンDではその作用が不足する病態である。通常生後数か月以内に、くる病所見や、低カルシウム血症によるテタニーやけいれんで発症する。腎臓の25水酸化ビタミンD-1α水酸化酵素遺伝子（CYP27B1）の不活性型変異によりビタミンD活性化が障害されるビタミンD依存症１型（Vitamin D-dependent rickets, type 1：VDDR 1）と、ビタミンD受容体遺伝子（VDR）の不活性型変異によりビタミンDの作用が障害されるビタミンD依存症２型（（Vitamin D-dependent rickets, type 2：VDDR 2）に分類される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4561> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157273.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157273.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0005520 ,
+                                                     mondo:MONDO_0024299 .
 
 ### 指定難病 239-1
 :1200782
@@ -11920,12 +11988,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "先天性葉酸吸収不全"@ja ;
-    rdfs:label "Congenital folate malabsorption"@en ;
-    skos:prefLabel "Congenital folate malabsorption"@en ;
+    rdfs:label "Hereditary Folate Malabsorption"@en ;
+    skos:prefLabel "Hereditary Folate Malabsorption"@en ;
     terms:identifier "1200810"^^xsd:string ;
     :has_notification_number "253"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/253-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Hereditary Folate Malabsorption"@en ;
+    oboinowl:hasExactSynonym "Congenital folate malabsorption"@en ;
     efo:definition "先天性葉酸吸収不全症は葉酸の輸送体であるproton-coupled folate transporter（PCFT）の機能喪失を原因とする常染色体劣性遺伝性疾患である。腸管からの葉酸吸収不全と脈絡膜における取り込み障害により、乳児期早期から巨赤芽球性貧血、免疫不全、遷延性下痢、精神発達遅滞、痙攣などを来す。大脳基底核に石灰化病変を認めることがある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4822> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157232.docx> ;
@@ -11985,7 +12053,8 @@
     :has_notification_number "254"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/254-03-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5545> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157295.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157295.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008297 .
 
 ### 指定難病 254-4
 :1200815
@@ -12112,13 +12181,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "筋型糖原病"@ja ;
-    rdfs:label "Skeletal muscle glycogenosis"@en ;
-    skos:prefLabel "Skeletal muscle glycogenosis"@en ;
+    rdfs:label "Muscle Glycogen Storage Disease"@en ;
+    skos:prefLabel "Muscle Glycogen Storage Disease"@en ;
     terms:identifier "1200823"^^xsd:string ;
     :has_notification_number "256"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/256-201704-kojin.pdf> ;
     oboinowl:hasExactSynonym "Glycogen storage disease type VII"@en ,
-                             "Muscle glycogen storage disease"@en ,
+                             "Skeletal muscle glycogenosis"@en ,
                              "Muscular glycogenosis"@en ;
     efo:definition "糖原病は、先天的なグリコーゲンの代謝異常症で、大きく肝型、筋型の病型に大別できる。しかし酵素発現の臓器特異性から、肝臓、筋肉以外の他臓器の障害が臨床症状として並存していることもある。肝型では低血糖、肝機能障害、成人期に肝硬変、肝腫瘍を呈するものもある。筋型では急性症状として横紋筋融解症、ミオグロビン尿症などを来し、腎不全に陥る症例もある。また老年期では筋力低下（進行性）を示すものもある。筋型糖原病の好発病型はII、III、V、VII型で、全体の90％を占めている。その他の希な筋型病型として0型、IV型、IX型、ホスホグリセリン酸キナーゼ（PGK）欠損症、X型、XI型、XII型、XIII型、XIV型、XV型がある（筋型糖原病対応表参照）。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4711> ,
@@ -12343,10 +12412,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "肝型糖原病"@ja ;
-    rdfs:label "Hepatic glycogenosis"@en ;
-    skos:prefLabel "Hepatic glycogenosis"@en ;
+    rdfs:label "Hepatic Glycogen Storage Disease"@en ;
+    skos:prefLabel "Hepatic Glycogen Storage Disease"@en ;
     terms:identifier "1200838"^^xsd:string ;
     :has_notification_number "257"^^xsd:string ;
+    oboinowl:hasExactSynonym "Hepatic glycogenosis"@en ;
     efo:definition "糖原病は糖代謝の経路に関与する酵素の異常によって発症する疾患群。糖をエネルギーとして蓄積するためにグリコーゲンへと変換する系、及び蓄積したグリコーゲンを代謝する系に関わる酵素の先天的異常により糖代謝が障害され、組織にグリコーゲンが蓄積する。障害を受けた酵素の発現部位により肝型・筋型に大別できる。しかし酵素発現の臓器特異性から、肝臓、筋肉以外の他臓器の障害が臨床症状として並存していることもある。肝型糖原病にはI、III、IV、VI、IX型があり、低血糖、肝機能障害、成人期に肝硬変、肝腫瘍を呈するものもある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5329> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157162.docx> .
@@ -12541,12 +12611,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "ガラクトース-1-リン酸ウリジルトランスフェラーゼ欠損症"@ja ;
-    rdfs:label "Galactose-1-phosphate uridylyltransferase deficiency"@en ;
-    skos:prefLabel "Galactose-1-phosphate uridylyltransferase deficiency"@en ;
+    rdfs:label "Galactose-1-phosphate Uridyltransferase Deficiency"@en ;
+    skos:prefLabel "Galactose-1-phosphate Uridyltransferase Deficiency"@en ;
     terms:identifier "1200851"^^xsd:string ;
     :has_notification_number "258"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/258-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Galactose-1-phosphate uridyltransferase deficiency"@en ,
+    oboinowl:hasExactSynonym "Galactose-1-phosphate uridylyltransferase deficiency"@en ,
                              "Galactosemia type 1"@en ,
                              "GALT deficiency"@en ;
     efo:definition "ガラクトース-1-リン酸ウリジルトランスフェラーゼの先天的な欠損又は活性低下により、ガラクトース、ガラクトース‐1‐リン酸の蓄積が生じる疾患である。"@ja ;
@@ -12559,8 +12629,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100002 ;
     rdfs:label "レシチンコレステロールアシルトランスフェラーゼ欠損症"@ja ;
-    rdfs:label "Lecithin‐cholesterol acyltransferase deficiency"@en ;
-    skos:prefLabel "Lecithin‐cholesterol acyltransferase deficiency"@en ;
+    rdfs:label "Lecithin Cholesterol Acyltransferase Deficiency"@en ;
+    skos:prefLabel "Lecithin Cholesterol Acyltransferase Deficiency"@en ;
     terms:identifier "1200852"^^xsd:string ;
     :has_notification_number "259"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/259-201704-kojin.pdf> ;
@@ -12788,10 +12858,7 @@
     efo:definition "慢性反復性の炎症と進行性のやせ・消耗を特徴とする、特異な遺伝性自己炎症疾患であり、常染色体劣性遺伝性である。1939年の中條、1950年の西村らの報告以来、「凍瘡を合併する骨骨膜症」などの病名で、和歌山・泉南を中心とした関西と関東・東北から、これまでに30例ほどの報告がある。　幼小児期に凍瘡様皮疹にて発症し、結節性紅斑様皮疹や周期性発熱を繰り返しながら、次第に長く節くれ立った指、顔面と上肢を主体とする部分的脂肪筋肉萎縮が進行する。　本邦特有とされたが、2010年に本疾患と臨床的に酷似する症例がJMP症候群・CANDLE 症候群という病名で欧米・中東から報告された。３疾患とも、プロテアソーム複合体の誘導型サブユニットをコードするPSMB8遺伝子に変異のあることが報告され、これを原因とする同一疾患と考えられている。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4582> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157255.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007536 ,
-                                                     mondo:MONDO_0009726 ,
-                                                     mondo:MONDO_0011380 ,
-                                                     mondo:MONDO_0013662 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009726 ,
                                                      mondo:MONDO_0016849 ,
                                                      mondo:MONDO_0017959 ,
                                                      mondo:MONDO_0017960 ,
@@ -12802,12 +12869,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "化膿性無菌性関節炎・壊疽性膿皮症・アクネ症候群"@ja ;
-    rdfs:label "Pyogenic arthritis, pyoderma gangrenosum and acne syndrome"@en ;
-    skos:prefLabel "Pyogenic arthritis, pyoderma gangrenosum and acne syndrome"@en ;
+    rdfs:label "Pyogenic Arthritis, Pyoderma Gangrenosum, Acne Syndrome"@en ;
+    skos:prefLabel "Pyogenic Arthritis, Pyoderma Gangrenosum, Acne Syndrome"@en ;
     terms:identifier "1200868"^^xsd:string ;
     :has_notification_number "269"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/269-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "PAPA syndrome"@en ;
+    oboinowl:hasExactSynonym "PAPA syndrome"@en ,
+                             "Pyogenic arthritis, pyoderma gangrenosum and acne syndrome"@en ;
     efo:definition "PSTPIP1（proline-serine-threonine phosphatase interacting protein 1（CD2-binding protein 1：CD2BP1））の機能獲得型変異により発症する自己炎症性疾患である。若年で発症し、進行性のびらん性関節炎及び、難治性の皮膚症状（壊疽性膿皮症様病変、嚢胞性座瘡）を伴う。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4795> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157159.docx> ;
@@ -12866,11 +12934,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100008 ;
     rdfs:label "肋骨異常を伴う先天性側弯症"@ja ;
-    rdfs:label "Congenital scoliosis with rib anomaly"@en ;
-    skos:prefLabel "Congenital scoliosis with rib anomaly"@en ;
+    rdfs:label "Congenital Scoliosis with Rib Anomalies"@en ;
+    skos:prefLabel "Congenital Scoliosis with Rib Anomalies"@en ;
     terms:identifier "1200872"^^xsd:string ;
     :has_notification_number "273"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/273-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Congenital scoliosis with rib anomaly"@en ;
     efo:definition "小児に発症する脊柱側弯症はその原因も様々で、その態様も個々の患者ごとで大変大きな差がある。成長期、特に思春期に悪化しやすいが、脊柱変形の悪化が少ないものは予後も良くQOL（生活の質）の観点からも大きな問題にはならないことが多い。一方、新生児、乳幼児期に発症する脊柱変形の中にはその変形悪化が著しい症例が少なからずあり、それに伴い胸郭変形も高度になり、胸郭容量の減少により肺成長が阻害され呼吸機能低下を来す。患者によっては成長に伴いさらに悪化して、最終的には拘束性換気障害、閉塞性換気障害などの病態を引き起こし、慢性呼吸不全の状態となる症例も存在する。このように脊柱変形など種々の原因で小児成長期に高度胸郭変形が発症する症例では、結果として正常な肺の成長やその呼吸機能をサポートできない病態を呈する。その治療としてVEPTR（Vertical Expandable Prosthetic Titanium Rib）と呼ばれる人工肋骨が開発されている。本症候群の中で、特に一次性としてまとめられているものは、椎骨と肋骨の両方の発生学的異常により形態的変化を来し脊柱変形のみならず胸郭変形とそれらの成長障害を引き起こし、最終的には呼吸器系の障害から生命にも重大な影響を与える。本疾患の自然経過や病態には未だ未解明なものが多々あるが、VEPTRを代表とした成長温存手術治療は、本疾患に罹患した小児患者の成長後の生活を改善させるのみならず、生命予後も改善させることが期待されている。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4645> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157323.docx> .
@@ -12887,7 +12956,9 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/274-201704-kojin.pdf> ;
     efo:definition "骨形成不全症（Osteogenesis imperfecta）は、全身の骨脆弱性による易骨折性や進行性の骨変形に加え、様々な程度の結合組織症状を示す先天性疾患である。発生頻度は約２～３万人に１人とされている。2010年版の骨系統疾患国際分類では、Sillenceによる１型（非変形型）、２型（周産期致死型）、３型（変形進行型）、４型（中等症型）に加えて、骨間膜石灰化・過形成仮骨を伴う型（５型）、その他の型、に分類されている。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4567> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157195.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157195.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013515 ,
+                                                     mondo:MONDO_0019019 .
 
 ### 指定難病 275
 :1200874
@@ -12953,11 +13024,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100010 ;
     rdfs:label "リンパ管腫症/ゴーハム病"@ja ;
-    rdfs:label "Lymphangiomatosis/Gorham disease"@en ;
-    skos:prefLabel "Lymphangiomatosis/Gorham disease"@en ;
+    rdfs:label "Lymphangiomatosis / Gorham-Stout Disease"@en ;
+    skos:prefLabel "Lymphangiomatosis / Gorham-Stout Disease"@en ;
     terms:identifier "1200878"^^xsd:string ;
     :has_notification_number "277"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/277-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Lymphangiomatosis/Gorham disease"@en ;
     efo:definition "中枢神経系を除く、骨や胸部（肺、縦隔、心臓）、腹部（腹腔内、脾臓）、皮膚、皮下組織など全身臓器にびまん性に異常に拡張したリンパ管組織が浸潤する原因不明の希少性難治性疾患である。小児、若年者に多く発症するが先天性と考えられている。症状や予後は様々であるが、胸部に病変を認める場合は予後不良である。骨溶解を起こすゴーハム病も、骨病変だけでなく同様の内臓病変を持つ場合があるため、類縁疾患と考えられ、現時点では１つの疾患としてとらえられている。病理学的には不規則に拡張したリンパ管が同定されるが、内皮細胞のMIB-1は陰性で腫瘍性の増殖は無い。また鑑別上問題となるリンパ管奇形（リンパ管腫）は多くの場合病変の範囲拡大や離れた部位の新たな出現はなく、一方でリンパ管腫症は多発性・びまん性（多臓器に及ぶ、リンパ液貯留や周囲の組織に浸潤傾向があるなど）である。なおリンパ管腫症／ゴーハム病は、びまん性リンパ管腫症、ゴーハム・スタウト症候群、大量骨溶解症と呼ばれることもある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4636> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157316.docx> .
@@ -12998,12 +13070,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100010 ;
     rdfs:label "巨大リンパ管奇形（頚部顔面病変）"@ja ;
-    rdfs:label "Huge Lymphatic malformation with cervicofacial lesion"@en ;
-    skos:prefLabel "Huge Lymphatic malformation with cervicofacial lesion"@en ;
+    rdfs:label "Giant Lymphatic Malformation （Cervicofacial Lesion）"@en ;
+    skos:prefLabel "Giant Lymphatic Malformation （Cervicofacial Lesion）"@en ;
     terms:identifier "1200881"^^xsd:string ;
     :has_notification_number "278"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/278-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Huge Lymphatic malformation"@en ;
+    oboinowl:hasExactSynonym "Huge Lymphatic malformation"@en ,
+                             "Huge Lymphatic malformation with cervicofacial lesion"@en ;
     efo:definition "巨大リンパ管奇形（頚部顔面病変）は顔面・口腔・咽喉頭・頚部に先天性に発症する巨大腫瘤性のリンパ管形成異常であり、ゴーハム病（リンパ管腫症）とは異なる。リンパ管奇形（リンパ管腫）は大小のリンパ嚢胞を中心に構成される腫瘤性病変で、多くの場合病変の範囲拡大や離れた部位の新たな出現はない。血管病変を同時に有することもあり、診断・治療に注意を要する。生物学的には良性であるが、特に病変が大きく広範囲に広がるものは難治性で、機能面のみならず整容面からも患者のQOLは著しく制限される。全身どこにでも発生しうるが、特に頭頚部や縦隔、腋窩、腹腔・後腹膜内、四肢に好発する。なかでも頚部顔面巨大病変は、気道圧迫、摂食・嚥下困難など生命に影響を及ぼし、さらに神経や他の主要な脈管と絡み合って治療が困難となることから、他部位の病変とは別の疾患概念を有する。病変内のリンパ嚢胞の大きさや発生部位により主に外科的切除と硬化療法が選択されるが、完治はほぼ不可能で、出生直後から生涯にわたる長期療養を必要とする。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4892> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157174.doc> .
@@ -13013,12 +13086,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "巨大静脈奇形（頚部口腔咽頭びまん性病変）"@ja ;
-    rdfs:label "Huge venous malformation with cervical, oral and pharyngeal diffuse lesion"@en ;
-    skos:prefLabel "Huge venous malformation with cervical, oral and pharyngeal diffuse lesion"@en ;
+    rdfs:label "Giant Venous Malformation （Cervical, Oral and Oropharyngeal Diffuse Lesion）"@en ;
+    skos:prefLabel "Giant Venous Malformation （Cervical, Oral and Oropharyngeal Diffuse Lesion）"@en ;
     terms:identifier "1200882"^^xsd:string ;
     :has_notification_number "279"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/279-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Huge venous malformation"@en ;
+    oboinowl:hasExactSynonym "Huge venous malformation"@en ,
+                             "Huge venous malformation with cervical, oral and pharyngeal diffuse lesion"@en ;
     efo:definition "巨大静脈奇形（頚部口腔咽頭びまん性病変）は、頚部・口腔・咽頭の全領域にびまん性連続性に発症する巨大腫瘤性の静脈形成異常である。静脈奇形は胎生期における脈管形成の異常であり、静脈類似の血管腔が増生する低流速の血液貯留性病変である。先天異常の一種と考えられるが、学童期や成人後の後天的な発症も少なくない。従来「海綿状血管腫」「筋肉内血管腫」「静脈性血管腫」等と呼ばれてきたが、血管腫・脈管奇形の国際学会であるISSVA（International Society for the Study of Vascular Anomalies）が提唱するISSVA分類では、「静脈奇形」に統一されている。単一組織内で辺縁明瞭に限局するものから、辺縁不明瞭で複数臓器にびまん性に分布するものまで様々な病変があるが、びまん性巨大病変は難治で多種の障害をひきおこす。病状は加齢、妊娠、外傷などの要因により進行し、巨大なものでは血液凝固異常や心不全に至る。なかでも頚部口腔咽頭びまん性巨大静脈奇形は、気道圧迫、摂食・嚥下困難など生命に影響を及ぼし、さらに重要な神経、血管や主要臓器と絡み合って治療困難であり、進行に伴い血液凝固異常や心不全、致死的出血などを来すことから、他の病変とは別の疾患概念を有する。静脈奇形の治療法としては主に外科的切除と硬化療法が選択されるが、巨大静脈奇形（頚部口腔咽頭びまん性病変）では完全切除は頚部・口腔・咽頭の重要機能の喪失につながりうるため不可能で、部分切除は致死的大量出血につながり、硬化療法は治療効果が限定的かつ一時的で悪化につながる場合もある。巨大静脈奇形（頚部口腔咽頭びまん性病変）は、高度難治性に進行し、大量出血や心不全による致死的な病態もあるため、対症療法も含めて生涯にわたる長期療養を必要とする。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4756> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157172.doc> .
@@ -13028,12 +13102,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "巨大動静脈奇形（頚部顔面又は四肢病変）"@ja ;
-    rdfs:label "Huge arteriovenous malformation with cervicofacial or limb lesion"@en ;
-    skos:prefLabel "Huge arteriovenous malformation with cervicofacial or limb lesion"@en ;
+    rdfs:label "Giant Arteriovenous Malformation （Cervicofacial / Limb Lesion）"@en ;
+    skos:prefLabel "Giant Arteriovenous Malformation （Cervicofacial / Limb Lesion）"@en ;
     terms:identifier "1200883"^^xsd:string ;
     :has_notification_number "280"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/280-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Huge arteriovenous malformation"@en ;
+    oboinowl:hasExactSynonym "Huge arteriovenous malformation"@en ,
+                             "Huge arteriovenous malformation with cervicofacial or limb lesion"@en ;
     efo:definition "巨大動静脈奇形（頚部顔面・四肢病変）は、顔面・口腔・咽喉頭・頚部又は四肢のうち一肢の広範囲に発症する巨大腫瘤性の動静脈形成異常である。動静脈奇形（AVM）は胎生期における脈管形成の異常であり、病変内に動静脈短絡（シャント）を単一あるいは複数有し、拡張・蛇行した異常血管の増生を伴う高流速血管性病変である。先天異常の一種と考えられるが、学童期や成人後の後天的な発症も少なくない。単一組織内で辺縁明瞭に限局するものから、辺縁不明瞭で複数臓器にびまん性に分布するものまで様々な病変があるが、びまん性巨大病変は難治で多種の障害を引き起こす。病状は加齢、妊娠、外傷などの要因により進行し、巨大なものでは心不全に至る。なかでも頚部顔面巨大動静脈奇形（頚部顔面の広範囲にわたる動静脈奇形）は、気道圧迫、摂食・嚥下困難など生命に影響を及ぼし、四肢巨大動静脈奇形（一肢のほぼ全体にわたる動静脈奇形）は、重度の持続的疼痛、患肢の虚血壊死、四肢機能不全などを来す。さらに両者ともに重要な神経、血管や主要臓器と絡み合って治療困難であり、進行に伴い心不全、致死的出血などを来すことから、他の病変とは別の疾患概念を有する。治療法としては主に外科的切除と血管内治療（塞栓術、硬化療法）が選択されるが、巨大動静脈奇形（頚部顔面・四肢病変）では病変の再発進行が早く、治療効果は一時的となり、むしろ悪化にいたる場合もある。四肢の小病変では患肢切断により病変除去が可能となる場合もあるが、四肢巨大動静脈奇形は股関節や肩関節付近まで病変が及ぶため患肢切断術自体に致死的大量出血の危険性があり、完治は不可能である。頚部顔面巨大動静脈奇形は切断不能であることは自明であり、広範囲切除は致死的出血や顔面・鼻腔・口腔・頚部の重要機能の喪失につながりうるため、これも完治は不可能である。巨大動静脈奇形（頚部顔面・四肢病変）は、高度難治性に進行し、大量出血や心不全による致死的な病態もあるため、対症療法も含めて生涯にわたる長期療養を必要とする。なお脳･脊髄といった中枢神経系が主体の動静脈奇形はそれ以外の部位とは診断･経過・治療法が異なっており、指定難病としては頚部顔面・四肢の巨大動静脈奇形を対象とする。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4630> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157173.doc> .
@@ -13130,15 +13205,14 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100006 ;
     rdfs:label "ダイアモンド・ブラックファン貧血"@ja ;
-    rdfs:label "Diamond-Blackfan anemia"@en ;
-    skos:prefLabel "Diamond-Blackfan anemia"@en ;
+    rdfs:label "Diamond-Blackfan Anaemia"@en ;
+    skos:prefLabel "Diamond-Blackfan Anaemia"@en ;
     terms:identifier "1200890"^^xsd:string ;
     :has_notification_number "284"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/284-201704-kojin.pdf> ;
     efo:definition "赤血球造血のみが障害される先天性の造血不全症である。骨髄は赤血球系細胞のみが著減し、末梢血では網赤血球が減少し、大球性正色素性貧血を呈する。ほとんどが乳児期に発症し、約半数に種々の奇形や発育障害がみられる。悪性腫瘍の合併もみられる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4420> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157239.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015253 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157239.docx> .
 
 ### 指定難病 285
 :1200891
@@ -13304,11 +13378,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "非特異性多発性小腸潰瘍症"@ja ;
-    rdfs:label "Chronic nonspecific multiple ulcers of the small intestine"@en ;
-    skos:prefLabel "Chronic nonspecific multiple ulcers of the small intestine"@en ;
+    rdfs:label "Nonspecific Multiple Ulcers of Small Intestine"@en ;
+    skos:prefLabel "Nonspecific Multiple Ulcers of Small Intestine"@en ;
     terms:identifier "1200902"^^xsd:string ;
     :has_notification_number "290"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/290-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Chronic nonspecific multiple ulcers of the small intestine"@en ;
     efo:definition "非特異性多発性小腸潰瘍症は、若年時に発症する原因不明の小腸潰瘍症である。本症では、非特異的な組織像を呈する浅い潰瘍が終末回腸以外の回腸に多発する。小腸病変の肉眼所見は極めて特徴的であり、輪走ないし斜走する帯状の潰瘍が枝分かれ、あるいは融合しながら多発する。臨床像としては、慢性の鉄欠乏性貧血と低蛋白血症を主徴とし、炎症所見はないか軽微にとどまる。これらの症状は中心静脈栄養量法以外のあらゆる治療法に抵抗性に経過する。常染色体劣性遺伝の形式で発症する症例が存在することから、遺伝性疾患である可能性が示唆される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4708> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157276.docx> .
@@ -13323,6 +13398,7 @@
     terms:identifier "1200903"^^xsd:string ;
     :has_notification_number "291"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/291-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Hirschsprung Disease （Entire Colon type / Extensive type）"@en ;
     efo:definition "肛門から連続する無神経節腸管のため生後数日の間に機能性の腸閉塞症状で発見される。その後ヒルシュスプルング病と診断される。無神経節腸管の短い短域型では多くが乳児期に根治術が可能であるが、長域型以上その中でも全結腸型以上の症例は重症であり長域腸管蠕動不全のため人工肛門造設が必要であり、死亡症例も多い。特に全結腸以上の症例数は全体の10％程度と稀であるために調査も不十分なまま課題として残され、治療法の開発も遅れている。全結腸型以上については症例の蓄積を行い検討する必要がある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4699> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157277.docx> ;
@@ -13443,12 +13519,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100013 ;
     rdfs:label "乳幼児肝巨大血管腫"@ja ;
-    rdfs:label "Infant huge hepatic hemangioma"@en ;
-    skos:prefLabel "Infant huge hepatic hemangioma"@en ;
+    rdfs:label "Infantile Giant Hepatic Haemangiomas"@en ;
+    skos:prefLabel "Infantile Giant Hepatic Haemangiomas"@en ;
     terms:identifier "1200912"^^xsd:string ;
     :has_notification_number "295"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/295-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Infant giant liver hemangioma"@en ;
+    oboinowl:hasExactSynonym "Infant huge hepatic hemangioma"@en ;
     efo:definition "肝血管腫は小児でもっとも頻度の高い肝腫瘍で、組織学的に血管内皮が腫瘍性に増殖した病変と、血管形成異常の二種類の疾患群を包含すると考えられている。多くの肝血管腫は無症候性だが、新生児、乳幼児にみられる一部の巨大な、あるいは多発性の肝血管腫は、高拍出性心不全や凝固異常、腫瘍内出血によるショックなどの重篤な病態を呈し、致死的経過をとる。このため近年、これらの低年齢児の難治性肝血管腫を独立した臨床群と考える概念が海外で提唱された。平成22年度からの厚生労働省難治性疾患克服研究事業の調査では、本邦における新規発症例数は年間５～10例程度と推定され、明らかな男女差はない。多くは乳児期早期までに診断され、出生前診断例も増えている。単発性では径60mm以上、あるいは多発性の症例がしばしば症状を呈しており、呼吸循環障害、凝固障害を呈するものは重症で高リスクとされる。一般的な血管腫に対する治療としてステロイドなどの薬物療法、放射線照射、血管塞栓、外科手術などが行われるが、低年齢児の難治性肝血管腫の病態は危急的であり、治療は未確立である。乳幼児期以降に、先天性・後天性の肝内門脈肝静脈シャントの流量増大から、肝硬変症、肝機能低下が進行し、肝不全に陥る症例のあることが明らかにされており、致死的な急性期症状と慢性期の病態の双方が問題となっている。慢性期の病態に対しては肝移植以外に根治的な治療法がない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4639> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157260.doc> .
@@ -13727,7 +13803,8 @@
     oboinowl:hasExactSynonym "ベスト病"@ja ,
                              "Best vitelliform macular dystrophy"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4798> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157150.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157150.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0000390 .
 
 ### 指定難病 301-2
 :1200933
@@ -13909,11 +13986,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100015 ;
     rdfs:label "若年発症型両側性感音難聴"@ja ;
-    rdfs:label "Juvenile-onset bilateral sensorineural hearing loss"@en ;
-    skos:prefLabel "Juvenile-onset bilateral sensorineural hearing loss"@en ;
+    rdfs:label "Juvenile Bilateral Sensorineural Hearing Loss"@en ;
+    skos:prefLabel "Juvenile Bilateral Sensorineural Hearing Loss"@en ;
     terms:identifier "1200945"^^xsd:string ;
     :has_notification_number "304"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/304-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Juvenile-onset bilateral sensorineural hearing loss"@en ;
     efo:definition "若年（40歳未満）で発症する両側性感音難聴をさす。従来から原因不明の感音難聴のうち、両側性に難聴が進行する疾患を「特発性両側性感音難聴」としてきたが、老人性難聴との鑑別が必ずしも容易ではなかった。そこで正確に鑑別診断が行えるよう年齢要件が加えられた。また遅発性難聴を引き起こす原因遺伝子が同定されていること、既知の外的因子、例えば騒音、外傷、薬剤、急性ウイルス感染によるものは除くという除外要件が加えられた。近年、遺伝子との関連が少しずつ明らかにされてきているが病態解明には至っていない。後天的に発症、進行し両側重度難聴・ろうとなる例など様々な経過をとる。本疾患は言語発達や教育のほか社会生活や日常生活に大きな支障を来す。また治療法が未確立であり長期的な療養を必要とするため、本疾患の病態の解明や治療法の開発は重要な課題である。診断基準にもとづいた患者数は多くない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/4627> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157962.docx> .
@@ -13966,13 +14044,15 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "進行性白質脳症"@ja ;
-    rdfs:label "Leukoencephalopathy"@en ;
-    skos:prefLabel "Leukoencephalopathy"@en ;
+    rdfs:label "Progressive multifocal leukoencephalopathy"@en ;
+    skos:prefLabel "Progressive multifocal leukoencephalopathy"@en ;
     terms:identifier "1200949"^^xsd:string ;
     :has_notification_number "308"^^xsd:string ;
+    oboinowl:hasExactSynonym "Leukoencephalopathy"@en ;
     efo:definition "皮質下嚢胞をもつ大頭型白質脳症（Megalencephalic leukoencephalopathy with subcortical cysts）、白質消失病（Leukoencephalopathy with vanishing white matter）、卵巣機能障害を伴う進行性白質脳症（Leukoencephalopathy, progressive, with ovarian failure）は、一定年齢までは正常に発達するにもかかわらず、後に進行性に大脳白質障害を来し、徐々に退行する進行性白質脳症である。進行性白質脳症は、大脳白質障害が軽度頭部外傷や感染症による高熱などを契機に階段状に悪化し、てんかんや認知機能の低下、四肢麻痺症状などを来すことから、日常生活能力の低下が徐々に顕著となる。最終的には寝たきりになり、医療的ケアが必要になる場合もある。同一疾患であっても発症年齢の幅は広く、乳児期発症から成人期以降の発症まで様々である。頭部MRI検査による大脳白質のT2W高信号や嚢胞化が特徴であるが、生化学的検査などの客観的な指標はなく、確定診断は遺伝子診断によるしかない。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5416> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156562.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156562.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0016318 .
 
 ### 指定難病 308-1
 :1200950
@@ -14021,8 +14101,8 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100001 ;
     rdfs:label "進行性ミオクローヌスてんかん"@ja ;
-    rdfs:label "progressive myoclonus epilepsy"@en ;
-    skos:prefLabel "progressive myoclonus epilepsy"@en ;
+    rdfs:label "Progressive myoclonus epilepsy"@en ;
+    skos:prefLabel "Progressive myoclonus epilepsy"@en ;
     terms:identifier "1200953"^^xsd:string ;
     :has_notification_number "309"^^xsd:string ;
     oboinowl:hasExactSynonym "PME"@en ;
@@ -14080,10 +14160,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100014 ;
     rdfs:label "先天異常症候群"@ja ;
-    rdfs:label "Malformative syndrome"@en ;
-    skos:prefLabel "Malformative syndrome"@en ;
+    rdfs:label "Congenital anomalies syndrome"@en ;
+    skos:prefLabel "Congenital anomalies syndrome"@en ;
     terms:identifier "1200957"^^xsd:string ;
     :has_notification_number "310"^^xsd:string ;
+    oboinowl:hasExactSynonym "Malformative syndrome"@en ;
     efo:definition "先天異常（malformation）症候群は、先天的に複数の器官系統に先天異常がある疾患の総称であり、単一部位に先天異常がある疾患と区別される。障害される解剖学的部位の組み合わせにより数十から数百の疾患に分類される。先天異常症候群で問題となる症状は、影響を受ける臓器による。心肺機能・消化管機能・難治性痙攣などの中枢神経障害等より生命の危険を生じることもあり、運動器や感覚器の進行性の機能低下による後遺症を残すこともある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5500> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156565.docx> .
@@ -14151,16 +14232,18 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "先天性三尖弁狭窄症"@ja ;
-    rdfs:label "Congenital tricuspid atresia"@en ;
-    skos:prefLabel "Congenital tricuspid atresia"@en ;
+    rdfs:label "Congenital tricuspid stenosis"@en ;
+    skos:prefLabel "Congenital tricuspid stenosis"@en ;
     terms:identifier "1200962"^^xsd:string ;
     :has_notification_number "311"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/311-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "Tricuspid atresia"@en ;
+    oboinowl:hasExactSynonym "Tricuspid atresia"@en ,
+                             "Congenital tricuspid atresia"@en ;
     efo:definition "三尖弁の狭窄によって右房から右室への血液流入に支障を来す疾患。心房流入血流の全てを右室へ通過させることができないため心房間では右左短絡を生じ、低酸素血症となる。手術を含め根治的治療法はない。持続する低酸素血症による多臓器障害を来す。肺血管低形成、高度な三尖弁閉鎖不全を併発することも多い。チアノーゼを改善するために心・肺の状態が許せばフォンタン型の手術が行われるが、根治的な治療ではなく遠隔期に循環破綻を生じ死亡することが多い。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5395> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156566.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011514 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011514 ,
+                                                     mondo:MONDO_0019813 .
 
 ### 指定難病 312
 :1200963
@@ -14198,12 +14281,13 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100005 ;
     rdfs:label "左肺動脈右肺動脈起始症"@ja ;
-    rdfs:label "Pulmonary artery sling"@en ;
-    skos:prefLabel "Pulmonary artery sling"@en ;
+    rdfs:label "Vascular sling"@en ;
+    skos:prefLabel "Vascular sling"@en ;
     terms:identifier "1200965"^^xsd:string ;
     :has_notification_number "314"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/314-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "PA sling"@en ;
+    oboinowl:hasExactSynonym "PA sling"@en ,
+                             "Pulmonary artery sling"@en ;
     efo:definition "左肺動脈が右肺動脈から起始し、右気管支と気管分岐部直上を迂回し、気管の後方及び食道の前方を通り左肺に至る。この異常走行により、右気管支と気管下部及び食道が圧迫される。圧迫の程度により出生直後から重篤な呼吸器症状を惹起しうる疾患である。早期に外科治療が必要である。重篤な気管支狭窄を合併した場合は、成人期には肺気腫、無気肺などによって慢性呼吸不全となる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5404> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156569.docx> .
@@ -14490,8 +14574,7 @@
     efo:definition "アミノ酸の一つであるグリシンを分解する酵素である、グリシン開裂酵素系の活性が先天的に欠損しているために体内にグリシンが蓄積する、先天性アミノ酸代謝異常症の一つである。生後数日で意識障害、呼吸困難、など脳症様の症状で発症することが多い。中枢神経系の障害による症状が大部分を占め、肝臓や腎臓などの他の臓器障害は基本的に認めない。新生児期の急性期の症状は重篤であり、大部分の症例で人工呼吸器による呼吸管理が必要になる。急性期を脱した後は中枢神経の障害を残すことが多く、生涯にわたる療養が必要になる。発症に男女差はなく、我が国における発症頻度は50～100万出生に１人と推定される。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5440> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156576.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009070 ,
-                                                     mondo:MONDO_0011612 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011612 .
 
 ### 指定難病 321-1
 :1200985
@@ -14504,8 +14587,7 @@
     :has_notification_number "321"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/321-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5440> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156576.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0017353 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156576.docx> .
 
 ### 指定難病 321-2
 :1200986
@@ -14518,8 +14600,7 @@
     :has_notification_number "321"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/321-201704-kojin.pdf> ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5440> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156576.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0017354 .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156576.docx> .
 
 ### 指定難病 322
 :1200987
@@ -14617,10 +14698,11 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100004 ;
     rdfs:label "遺伝性自己炎症疾患"@ja ;
-    rdfs:label "hereditary autoinflammatory diseases"@en ;
-    skos:prefLabel "hereditary autoinflammatory diseases"@en ;
+    rdfs:label "Hereditary autoinflammatory syndrome"@en ;
+    skos:prefLabel "Hereditary autoinflammatory syndrome"@en ;
     terms:identifier "1200993"^^xsd:string ;
     :has_notification_number "325"^^xsd:string ;
+    oboinowl:hasExactSynonym "hereditary autoinflammatory diseases"@en ;
     efo:definition "遺伝性自己炎症疾患は、自然免疫系に関わる遺伝子異常を原因とし、生涯にわたり持続する炎症を特徴とする疾患群である。ここでは、成人患者が確認されている疾病のうち、既に指定難病に指定されている、クリオピリン関連周期熱症候群、TNF受容体関連周期性症候群、ブラウ症候群、家族性地中海熱、高IgD症候群、中條・西村症候群、化膿性無菌性関節炎・壊疽性膿皮症・アクネ症候群を除いた、NLRC４異常症、ADA２（Adenosine deaminase ２）欠損症、エカルディ・グティエール症候群（Aicardi-Goutières　Syndrome：AGS）、A20ハプロ不全症を対象とする。NLRC４異常症ではIL-1βとIL-18が過剰産生され、発熱、寒冷蕁麻疹、関節痛、乳児期発症腸炎、マクロファージ活性化症候群様症状など幅広い症状を呈する。ADA２欠損症では、主に中動脈に炎症が起こり、結節性多発動脈炎に類似した多彩な症状を呈する。エカルディ・グティエール症候群は重度心身障害をきたす早期発症型の脳症であり、頭蓋内石灰化病変と慢性的な髄液細胞数・髄液インターフェロン-α・髄液ネオプテリンの増加を特徴とする。A20ハプロ不全症はタンパク質A20の機能異常により、炎症性サイトカインであるTNF-α、IL-6、IL-1β等が過剰産生され、反復性口腔内アフタ、発熱、関節痛、消化管潰瘍等のベーチェット病類似症状を若年で発症する。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5407> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198089.doc> .
@@ -14701,11 +14783,12 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :1100006 ;
     rdfs:label "特発性血栓症"@ja ;
-    rdfs:label "Idiopathic thrombosis"@en ;
-    skos:prefLabel "Idiopathic thrombosis"@en ;
+    rdfs:label "Idiopathic thrombosis （inherited cause of thrombosis）（neonates, infants）"@en ;
+    skos:prefLabel "Idiopathic thrombosis （inherited cause of thrombosis）（neonates, infants）"@en ;
     terms:identifier "1200999"^^xsd:string ;
     :has_notification_number "327"^^xsd:string ;
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/327-201704-kojin.pdf> ;
+    oboinowl:hasExactSynonym "Idiopathic thrombosis"@en ;
     efo:definition "特発性血栓症（遺伝性血栓性素因によるものに限る。）は、血液凝固制御因子のプロテインC（PC）、プロテインS（PS）及びアンチトロンビン（AT）の先天的欠乏により病的血栓傾向となり、若年性に重篤な血栓症を発症する疾患群である。新生児・乳児期には脳出血・梗塞や電撃性紫斑病などを引き起こし、小児期・成人では時に致死性となる静脈血栓塞栓症の若年発症や繰り返す再発の原因となる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5419> ,
                  <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000156608.docx> .
@@ -14798,7 +14881,8 @@
     rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/331-201804-kojin.pdf> ;
     efo:definition "キャッスルマン病は，リンパ節の病理組織像によって特徴づけられる多クローン性のリンパ増殖性疾患であるが、病変が1つの領域に限局する単中心性（限局型）と，複数の領域に広がる多中心性に分けられ、これらは臨床像や治療法が大きく異なる。多中心性キャッスルマン病のうち、ヒト・ヘルペスウイルス８型感染がみられない原因不明のものが特発性多中心性キャッスルマン病として明確に区別されて定義される。特発性多中心性キャッスルマン病は高インターロイキン６血症による発熱やリンパ節腫脹、貧血などの臨床症状を呈し、多くの場合、慢性の経過をとる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/5749> ,
-                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198086.docx> .
+                 <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198086.docx> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019754 .
 
 ### 指定難病 332
 :1201006
@@ -17953,7 +18037,8 @@
     terms:identifier "2200035"^^xsd:string ;
     :has_notification_number "47"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_04_026_01.pdf> ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/01_04_026/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/01_04_026/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0005813 .
 
 ### 小児慢性特定疾病 26-3
 :2200036
@@ -18597,8 +18682,7 @@
     :has_notification_number "12"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_05_066_01.pdf> ;
     efo:definition "乳幼児期の肺や稀には壁側胸膜に発生する胎児性悪性腫瘍。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/01_05_066/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011014 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/01_05_066/> .
 
 ### 小児慢性特定疾病 67
 :2200081
@@ -18931,8 +19015,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_06_088_01.pdf> ;
     efo:definition "分化したシュワン細胞から構成され、生物学的には良性腫瘍（WHOグレードI）である。中枢神経系腫瘍としては頭蓋内や脊柱管内の末梢神経（脳神経や脊髄神経根）から発生する。末梢神経に連続する境界明瞭で被膜に覆われた腫瘤を形成し、核の棚状配列や細胞の粗密配列を特徴とする。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/01_06_088/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0002173 ,
-                                                     mondo:MONDO_0002546 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0002546 ,
                                                      mondo:MONDO_0008075 .
 
 ### 小児慢性特定疾病 89
@@ -19247,21 +19330,23 @@
     rdf:type owl:Class ;
     rdfs:subClassOf :2100010 ;
     rdfs:label "慢性糸球体腎炎（アルポート 症候群によるものに限る。）"@ja ;
-    rdfs:label "chronic glomerulonephritis"@en ;
-    skos:prefLabel "chronic glomerulonephritis"@en ;
+    rdfs:label "Alport syndrome"@en ;
+    skos:prefLabel "Alport syndrome"@en ;
     terms:identifier "2200126"^^xsd:string ;
     :has_notification_number "39"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_02_02_012_01.pdf> ;
+    oboinowl:hasExactSynonym "chronic glomerulonephritis"@en ;
     efo:definition "Alport症候群(AS)は1927年にAlportにより報告された進行性の腎炎を特徴とする遺伝性疾患で，聴力異常・眼球異常の合併を特徴とする(1)。その原因遺伝子は，COL4A3，COL4A4，COL4A5遺伝子である。1990年に初めてCOL4A5遺伝子変異がＸ染色体連鎖型(X-linked Alport syndrome: XLAS)家系で同定され(2)，次いで1994年にCOL4A3あるいはCOL4A4遺伝子変異が常染色体劣性型(autosomal recessive Alport syndrome: ARAS)家系で同定されている(3)。AS全体の中で，XLASが約80％，ARASが約15％を占める．残りの5％の中にCOL4A3あるいはCOL4A4遺伝子の異常から引き起こされる常染色体優性型が報告されている(4)。ASによる糸球体腎炎は糸球体基底膜(GBM)の菲薄化・断裂を伴って進行し，数年から十数年を経て慢性腎不全に至る(5)。初期症状は無症候性血尿であることが多く，特にXLASの男性において成人になってからほぼ例外なく腎不全に至る。XLASのキャリアである女性のASによる糸球体腎炎は，無症候性血尿のみの症例から早期に慢性腎不全に至る症例まで多様であり，Ｘ染色体の不活化現象によると推測されている(5)。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/02_02_012/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/02_02_012/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0018965 .
 
 ### 小児慢性特定疾病 104
 :2200127
     rdf:type owl:Class ;
     rdfs:subClassOf :2100010 ;
     rdfs:label "エプスタイン症候群"@ja ;
-    rdfs:label "Alport syndrome"@en ;
-    skos:prefLabel "Alport syndrome"@en ;
+    rdfs:label "Epstein syndrome"@en ;
+    skos:prefLabel "Epstein syndrome"@en ;
     terms:identifier "2200127"^^xsd:string ;
     :has_notification_number "30"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_02_02_013_01.pdf> ;
@@ -19271,8 +19356,8 @@
     rdfs:seeAlso <https://www.shouman.jp/disease/details/02_02_013/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0004978 ,
                                                      mondo:MONDO_0007113 ,
-                                                     mondo:MONDO_0010524 ,
-                                                     mondo:MONDO_0018965 ,
+                                                     mondo:MONDO_0007954 ,
+                                                     mondo:MONDO_0015912 ,
                                                      mondo:MONDO_0019344 .
 
 ### 小児慢性特定疾病 105
@@ -19985,7 +20070,8 @@
     oboinowl:hasExactSynonym "VUR"@en ;
     efo:definition "膀胱尿管移行部の先天的な形成不全や下部尿路通過障害などに起因する逆流防止機構の二次性の破綻により膀胱内の尿が尿管ないし腎孟に逆流する現象である。下部尿路機能異常や排便機能異常が二次的因子として関与することも多い(1, 2)。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/02_17_044/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008653 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0006007 ,
+                                                     mondo:MONDO_0008653 .
 
 ### 小児慢性特定疾病 136
 :2200180
@@ -20336,9 +20422,7 @@
     oboinowl:hasExactSynonym "CF"@en ;
     efo:definition "嚢胞性線維症(Cystic fibrosis: CF)は、cystic fibrosis transmembrane conductance regulator (CFTR) 遺伝子の変異が原因となる常染色体劣性遺伝疾患である。CFTRは全身の上皮膜細胞に発現するクロールイオンチャンネルであり、イオンと水の輸送を調節する。CFTRの異常があるとこの調節機構が障害されるため、全身の外分泌機能に異常をきたす。消化管や気道の分泌液が粘稠となり、膵外分泌異常による脂肪吸収不全、栄養障害が起こる。気道分泌の異常は排痰困難・難治性気道感染の原因となり、慢性呼吸不全に至る。欧米の疾患名cystic fibrosisの和訳は嚢胞性線維症であるが、これまで我が国では膵嚢胞性線維症の疾患名で難病登録されている。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/03_06_008/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009061 ,
-                                                     mondo:MONDO_0010561 ,
-                                                     mondo:MONDO_0015279 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009061 .
 
 ### 小児慢性特定疾病 148
 :2200206
@@ -20463,8 +20547,7 @@
     :has_notification_number "9"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_04_03_003_01.pdf> ;
     efo:definition "P波が心室に伝導せず、P波とQRS波が全く独立した調律をとる。胎児や新生児期に出現することがあり（先天性完全房室ブロック）、この場合、抗SS-A抗体、抗SS-B抗体陽性の母からの出生児のことが多い。小児期に発見され、原因不明のこともある。遺伝子異常が認められることもある。症候性徐脈、心室機能低下、低拍出がある場合には、ペースメーカの適応となる。ペースメーカ植込みを行なえば予後は比較的良好である。無治療で突然死することがある。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_03_003/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0000468 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_03_003/> .
 
 ### 小児慢性特定疾病 157
 :2200215
@@ -20637,7 +20720,8 @@
     :has_notification_number "30"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_04_10_014_01.pdf> ;
     efo:definition "心室が無秩序に興奮している状態で、心電図では基線の細かい揺れとして記録される。持続すれば死亡する。広義にはQT延長症候群、Brugada症候群、カテコラミン誘発多形性心室頻拍、QT短縮症候群も含めるが、特発性心室細動はこれらを除いた心室細動で、近年注目されている、J波症候群（早期再分極症候群）がその範疇に入る。頻拍の予防はアミオダロン内服、及びICD植込みである。予後不良の疾患ではあるが、はっきりした予後は未だ不明である。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_10_014/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_10_014/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0000190 .
 
 ### 小児慢性特定疾病 168
 :2200228
@@ -21228,7 +21312,8 @@
     :has_notification_number "31"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_04_45_057_01.pdf> ;
     efo:definition "左右の心室の間の壁である心室中隔に孔のあいている先天性心疾患。心室中隔は膜様部中隔と筋性部中隔に分けられ、筋性部中隔は更に流入路中隔、肉柱部中隔、および流出路（漏斗部）中隔に分けられる。これらの部位に欠損孔が認められる。欠損孔の大きさ、位置により臨床症状、治療方針が異なる。肺高血圧の合併がなく、左右短絡が少ない例では原則として外科治療の適応はなく、感染性心内膜炎に注意しながら経過観察する。大動脈弁の嵌入逸脱をともなう例では小短絡であっても外科治療が必要となることがある。肺体血流量比が2.0以上で多呼吸、哺乳障害、体重増加不良、気道感染の反復などの症状がある場合には内科治療と手術を行う。肺高血圧を合併した例では症状が軽微であっても6カ月以内に心内修復術を行う。肺高血圧がなくとも肺体血流量比が2.0以上で左室容量負荷所見を認める場合には就学前に心内修復術を行うことが多い。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_45_057/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_45_057/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0002070 .
 
 ### 小児慢性特定疾病 211
 :2200271
@@ -21254,7 +21339,8 @@
     :has_notification_number "78"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_04_46_059_01.pdf> ;
     efo:definition "部分肺静脈還流異常は,4本の肺静脈のうち1〜3本が体静脈系に異常還流する疾患である。心房中隔欠損に合併することが多い。胎生早期に共通肺静脈の一部が閉鎖し、体静脈系と交通を残すことにより生じる。心房中隔欠損の心内修復手術時に、一緒に治療する。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_46_059/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_46_059/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0020453 .
 
 ### 小児慢性特定疾病 213
 :2200273
@@ -21537,7 +21623,8 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_04_59_080_01.pdf> ;
     oboinowl:hasExactSynonym "Valsalva洞動脈瘤"@ja ;
     efo:definition "先天的に支持組織の脆弱性によりValsalva洞の一部が右室もしくは右房に瘤状に突出している。漏斗部心室中隔欠損に大動脈弁とバルサルバ洞が落ち込み、バルサルバ洞の拡大と弁の逸脱をきたしたものが多い。心室中隔欠損はバルサルバ洞で閉鎖されていることもある。大動脈弁の変形から閉鎖不全をきたすことがある。またバルサルバ洞が右室など交通を作ることがある（バルサルバ洞破裂）。破裂すると、突然の胸痛とともに、左右短絡をきたす。手術適応である。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_59_080/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_59_080/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015197 .
 
 ### 小児慢性特定疾病 234
 :2200294
@@ -21603,7 +21690,8 @@
     :has_notification_number "83"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_04_61_085_01.pdf> ;
     efo:definition "肺動脈性肺高血圧の原因は不明であるが、高度の肺動脈孿縮が生じ、そこに血管壁の肥厚性変化や血管際構築などの基質的病変が加わり惹起されるとされている。肺の筋性動脈や細動脈の中膜、内膜肥厚により肺動脈の血圧が高まり、心拍出量低下を生じ、右心不全をはじめ心臓や肺の機能に障害をもたらす、進行性の疾患。原因は、BMPR2、ALK1、Endoglinなどの遺伝子異常が存在するものと、未だ遺伝子異常があきらかでないものがある。予後不良で、難治性の疾患である。近年、様々な肺血管拡張薬が開発され、臨床使用されるようになり、予後は改善してきているが、それでも依然予後不良の疾患であることには変わりない。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_61_085/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/04_61_085/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0017147 .
 
 ### 小児慢性特定疾病 239
 :2200299
@@ -22112,7 +22200,6 @@
     efo:definition "先天性甲状腺機能低下症（congenital hypothyroidism：以下、ＣＨ）は、胎児期または周産期に生じた何らかの病因により、甲状腺ホルモン産生不足または作用不全をきたす疾患の総称である。甲状腺機能低下症の持続期間により永続性先天性甲状腺機能低下症と一過性先天性甲状腺機能低下症に大別され、さらに障害部位が甲状腺自体である原発性（あるいは甲状腺性）甲状腺機能低下症、下垂体や視床下部が障害される中枢性甲状腺機能低下症、甲状腺ホルモン作用不全による末梢性甲状腺機能低下症に区分される。「16から18に掲げるもののほかの、先天性甲状腺機能低下症」としては、永続性原発性先天性甲状腺機能低下症（permanent primary congenital hypothyroidism：以下、原発性ＣＨ）の中で、下記の病因があげられる。１．甲状腺形成異常のうち低形成、片葉欠損２．甲状腺ホルモン合成障害３．機能喪失型TSH受容体遺伝子変異甲状腺は正常であれば、前頸部の甲状軟骨のやや下方に位置し、気管を前面から囲むように存在する。正常位置の場合「正所性」甲状腺と称し、位置異常を来したものを「異所性」甲状腺と称する。異所性甲状腺や、甲状腺の欠損等は甲状腺の発生過程の障害によると考えられており、甲状腺形成異常（thyroid dysgenesis）と総称される。　甲状腺ホルモン合成障害は、甲状腺ホルモンの重要な構成要素であるヨード（ヨウ素）が、血液中から甲状腺濾胞細胞中に取り込まれ、甲状腺ホルモンとなって血液中に放出されるまでの一連の過程の障害により甲状腺ホルモン合成・分泌が低下することで発症する。大部分は関係する酵素などの遺伝子変異により生じ、主に劣性遺伝形式をとる。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/05_11_020/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008090 ,
-                                                     mondo:MONDO_0008959 ,
                                                      mondo:MONDO_0018612 .
 
 ### 小児慢性特定疾病 272
@@ -22406,7 +22493,8 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_19_038_01.pdf> ;
     oboinowl:hasExactSynonym "ACTH単独欠損症"@ja ;
     efo:definition "下垂体からのACTH分泌が、下垂体、視床下部あるいはさらに上位の中枢の問題により、障害されている状態を指す。慢性のACTH分泌不全では、副腎皮質は萎縮状となり、機能の低下を招くため、二次性副腎皮質機能低下症ともいう。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_19_038/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_19_038/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008720 .
 
 ### 小児慢性特定疾病 290
 :2200356
@@ -22587,8 +22675,7 @@
     :has_notification_number "7"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_24_049_01.pdf> ;
     efo:definition "アルドステロン分泌は正常であるにもかかわらず、先天的な腎尿細管におけるNa再吸収とＫ排泄能の低下のため塩類喪失症候群 salt-wasting syndromeをきたす疾患群である。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_24_049/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019161 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_24_049/> .
 
 ### 小児慢性特定疾病 300-2
 :2200369
@@ -22602,8 +22689,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_24_049_01.pdf> ;
     oboinowl:hasExactSynonym "Gordon 症候群 "@ja ;
     efo:definition "腎尿細管機能異常により高カリウム血症，高クロール血症性代謝性アシドーシス をきたすが，PHA Iと異なり塩類喪失症状はなく，循環血液量増大による高血圧を呈する疾患である。Gordon症候群ともいう。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_24_049/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019162 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_24_049/> .
 
 ### 小児慢性特定疾病 301
 :2200370
@@ -22929,7 +23015,8 @@
     :has_notification_number "42"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_32_073_01.pdf> ;
     efo:definition "腫瘍からのVIP分泌過剰による疾患。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_32_073/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_32_073/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019960 .
 
 ### 小児慢性特定疾病 325
 :2200395
@@ -22986,7 +23073,8 @@
     :has_notification_number "17"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_34_077_01.pdf> ;
     efo:definition "膵β細胞由来のインスリン分泌性腺腫。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_34_077/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_34_077/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0024677 .
 
 ### 小児慢性特定疾病 329
 :2200399
@@ -23025,7 +23113,9 @@
     :has_notification_number "76"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_35_080_01.pdf> ;
     efo:definition "ビタミンD依存性くる病は、遺伝性にビタミンD抵抗性くる病（骨軟化症）をきたす疾患で、生理量のビタミンDではその作用が不足する病態である。通常生後数カ月以内に、くる病所見や、低カルシウム血症によるテタニーやけいれんで発症する。腎臓の25位水酸化ビタミンD 1α位水酸化酵素遺伝子(CYP27B1)の不活性型変異によりビタミンD活性化が障害されるビタミンD依存症I型（Vitamin D-dependent rickets, type 1：VDDR I）と，ビタミンD受容体遺伝子(VDR)の不活性型変異によりビタミンDの作用が障害されるビタミンD依存症II型（（Vitamin D-dependent rickets, type II：VDDR II）に分類される。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_35_080/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_35_080/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0005520 ,
+                                                     mondo:MONDO_0024299 .
 
 ### 小児慢性特定疾病 332
 :2200402
@@ -23057,12 +23147,13 @@
 :2200404
     rdf:type owl:Class ;
     rdfs:subClassOf :2100147 ;
-    rdfs:label "脂肪異栄養症（脂肪萎縮症）"@ja ;
+    rdfs:label "脂肪異栄養症"@ja ;
     rdfs:label "Lipodystrophy"@en ;
     skos:prefLabel "Lipodystrophy"@en ;
     terms:identifier "2200404"^^xsd:string ;
     :has_notification_number "39"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_38_083_01.pdf> ;
+    oboinowl:hasExactSynonym "脂肪萎縮症"@ja ;
     efo:definition "栄養状態に関わらず、脂肪組織が全身性または局所性に減少・消失する疾患。治療抵抗性の脂肪萎縮性糖尿病、脂質異常をきたして生命予後不良となることがある。萎縮の分布、先天性・後天性により下記に分類される。１　全身性脂肪萎縮症(1) 先天性全身性脂肪萎縮症（Berardinelli-Seip 症候群）(2) 後天性全身性脂肪萎縮症（Lawrence 症候群）　２　部分的脂肪萎縮症(3) 先天性（家族性）部分性脂肪萎縮症(4) 後天性部分性脂肪萎縮症"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/05_38_083/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0006573 .
@@ -23128,8 +23219,7 @@
     terms:identifier "2200408"^^xsd:string ;
     :has_notification_number "66"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_05_39_086_01.pdf> ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_39_086/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008667 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/05_39_086/> .
 
 ### 小児慢性特定疾病 338
 :2200409
@@ -23280,7 +23370,6 @@
     rdfs:seeAlso <https://www.shouman.jp/disease/details/06_01_003/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0005015 ,
                                                      mondo:MONDO_0008054 ,
-                                                     mondo:MONDO_0011721 ,
                                                      mondo:MONDO_0016367 .
 
 ### 小児慢性特定疾病 346-2
@@ -23328,8 +23417,7 @@
     :has_notification_number "6"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_06_01_005_01.pdf> ;
     efo:definition "抗リン脂質抗体症候群は、抗リン脂質抗体の存在下に血栓傾向が増す疾患であり、小児では動静脈血栓症が問題となる。抗リン脂質抗体はリン脂質またはリン脂質と蛋白の複合体に結合する自己抗体の総称で、抗カルジオリピン抗体（aPL）や生物学的偽陽性などが含まれるが、臨床診断には抗カルジオリピンβ2-グリコプロテインⅠ（aPLβ2GPI）抗体もしくはループスアンチコアグラント（LA）の存在が重要である。　単独で発症した症例は原発性APSに、全身性エリテマトーデス(SLE)などリウマチ性疾患に伴う場合は続発性APSに分類される。APSの特殊型として、多臓器に微小血栓をきたし急速に多臓器不全に陥る、致死率が高い劇症型抗リン脂質抗体症候群(Catastrophic APS)がある。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/06_01_005/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007140 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/06_01_005/> .
 
 ### 小児慢性特定疾病 349
 :2200422
@@ -23602,7 +23690,8 @@
     :has_notification_number "13"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_06_05_023_01.pdf> ;
     efo:definition "本疾患は、炎症性サイトカインであるIL-1とⅠ型IL-1レセプターに対して競合阻害するIL-1レセプターアンタゴニストの欠損により起こる、常染色体劣性遺伝形式の自己炎症性疾患である。膿疱症・骨髄炎・骨膜炎が主症状となる。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/06_05_023/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/06_05_023/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013021 .
 
 ### 小児慢性特定疾病 367
 :2200440
@@ -24147,8 +24236,7 @@
     :has_notification_number "5"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_01_012_01.pdf> ;
     efo:definition "尿素サイクルの最初のステップであるアンモニアからのカルバミルリン酸合成を司る酵素がカルバミルリン酸合成酵素1(CPS1)である。CPS1欠損症は高アンモニア血症をきたす常染色体劣性遺伝性疾患である。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_01_012/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009376 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_01_012/> .
 
 ### 小児慢性特定疾病 387
 :2200479
@@ -24204,8 +24292,7 @@
     :has_notification_number "6"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_01_016_01.pdf> ;
     efo:definition "肝臓においてアンモニアを無害な尿素に代謝する尿素サイクルの最終段階の酵素がアルギナーゼ1であり、アルギニンを尿素とオルニチンへと分解する。高アルギニン血症は常染色体劣性遺伝性疾患であり、アルギナーゼ1の障害により血中・尿中にアルギニン上昇が認められる。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_01_016/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008814 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_01_016/> .
 
 ### 小児慢性特定疾病 391
 :2200483
@@ -24349,8 +24436,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_02_024_01.pdf> ;
     oboinowl:hasExactSynonym "PA"@en ;
     efo:definition "必須アミノ酸であるバリン・イソロイシン代謝経路の中間代謝障害によって、プロピオン酸をはじめとする有機酸が蓄積し、代謝性アシドーシスに伴う各種の症状を呈する常染色体劣性遺伝性疾患(MIM #606054)。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_02_024/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0021668 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_02_024/> .
 
 ### 小児慢性特定疾病 399
 :2200493
@@ -24610,8 +24696,7 @@
     :has_notification_number "42"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_03_042_01.pdf> ;
     efo:definition "カルニチン回路異常症の1つで、フリーカルニチンからアシルカルニチンの生成が障害されることにより、長鎖脂肪酸のミトコンドリア内への転送が障害され、脂肪酸代謝が十分行われずにエネルギー産生低下を引き起こす。新生児期発症型はけいれん、意識障害、呼吸障害などで急性発症し、著しい低血糖や高アンモニア血症、肝逸脱酵素の上昇などをきたす。乳児期以降は飢餓時や発熱時に、Reye様症候群として発症する。急性発症が死亡につながる症例もある。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_03_042/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015515 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_03_042/> .
 
 ### 小児慢性特定疾病 417
 :2200511
@@ -24638,7 +24723,8 @@
     :has_notification_number "43"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_03_044_01.pdf> ;
     efo:definition "細胞内に取り込まれた長鎖脂肪酸は、ミトコンドリア内で脂肪酸の炭素長に応じた各脱水素酵素で順次代謝され、1ステップごとに炭素鎖が2個ずつ短くなってアセチルCoAに至り、エネルギー産生に寄与している。極長鎖アシルCoA脱水素酵素(very-long-chain acyl-CoA dehydrogenase: VLCAD)はミトコンドリア内膜上内側に存在する酵素であり、三頭酵素ととともに長鎖脂肪酸のβ酸化を担う。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_03_044/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_03_044/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008723 .
 
 ### 小児慢性特定疾病 419
 :2200513
@@ -24693,9 +24779,7 @@
     :has_notification_number "45"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_03_048_01.pdf> ;
     efo:definition "細胞内に取り込まれた長鎖脂肪酸は、ミトコンドリア内で脂肪酸の炭素長に応じた各脱水素酵素で順次代謝され、1ステップごとに炭素鎖が2個ずつ短くなってアセチルCoAに至り、エネルギー産生に寄与している。3-ヒドロキシアシルCoA脱水素酵素(3-hydroxy acyl-CoA dehydrogenase ：HADH)はミトコンドリア内膜に存在する酵素であり、他のβ酸化酵素群と協働して中・短鎖アシルCoAの代謝を担当している。以前は短鎖3-ヒドロキシアシルCoA脱水素酵素（SCHAD）ともよばれていた。HADH欠損症は、中鎖、短鎖の3-ヒドロキシアシルCoAが蓄積し、血中3-ヒドロキシブチリルカルニチン（C4-OHカルニチン）がおもに増加する。重症例では高インスリン性低血糖が認められる。これは、HADHがインスリン分泌を調節するグルタミン酸脱水素酵素（GDH）を抑制する機能を担っているからであり、HADH欠損症ではGDH活性が亢進した状態となり、インスリン過分泌を引き起こす。頻度が極めて低く、偽陽性率が相対的に高いため、現在、わが国では新生児マススクリーニングの対象疾患とはされていない。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_03_048/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009278 ,
-                                                     mondo:MONDO_0017715 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_03_048/> .
 
 ### 小児慢性特定疾病 423
 :2200517
@@ -25723,7 +25807,9 @@
     :has_notification_number "78"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_08_09_116_01.pdf> ;
     efo:definition "ヒポキサンチンからキサンチン、およびキサンチンから尿酸への代謝を触媒するキサンチン脱水素酵素（XDH）の欠損により、尿酸酸性低下からの低尿酸血症、時としてキサンチン結石による尿路結石を発症する先天代謝異常症である。XDH単独欠損のタイプI、モリブデン補酵素（MoCo）の硫黄付加の酵素であるMoCo硫化酵素（MOCOS）により、それを基質とするXDHおよびアルデヒド酸化酵素（AO）が障害されるタイプIIに分類される。ともに常染色体性劣性遺伝形式をとるまれな先天代謝異常症であるが、尿路結石以外の症状は特に見られず予後良好とされている。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_09_116/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/08_09_116/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0000721 ,
+                                                     mondo:MONDO_0018106 .
 
 ### 小児慢性特定疾病 491
 :2200589
@@ -26198,8 +26284,7 @@
     oboinowl:hasExactSynonym "HS"@en ;
     efo:definition "赤血球膜の遺伝的異常により赤血球が破壊され、貧血を来たす疾患である。赤血球の膜・酵素・ヘモグロビンの異常による3大遺伝性溶血性貧血の一つである。赤血球膜異常による遺伝性溶血性貧血には、その赤血球の形態から球状赤血球症・楕円赤血球症・口唇赤血球症などがある。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/09_08_011/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007169 ,
-                                                     mondo:MONDO_0019350 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019350 ,
                                                      mondo:MONDO_0019395 .
 
 ### 小児慢性特定疾病 525
@@ -26484,8 +26569,7 @@
     oboinowl:hasExactSynonym "PV"@en ;
     efo:definition "骨髄増殖性疾患 (Myeloproliferative disorder (MPD) / myeloproliferative neoplasm (MPN) は造血幹細胞レベルのクローナルな増殖に起因するとされる、稀な疾患群であり、また骨髄異形成症候群（Myelodysplastic syndrome, MDS）との異同が注目され、MDS/MPN疾患群も存在する。小児期に発症するMPNではCMLやJMMLが有名であるが、まれに真性多血症（polycythemia vera, PV）、家族性赤血球増加症( familiar polycythemia)、本態性血小板血症(essential thrombocytosis, ET)、骨髄線維症（Myelofibrosis, MF）、好酸球増多症（hypereosinophilic syndrome, HES）、肥満細胞症（mastocytosis, MS）などが存在し、その発症頻度と分子病態は不明なままである。またこれ以外に従来の分類では対応できない未分類のMDS/MPNも存在する。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/09_11_021/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009891 ,
-                                                     mondo:MONDO_0012689 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009891 .
 
 ### 小児慢性特定疾病 535
 :2200644
@@ -26634,9 +26718,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_09_18_030_01.pdf> ;
     oboinowl:hasExactSynonym "May-Hegglin異常症"@ja ;
     efo:definition "本疾患は、先天性血小板減少症の中で巨大血小板症を呈する代表的疾患の一つである。これまで、メイ・ヘグリン（May-Hegglin）異常、セバスチャン（Sebastian）症候群、フェクトナー（Fechtner）症候群、エプスタイン（Epstein）症候群と別々に呼称されてきた類縁疾患が、同一の遺伝子（MYH9遺伝子）異常に起因することが明らかとなり、これらを包括する疾患概念として本疾患が提唱された（つまり、メイ・ヘグリン異常はメイ・ヘグリン異常症に包含される1病型となる）。同義で、MYH9異常症という疾患名も使用される。具体的な定義としては、血小板減少症、巨大血小板症がみられ、MYH9遺伝子異常が原因である場合に、本疾患と診断する。その他、末梢血塗抹標本像での顆粒球封入体（デーレ様小体：Döhle-like bodies）の存在や、腎炎、難聴、白内障といったアルポート（Alport）症状は本疾患を示唆する所見である。なお、巨大血小板の正式な定義はないが、末梢血塗抹標本上、概ね正常血小板の大きさの2倍程度（直径4μm）の場合に大型血小板、赤血球大（直径8μm）以上の場合に巨大血小板と判定する。免疫性血小板減少性紫斑症（ITP）でも大型血小板はしばしば観察されるが、大多数の血小板は正常大である。一方、先天性巨大血小板症では大多数の血小板は大型あるいは巨大であり、正常大血小板はまれである。以下に、これまで使用されてきた疾患名のそれぞれの臨床的特徴を示す。メイ・ヘグリン異常：明瞭な顆粒球封入体を認めるセバスチャン症候群：やや不明瞭な顆粒球封入体を認めるフェクトナー症候群：アルポート症状（腎炎・難聴・白内障）を認めるエプスタイン症候群：アルポート症状を認めるが、顆粒球封入体は同定困難"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/09_18_030/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007954 ,
-                                                     mondo:MONDO_0015912 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/09_18_030/> .
 
 ### 小児慢性特定疾病 544
 :2200655
@@ -26847,8 +26929,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_09_20_035_01.pdf> ;
     oboinowl:hasExactSynonym "GPVI欠損症"@ja ,
                              "GPVI deficiency "@en ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/09_20_035/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013623 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/09_20_035/> .
 
 ### 小児慢性特定疾病 548-12
 :2200671
@@ -27019,7 +27100,8 @@
                              "VWD"@en ;
     efo:definition "von Willebrand病（VWD）はvon Willebrand因子（VWF）の量的・質的異常を来す遺伝性出血性疾患である。von Willebrand因子（VWF）は分子量約500ｋDa-20,000kDaに及ぶマルチマー構造を形成する高分子量の糖蛋白質であり、血管内皮細胞や骨髄巨核球から産生される。VWFは血管損傷部位において血小板を内皮下結合組織へ粘着させる機能を有し、一次止血において極めて重要な役割を果たす。VWFは大小様々なマルチマーとして存在するが、高分子量のマルチマーほど止血能が高い。またVWFは血液凝固第Ⅷ因子（FVIII）と結合し血漿中のFVIIIを安定化させる機能も有するため、本症では二次的にFVIIIも低下する。本症の病因・病態は多様で、量的減少症の1型、質的異常症の2型、完全欠損症の3型に分類され、2型には更に2A、2B、2M、2Nの4亜型が存在する。基本的病態はVWFの異常に基づく血小板粘着および凝集障害とFVIII低下である。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/09_21_046/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0024574 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0019565 ,
+                                                     mondo:MONDO_0024574 .
 
 ### 小児慢性特定疾病 560
 :2200683
@@ -27099,7 +27181,8 @@
     :has_notification_number "40"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_09_21_047_01.pdf> ;
     oboinowl:hasExactSynonym "Plasminogen Activator Inhibitor-1 Deficiency "@en ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/09_21_047/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/09_21_047/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013227 .
 
 ### 小児慢性特定疾病 561
 :2200689
@@ -27518,8 +27601,7 @@
     oboinowl:hasExactSynonym "CVID"@en ;
     efo:definition "分類不能型免疫不全症（common variable immunodeficiency: CVID）は低ガンマグロブリン血症のために細菌感染症を繰り返す原発性免疫不全症のひとつである。性差は認められず、20～40代で診断されることが多いが、小児や高齢者で診断されることもある。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/10_03_024/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0012908 ,
-                                                     mondo:MONDO_0015517 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015517 .
 
 ### 小児慢性特定疾病 590
 :2200718
@@ -27547,7 +27629,8 @@
     :has_notification_number "1"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_10_03_026_01.pdf> ;
     efo:definition "IgGサブクラス（IgG1, IgG2, IgG3, IgG4）のうち1つないしはいくつかのサブクラスの欠損ならびに低下を示すものをいう。IgA欠損症を伴うこともある。IgG2欠損症はIgG4欠損症、さらにはIgA欠損症を伴うことがある。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/10_03_026/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/10_03_026/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0013576 .
 
 ### 小児慢性特定疾病 592
 :2200720
@@ -27616,8 +27699,7 @@
                              "CHS"@en ;
     efo:definition "CHSは、細胞内蛋白輸送にかかわるCHS1/LYST遺伝子の異常により引き起こされる先天性免疫不全症である。白血球内の巨大顆粒を特徴とし、部分的白子症、易感染性、出血傾向などを示す。最近は、白子症を伴う家族性血球貪食性リンパ組織球症（FHL）の一つに分類されている。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/10_04_031/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008959 ,
-                                                     mondo:MONDO_0008963 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0008963 ,
                                                      mondo:MONDO_0100094 .
 
 ### 小児慢性特定疾病 597
@@ -27790,7 +27872,8 @@
     terms:identifier "2200736"^^xsd:string ;
     :has_notification_number "44"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_10_04_034_01.pdf> ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/10_04_034/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/10_04_034/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0011664 .
 
 ### 小児慢性特定疾病 599-10
 :2200737
@@ -28056,8 +28139,7 @@
     oboinowl:hasExactSynonym "LAD"@en ;
     efo:definition "白血球における接着分子である2インテグリンやセレクチンリガンドの発現異常により発症する疾患。接着分子の異常により感染部位への白血球浸潤が不能となり、感染症が遷延する。細菌、真菌による難治性皮膚炎、中耳炎、副鼻腔炎を発症する。治療は軽度から中程度であれば抗菌剤等の対処療法を行うが、重症の場合は造血幹細胞移植が適応となる。常染色体劣性遺伝。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/10_05_038/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007089 ,
-                                                     mondo:MONDO_0007293 ,
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007293 ,
                                                      mondo:MONDO_0017570 .
 
 ### 小児慢性特定疾病 604
@@ -28737,8 +28819,7 @@
     terms:identifier "2200805"^^xsd:string ;
     :has_notification_number "18"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_10_08_052_01.pdf> ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/10_08_052/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015691 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/10_08_052/> .
 
 ### 小児慢性特定疾病 617-1
 :2200806
@@ -29233,8 +29314,7 @@
     oboinowl:hasExactSynonym "X-linked a-thalassemia/intellectual disability syndrome"@en ;
     efo:definition "ATR-X（X連鎖αサラセミア・精神遅滞）症候群(X-linked α-thalassemia/intellectual disability syndrome;は、X染色体に局在するATRX遺伝子を責任遺伝子とする、X染色体連鎖性知的障害症候群の一つです。男性で発症し、重度の精神運動発達遅滞、αサラセミア(HbH病)、特徴的な顔貌、外性器異常、骨格異常、独特の行動・姿勢異常を特徴とする疾患です。ATRX遺伝子がコードしているタンパクATRXはクロマチンリモデリング因子であり、複数の遺伝子発現調節に関わっていると考えられます。ATRX遺伝子の変化により、エピジェネティクス制御機構の破綻が起こり、複数の遺伝子の発現異常のため、多様な症状を呈すると考えられます。近年、ATRXタンパクが、ゲノムの特別な構造（G-quadruplex: G4、グアニン四重鎖）に結合し、近傍の遺伝子の発現調節に関わっていることが明らかにされました。現在、このメカニズムを利用した治療薬の開発が探索されています。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/11_09_027/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010519 ,
-                                                     mondo:MONDO_0015431 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010519 .
 
 ### 小児慢性特定疾病 649
 :2200840
@@ -29290,8 +29370,7 @@
     :has_notification_number "33"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_11_13_031_01.pdf> ;
     efo:definition "単一あるいは稀に複数の頭蓋骨縫合早期癒合による特有の頭蓋顔面の変形を来たし、他の顔面・指趾・四肢・全身の異常を伴わないものを非症候性頭蓋骨縫合早期癒合症とよぶ。頭蓋骨縫合早期癒合症全体の約85%と推定されている。頭蓋骨縫合早期癒合部位に応じた代償性頭蓋骨変形を生じる。原因はほとんどの場合不明である。最近になり一部の症例で遺伝子異常が報告されるようになったが系統だった解析は今後の課題である。従来の見解と異なり、高次脳機能障害を伴うこともあることが近年明らかとなってきている。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/11_13_031/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015337 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/11_13_031/> .
 
 ### 小児慢性特定疾病 653
 :2200844
@@ -29445,7 +29524,8 @@
     :has_notification_number "47"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_11_18_039_01.pdf> ;
     efo:definition "先天性無痛症は遺伝性感覚・自律神経ニューロパチー(HSAN)に属する疾患で、このうち4型（先天性無痛無汗症：Congenital Insensitivity to Pain with Anhidrosis：CIPA）と5型（先天性無痛症：Congenital Insensitivity to Pain：CIP）が相当する。全身の温痛覚消失を主徴とする。CIPAでは全身の発汗低下を合併し、種々の程度の知能低下を合併することがある。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/11_18_039/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/11_18_039/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009746 .
 
 ### 小児慢性特定疾病 661
 :2200855
@@ -29521,9 +29601,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_11_19_044_01.pdf> ;
     oboinowl:hasExactSynonym "FSMD"@en ;
     efo:definition "常染色体優性遺伝をとり、顔面筋、肩甲、上腕近位部の筋が主に障害をうけ、緩徐進行性を示す疾患である。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/11_19_044/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0001347 ,
-                                                     mondo:MONDO_0008030 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/11_19_044/> .
 
 ### 小児慢性特定疾病 666
 :2200860
@@ -29938,7 +30016,8 @@
     oboinowl:hasExactSynonym "INAD"@en ;
     efo:definition "第22番染色体長腕上にあるPhospholipase A2, group VI (PLA2G6) 遺伝子の変異による常染色体劣性遺伝性疾患。脳内鉄沈着を伴う神経変性症 (neurodegeneration with brain iron accumulation; NBIA)の一つである。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/11_27_067/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009739 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009739 ,
+                                                     mondo:MONDO_0024457 .
 
 ### 小児慢性特定疾病 689
 :2200888
@@ -30337,7 +30416,8 @@
     :has_notification_number "27"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_12_01_008_01.pdf> ;
     efo:definition "1961年にWaldmannらにより提唱された疾患概念である。腸管壁内のリンパ管内圧が亢進し、リンパ管の拡張や破綻をきたす。その結果、リンパ液とともに蛋白成分が腸管内へ漏出し低蛋白血症をきたす。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/12_01_008/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/12_01_008/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0018178 .
 
 ### 小児慢性特定疾病 711
 :2200915
@@ -30410,7 +30490,8 @@
     :has_notification_number "19"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_12_03_013_01.pdf> ;
     efo:definition "周期性嘔吐症候群（cyclic vomiting syndrome,CVS）は数日間の嘔吐発作を周期的にくり返すが,間欠期は正常であること, 数年の経過により自然治癒することを特徴とする.CVSは全ての人種で見られ,頻度は白人で2%との報告がある.Liらは小児の発症年齢は中央値が4.8歳で最小発症年齢は生後6日,成人の発症年齢の中央値は35歳で最高齢は73歳であり,性差は小児で57:43(女:男),成人では9:8(女:男)と報告している1)."@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/12_03_013/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/12_03_013/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010778 .
 
 ### 小児慢性特定疾病 716
 :2200920
@@ -30504,17 +30585,14 @@
 :2200926
     rdf:type owl:Class ;
     rdfs:subClassOf :2100262 ;
-    rdfs:label "急性肝不全"@ja ;
-    rdfs:label "Acute Liver Failure"@en ;
-    skos:prefLabel "Acute Liver Failure"@en ;
+    rdfs:label "急性肝不全（昏睡型）"@ja ;
+    rdfs:label "acute liver failure with hepatic coma"@en ;
+    skos:prefLabel "acute liver failure with hepatic coma"@en ;
     terms:identifier "2200926"^^xsd:string ;
     :has_notification_number "17"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_12_06_019_01.pdf> ;
-    oboinowl:hasExactSynonym "hepatic coma"@en ;
     efo:definition "肝細胞の急速な壊死あるいは代謝機能の障害により肝機能が高度に低下した状態であり、重篤化とともに凝固障害や意識障害をきたす。本邦では厚生労働科学研究「難治性の肝・胆道疾患に関する調査研究」班（持田班）の診断基準が用いられている。すなわち急性肝不全を・正常肝ないし肝機能が正常と考えられる肝に・肝障害が生じ初発症状出現から8週以内に・高度の肝機能障害に基ついてプロトロンビン時間が40%以下ないしはINR値1.5以上を示すもの　と定義している。このうち肝性昏睡 II 度以上の肝性脳症を呈するものが「昏睡型」である。　しかし小児、ことに乳児の肝性脳症は観察によって判定することが容易でない。近年の欧米の小児のガイドラインでは予後を解析し、INR値2.0以上であれば意識状態によらず昏睡型と同等として扱っている。"@ja ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/12_06_019/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0001548 ,
-                                                     mondo:MONDO_0019542 .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/12_06_019/> .
 
 ### 小児慢性特定疾病 722
 :2200927
@@ -30907,7 +30985,6 @@
     efo:definition "NSD1遺伝子の機能異常による大頭、過成長、骨年齢促進、発達の遅れ、痙攣、心疾患、尿路異常、側弯などを呈する先天異常症候群"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/13_01_002/> ;
     <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007299 ,
-                                                     mondo:MONDO_0011604 ,
                                                      mondo:MONDO_0019349 .
 
 ### 小児慢性特定疾病 749
@@ -31027,8 +31104,7 @@
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_13_01_010_01.pdf> ;
     efo:definition "5p-症候群は5番染色体短腕の部分欠失に基づく染色体異常症候群の一つである。 本症候群の頻度は15,000～50,000出生に1人とされ、また精神発達の遅れを示す患者350人に1人の割合を占めるとされる。小頭症、小顎症、発達の遅れ、筋緊張低下を主徴とする"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/13_01_010/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007404 ,
-                                                     mondo:MONDO_0008297 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007404 .
 
 ### 小児慢性特定疾病 757
 :2200962
@@ -31271,7 +31347,8 @@
     oboinowl:hasExactSynonym "Coffin-Siris症候群"@ja ;
     efo:definition "コフィン・シリス症候群（Coffin-Siris症候群）は、1970年にCoffinとSirisにより初めて報告された先天異常症候群であり、重度の知的障害、成長障害、特徴的な顔貌（疎な頭髪、濃い眉と睫毛、厚い口唇など）、手足の第５指の爪及び末節骨の無～低形成を主徴とする疾患である。"@ja ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/13_01_026/> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0015452 .
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0007617 ,
+                                                     mondo:MONDO_0015452 .
 
 ### 小児慢性特定疾病 773
 :2200978
@@ -31583,7 +31660,8 @@
     terms:identifier "2200999"^^xsd:string ;
     :has_notification_number "9"^^xsd:string ;
     rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_14_02_007_01.pdf> ;
-    rdfs:seeAlso <https://www.shouman.jp/disease/details/14_02_007/> .
+    rdfs:seeAlso <https://www.shouman.jp/disease/details/14_02_007/> ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010624 .
 
 ### 小児慢性特定疾病 788
 :2201000
