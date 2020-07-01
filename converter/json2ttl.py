@@ -78,10 +78,11 @@ def top_concept_to_ttl():
         '### 難病',
         ':{}'.format(id_zero_padded),
         ' ' * 4 + 'rdf:type owl:Class ;',
-        ' ' * 4 + 'rdfs:subClassOf mondo:MONDO_0000001 ;',
+        ' ' * 4 + 'rdfs:subClassOf owl:Thing ;',
         ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "難病"@ja ;',
         ' ' * 4 + 'rdfs:label "intractable disease"@en ;',
+        ' ' * 4 + 'skos:prefLabel "難病"@ja ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -96,6 +97,7 @@ def top_concept_to_ttl():
         ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "obsolete class"@en ;',
         ' ' * 4 + 'efo:definition "NANDO number no more in use."@en ;',
+        ' ' * 4 + 'skos:prefLabel "obsolete class"@en ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -122,6 +124,7 @@ def nanbyo_top_concept_to_ttl():
         ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "指定難病"@ja ;',
         ' ' * 4 + 'rdfs:label "designated intractable disease"@en ;',
+        ' ' * 4 + 'skos:prefLabel "指定難病"@ja ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -158,7 +161,7 @@ def nanbyo_class_to_ttl(fp: Path):
         if nando_class_node['name_en']:
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(name_en),
-                ' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(name_en),
+                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(name_ja),
             ]
 
         doc = lines_to_doc(lines)
@@ -235,7 +238,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
         if nando_node.name_en:
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(nando_node.name_en),
-                ' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(nando_node.name_en,)
+                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(nando_node.name_ja,)
             ]
         lines += [
             ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
@@ -278,6 +281,7 @@ def shoman_top_concept_to_ttl():
         ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "小児慢性特定疾病"@ja ;',
         ' ' * 4 + 'rdfs:label "specific chronic pediatric disease"@en ;',
+        ' ' * 4 + 'skos:prefLabel "小児慢性特定疾病"@ja ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -323,7 +327,7 @@ def shoman_class_to_ttl(fp: Path):
         if name_en:
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(name_en),
-                ' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(name_en),
+                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(name_ja),
             ]
         doc = lines_to_doc(lines)
         doc_list.append(doc)
@@ -399,7 +403,7 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
         if nando_node.name_en:
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(nando_node.name_en),
-                ' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(nando_node.name_en),
+                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(nando_node.name_ja),
             ]
         lines += [
             ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
