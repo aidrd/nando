@@ -33,7 +33,7 @@ NANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の疾患�
 | MONDOへのクロスリファレンスを含むクラス数 | `1,382` | `698` | `684` |
 
 ## ライセンス
-<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a>
+<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
 
 ## コンタクト
 新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
