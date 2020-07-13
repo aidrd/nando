@@ -83,6 +83,7 @@ def top_concept_to_ttl():
         ' ' * 4 + 'rdfs:label "難病"@ja ;',
         ' ' * 4 + 'rdfs:label "intractable disease"@en ;',
         ' ' * 4 + 'skos:prefLabel "難病"@ja ;',
+        #' ' * 4 + 'skos:prefLabel "intractable disease"@en ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -96,7 +97,7 @@ def top_concept_to_ttl():
         ' ' * 4 + 'rdfs:subClassOf owl:Thing ;',
         ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "obsolete class"@en ;',
-        ' ' * 4 + 'efo:definition "NANDO number no more in use."@en ;',
+        ' ' * 4 + 'terms:description "NANDO number no more in use."@en ;',
         ' ' * 4 + 'skos:prefLabel "obsolete class"@en ;',
     ]
     doc = lines_to_doc(lines)
@@ -125,6 +126,7 @@ def nanbyo_top_concept_to_ttl():
         ' ' * 4 + 'rdfs:label "指定難病"@ja ;',
         ' ' * 4 + 'rdfs:label "designated intractable disease"@en ;',
         ' ' * 4 + 'skos:prefLabel "指定難病"@ja ;',
+        #' ' * 4 + 'skos:prefLabel "designated intractable disease"@en ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -161,7 +163,8 @@ def nanbyo_class_to_ttl(fp: Path):
         if nando_class_node['name_en']:
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(name_en),
-                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(name_ja),
+                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(name_ja,),
+                #' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(name_en),
             ]
 
         doc = lines_to_doc(lines)
@@ -208,7 +211,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
                 continue
             exact_synonym_list.append('"{}"@en ,'.format(synonym))
         
-        exact_synonym = ('\n' + ' ' * 29).join(exact_synonym_list)
+        exact_synonym = ('\n' + ' ' * 18).join(exact_synonym_list)
         exact_synonym = exact_synonym[:-2]
 
         # description
@@ -225,7 +228,7 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
         mondo_list = []
         for mondo in nando_node.mondo_nodes:
             mondo_list.append('mondo:{} ,'.format(mondo['id']))
-        mondo = ('\n' + ' ' * 53).join(mondo_list)
+        mondo = ('\n' + ' ' * 20).join(mondo_list)
         mondo = mondo[:-2]
 
         lines = [
@@ -238,22 +241,23 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
         if nando_node.name_en:
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(nando_node.name_en),
-                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(nando_node.name_ja,)
+                ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(nando_node.name_ja,),
+                #' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(nando_node.name_en,),
             ]
         lines += [
             ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
-            ' ' * 4 + ':has_notification_number "{}"^^xsd:string ;'.format(nando_node.notification_no),
+            ' ' * 4 + ':hasNotificationNumber "{}"^^xsd:string ;'.format(nando_node.notification_no),
         ]
         if nando_node.is_defined_by:
-            lines += [' ' * 4 + 'rdfs:isDefinedBy <{}> ;'.format(nando_node.is_defined_by)]
+            lines += [' ' * 4 + 'terms:source <{}> ;'.format(nando_node.is_defined_by)]
         if exact_synonym:
-            lines += [' ' * 4 + 'oboinowl:hasExactSynonym {} ;'.format(exact_synonym)]
+            lines += [' ' * 4 + 'skos:altLabel {} ;'.format(exact_synonym)]
         if description:
-            lines += [' ' * 4 + 'efo:definition "{}"@ja ;'.format(description)]
+            lines += [' ' * 4 + 'terms:description "{}"@ja ;'.format(description)]
         if see_also:
             lines += [' ' * 4 + 'rdfs:seeAlso {} ;'.format(see_also)]
         if mondo:
-            lines += [' ' * 4 + '<http://www.w3.org/2004/02/skos/core#exactMatch> {} ;'.format(mondo)]
+            lines += [' ' * 4 + 'skos:closeMatch {} ;'.format(mondo)]
 
         doc = lines_to_doc(lines)
         doc_list.append(doc)
@@ -282,6 +286,7 @@ def shoman_top_concept_to_ttl():
         ' ' * 4 + 'rdfs:label "小児慢性特定疾病"@ja ;',
         ' ' * 4 + 'rdfs:label "specific chronic pediatric disease"@en ;',
         ' ' * 4 + 'skos:prefLabel "小児慢性特定疾病"@ja ;',
+        #' ' * 4 + 'skos:prefLabel "specific chronic pediatric disease"@en ;',
     ]
     doc = lines_to_doc(lines)
     doc_list.append(doc)
@@ -328,6 +333,7 @@ def shoman_class_to_ttl(fp: Path):
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(name_en),
                 ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(name_ja),
+                #' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(name_en),
             ]
         doc = lines_to_doc(lines)
         doc_list.append(doc)
@@ -373,7 +379,7 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
             if not synonym:
                 continue
             exact_synonym_list.append('"{}"@en ,'.format(synonym))
-        exact_synonym = ('\n' + ' ' * 29).join(exact_synonym_list)
+        exact_synonym = ('\n' + ' ' * 18).join(exact_synonym_list)
         exact_synonym = exact_synonym[:-2]
 
         # description
@@ -390,7 +396,7 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
         mondo_list = []
         for mondo in nando_node.mondo_nodes:
             mondo_list.append('mondo:{} ,'.format(mondo['id']))
-        mondo = ('\n' + ' ' * 53).join(mondo_list)
+        mondo = ('\n' + ' ' * 20).join(mondo_list)
         mondo = mondo[:-2]
 
         lines = [
@@ -404,21 +410,22 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
             lines += [
                 ' ' * 4 + 'rdfs:label "{}"@en ;'.format(nando_node.name_en),
                 ' ' * 4 + 'skos:prefLabel "{}"@ja ;'.format(nando_node.name_ja),
+                #' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(nando_node.name_en),
             ]
         lines += [
             ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
-            ' ' * 4 + ':has_notification_number "{}"^^xsd:string ;'.format(nando_node.notification_no),
+            ' ' * 4 + ':hasNotificationNumber "{}"^^xsd:string ;'.format(nando_node.notification_no),
         ]
         if nando_node.is_defined_by:
-            lines += [' ' * 4 + 'rdfs:isDefinedBy <{}> ;'.format(nando_node.is_defined_by)]
+            lines += [' ' * 4 + 'terms:source <{}> ;'.format(nando_node.is_defined_by)]
         if exact_synonym:
-            lines += [' ' * 4 + 'oboinowl:hasExactSynonym {} ;'.format(exact_synonym)]
+            lines += [' ' * 4 + 'skos:altLabel {} ;'.format(exact_synonym)]
         if description:
-            lines += [' ' * 4 + 'efo:definition "{}"@ja ;'.format(description)]
+            lines += [' ' * 4 + 'terms:description "{}"@ja ;'.format(description)]
         if see_also:
             lines += [' ' * 4 + 'rdfs:seeAlso {} ;'.format(see_also)]
         if mondo:
-            lines += [' ' * 4 + '<http://www.w3.org/2004/02/skos/core#exactMatch> {} ;'.format(mondo)]
+            lines += [' ' * 4 + 'skos:closeMatch {} ;'.format(mondo)]
 
         doc = lines_to_doc(lines)
         doc_list.append(doc)

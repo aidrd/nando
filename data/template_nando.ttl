@@ -5,9 +5,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix mondo: <http://purl.obolibrary.org/obo/> .
-@prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix efo: <http://www.ebi.ac.uk/efo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 # @base <http://nanbyodata.jp/ontology/nando.owl> .
 
 
@@ -20,26 +19,26 @@
     owl:versionInfo "0.1"^^xsd:string ;
     <http://purl.org/dc/elements/1.1/creator> "Kota Ninomiya"^^xsd:string ,
                                               "Ryota Yamada"^^xsd:string ,
+                                              "Terue Takatsuki"^^xsd:string ,
                                               "Orion Buske"^^xsd:string ,
                                               "Toshiaki Katayama"^^xsd:string ,
                                               "Shuichi Kawashima"^^xsd:string ,
                                               "Yasunori Yamamoto"^^xsd:string ,
                                               "Hiroshi Masuya"^^xsd:string ,
                                               "Soichi Ogishima"^^xsd:string ,
-                                              "Toyofumi Fujiwara"^^xsd:string ,
-                                              "Yuki Chida"^^xsd:string ;
+                                              "Toyofumi Fujiwara"^^xsd:string ;
     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
     <http://purl.org/dc/terms/created> "2019-10-29T16:00:00"^^xsd:dateTime ;
     <http://purl.org/dc/terms/modified> "2019-10-29T16:00:00"^^xsd:dateTime .
 
 
 #################################################################
-#    Annotation Properties
+#    Datatype Properties
 #################################################################
 
 ###  告示番号
-:has_notification_number
-    rdf:type owl:ObjectProperty ;
+:hasNotificationNumber
+    rdf:type owl:DatatypeProperty ;
     rdfs:label "告示番号"@ja ;
     rdfs:label "has notification number"@en .
 
@@ -61,7 +60,7 @@
     rdfs:subClassOf owl:Thing ;
     terms:identifier "0000002"^^xsd:string ;
     rdfs:label "obsolete class"@en ;
-    efo:definition "NANDO number no more in use."@en .
+    terms:description "NANDO number no more in use."@en .
 
 ### 指定難病
 :1000001
@@ -85,12 +84,12 @@
     rdfs:label "球脊髄性筋萎縮症"@ja ;
     rdfs:label "Spinal and bulbar muscular atrophy"@en ;
     terms:identifier "1000003"^^xsd:string ;
-    :has_notification_number "1"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/001-201704-kojin.pdf> ;
-    efo:definition "通常成人男性に発症する、遺伝性下位運動ニューロン疾患である。四肢の筋力低下及び筋萎縮、球麻痺を主症状とし、女性化乳房など軽度のアンドロゲン不全症や耐糖能異常、脂質異常症などを合併する。筋力低下の発症は通常30～60歳頃で、経過は緩徐進行性である。国際名称は Spinal and Bulbar Muscular Atrophy （SBMA）であるが、Kennedy diseaseとも呼ばれる。"@ja ;
+    :hasNotificationNumber "1"^^xsd:string ;
+    terms:source <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/001-201704-kojin.pdf> ;
+    terms:description "通常成人男性に発症する、遺伝性下位運動ニューロン疾患である。四肢の筋力低下及び筋萎縮、球麻痺を主症状とし、女性化乳房など軽度のアンドロゲン不全症や耐糖能異常、脂質異常症などを合併する。筋力低下の発症は通常30～60歳頃で、経過は緩徐進行性である。国際名称は Spinal and Bulbar Muscular Atrophy （SBMA）であるが、Kennedy diseaseとも呼ばれる。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/234> ;
     rdfs:seeAlso <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157680.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0010735 .
+    skos:closeMatch mondo:MONDO_0010735 .
 
 ### 指定難病 2
 :1000004
@@ -99,12 +98,12 @@
     rdfs:label "筋萎縮性側索硬化症"@ja ;
     rdfs:label "Amyotrophic lateral sclerosis"@en ;
     terms:identifier "1000004"^^xsd:string ;
-    :has_notification_number "2"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/002-201704-kojin.pdf> ;
-    efo:definition "主に中年以降に発症し、一次運動ニューロン（上位運動ニューロン）と二次運動ニューロン（下位運動ニューロン）が選択的にかつ進行性に変性・消失していく原因不明の疾患である。病勢の進展は比較的速く、人工呼吸器を用いなければ通常は２～５年で死亡することが多い。"@ja ;
+    :hasNotificationNumber "2"^^xsd:string ;
+    terms:source <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/002-201704-kojin.pdf> ;
+    terms:description "主に中年以降に発症し、一次運動ニューロン（上位運動ニューロン）と二次運動ニューロン（下位運動ニューロン）が選択的にかつ進行性に変性・消失していく原因不明の疾患である。病勢の進展は比較的速く、人工呼吸器を用いなければ通常は２～５年で死亡することが多い。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/52> ;
     rdfs:seeAlso <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000157684.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0004976 .
+    skos:closeMatch mondo:MONDO_0004976 .
 
 ### 指定難病 3
 :1000005
@@ -113,12 +112,12 @@
     rdfs:label "脊髄性筋萎縮症"@ja ;
     rdfs:label "Spinal muscular atrophy"@en ;
     terms:identifier "1000005"^^xsd:string ;
-    :has_notification_number "3"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
-    efo:definition "脊髄性筋萎縮症（spinal muscular atrophy：SMA）は、脊髄の前角細胞の変性による筋萎縮と進行性筋力低下を特徴とする下位運動ニューロン病である。上位運動ニューロン徴候は伴わない。体幹、四肢の近位部優位の筋力低下、筋萎縮を示す。発症年齢、臨床経過に基づき、I型、II型、III型、IV型に分類される。I、II型の95％にSMN1遺伝子欠失が認められ、III型の約半数、IV型の１～２割においてSMN１遺伝子変異を認める。SMN1遺伝子に変異がなく早期に呼吸障害を来すI型において、IGHMBP2の遺伝子変異を認めることがある。"@ja ;
+    :hasNotificationNumber "3"^^xsd:string ;
+    terms:source <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
+    terms:description "脊髄性筋萎縮症（spinal muscular atrophy：SMA）は、脊髄の前角細胞の変性による筋萎縮と進行性筋力低下を特徴とする下位運動ニューロン病である。上位運動ニューロン徴候は伴わない。体幹、四肢の近位部優位の筋力低下、筋萎縮を示す。発症年齢、臨床経過に基づき、I型、II型、III型、IV型に分類される。I、II型の95％にSMN1遺伝子欠失が認められ、III型の約半数、IV型の１～２割においてSMN１遺伝子変異を認める。SMN1遺伝子に変異がなく早期に呼吸障害を来すI型において、IGHMBP2の遺伝子変異を認めることがある。"@ja ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/135> ;
     rdfs:seeAlso <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198037.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0001516 .
+    skos:closeMatch mondo:MONDO_0001516 .
 
 ### 指定難病 3-1
 :1000006
@@ -127,13 +126,13 @@
     rdfs:label "脊髄性筋萎縮症 I 型"@ja ;
     rdfs:label "Spinal muscular atrophy type1"@en ;
     terms:identifier "1000006"^^xsd:string ;
-    :has_notification_number "3"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
-    oboinowl:hasExactSynonym "ウェルドニッヒ・ホフマン病"@ja ,
+    :hasNotificationNumber "3"^^xsd:string ;
+    terms:source <https://www.nanbyou.or.jp/wp-content/uploads/upload_files/File/003-201704-kojin.pdf> ;
+    skos:altLabel "ウェルドニッヒ・ホフマン病"@ja ,
                              "Werdnig-Hoffmann disease"@en ;
     rdfs:seeAlso <https://www.nanbyou.or.jp/entry/135> ;
     rdfs:seeAlso <https://www.mhlw.go.jp/file/06-Seisakujouhou-10900000-Kenkoukyoku/0000198037.docx> ;
-    <http://www.w3.org/2004/02/skos/core#exactMatch> mondo:MONDO_0009669 .
+    skos:closeMatch mondo:MONDO_0009669 .
 
 ### 小児慢性特定疾病
 :2000001
@@ -165,8 +164,8 @@
     rdfs:label "前駆B細胞急性リンパ性白血病"@ja ;
     rdfs:label "B-cell precursor lymphoblastic leukaemia"@en ;
     terms:identifier "2000004"^^xsd:string ;
-    :has_notification_number "80"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_01_001_01.pdf> ;
+    :hasNotificationNumber "80"^^xsd:string ;
+    terms:source <https://www.shouman.jp/archives/doc/doc_01_01_001_01.pdf> ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/01_01_001/> .
 
 ### 小児慢性特定疾病 2
@@ -176,8 +175,8 @@
     rdfs:label "成熟B細胞急性リンパ性白血病"@ja ;
     rdfs:label "Mature B-cell lymphoblastic leukaemia"@en ;
     terms:identifier "2000005"^^xsd:string ;
-    :has_notification_number "77"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_01_002_01.pdf> ;
+    :hasNotificationNumber "77"^^xsd:string ;
+    terms:source <https://www.shouman.jp/archives/doc/doc_01_01_002_01.pdf> ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/01_01_002/> .
 
 ### 小児慢性特定疾病 3
@@ -187,6 +186,6 @@
     rdfs:label "T細胞急性リンパ性白血病"@ja ;
     rdfs:label "T-cell lymphoblastic leukaemia"@en ;
     terms:identifier "2000006"^^xsd:string ;
-    :has_notification_number "81"^^xsd:string ;
-    rdfs:isDefinedBy <https://www.shouman.jp/archives/doc/doc_01_01_003_01.pdf> ;
+    :hasNotificationNumber "81"^^xsd:string ;
+    terms:source <https://www.shouman.jp/archives/doc/doc_01_01_003_01.pdf> ;
     rdfs:seeAlso <https://www.shouman.jp/disease/details/01_01_003/> .

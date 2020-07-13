@@ -80039,7 +80039,151 @@
         "notification_no": "256",
         "description": "",
         "obsolete": false,
-        "mondo_nodes": []
+        "mondo_nodes": [
+            {
+                "id": "MONDO_0013968",
+                "name": "PGM1-CDG",
+                "xrefs": [
+                    "GARD:0004329",
+                    "ICD10:E77.8",
+                    "MESH:C567859",
+                    "OMIM:614921",
+                    "Orphanet:319646",
+                    "UMLS:C2752015"
+                ],
+                "synonyms": [
+                    {
+                        "name": "CDG it",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "CDG syndrome type It",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:319646"
+                        ]
+                    },
+                    {
+                        "name": "CDG-It",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:319646"
+                        ]
+                    },
+                    {
+                        "name": "CDG1T",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:614921",
+                            "Orphanet:319646"
+                        ]
+                    },
+                    {
+                        "name": "congenital disorder of glycosylation type 1t",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:319646"
+                        ]
+                    },
+                    {
+                        "name": "congenital disorder of glycosylation type It",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:319646"
+                        ]
+                    },
+                    {
+                        "name": "congenital disorder of glycosylation, type It",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "MONDO:Lexical",
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "congenital disorder of glycosylation, type It; CDG1T",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "glycogen storage disease 14",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "glycogen storage disease due to phosphoglucomutase deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0004329"
+                        ]
+                    },
+                    {
+                        "name": "GSD 14",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "GSD type 14",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0004329"
+                        ]
+                    },
+                    {
+                        "name": "GSDXIV",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0004329"
+                        ]
+                    },
+                    {
+                        "name": "Pgm1 deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "phosphoglucomutase 1 deficiency",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "OMIM:614921"
+                        ]
+                    },
+                    {
+                        "name": "phosphoglucomutase deficiency type 1",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0004329"
+                        ]
+                    },
+                    {
+                        "name": "phosphoglucomutase-1 deficiency",
+                        "scope": "EXACT",
+                        "xrefs": [
+                            "Orphanet:319646"
+                        ]
+                    },
+                    {
+                        "name": "type 14 glycogenosis",
+                        "scope": "RELATED",
+                        "xrefs": [
+                            "GARD:0004329"
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "256-14",

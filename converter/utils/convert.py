@@ -207,7 +207,8 @@ def _make_entity_chunk(json_list):
         
         if mondo_ids:
             mondo_ids = ', '.join(['mondo:{}'.format(m_id) for m_id in mondo_ids.split(', ')])
-            mondo_ids = '<http://www.w3.org/2004/02/skos/core#exactMatch> {mondo_ids}'.format(mondo_ids=mondo_ids)
+            #mondo_ids = '<http://www.w3.org/2004/02/skos/core#exactMatch> {mondo_ids}'.format(mondo_ids=mondo_ids)
+            mondo_ids = 'skos:closeMatch {mondo_ids}'.format(mondo_ids=mondo_ids)
         
         block = _get_block(comment, nanbyo_id, sub_class_of, labels, synonyms, id, class_id, url, mondo_ids)
         chunk += block
@@ -220,7 +221,8 @@ def _get_labels_and_synonyms(name_ja, name_en, synonyms_ja, synonyms_en):
     name_en = [name_en]
     labels = '\n    '.join(['rdfs:label "{}"@ja ;'.format(n) for n in name_ja if n] + ['rdfs:label "{}"@en ;'.format(n) for n in name_en if n])[:-2]
     if ['"{}"@ja ,'.format(s) for s in synonyms_ja] + ['"{}"@en ,'.format(s) for s in synonyms_en]:
-        synonyms = 'oboinowl:hasExactSynonym ' + '\n                            '.join(['"{}"@ja ,'.format(s) for s in synonyms_ja] + ['"{}"@en ,'.format(s) for s in synonyms_en])
+        #synonyms = 'oboinowl:hasExactSynonym ' + '\n                            '.join(['"{}"@ja ,'.format(s) for s in synonyms_ja] + ['"{}"@en ,'.format(s) for s in synonyms_en])
+        synonyms = 'terms:altLabel ' + '\n                 '.join(['"{}"@ja ,'.format(s) for s in synonyms_ja] + ['"{}"@en ,'.format(s) for s in synonyms_en])
         synonyms = synonyms[:-2]
     else:
         synonyms = []

@@ -5,9 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix mondo: <http://purl.obolibrary.org/obo/> .
-@prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix efo: <http://www.ebi.ac.uk/efo/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 # @base <http://nanbyodata.jp/ontology/nando.owl> .
 
@@ -17,8 +15,8 @@
 #################################################################
 <http://nanbyodata.jp/ontology/nando.owl#>
     rdf:type owl:Ontology ;
-    owl:versionIRI <http://nanbyodata.jp/version0.4.0> ;
-    owl:versionInfo "0.4.0"^^xsd:string ;
+    owl:versionIRI <http://nanbyodata.jp/version0.4.1> ;
+    owl:versionInfo "0.4.1"^^xsd:string ;
     <http://purl.org/dc/elements/1.1/creator> "Kota Ninomiya"^^xsd:string ,
                                               "Ryota Yamada"^^xsd:string ,
                                               "Terue Takatsuki"^^xsd:string ,
@@ -30,26 +28,18 @@
                                               "Soichi Ogishima"^^xsd:string ,
                                               "Toyofumi Fujiwara"^^xsd:string ;
     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-    <http://purl.org/dc/terms/created> "2020-7-1T12:00:00"^^xsd:dateTime ;
-    <http://purl.org/dc/terms/modified> "2020-7-1T12:00:00"^^xsd:dateTime .
+    <http://purl.org/dc/terms/created> "2020-7-14T12:00:00"^^xsd:dateTime ;
+    <http://purl.org/dc/terms/modified> "2020-7-14T12:00:00"^^xsd:dateTime .
 
 
 #################################################################
-#    Annotation Properties
+#    Datatype Properties
 #################################################################
 
-###  告示番号 -> <http://purl.org/dc/terms/identifier>を代わりに使えばよし
-# <nortificationNumber> rdf:type owl:ObjectProperty ;
-#                       rdfs:label "告示番号"@ja ;
-#                       rdfs:label "nortification number"@en .
-
-### 疾患分類のプロパティ
-:classifiedWith
-    rdf:type owl:ObjectProperty ;
-    rdfs:label "classified with"@en .
-
-:has_notification_number
-    rdf:type owl:ObjectProperty ;
+###  告示番号
+:hasNotificationNumber
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "告示番号"@ja ;
     rdfs:label "has notification number"@en .
 
 
