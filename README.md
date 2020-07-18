@@ -41,6 +41,8 @@ NANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の疾患�
 ## 出典
 - 「概要、診断基準等」（厚生労働省）（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html) <br>（2020年7月14日に利用）
 - 「臨床調査個人票」（厚生労働省）（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html) <br>（2020年7月14日に利用）
+- 小児慢性特定疾病情報センター「概要」（https://www.shouman.jp/disease/search/group/) <br>（2020年7月14日に利用）
+
 
 ## 謝辞
 - 本オントロジーの構築に際して<a href="https://ddrare.nibiohn.go.jp/">DDrare</a>および<a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a>を参照した．
