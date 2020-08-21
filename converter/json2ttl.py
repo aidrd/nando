@@ -79,7 +79,7 @@ def top_concept_to_ttl():
         ':{}'.format(id_zero_padded),
         ' ' * 4 + 'rdf:type owl:Class ;',
         ' ' * 4 + 'rdfs:subClassOf owl:Thing ;',
-        ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+        ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "難病"@ja ;',
         ' ' * 4 + 'rdfs:label "intractable disease"@en ;',
         ' ' * 4 + 'skos:prefLabel "難病"@ja ;',
@@ -95,7 +95,7 @@ def top_concept_to_ttl():
         ':{}'.format(id_zero_padded),
         ' ' * 4 + 'rdf:type owl:Class ;',
         ' ' * 4 + 'rdfs:subClassOf owl:Thing ;',
-        ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+        ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "obsolete class"@en ;',
         ' ' * 4 + 'terms:description "NANDO number no more in use."@en ;',
         ' ' * 4 + 'skos:prefLabel "obsolete class"@en ;',
@@ -122,7 +122,7 @@ def nanbyo_top_concept_to_ttl():
         ':{}'.format(id_zero_padded),
         ' ' * 4 + 'rdf:type owl:Class ;',
         ' ' * 4 + 'rdfs:subClassOf :{} ;'.format(parent_id),
-        ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+        ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "指定難病"@ja ;',
         ' ' * 4 + 'rdfs:label "designated intractable disease"@en ;',
         ' ' * 4 + 'skos:prefLabel "指定難病"@ja ;',
@@ -157,7 +157,7 @@ def nanbyo_class_to_ttl(fp: Path):
             ':{}'.format(id_zero_padded),
             ' ' * 4 + 'rdf:type owl:Class ;',
             ' ' * 4 + 'rdfs:subClassOf :{} ;'.format(parent_id),
-            ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+            ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
             ' ' * 4 + 'rdfs:label "{}"@ja ;'.format(name_ja),
         ]
         if nando_class_node['name_en']:
@@ -245,8 +245,8 @@ def nanbyo_to_ttl(target: str, data_dir: Path, fname: Path):
                 #' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(nando_node.name_en,),
             ]
         lines += [
-            ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
-            ' ' * 4 + ':hasNotificationNumber "{}"^^xsd:string ;'.format(nando_node.notification_no),
+            ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
+            ' ' * 4 + ':hasNotificationNumber "{}" ;'.format(nando_node.notification_no),
         ]
         if nando_node.is_defined_by:
             lines += [' ' * 4 + 'terms:source <{}> ;'.format(nando_node.is_defined_by)]
@@ -282,7 +282,7 @@ def shoman_top_concept_to_ttl():
         ':{}'.format(id_zero_padded),
         ' ' * 4 + 'rdf:type owl:Class ;',
         ' ' * 4 + 'rdfs:subClassOf :{} ;'.format(parent_id),
-        ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+        ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
         ' ' * 4 + 'rdfs:label "小児慢性特定疾病"@ja ;',
         ' ' * 4 + 'rdfs:label "specific chronic pediatric disease"@en ;',
         ' ' * 4 + 'skos:prefLabel "小児慢性特定疾病"@ja ;',
@@ -326,7 +326,7 @@ def shoman_class_to_ttl(fp: Path):
             ':{}'.format(id_zero_padded),
             ' ' * 4 + 'rdf:type owl:Class ;',
             ' ' * 4 + 'rdfs:subClassOf :{} ;'.format(parent_id),
-            ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
+            ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
             ' ' * 4 + 'rdfs:label "{}"@ja ;'.format(name_ja),
         ]
         if name_en:
@@ -413,8 +413,8 @@ def shoman_to_ttl(target: str, data_dir: Path, fname: Path):
                 #' ' * 4 + 'skos:prefLabel "{}"@en ;'.format(nando_node.name_en),
             ]
         lines += [
-            ' ' * 4 + 'terms:identifier "{}"^^xsd:string ;'.format(id_zero_padded),
-            ' ' * 4 + ':hasNotificationNumber "{}"^^xsd:string ;'.format(nando_node.notification_no),
+            ' ' * 4 + 'terms:identifier "{}" ;'.format(id_zero_padded),
+            ' ' * 4 + ':hasNotificationNumber "{}" ;'.format(nando_node.notification_no),
         ]
         if nando_node.is_defined_by:
             lines += [' ' * 4 + 'terms:source <{}> ;'.format(nando_node.is_defined_by)]
