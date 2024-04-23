@@ -35,6 +35,6 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
 
 
 ## Acknowledgements
-- Thank to <a href="https://ddrare.nibiohn.go.jp/">DDrare</a> and <a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a> for the base information to build this ontology.
+- Thanks to <a href="https://ddrare.nibiohn.go.jp/">DDrare</a> and <a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a> for the base information to build this ontology.
 - Thanks to <a href="http://biohackathon.org/">BioHackathon</a> for providing a useful tool.
 
