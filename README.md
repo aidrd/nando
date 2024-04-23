@@ -29,11 +29,11 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
 
  -->
 
-## 統計情報
-|| 全疾患 | 指定難病 | 小児慢性特定疾病 |
+## 統計情報/Statistics
+|| 全疾患/All | 指定難病/Designated Intractable Diseases | 小児慢性特定疾病/Specified Chronic Diseases of Children |
 | --- | ---: | ---: | ---: |
-| クラス数 | `2,777` | `1,099` | `1,676` |
-| MONDOへのクロスリファレンスを含むクラス数 | `2154` | `892` | `1262` |
+| クラス数/Number of disease | `2,777` | `1,099` | `1,676` |
+| MONDOへのクロスリファレンスを含むクラス数/Link to MONDO | `2154` | `892` | `1262` |
 
 ## ライセンス
 <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
