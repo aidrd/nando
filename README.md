@@ -1,14 +1,17 @@
 # NANDO 
 NANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の疾患と「小児慢性特定疾病」制度対象の疾患について，国内においてオーソライズされた資料を元に，疾患概念と疾患同士の関係性を厳密に体系化したものである．また，国際的な疾患オントロジー<a href="https://github.com/monarch-initiative/mondo">MONDO</a>へのクロスリファレンスを含む．
 
-## 取得
+The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes vocabulary related to rare diseases, the relationships between these diseases, and their connections with other disease resources. Includes cross-references to the international disease ontology, MONDO<a href="https://github.com/monarch-initiative/mondo">MONDO</a>.
+
+## 取得/Down loads
 - http://nanbyodata.jp/ontology/nando.ttl
 - http://nanbyodata.jp/ontology/nando.rdf
 
-## 参照
+## 参照/References
 - http://nanbyodata.jp/ontology/nando
 - http://bioportal.bioontology.org/ontologies/NANDO
 
+<!-- 
 ## 作成
 #### 1. 設定 (Macで検証済み)
 - `$ brew install raptor`
@@ -21,30 +24,41 @@ NANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の疾患�
     - `$ python -m converter`
 1. RDF
     - `$ rapper -i turtle -o rdfxml-abbrev results/nando.ttl > results/nando.rdf`
-1. HTML
+1. HTML\
     - `$ xsltproc --output results/nando.html data/owl2xhtml.xsl results/nando.rdf`
 
-## 統計情報
-|| 全疾患 | 指定難病 | 小児慢性特定疾病 |
-| --- | ---: | ---: | ---: |
-| クラス数 | `2,347` | `1,023` | `1,323` |
-| 英語表記を含むクラス数 | `2,284` | `991` | `1,292` |
-| 疾患定義を含むクラス数 | `1,189` | `333` | `856` |
-| MONDOへのクロスリファレンスを含むクラス数 | `1,382` | `698` | `684` |
+ -->
 
-## ライセンス
+## 統計情報/Statistics
+|| 全疾患/All | 指定難病/Designated Intractable Diseases | 小児慢性特定疾病/Specified Chronic Diseases of Children |
+| --- | ---: | ---: | ---: |
+| クラス数/Number of disease | `2,777` | `1,099` | `1,676` |
+| MONDOへのクロスリファレンスを含むクラス数/Link to MONDO | `2154` | `892` | `1262` |
+
+## ライセンス/licens・
 <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
 
-## コンタクト
-新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
+## コンタクト/Contact
+- 新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
 
-## 出典
+- For requests to add new terms, request class modifications, or report issues or questions regarding the ontology, please use the [Issue tracker](https://github.com/aidrd/nando/issues) of this repository.
+  
+## 出典/sources
 - 「概要、診断基準等」（厚生労働省）（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html) <br>（2020年7月14日に利用）
 - 「臨床調査個人票」（厚生労働省）（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html) <br>（2020年7月14日に利用）
 - 小児慢性特定疾病情報センター「概要」（https://www.shouman.jp/disease/search/group/) <br>（2020年7月14日に利用）
 - 小児慢性特定疾病情報センター「意見書」（https://www.shouman.jp/disease/search/group/) <br>（2020年7月14日に利用）
 
+- Ministry of Health, Labour and Welfare, "Overview, Diagnostic Criteria, etc." (Accessed July 14, 2020)
+- Ministry of Health, Labour and Welfare, "Clinical Survey Individual Sheet" (Accessed July 14, 2020)
+- Center for Chronic Pediatric Diseases, "Overview" (Accessed July 14, 2020)
+- Center for Chronic Pediatric Diseases, "Opinion Paper" (Accessed July 14, 2020)
 
-## 謝辞
+
+## 謝辞/Acknowledgements
 - 本オントロジーの構築に際して<a href="https://ddrare.nibiohn.go.jp/">DDrare</a>および<a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a>を参照した．
 - 本オントロジーの構築に<a href="http://biohackathon.org/">BioHackathon</a>の成果を利用した．
+
+- The construction of this ontology was informed by references to <a href="https://ddrare.nibiohn.go.jp/">DDrare</a> and <a href="https://metadb.riken.jp/metadb/ontology/RDVJ">RDVJ</a>.
+- The results from the <a href="http://biohackathon.org/">BioHackathon</a> were also utilized in building this ontology.
+
