@@ -11,7 +11,8 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
 - http://nanbyodata.jp/ontology/nando
 - http://bioportal.bioontology.org/ontologies/NANDO
 
-[](## 作成
+<!-- 
+## 作成
 #### 1. 設定 (Macで検証済み)
 - `$ brew install raptor`
 - `$ pipenv install`
@@ -23,8 +24,10 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
     - `$ python -m converter`
 1. RDF
     - `$ rapper -i turtle -o rdfxml-abbrev results/nando.ttl > results/nando.rdf`
-1. HTML
-    - `$ xsltproc --output results/nando.html data/owl2xhtml.xsl results/nando.rdf`)
+1. HTML\
+    - `$ xsltproc --output results/nando.html data/owl2xhtml.xsl results/nando.rdf`
+
+ -->
 
 ## 統計情報
 || 全疾患 | 指定難病 | 小児慢性特定疾病 |
