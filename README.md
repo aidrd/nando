@@ -1,6 +1,8 @@
 # NANDO 
 NANDO（Nanbyo Disease Ontology）は，「指定難病」制度対象の疾患と「小児慢性特定疾病」制度対象の疾患について，国内においてオーソライズされた資料を元に，疾患概念と疾患同士の関係性を厳密に体系化したものである．また，国際的な疾患オントロジー<a href="https://github.com/monarch-initiative/mondo">MONDO</a>へのクロスリファレンスを含む．
 
+The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes vocabulary related to rare diseases, the relationships between these diseases, and their connections with other disease resources. Includes cross-references to the international disease ontology, MONDO<a href="https://github.com/monarch-initiative/mondo">MONDO</a>.
+
 ## 取得
 - http://nanbyodata.jp/ontology/nando.ttl
 - http://nanbyodata.jp/ontology/nando.rdf
