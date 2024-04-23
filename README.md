@@ -35,12 +35,14 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
 | クラス数/Number of disease | `2,777` | `1,099` | `1,676` |
 | MONDOへのクロスリファレンスを含むクラス数/Link to MONDO | `2154` | `892` | `1262` |
 
-## ライセンス
+## ライセンス/licens・
 <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
 
-## コンタクト
-新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
+## コンタクト/Contact
+- 新しい用語のリクエストやクラスの修正依頼，オントロジーに関する問題点・疑問点の報告には，本リポジトリの <a href="https://github.com/aidrd/nando/issues">Issue tracker</a> をご利用ください．
 
+- For requests to add new terms, request class modifications, or report issues or questions regarding the ontology, please use the [Issue tracker](https://github.com/aidrd/nando/issues) of this repository.
+  
 ## 出典/sources
 - 「概要、診断基準等」（厚生労働省）（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html) <br>（2020年7月14日に利用）
 - 「臨床調査個人票」（厚生労働省）（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html) <br>（2020年7月14日に利用）
