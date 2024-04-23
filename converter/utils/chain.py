@@ -4,6 +4,8 @@ from typing import List, Union
 from cnorm.chain import Chain
 from cnorm.rule import Rule, Greek2Alpha, Lower
 
+from nltk.corpus import stopwords
+
 
 class RemovePatterns(Rule):
     def __init__(self, patterns: List[Union[str, re.Pattern]]):
@@ -109,6 +111,11 @@ stop_words = [
     re.compile('^by$'),
     re.compile('^and$'),
 ]
+#stop_words = []
+#stop_words_original = ['types', 'type', 'diseases', 'disease', 'syndromes', 'syndrome', 'disorders', 'disorder']
+#stop_words_original_nltk = stop_words_original + stopwords.words('english')
+#for word in stop_words_original_nltk:
+#    stop_words.append(re.compile(r'^{0}$'.format(word)))
 rule_remove_stop_words = RemovePatterns(stop_words)
 
 re_alunum = [re.compile('\W+')]

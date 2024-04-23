@@ -59,4 +59,4 @@ sed -e 's/https\:\/\/www\.mhlw\.go\.jp\/file\/06\-Seisakujouhou\-10900000\-Kenko
 ## python-docx 0.8.10 
 ## setuptools  46.0.0 
 ## wheel       0.34.2 
-cat ${outdir}/1_333.num.docx.tsv |while read line; do export IFS=$'\t'; set -- ${line}; echo -ne "$1\t$2\t"; python ./retrieve_txt_from_mhlw_docx.py ${outdir_docx}/$2; echo ""; done > ${outdir}/1_333.num.summary.tsv
+cat ${outdir}/1_333.num.docx.tsv |while read line; do export IFS=$'\t'; set -- ${line}; echo -ne "$1\t$2\t"; python ./bin/retrieve_txt_from_mhlw_docx.py ${outdir_docx}/$2; echo ""; done > ${outdir}/1_333.num.summary.tsv
