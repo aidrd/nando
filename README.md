@@ -21,7 +21,7 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
 | # of classes | `2,777` | `1,099` | `1,676` |
 | # of classes which include links to MONDO | `2154` | `892` | `1262` |
 
-## licens・
+## licens
 <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
 
 ## Contact
