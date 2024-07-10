@@ -23,7 +23,7 @@ The Nanbyo Disease Ontology (NANDO) is a structured resource that organizes voca
 
 
 ## licens
-<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
+- <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a> | <a href="http://dbcls.rois.ac.jp">DBCLS</a>
 
 
 ## Contact
